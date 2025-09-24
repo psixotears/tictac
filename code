@@ -1,206 +1,259 @@
 package main
 
 import (
-	"fmt"
 	"log"
+	"strconv"
 
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
 
-type Move struct {
-	Row, Col int
-	Status   string // "new" или "old"
+const (
+	Empty  = 0
+	Xnew   = 1
+	Onew   = 2
+	Xold   = 3
+	Oold   = 4
+)
+
+// структура состояния игры для одного пользователя
+type GameState struct {
+	Board       [3][3]int
+	MovesXNew   []int
+	MovesXOld   []int
+	MovesONew   []int
+	MovesOOld   []int
+	CurrentMove int
+	GameOver    bool
 }
 
-var board [3][3]string
-var movesX []Move
-var movesO []Move
-var currentPlayer = "X"
-var gameOver = false
-var winCells [3][2]int // координаты выигрышной линии
+// глобальная карта игр по chatID
+var games = make(map[int64]*GameState)
 
-func renderBoard(disableButtons bool) tgbotapi.InlineKeyboardMarkup {
-	var rows [][]tgbotapi.InlineKeyboardButton
+// функция отображения поля
+func renderBoard(game *GameState) string {
+	result := ""
 	for i := 0; i < 3; i++ {
-		var row []tgbotapi.InlineKeyboardButton
 		for j := 0; j < 3; j++ {
-			text := "."
-			cell := board[i][j]
-
-			// Подсветка выигрышной линии
-			isWinCell := false
-			for _, wc := range winCells {
-				if wc[0] == i && wc[1] == j {
-					isWinCell = true
-					break
-				}
+			switch game.Board[i][j] {
+			case Xnew:
+				result += "X"
+			case Onew:
+				result += "O"
+			case Xold:
+				result += "(x)"
+			case Oold:
+				result += "(o)"
+			default:
+				result += "."
 			}
-
-			if cell != "" {
-				switch cell {
-				case "X":
-					if isWinCell {
-						text = "🔴"
-					} else {
-						text = "❌"
-					}
-				case "O":
-					if isWinCell {
-						text = "🔵"
-					} else {
-						text = "⭕"
-					}
-				case "x":
-					text = "✖️"
-				case "o":
-					text = "⚪"
-				}
-			}
-
-			var btn tgbotapi.InlineKeyboardButton
-			if disableButtons {
-				btn = tgbotapi.NewInlineKeyboardButtonData(text, "disabled")
-			} else {
-				btn = tgbotapi.NewInlineKeyboardButtonData(text, fmt.Sprintf("%d,%d", i, j))
-			}
-			row = append(row, btn)
 		}
-		rows = append(rows, row)
+		result += "\n"
 	}
-
-	// Кнопка "Новая игра"
-	newGameRow := []tgbotapi.InlineKeyboardButton{
-		tgbotapi.NewInlineKeyboardButtonData("🔄 Новая игра", "new_game"),
-	}
-	rows = append(rows, newGameRow)
-
-	return tgbotapi.NewInlineKeyboardMarkup(rows...)
+	return result
 }
 
-func checkWin(player string) bool {
-	// Проверка строк
+// чей ход
+func currentStatus(game *GameState) string {
+	if game.GameOver {
+		return ""
+	}
+	if game.CurrentMove == Xnew {
+		return "Ход X"
+	}
+	return "Ход O"
+}
+
+// проверка победы только по свежим фигурам
+func checkWinner(game *GameState, val int) bool {
 	for i := 0; i < 3; i++ {
-		if board[i][0] == player && board[i][1] == player && board[i][2] == player {
-			winCells = [3][2]int{{i, 0}, {i, 1}, {i, 2}}
+		if game.Board[i][0] == val && game.Board[i][1] == val && game.Board[i][2] == val {
+			return true
+		}
+		if game.Board[0][i] == val && game.Board[1][i] == val && game.Board[2][i] == val {
 			return true
 		}
 	}
-	// Проверка столбцов
-	for i := 0; i < 3; i++ {
-		if board[0][i] == player && board[1][i] == player && board[2][i] == player {
-			winCells = [3][2]int{{0, i}, {1, i}, {2, i}}
-			return true
-		}
-	}
-	// Диагонали
-	if board[0][0] == player && board[1][1] == player && board[2][2] == player {
-		winCells = [3][2]int{{0, 0}, {1, 1}, {2, 2}}
+	if game.Board[0][0] == val && game.Board[1][1] == val && game.Board[2][2] == val {
 		return true
 	}
-	if board[0][2] == player && board[1][1] == player && board[2][0] == player {
-		winCells = [3][2]int{{0, 2}, {1, 1}, {2, 0}}
+	if game.Board[0][2] == val && game.Board[1][1] == val && game.Board[2][0] == val {
 		return true
 	}
 	return false
 }
 
-func makeMove(player string, row, col int) string {
-	if gameOver {
-		return "Игра окончена! Нажмите «Новая игра» чтобы начать заново."
+// обработка хода
+func makeMove(game *GameState, cell int) string {
+	if game.GameOver {
+		return "Игра уже закончена!"
+	}
+	if cell < 0 || cell > 8 {
+		return "Неверная ячейка!"
+	}
+	row, col := cell/3, cell%3
+	if game.Board[row][col] != Empty {
+		return "Эта клетка занята!"
 	}
 
-	if board[row][col] != "" && board[row][col] != "x" && board[row][col] != "o" {
-		return "Неверный ход!"
-	}
+	if game.CurrentMove == Xnew {
+		game.Board[row][col] = Xnew
+		game.MovesXNew = append(game.MovesXNew, cell)
 
-	if player == "X" {
-		board[row][col] = "X"
-		movesX = append(movesX, Move{Row: row, Col: col, Status: "new"})
-		if len(movesX) > 3 {
-			old := movesX[0]
-			board[old.Row][old.Col] = "x"
-			movesX[0].Status = "old"
-			movesX = movesX[1:]
+		if checkWinner(game, Xnew) {
+			game.GameOver = true
+			return "Победил X!"
 		}
-	} else {
-		board[row][col] = "O"
-		movesO = append(movesO, Move{Row: row, Col: col, Status: "new"})
-		if len(movesO) > 3 {
-			old := movesO[0]
-			board[old.Row][old.Col] = "o"
-			movesO[0].Status = "old"
-			movesO = movesO[1:]
+
+		if len(game.MovesXNew) >= 3 {
+			old := game.MovesXNew[0]
+			game.Board[old/3][old%3] = Xold
+			game.MovesXOld = append(game.MovesXOld, old)
 		}
-	}
 
-	if checkWin(player) {
-		gameOver = true
-		return fmt.Sprintf("🎉 Игрок %s победил! 🎉", player)
-	}
+		if len(game.MovesXOld) > 1 {
+			remove := game.MovesXOld[0]
+			game.MovesXOld = game.MovesXOld[1:]
+			game.Board[remove/3][remove%3] = Empty
+			game.MovesXNew = game.MovesXNew[1:]
+		}
 
-	if currentPlayer == "X" {
-		currentPlayer = "O"
+		game.CurrentMove = Onew
 	} else {
-		currentPlayer = "X"
+		game.Board[row][col] = Onew
+		game.MovesONew = append(game.MovesONew, cell)
+
+		if checkWinner(game, Onew) {
+			game.GameOver = true
+			return "Победил O!"
+		}
+
+		if len(game.MovesONew) >= 3 {
+			old := game.MovesONew[0]
+			game.Board[old/3][old%3] = Oold
+			game.MovesOOld = append(game.MovesOOld, old)
+		}
+
+		if len(game.MovesOOld) > 1 {
+			remove := game.MovesOOld[0]
+			game.MovesOOld = game.MovesOOld[1:]
+			game.Board[remove/3][remove%3] = Empty
+			game.MovesONew = game.MovesONew[1:]
+		}
+
+		game.CurrentMove = Xnew
 	}
 
-	return fmt.Sprintf("Ход игрока %s", currentPlayer)
+	return ""
 }
 
-func resetGame() {
-	board = [3][3]string{}
-	movesX = []Move{}
-	movesO = []Move{}
-	currentPlayer = "X"
-	gameOver = false
-	winCells = [3][2]int{}
+// сброс игры
+func resetBoard(game *GameState) {
+	game.Board = [3][3]int{}
+	game.MovesXNew = []int{}
+	game.MovesXOld = []int{}
+	game.MovesONew = []int{}
+	game.MovesOOld = []int{}
+	game.CurrentMove = Xnew
+	game.GameOver = false
 }
 
+// клавиатура
+func boardKeyboard(game *GameState) tgbotapi.InlineKeyboardMarkup {
+	var rows [][]tgbotapi.InlineKeyboardButton
+	if !game.GameOver {
+		for i := 0; i < 3; i++ {
+			var row []tgbotapi.InlineKeyboardButton
+			for j := 0; j < 3; j++ {
+				cell := i*3 + j
+				text := "."
+				switch game.Board[i][j] {
+				case Xnew:
+					text = "X"
+				case Onew:
+					text = "O"
+				case Xold:
+					text = "(x)"
+				case Oold:
+					text = "(o)"
+				}
+				row = append(row, tgbotapi.NewInlineKeyboardButtonData(text, strconv.Itoa(cell)))
+			}
+			rows = append(rows, row)
+		}
+	}
+	rows = append(rows, tgbotapi.NewInlineKeyboardRow(
+		tgbotapi.NewInlineKeyboardButtonData("🔄 Новая игра", "reset"),
+	))
+	return tgbotapi.NewInlineKeyboardMarkup(rows...)
+}
+
+// главный цикл бота
 func main() {
 	bot, err := tgbotapi.NewBotAPI("YOUR_TOKEN_HERE")
 	if err != nil {
 		log.Panic(err)
 	}
-	bot.Debug = true
-	log.Printf("Авторизован как %s", bot.Self.UserName)
 
+	bot.Debug = false
 	u := tgbotapi.NewUpdate(0)
 	u.Timeout = 60
 	updates := bot.GetUpdatesChan(u)
 
 	for update := range updates {
+		var chatID int64
+		if update.Message != nil {
+			chatID = update.Message.Chat.ID
+		} else if update.CallbackQuery != nil {
+			chatID = update.CallbackQuery.Message.Chat.ID
+		} else {
+			continue
+		}
+
+		// получаем или создаём игру для этого пользователя
+		game, exists := games[chatID]
+		if !exists {
+			game = &GameState{}
+			game.CurrentMove = Xnew
+			games[chatID] = game
+		}
+
 		if update.Message != nil && update.Message.Text == "/start" {
-			resetGame()
-			msg := tgbotapi.NewMessage(update.Message.Chat.ID, "Игра началась!\nХод игрока X")
-			msg.ReplyMarkup = renderBoard(false)
+			resetBoard(game)
+			msg := tgbotapi.NewMessage(chatID, "Игра началась!\n"+renderBoard(game)+currentStatus(game))
+			msg.ReplyMarkup = boardKeyboard(game)
 			bot.Send(msg)
 		}
 
 		if update.CallbackQuery != nil {
 			data := update.CallbackQuery.Data
 
-			if data == "new_game" {
-				resetGame()
+			if data == "reset" {
+				resetBoard(game)
 				edit := tgbotapi.NewEditMessageTextAndMarkup(
-					update.CallbackQuery.Message.Chat.ID,
+					chatID,
 					update.CallbackQuery.Message.MessageID,
-					"Новая игра началась!\nХод игрока X",
-					renderBoard(false),
+					"Новая игра!\n"+renderBoard(game)+currentStatus(game),
+					boardKeyboard(game),
 				)
 				bot.Send(edit)
 				bot.Request(tgbotapi.NewCallback(update.CallbackQuery.ID, ""))
 				continue
 			}
 
-			var row, col int
-			fmt.Sscanf(data, "%d,%d", &row, &col)
-			response := makeMove(currentPlayer, row, col)
+			cell, _ := strconv.Atoi(data)
+			result := makeMove(game, cell)
+			text := renderBoard(game)
+			if result != "" {
+				text += "\n" + result
+			} else {
+				text += currentStatus(game)
+			}
 
 			edit := tgbotapi.NewEditMessageTextAndMarkup(
-				update.CallbackQuery.Message.Chat.ID,
+				chatID,
 				update.CallbackQuery.Message.MessageID,
-				response,
-				renderBoard(gameOver),
+				text,
+				boardKeyboard(game),
 			)
 			bot.Send(edit)
 			bot.Request(tgbotapi.NewCallback(update.CallbackQuery.ID, ""))
