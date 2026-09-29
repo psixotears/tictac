@@ -4,15 +4,15 @@ Usage: python3 render.py <profession> <lang> [background.png]  -> out/html/<prof
 import json, sys, os, html
 
 UI = {
-    'en': {'guide': 'Leveling Guide 1–300', 'shopping': 'Shopping List', 'ranknames': ['Journeyman', 'Expert', 'Artisan'], 'charlvl': 'character level', 'skilllbl': 'skill', 'steps': 'Route', 'alts': 'Alternatives (same skill range)', 'nodes': 'Nodes by skill', 'skill': 'Skill', 'where': 'Where to find', 'moblvl': 'Mob level', 'zones': 'Zones', 'ooze': 'also ooze-covered', 'skinnote': 'Required skill: (mob level − 10) × 10 up to level 20, then mob level × 5', 'gguide': 'Gathering Guide 1–300', 'trainer': 'Trainer', 'vendor': 'Vendor',
+    'en': {'guide': 'Leveling Guide 1–300', 'shopping': 'Shopping List', 'ranknames': ['Journeyman', 'Expert', 'Artisan'], 'charlvl': 'character level', 'skilllbl': 'skill', 'steps': 'Route', 'alts': 'Alternatives (same skill range)', 'nodes': 'Nodes by skill', 'skill': 'Skill', 'where': 'Where to find', 'moblvl': 'Mob level', 'zones': 'Zones', 'ooze': 'also ooze-covered', 'nogetaway': 'No get-aways from', 'fishnote': 'Zone thresholds from WoW Classic — to be verified in the Forever beta', 'fguide': 'Fishing Guide 1–300', 'skinnote': 'Required skill: (mob level − 10) × 10 up to level 20, then mob level × 5', 'gguide': 'Gathering Guide 1–300', 'trainer': 'Trainer', 'vendor': 'Vendor',
            'quest': 'Quest', 'auto': 'Starter', 'drop': 'Drop', 'unknown': '?', 'item?': '?',
            'beta': 'BETA DATA', 'src': 'Data: Wowhead (Forever) · Craft counts are expected values, buy ~10% extra',
            'ranks': 'Journeyman 50 · Expert 125 · Artisan 200', 'title': 'World of Warcraft: Forever'},
-    'ru': {'guide': 'Гайд по прокачке 1–300', 'shopping': 'Список покупок', 'ranknames': ['Подмастерье', 'Умелец', 'Искусник'], 'charlvl': 'уровень персонажа', 'skilllbl': 'навык', 'steps': 'Маршрут', 'alts': 'Альтернативы (тот же диапазон)', 'nodes': 'Узлы по навыку', 'skill': 'Навык', 'where': 'Где искать', 'moblvl': 'Уровень мобов', 'zones': 'Зоны', 'ooze': 'есть и покрытые слизью', 'skinnote': 'Нужный навык: (уровень моба − 10) × 10 до 20 ур., дальше уровень моба × 5', 'gguide': 'Гайд по добыче 1–300', 'trainer': 'Учитель', 'vendor': 'Торговец',
+    'ru': {'guide': 'Гайд по прокачке 1–300', 'shopping': 'Список покупок', 'ranknames': ['Подмастерье', 'Умелец', 'Искусник'], 'charlvl': 'уровень персонажа', 'skilllbl': 'навык', 'steps': 'Маршрут', 'alts': 'Альтернативы (тот же диапазон)', 'nodes': 'Узлы по навыку', 'skill': 'Навык', 'where': 'Где искать', 'moblvl': 'Уровень мобов', 'zones': 'Зоны', 'ooze': 'есть и покрытые слизью', 'nogetaway': 'Без срывов от', 'fishnote': 'Пороги зон взяты из WoW Classic — требуют проверки в бете Forever', 'fguide': 'Гайд по рыбалке 1–300', 'skinnote': 'Нужный навык: (уровень моба − 10) × 10 до 20 ур., дальше уровень моба × 5', 'gguide': 'Гайд по добыче 1–300', 'trainer': 'Учитель', 'vendor': 'Торговец',
            'quest': 'Задание', 'auto': 'Изучено', 'drop': 'Добыча', 'unknown': '?', 'item?': '?',
            'beta': 'ДАННЫЕ БЕТЫ', 'src': 'Данные: Wowhead (Forever) · Кол-во крафтов ожидаемое, берите ~10% запас',
            'ranks': 'Подмастерье 50 · Умелец 125 · Искусник 200', 'title': 'World of Warcraft: Forever'},
-    'cn': {'guide': '专业升级指南 1–300', 'shopping': '材料清单', 'ranknames': ['中级', '高级', '专家'], 'charlvl': '角色等级', 'skilllbl': '技能', 'steps': '路线', 'alts': '替代配方（同一区间）', 'nodes': '按技能等级的采集点', 'skill': '技能', 'where': '采集地点', 'moblvl': '怪物等级', 'zones': '区域', 'ooze': '含软泥覆盖变体', 'skinnote': '所需技能：20级前为(怪物等级−10)×10，之后为怪物等级×5', 'gguide': '采集指南 1–300', 'trainer': '训练师', 'vendor': '商人',
+    'cn': {'guide': '专业升级指南 1–300', 'shopping': '材料清单', 'ranknames': ['中级', '高级', '专家'], 'charlvl': '角色等级', 'skilllbl': '技能', 'steps': '路线', 'alts': '替代配方（同一区间）', 'nodes': '按技能等级的采集点', 'skill': '技能', 'where': '采集地点', 'moblvl': '怪物等级', 'zones': '区域', 'ooze': '含软泥覆盖变体', 'nogetaway': '不脱钩起始', 'fishnote': '区域门槛取自 WoW Classic，待 Forever 测试服验证', 'fguide': '钓鱼指南 1–300', 'skinnote': '所需技能：20级前为(怪物等级−10)×10，之后为怪物等级×5', 'gguide': '采集指南 1–300', 'trainer': '训练师', 'vendor': '商人',
            'quest': '任务', 'auto': '初始', 'drop': '掉落', 'unknown': '?', 'item?': '?',
            'beta': '测试服数据', 'src': '数据：Wowhead (Forever) · 制作次数为期望值，建议多备约10%',
            'ranks': '中级 50 · 高级 125 · 专家 200', 'title': '魔兽世界：无限'},
@@ -71,6 +71,7 @@ tr:first-child{border-top:0}
 td{padding:calc(5px * var(--s)) calc(5px * var(--s)) calc(7px * var(--s));vertical-align:middle;height:calc(40px * var(--s))}
 tr.chk td{height:auto;padding:calc(6px * var(--s)) 6px calc(4px * var(--s));font-family:HEADFONT;font-size:calc(16px * var(--s));letter-spacing:.08em;color:var(--gold);text-transform:uppercase;background:linear-gradient(90deg,rgba(212,180,106,.14),transparent 70%)}
 tr.chk .d{font-size:11px;vertical-align:middle;margin:0 4px}
+tr.chk b{color:#ffd95a;font-size:calc(21px * var(--s));font-weight:700;text-shadow:0 0 8px rgba(255,217,90,.35);letter-spacing:0}
 td.rng{font-family:HEADFONT;font-size:calc(20px * var(--s));color:var(--gold);white-space:nowrap;width:calc(112px * var(--s));font-weight:700}
 td.rng.extra{color:#9fd0ff;font-size:calc(16px * var(--s))}
 td.rec{width:auto}
@@ -109,7 +110,7 @@ def build(prof, lang, bg='../../bg/placeholder.png', logo=None, s=1.0):
         for sk, ri, lvl in CHECK:
             if ri not in done and st.get('from', 0) >= sk and not st.get('extra'):
                 done.add(ri)
-                rows.append(f'<tr class="chk"><td colspan="4"><span class="d">◆</span> {esc(ui["ranknames"][ri])} · {esc(ui["skilllbl"])} {sk} · {esc(ui["charlvl"])} {lvl}</td></tr>')
+                rows.append(f'<tr class="chk"><td colspan="4"><span class="d">◆</span> {esc(ui["ranknames"][ri])} · {esc(ui["skilllbl"])} <b>{sk}</b> · {esc(ui["charlvl"])} <b>{lvl}</b></td></tr>')
         if st.get('missing'):
             rows.append(f'<tr><td class="rng">{st["from"]}–{st["to"]}</td><td class="rec">?</td><td class="mats"></td><td class="src"></td></tr>')
             continue
@@ -177,7 +178,7 @@ def build_gather(prof, lang, bg='../../bg/placeholder.png', logo=None, s=1.0):
         def lvl(z):
             a, b = z['lvl']
             if not a: return ''
-            return f'<small>{a}–{b}</small>' if b - a <= 30 else f'<small>{a}+</small>'
+            return f'<small>{a}–{b}</small>' if b - a <= 30 else ''
         return ' · '.join(f'<span>{esc(z["name"].get(lang) or z["name"]["en"])} {lvl(z)}</span>' for z in zs)
     rows = []
     if d['kind'] == 'bands':
@@ -188,6 +189,11 @@ def build_gather(prof, lang, bg='../../bg/placeholder.png', logo=None, s=1.0):
         head = f'<tr><td class="src" style="text-align:left">{esc(ui["skill"])}</td><td class="src" style="text-align:left"></td><td class="src" style="text-align:left">{esc(ui["where"])}</td></tr>'
         note = ''
         d['kind'] = 'nodes'
+    elif d['kind'] == 'fishing':
+        for r in d['rows']:
+            rows.append(f'<tr><td class="gs">{r["skill"]}+</td><td class="gm">{r["nogetaway"]}+</td><td class="gz">{zones_html(r["zones"])}</td></tr>')
+        head = f'<tr><td class="src" style="text-align:left">{esc(ui["skill"])}</td><td class="src" style="text-align:left">{esc(ui["nogetaway"])}</td><td class="src" style="text-align:left">{esc(ui["zones"])}</td></tr>'
+        note = f'<div class="note">{esc(ui["fishnote"])}</div>'
     else:
         for r in d['rows']:
             sk = str(r['skill']) if r.get('skill_hi', r['skill']) == r['skill'] else f'{r["skill"]}–{r["skill_hi"]}'
@@ -198,9 +204,9 @@ def build_gather(prof, lang, bg='../../bg/placeholder.png', logo=None, s=1.0):
     page = f"""<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><title>{esc(pname)}</title><style>{css}</style></head>
 <body><div class="bg"></div><div class="card">
 <div class="head"><div class="logo">{logo_html}</div>
-<div class="titlerow"><div class="skillicon"><img src="../../icons/{icon}.jpg"></div><div><h1>{esc(pname)}</h1><div class="sub">{esc(ui['gguide'])}<span class="beta">{esc(ui['beta'])}</span></div></div></div></div>
+<div class="titlerow"><div class="skillicon"><img src="../../icons/{icon}.jpg"></div><div><h1>{esc(pname)}</h1><div class="sub">{esc(ui['fguide'] if prof == 'fishing' else ui['gguide'])}<span class="beta">{esc(ui['beta'])}</span></div></div></div></div>
 <div class="rule"></div>
-<div class="panel"><div class="ptitle">{esc(ui['nodes'] if d['kind'] != 'skinning' else ui['zones'])}<span style="font-family:inherit;font-size:15px;letter-spacing:.06em;color:var(--dim);text-transform:none">{esc(ui['ranks'])}</span></div><table><colgroup><col style="width:calc({'110px' if d['kind'] != 'skinning' else '150px'} * var(--s))"><col style="width:calc({'300px' if d['kind'] != 'skinning' else '130px'} * var(--s))"><col></colgroup>{head}{''.join(rows)}</table>{note}</div>
+<div class="panel"><div class="ptitle">{esc(ui['nodes'] if d['kind'] not in ('skinning', 'fishing') else ui['zones'])}<span style="font-family:inherit;font-size:15px;letter-spacing:.06em;color:var(--dim);text-transform:none">{esc(ui['ranks'])}</span></div><table><colgroup><col style="width:calc({'110px' if d['kind'] not in ('skinning', 'fishing') else '110px'} * var(--s))"><col style="width:calc({'300px' if d['kind'] not in ('skinning', 'fishing') else '150px'} * var(--s))"><col></colgroup>{head}{''.join(rows)}</table>{note}</div>
 <div class="foot"><div>{esc(ui['src'].split(' · ')[0])}</div><div class="brand"><img src="../../brand/twitch.svg"><img src="../../brand/telegram.svg"><img src="../../brand/tiktok.svg"><span>psixotears</span></div></div>
 </div></body></html>"""
     os.makedirs('out/html', exist_ok=True)
