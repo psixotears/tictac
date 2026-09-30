@@ -13,7 +13,7 @@ SPELLS = {int(k): v for k, v in json.load(open('data/spells.json')).items()}
 TRAINER, VENDOR, QUEST = 6, 5, 4
 import re
 ONCE = re.compile(r"Runed .* Rod|Camp Tent|Tanning Rack|Sewing Machine|Anvil|Forge$|Workbench|Alchemy Lab|Loom|Grindstone", re.I)
-LANGS = ('en', 'ru', 'cn')
+LANGS = ('en', 'ru', 'cn', 'de', 'fr', 'es', 'ko')
 OTHER_PROF_PRODUCTS = {}
 # manual fixes from guides/beta reports (spell id -> source, learnedat)
 OVERRIDE_SRC = {7418: 'auto', 18629: 'quest', 14530: 'quest', 10841: 'quest', 22813: 'quest', 9980: 'quest', 7421: 'auto'}
@@ -69,9 +69,32 @@ def chance(r, s):
     return max(0.05, 0.6 - 0.5 * (s - g) / max(1, gr - g))
 
 
+def normalize_colors(r):
+    """Wowhead Forever lacks thresholds for some recipes. [o,0,o,o] (vendor gear): Classic-like +5/+12/+20.
+    [o,0,0,o] (leather/bolt conversions): short window +3/+6/+10."""
+    o, y, g, gr = r['colors']
+    base = o or y
+    if not base:
+        return
+    if not y and not g and gr == o:
+        r['colors'] = [o, o + 3, o + 6, o + 10]
+        return
+    if not y:
+        y = base
+    if not g or g <= y:
+        g = y + 12
+    if not gr or gr <= g:
+        gr = max(g + 8, y + 20)
+    r['colors'] = [o, y, g, gr]
+
+
 def eligible(recipes, max_skill=300):
     out = []
     for r in recipes:
+        if r.get('colors'):
+            normalize_colors(r)
+        if any(ITEMS.get(i, {}).get('quality', 1) >= 3 or not ITEMS.get(i, {}).get('name_en') for i, _ in r.get('reagents', [])):
+            continue                  # rare (blue+) or unnamed reagents: never a leveling route
         if r['id'] in OVERRIDE_LEARN:
             r['learnedat'] = OVERRIDE_LEARN[r['id']]
         if r['id'] in OVERRIDE_SRC and OVERRIDE_SRC[r['id']] in ('quest',) and not r.get('source'):
@@ -104,7 +127,7 @@ def matcost(r, price):
     return c
 
 
-def greedy(recipes, price, max_skill, cost_fn=None, switch_penalty=0.35, min_run=8):
+def greedy(recipes, price, max_skill, cost_fn=None, switch_penalty=0.4, min_run=10):
     cost_fn = cost_fn or (lambda r, p, made: matcost(r, p))
     s, cur, steps = 1, None, []
     made = defaultdict(float)
@@ -143,7 +166,7 @@ def greedy(recipes, price, max_skill, cost_fn=None, switch_penalty=0.35, min_run
     return steps
 
 
-def merge_small(steps, max_skill, tiny=3):
+def merge_small(steps, max_skill, tiny=4):
     """Fold steps of <= tiny points into a neighbour whose recipe still skills up there."""
     changed = True
     while changed:
