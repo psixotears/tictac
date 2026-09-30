@@ -57,7 +57,7 @@ def item_for(node_name):
     return None
 
 
-OOZE_RE = re.compile(r"^(Ooze Covered |Покрыт(?:ая|ые|ое|ый) слизью |Schleimbedeckte[sr]? |Schleimüberzogene[sr]? |진흙 덮인 |被软泥覆盖的|软泥覆盖的)|( couvert[e]? de vase| recouvert[e]? de vase| cubiert[oa] de moco| cubiert[oa] de limo)$", re.I)
+OOZE_RE = re.compile(r"^(Ooze Covered |Покрыт(?:ая|ые|ое|ый) слизью |Schleimbedeckte[sr]? |Schleimüberzogene[sr]? |진흙 덮인 |진흙으로 덮인 |被软泥覆盖的|软泥覆盖的)|( couvert[e]? de vase| recouvert[e]? de vase| cubiert[oa] de moco| cubiert[oa] de limo)$", re.I)
 
 
 def build_nodes(prof, key, fallback_icon):

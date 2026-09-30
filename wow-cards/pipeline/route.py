@@ -101,8 +101,8 @@ def eligible(recipes, max_skill=300):
             r['source'] = [QUEST]
         if SEASONAL.search(r['name']) or r['id'] in EXCLUDE_IDS or r['id'] in COOLDOWN or any(i in EXCLUDE_REAGENTS for i, _ in r['reagents']):
             continue
-        if not r.get('source') and r.get('learnedat', 9999) > 225 and r['id'] > 1000000 and r['id'] not in OVERRIDE_SRC:
-            continue                  # new Forever recipe above the beta cap: source unverifiable, skip
+        if not r.get('source') and r['id'] > 100000 and r['id'] not in OVERRIDE_SRC:
+            continue                  # new Forever recipe with no known source: unverifiable, skip
         if r.get('learnedat', 9999) > max_skill or not r.get('colors') or not r.get('reagents'):
             continue
         src = set(r.get('source', []))
@@ -166,7 +166,7 @@ def greedy(recipes, price, max_skill, cost_fn=None, switch_penalty=0.4, min_run=
     return steps
 
 
-def merge_small(steps, max_skill, tiny=4):
+def merge_small(steps, max_skill, tiny=5):
     """Fold steps of <= tiny points into a neighbour whose recipe still skills up there."""
     changed = True
     while changed:

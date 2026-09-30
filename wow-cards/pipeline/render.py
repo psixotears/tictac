@@ -52,7 +52,7 @@ UI = {
            'nogetaway': 'Sin escapes desde', 'fishnote': 'Umbrales de zona de WoW Classic; pendientes de verificar en la beta de Forever', 'fguide': 'Guía de pesca 1–300',
            'beta': 'DATOS DE BETA', 'src': 'Datos: Wowhead (Forever) · Cantidades esperadas, compra ~10 % extra',
            'ranks': 'Oficial 50 · Experto 125 · Artesano 200', 'title': 'World of Warcraft: Forever'},
-    'ko': {'guide': '숙련도 가이드 1–300', 'shopping': '구매 목록', 'steps': '경로', 'trainer': '전문 기술 훈련사', 'vendor': '상인',
+    'ko': {'guide': '숙련도 가이드 1–300', 'shopping': '구매 목록', 'steps': '경로', 'trainer': '훈련사', 'vendor': '상인',
            'quest': '퀘스트', 'auto': '기본', 'drop': '드랍', 'unknown': '?', 'item?': '?',
            'ranknames': ['숙련공', '전문가', '장인'], 'charlvl': '캐릭터 레벨', 'skilllbl': '숙련도',
            'alts': '대체 제작법 (같은 구간)', 'nodes': '숙련도별 채집물', 'skill': '숙련도', 'where': '위치', 'moblvl': '몬스터 레벨', 'zones': '지역',
@@ -85,7 +85,7 @@ CSS = """
 *{box-sizing:border-box;margin:0;padding:0}
 :root{--s:1;--gold:#d4b46a;--gold2:#8f7434;--ink:#f3e9d2;--dim:#c9bb9a;--panel:rgba(14,9,4,.8);--line:rgba(212,180,106,.55)}
 html,body{width:1080px;height:1920px;overflow:hidden;background:#0b0704}
-body{font-family:BODYFONT;color:var(--ink);position:relative}
+body{font-family:BODYFONT;color:var(--ink);position:relative;word-break:keep-all;overflow-wrap:break-word}
 .bg{position:absolute;inset:0;background:url('BG') center/cover no-repeat}
 .bg::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 30%,rgba(0,0,0,.05),rgba(0,0,0,.55) 70%,rgba(0,0,0,.8))}
 .card{position:absolute;inset:0;padding:34px 40px 28px;display:flex;flex-direction:column;gap:14px}
@@ -96,7 +96,7 @@ body{font-family:BODYFONT;color:var(--ink);position:relative}
 .titlerow{display:flex;align-items:center;justify-content:center;gap:20px;margin-top:8px;padding:10px 40px 12px;border-radius:14px;background:radial-gradient(ellipse at center,rgba(8,5,2,.72) 40%,rgba(8,5,2,.35) 75%,transparent 100%)}
 .skillicon{width:76px;height:76px;border:3px solid var(--gold);border-radius:10px;box-shadow:0 0 0 2px #2a1b08,0 6px 18px rgba(0,0,0,.8);background:#000}
 .skillicon img{width:100%;height:100%;border-radius:7px;display:block}
-h1{font-family:HEADFONT;font-size:56px;line-height:1;color:#fff;text-shadow:0 0 18px rgba(212,180,106,.35),0 3px 6px #000;font-weight:700}
+h1{font-family:HEADFONT;font-size:H1SIZE;line-height:1;color:#fff;text-shadow:0 0 18px rgba(212,180,106,.35),0 3px 6px #000;font-weight:700}
 .sub{font-family:HEADFONT;font-size:22px;letter-spacing:.12em;color:var(--gold);margin-top:8px;text-transform:uppercase;text-shadow:0 1px 3px #000,0 0 10px rgba(0,0,0,.9)}
 .beta{display:inline-block;margin-left:14px;padding:2px 10px;background:rgba(8,5,2,.6);border:1.5px solid var(--gold);border-radius:4px;font-size:15px;letter-spacing:.14em;vertical-align:middle;color:var(--gold)}
 .rule{height:2px;background:linear-gradient(90deg,transparent,var(--gold) 20%,var(--gold) 80%,transparent);position:relative;margin:4px 40px}
@@ -179,7 +179,7 @@ def build(prof, lang, bg='../../bg/placeholder.png', logo=None, s=1.0):
                 arows.append(f'<tr><td class="rng">{st["from"]} – {st["to"]}</td><td class="rec"><div class="w"><img src="../../icons/{a["icon"]}.jpg"><span class="nm" style="color:{QCOLOR.get(a["quality"], "#fff")}">{esc(a["name"][lang])}</span></div></td><td class="mats"><div class="w">{mats}</div></td><td class="src"></td></tr>')
         if arows:
             alt_panel = f'<div class="panel"><div class="ptitle">{esc(ui["alts"])}</div><table>{"".join(arows)}</table></div>'
-    css = CSS.replace('MATSW', f'calc({maxm * 40 + 12}px * var(--s))').replace('--s:1;', f'--s:{s};--cols:{4 if s < 1.15 else 3};').replace('BODYFONT', BODY_FONT[lang]).replace('HEADFONT', HEAD_FONT[lang]).replace('BG', bg)
+    css = CSS.replace('H1SIZE', '44px' if len(pname) > 15 else '56px').replace('MATSW', f'calc({maxm * 40 + 12}px * var(--s))').replace('--s:1;', f'--s:{s};--cols:{4 if s < 1.15 else 3};').replace('BODYFONT', BODY_FONT[lang]).replace('HEADFONT', HEAD_FONT[lang]).replace('BG', bg)
     page = f"""<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><title>{esc(pname)}</title><style>{css}</style></head>
 <body><div class="bg"></div><div class="card">
 <div class="head"><div class="logo">{logo_html}</div>
@@ -244,7 +244,7 @@ def build_gather(prof, lang, bg='../../bg/placeholder.png', logo=None, s=1.0):
             rows.append(f'<tr><td class="gs">{sk}</td><td class="gm">{r["mob"][0]}–{r["mob"][1]}</td><td class="gz">{zones_html(r["zones"])}</td></tr>')
         head = f'<tr><td class="src" style="text-align:left">{esc(ui["skill"])}</td><td class="src" style="text-align:left">{esc(ui["moblvl"])}</td><td class="src" style="text-align:left">{esc(ui["zones"])}</td></tr>'
         note = f'<div class="note">{esc(ui["skinnote"])}</div>'
-    css = (CSS + GCSS).replace('MATSW', '300px').replace('--s:1;', f'--s:{s};').replace('BODYFONT', BODY_FONT[lang]).replace('HEADFONT', HEAD_FONT[lang]).replace('BG', bg)
+    css = (CSS + GCSS).replace('H1SIZE', '44px' if len(pname) > 15 else '56px').replace('MATSW', '300px').replace('--s:1;', f'--s:{s};').replace('BODYFONT', BODY_FONT[lang]).replace('HEADFONT', HEAD_FONT[lang]).replace('BG', bg)
     page = f"""<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><title>{esc(pname)}</title><style>{css}</style></head>
 <body><div class="bg"></div><div class="card">
 <div class="head"><div class="logo">{logo_html}</div>
