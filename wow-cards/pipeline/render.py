@@ -122,7 +122,7 @@ td.rec{width:auto}
 .rec .w{display:flex;align-items:center;gap:calc(10px * var(--s))}
 .rec img{width:calc(32px * var(--s));height:calc(32px * var(--s));border-radius:calc(5px * var(--s));border:calc(1.5px * var(--s)) solid #4a3a1c;flex:none}
 .rec .nm{font-size:calc(19px * var(--s));line-height:1.05;font-weight:600;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.rec .x{color:var(--gold);font-weight:700;font-size:calc(19px * var(--s));white-space:nowrap}
+.rec .x{color:var(--gold);font-weight:700;font-size:calc(19px * var(--s));white-space:nowrap;display:inline;margin-left:4px}
 .rec .note{display:inline-block;margin-left:calc(8px * var(--s));font-size:calc(14px * var(--s));color:#ffb36b;border:calc(1px * var(--s)) solid #c7742d;border-radius:calc(4px * var(--s));padding:0 calc(6px * var(--s));vertical-align:middle;white-space:nowrap}
 td.mats{width:MATSW;white-space:nowrap}
 .mats .w{display:flex;gap:calc(6px * var(--s));justify-content:flex-start}
@@ -165,7 +165,7 @@ def build(prof, lang, bg='../../bg/placeholder.png', logo=None, s=1.0):
         rng = f'{st["from"]} – {st["to"]}' if st.get('to') else f'⚒ {st["from"]}+'
         rows.append(
             f'<tr><td class="rng{" extra" if st.get("extra") else ""}">{rng}</td>'
-            f'<td class="rec"><div class="w"><img src="../../icons/{st["icon"]}.jpg"><span class="nm" style="color:{QCOLOR.get(st["quality"], "#fff")}">{esc(st["name"][lang])}</span><span class="x">×{st["crafts"]}</span>{stop}</div></td>'
+            f'<td class="rec"><div class="w"><img src="../../icons/{st["icon"]}.jpg"><span class="nm" style="color:{QCOLOR.get(st["quality"], "#fff")}">{esc(st["name"][lang])} <span class="x">×{st["crafts"]}</span></span>{stop}</div></td>'
             f'<td class="mats"><div class="w">{mats}</div></td><td class="src">{esc(ui[st["source"]])}</td></tr>')
     maxm = max([len(st.get('reagents', [])) for st in d['steps']] + [1])
     alt_panel = ''
