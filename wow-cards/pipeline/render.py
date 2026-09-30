@@ -39,7 +39,7 @@ BODY_FONT = {'en': "'Noto Sans', sans-serif", 'ru': "'Noto Sans', sans-serif", '
 CSS = """
 @import url('../../fonts/fonts.css');
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--s:1;--gold:#d4b46a;--gold2:#8f7434;--ink:#f3e9d2;--dim:#c9bb9a;--panel:rgba(14,9,4,.74);--line:rgba(212,180,106,.55)}
+:root{--s:1;--gold:#d4b46a;--gold2:#8f7434;--ink:#f3e9d2;--dim:#c9bb9a;--panel:rgba(14,9,4,.8);--line:rgba(212,180,106,.55)}
 html,body{width:1080px;height:1920px;overflow:hidden;background:#0b0704}
 body{font-family:BODYFONT;color:var(--ink);position:relative}
 .bg{position:absolute;inset:0;background:url('BG') center/cover no-repeat}
