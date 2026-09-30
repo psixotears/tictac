@@ -47,14 +47,14 @@ body{font-family:BODYFONT;color:var(--ink);position:relative}
 .card{position:absolute;inset:0;padding:34px 40px 28px;display:flex;flex-direction:column;gap:14px}
 .head{text-align:center}
 .logo{height:96px;display:flex;align-items:center;justify-content:center}
-.logo img{max-height:96px;max-width:520px;filter:drop-shadow(0 4px 10px rgba(0,0,0,.7))}
+.logo img{max-height:96px;max-width:520px;filter:drop-shadow(0 4px 10px rgba(0,0,0,.9)) drop-shadow(0 0 18px rgba(0,0,0,.8))}
 .logo .txt{font-family:HEADFONT;font-size:34px;letter-spacing:.14em;color:var(--gold);text-shadow:0 2px 8px #000}
-.titlerow{display:flex;align-items:center;justify-content:center;gap:20px;margin-top:8px}
+.titlerow{display:flex;align-items:center;justify-content:center;gap:20px;margin-top:8px;padding:10px 40px 12px;border-radius:14px;background:radial-gradient(ellipse at center,rgba(8,5,2,.72) 40%,rgba(8,5,2,.35) 75%,transparent 100%)}
 .skillicon{width:76px;height:76px;border:3px solid var(--gold);border-radius:10px;box-shadow:0 0 0 2px #2a1b08,0 6px 18px rgba(0,0,0,.8);background:#000}
 .skillicon img{width:100%;height:100%;border-radius:7px;display:block}
 h1{font-family:HEADFONT;font-size:56px;line-height:1;color:#fff;text-shadow:0 0 18px rgba(212,180,106,.35),0 3px 6px #000;font-weight:700}
-.sub{font-family:HEADFONT;font-size:22px;letter-spacing:.12em;color:var(--gold);margin-top:8px;text-transform:uppercase}
-.beta{display:inline-block;margin-left:14px;padding:2px 10px;border:1.5px solid var(--gold);border-radius:4px;font-size:15px;letter-spacing:.14em;vertical-align:middle;color:var(--gold)}
+.sub{font-family:HEADFONT;font-size:22px;letter-spacing:.12em;color:var(--gold);margin-top:8px;text-transform:uppercase;text-shadow:0 1px 3px #000,0 0 10px rgba(0,0,0,.9)}
+.beta{display:inline-block;margin-left:14px;padding:2px 10px;background:rgba(8,5,2,.6);border:1.5px solid var(--gold);border-radius:4px;font-size:15px;letter-spacing:.14em;vertical-align:middle;color:var(--gold)}
 .rule{height:2px;background:linear-gradient(90deg,transparent,var(--gold) 20%,var(--gold) 80%,transparent);position:relative;margin:4px 40px}
 .rule::after{content:'◆';position:absolute;left:50%;top:-11px;transform:translateX(-50%);color:var(--gold);font-size:16px;background:transparent}
 .panel{background:var(--panel);border:1.5px solid var(--line);border-radius:12px;padding:10px 16px 12px;backdrop-filter:blur(2px)}
@@ -108,7 +108,7 @@ def build(prof, lang, bg='../../bg/placeholder.png', logo=None, s=1.0):
     done = set()
     for st in d['steps']:
         for sk, ri, lvl in CHECK:
-            if ri not in done and st.get('from', 0) >= sk and not st.get('extra'):
+            if ri not in done and st.get('from', 0) >= sk:
                 done.add(ri)
                 rows.append(f'<tr class="chk"><td colspan="4"><span class="d">◆</span> {esc(ui["ranknames"][ri])} · {esc(ui["skilllbl"])} <b>{sk}</b> · {esc(ui["charlvl"])} <b>{lvl}</b></td></tr>')
         if st.get('missing'):
