@@ -5,7 +5,7 @@ does not fragment) and a second pass that discounts intermediate crafts whose pr
 route needs anyway (cured hides, bars, bolts...). Only trainer/vendor/auto-learned recipes.
 Usage: python3 route.py <profession> [--json]
 """
-import json, math, sys
+import json, math, sys, os, re
 from collections import defaultdict
 
 ITEMS = {int(k): v for k, v in json.load(open('data/items.json')).items()}
@@ -15,6 +15,13 @@ import re
 ONCE = re.compile(r"Runed .* Rod|Camp Tent|Tanning Rack|Sewing Machine|Anvil|Forge$|Workbench|Alchemy Lab|Loom|Grindstone", re.I)
 LANGS = ('en', 'ru', 'cn')
 OTHER_PROF_PRODUCTS = {}
+# manual fixes from guides/beta reports (spell id -> source, learnedat)
+OVERRIDE_SRC = {7418: 'auto', 18629: 'quest', 14530: 'quest', 10841: 'quest', 22813: 'quest', 9980: 'quest', 7421: 'auto'}
+OVERRIDE_LEARN = {7418: 1}
+EXCLUDE_IDS = {22813, 461692, 1230643}
+EXCLUDE_REAGENTS = {18240, 14342}      # Ogre Tannin (dungeon-bound), Mooncloth (cooldown product)          # Gordok Ogre Suit (dungeon-bound tannin), Enchanted Lute (quest item)
+COOLDOWN = set(json.load(open('data/cooldown_ids.json'))) if os.path.exists('data/cooldown_ids.json') else set()
+SEASONAL = re.compile(r"Rocket Cluster|Cluster Launcher|Rocket Launcher|Snowball|Lovely|Winter Veil|Winter Clothes|Festive|Lunar|Brewfest|Hallow", re.I)
 import os
 SPELL_SRC = json.load(open('data/spell_sources.json')) if os.path.exists('data/spell_sources.json') else {}
 CRAFTING = ['alchemy', 'blacksmithing', 'enchanting', 'engineering', 'leatherworking', 'tailoring', 'cooking', 'first-aid']
@@ -49,18 +56,30 @@ def base_price(i):
 
 
 def chance(r, s):
+    """Approximate Classic skill-up odds: orange/yellow ~1.0, green ~0.6 -> 0.1, grey 0."""
     o, y, g, gr = r['colors']
     if gr and s >= gr:
         return 0.0
     y = y or o
+    g = g or y
     if s < y or not gr:
         return 1.0
-    return max(0.0, (gr - s) / (gr - y))
+    if s < g:
+        return 1.0 - 0.4 * (s - y) / max(1, g - y)
+    return max(0.05, 0.6 - 0.5 * (s - g) / max(1, gr - g))
 
 
 def eligible(recipes, max_skill=300):
     out = []
     for r in recipes:
+        if r['id'] in OVERRIDE_LEARN:
+            r['learnedat'] = OVERRIDE_LEARN[r['id']]
+        if r['id'] in OVERRIDE_SRC and OVERRIDE_SRC[r['id']] in ('quest',) and not r.get('source'):
+            r['source'] = [QUEST]
+        if SEASONAL.search(r['name']) or r['id'] in EXCLUDE_IDS or r['id'] in COOLDOWN or any(i in EXCLUDE_REAGENTS for i, _ in r['reagents']):
+            continue
+        if not r.get('source') and r.get('learnedat', 9999) > 225 and r['id'] > 1000000 and r['id'] not in OVERRIDE_SRC:
+            continue                  # new Forever recipe above the beta cap: source unverifiable, skip
         if r.get('learnedat', 9999) > max_skill or not r.get('colors') or not r.get('reagents'):
             continue
         src = set(r.get('source', []))
@@ -78,8 +97,8 @@ def eligible(recipes, max_skill=300):
 def matcost(r, price):
     c = sum(q * price[i] for i, q in r['reagents'])
     src = r.get('source') or []
-    if not src:
-        c *= 1.3                      # unknown source: prefer known trainer/vendor recipes
+    if not src and r.get('learnedat', 9999) > 1 and r['id'] not in OVERRIDE_SRC:
+        c *= 2.2                      # unknown source (untested beta content): strongly prefer known recipes
     elif QUEST in src and not ({TRAINER, VENDOR} & set(src)):
         c *= 1.2
     return c
@@ -91,6 +110,9 @@ def greedy(recipes, price, max_skill, cost_fn=None, switch_penalty=0.35, min_run
     made = defaultdict(float)
     while s < max_skill:
         cands = [r for r in recipes if r['learnedat'] <= s and chance(r, s) > 0 and not (ONCE.search(r['name']) and made[r['id']] >= 1)]
+        good = [r for r in cands if chance(r, s) >= 0.5]
+        if good:
+            cands = good
         if not cands:
             steps.append({'from': s, 'to': s + 1, 'recipe': None, 'crafts': 0.0})
             s += 1
@@ -99,7 +121,7 @@ def greedy(recipes, price, max_skill, cost_fn=None, switch_penalty=0.35, min_run
         def cpp(r, at):
             return cost_fn(r, price, made) / chance(r, at)
         best = min(cands, key=lambda r: (cpp(r, s), -r['colors'][3]))
-        if cur and chance(cur, s) > 0:
+        if cur and chance(cur, s) >= 0.5:
             # stay with current recipe unless the new one is clearly cheaper and usable for a while
             run = sum(1 for t in range(s, min(max_skill, s + min_run)) if chance(best, t) > 0)
             if cpp(best, s) >= cpp(cur, s) * (1 - switch_penalty) or run < min_run:
@@ -202,7 +224,7 @@ def compute(prof, max_skill=300):
         again = False
         for i, q in list(shopping.items()):
             r = by_product.get(i)
-            if not r or matcost(r, price) / max(1, r['creates'][1]) > price[i] * 1.2:
+            if not r or matcost(r, price) / max(1, r['creates'][1]) > price[i] * 0.7:
                 continue                      # cheaper to buy than to craft
             n = math.ceil(q / max(1, r['creates'][1]))
             extras.append({'from': r['learnedat'], 'to': None, 'recipe': r, 'crafts': n, 'extra': True})
@@ -283,7 +305,7 @@ def export(prof, steps, shopping):
             'quality': r.get('quality', product.get('quality', 1)),
             'colors': r['colors'], 'learnedat': r['learnedat'],
             'source': ('trainer' if TRAINER in r.get('source', []) else 'vendor' if VENDOR in r.get('source', []) else 'quest' if QUEST in r.get('source', [])
-                       else 'auto' if r['learnedat'] <= 1 else SPELL_SRC.get(str(r['id']), 'unknown')),
+                       else OVERRIDE_SRC.get(r['id']) or ('auto' if r['learnedat'] <= 1 else SPELL_SRC.get(str(r['id']), 'unknown'))),
             'reagents': [item(i, q * st['crafts']) for i, q in r['reagents']],
             'alts': [{'name': {l: ((ITEMS.get(a['creates'][0], {}) if a.get('creates') else {}).get('name_' + l) or names[l].get(a['id'], a['name'])) for l in LANGS}, 'icon': (ITEMS.get(a['creates'][0], {}) if a.get('creates') else {}).get('icon') or SPELLS.get(a['id'], {}).get('icon', 'inv_misc_questionmark'),
                       'quality': a.get('quality', 1), 'reagents': [{'name': {l: ITEMS.get(i, {}).get('name_' + l, f'#{i}') for l in LANGS}, 'icon': ITEMS.get(i, {}).get('icon', 'inv_misc_questionmark'), 'qty': q} for i, q in a['reagents']]}
