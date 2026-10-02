@@ -16,10 +16,13 @@ ONCE = re.compile(r"Runed .* Rod|Camp Tent|Tanning Rack|Sewing Machine|Anvil|For
 LANGS = ('en', 'ru', 'cn', 'de', 'fr', 'es', 'ko')
 OTHER_PROF_PRODUCTS = {}
 # manual fixes from guides/beta reports (spell id -> source, learnedat)
-OVERRIDE_SRC = {7418: 'auto', 18629: 'quest', 14530: 'quest', 10841: 'quest', 22813: 'quest', 9980: 'quest', 7421: 'auto'}
+OVERRIDE_SRC = {7418: 'auto', 18629: 'quest', 14530: 'quest', 10841: 'quest', 22813: 'quest', 9980: 'quest', 7421: 'auto', 24801: 'quest'}
 OVERRIDE_LEARN = {7418: 1}
 EXCLUDE_IDS = {22813, 461692, 1230643}
-EXCLUDE_REAGENTS = {18240, 14342}      # Ogre Tannin (dungeon-bound), Mooncloth (cooldown product)          # Gordok Ogre Suit (dungeon-bound tannin), Enchanted Lute (quest item)
+EXCLUDE_REAGENTS = {18240, 14342}      # Ogre Tannin (dungeon-bound), Mooncloth (cooldown product)
+# cooking: no fish (needs Fishing or AH) and no holiday reagents
+FISH_RE = re.compile(r"^Raw |Lobster|Squid|Bass$|Salmon|Snapper|Mightfish|Yellowtail|Redgill|Cod$|Trout|Catfish|Mackerel|Smallfish|Sagefish|Deviate Fish|Frenzy|Albacore|Halibut|Armorfish|Whimsyfin|Holiday", re.I)
+PROF_EXCLUDE_REAGENT_RE = {'cooking': FISH_RE}          # Gordok Ogre Suit (dungeon-bound tannin), Enchanted Lute (quest item)
 COOLDOWN = set(json.load(open('data/cooldown_ids.json'))) if os.path.exists('data/cooldown_ids.json') else set()
 SEASONAL = re.compile(r"Rocket Cluster|Cluster Launcher|Rocket Launcher|Snowball|Lovely|Winter Veil|Winter Clothes|Festive|Lunar|Brewfest|Hallow", re.I)
 import os
@@ -88,8 +91,9 @@ def normalize_colors(r):
     r['colors'] = [o, y, g, gr]
 
 
-def eligible(recipes, max_skill=300):
+def eligible(recipes, max_skill=300, prof=None):
     out = []
+    bad_re = PROF_EXCLUDE_REAGENT_RE.get(prof)
     for r in recipes:
         if r.get('colors'):
             normalize_colors(r)
@@ -100,6 +104,8 @@ def eligible(recipes, max_skill=300):
         if r['id'] in OVERRIDE_SRC and OVERRIDE_SRC[r['id']] in ('quest',) and not r.get('source'):
             r['source'] = [QUEST]
         if SEASONAL.search(r['name']) or r['id'] in EXCLUDE_IDS or r['id'] in COOLDOWN or any(i in EXCLUDE_REAGENTS for i, _ in r['reagents']):
+            continue
+        if bad_re and any(bad_re.search(ITEMS.get(i, {}).get('name_en', '')) for i, _ in r['reagents']):
             continue
         if not r.get('source') and r['id'] > 100000 and r['id'] not in OVERRIDE_SRC:
             continue                  # new Forever recipe with no known source: unverifiable, skip
@@ -204,7 +210,7 @@ def tally(steps):
 
 def compute(prof, max_skill=300):
     d = json.load(open(f'data/{prof}_en.json'))
-    recipes = eligible(d['recipes'], max_skill)
+    recipes = eligible(d['recipes'], max_skill, prof)
     price = defaultdict(lambda: 20000)
     for i in {i for r in recipes for i, _ in r['reagents']} | {r['creates'][0] for r in recipes if r.get('creates')}:
         price[i] = base_price(i)
@@ -287,7 +293,7 @@ def compute(prof, max_skill=300):
 
 def alternatives(prof, steps, max_skill=300, n=2):
     d = json.load(open(f'data/{prof}_en.json'))
-    recipes = eligible(d['recipes'], max_skill)
+    recipes = eligible(d['recipes'], max_skill, prof)
     price = defaultdict(lambda: 20000)
     for i in {i for r in recipes for i, _ in r['reagents']}:
         price[i] = base_price(i)

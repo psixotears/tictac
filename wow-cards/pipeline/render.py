@@ -9,7 +9,7 @@ UI = {
            'ranknames': ['Journeyman', 'Expert', 'Artisan'], 'charlvl': 'character level', 'skilllbl': 'skill',
            'alts': 'Alternatives (same skill range)', 'nodes': 'Nodes by skill', 'skill': 'Skill', 'where': 'Where to find', 'moblvl': 'Mob level', 'zones': 'Zones',
            'ooze': 'also ooze-covered', 'skinnote': 'Required skill: (mob level − 10) × 10 up to level 20, then mob level × 5', 'gguide': 'Gathering Guide 1–300',
-           'nogetaway': 'No get-aways from', 'fishnote': 'Zone thresholds from WoW Classic — to be verified in the Forever beta', 'fguide': 'Fishing Guide 1–300',
+           'smallfish': 'For the Fish Bowl camp object — best catch rates', 'nogetaway': 'No get-aways from', 'fishnote': 'Zone thresholds from WoW Classic — to be verified in the Forever beta', 'fguide': 'Fishing Guide 1–300',
            'beta': 'BETA DATA', 'src': 'Data: Wowhead (Forever) · Craft counts are expected values, buy ~10% extra',
            'ranks': 'Journeyman 50 · Expert 125 · Artisan 200', 'title': 'World of Warcraft: Forever'},
     'ru': {'guide': 'Гайд по прокачке 1–300', 'shopping': 'Список покупок', 'steps': 'Маршрут', 'trainer': 'Учитель', 'vendor': 'Торговец',
@@ -17,7 +17,7 @@ UI = {
            'ranknames': ['Подмастерье', 'Умелец', 'Искусник'], 'charlvl': 'уровень персонажа', 'skilllbl': 'навык',
            'alts': 'Альтернативы (тот же диапазон)', 'nodes': 'Узлы по навыку', 'skill': 'Навык', 'where': 'Где искать', 'moblvl': 'Уровень мобов', 'zones': 'Зоны',
            'ooze': 'есть и покрытые слизью', 'skinnote': 'Нужный навык: (уровень моба − 10) × 10 до 20 ур., дальше уровень моба × 5', 'gguide': 'Гайд по добыче 1–300',
-           'nogetaway': 'Без срывов от', 'fishnote': 'Пороги зон взяты из WoW Classic — требуют проверки в бете Forever', 'fguide': 'Гайд по рыбалке 1–300',
+           'smallfish': 'Для Аквариума (объект лагеря) — где ловится чаще всего', 'nogetaway': 'Без срывов от', 'fishnote': 'Пороги зон взяты из WoW Classic — требуют проверки в бете Forever', 'fguide': 'Гайд по рыбалке 1–300',
            'beta': 'ДАННЫЕ БЕТЫ', 'src': 'Данные: Wowhead (Forever) · Кол-во крафтов ожидаемое, берите ~10% запас',
            'ranks': 'Подмастерье 50 · Умелец 125 · Искусник 200', 'title': 'World of Warcraft: Forever'},
     'cn': {'guide': '专业升级指南 1–300', 'shopping': '材料清单', 'steps': '路线', 'trainer': '训练师', 'vendor': '商人',
@@ -25,7 +25,7 @@ UI = {
            'ranknames': ['中级', '高级', '专家'], 'charlvl': '角色等级', 'skilllbl': '技能',
            'alts': '替代配方（同一区间）', 'nodes': '按技能等级的采集点', 'skill': '技能', 'where': '采集地点', 'moblvl': '怪物等级', 'zones': '区域',
            'ooze': '含软泥覆盖变体', 'skinnote': '所需技能：20级前为(怪物等级−10)×10，之后为怪物等级×5', 'gguide': '采集指南 1–300',
-           'nogetaway': '不脱钩起始', 'fishnote': '区域门槛取自 WoW Classic，待 Forever 测试服验证', 'fguide': '钓鱼指南 1–300',
+           'smallfish': '用于营地物品“鱼缸”——最佳钓取地点', 'nogetaway': '不脱钩起始', 'fishnote': '区域门槛取自 WoW Classic，待 Forever 测试服验证', 'fguide': '钓鱼指南 1–300',
            'beta': '测试服数据', 'src': '数据：Wowhead (Forever) · 制作次数为期望值，建议多备约10%',
            'ranks': '中级 50 · 高级 125 · 专家 200', 'title': '魔兽世界：无限'},
     'de': {'guide': 'Skillguide 1–300', 'shopping': 'Einkaufsliste', 'steps': 'Route', 'trainer': 'Lehrer', 'vendor': 'Händler',
@@ -33,7 +33,7 @@ UI = {
            'ranknames': ['Geselle', 'Experte', 'Fachmann'], 'charlvl': 'Charakterstufe', 'skilllbl': 'Fertigkeit',
            'alts': 'Alternativen (gleicher Bereich)', 'nodes': 'Vorkommen nach Fertigkeit', 'skill': 'Fertigkeit', 'where': 'Fundorte', 'moblvl': 'Mobstufe', 'zones': 'Zonen',
            'ooze': 'auch schleimbedeckt', 'skinnote': 'Benötigte Fertigkeit: (Mobstufe − 10) × 10 bis Stufe 20, danach Mobstufe × 5', 'gguide': 'Sammelguide 1–300',
-           'nogetaway': 'Kein Entkommen ab', 'fishnote': 'Zonenwerte aus WoW Classic – in der Forever-Beta zu prüfen', 'fguide': 'Angelguide 1–300',
+           'smallfish': 'Für das Lagerobjekt Aquarium – beste Fangorte', 'nogetaway': 'Kein Entkommen ab', 'fishnote': 'Zonenwerte aus WoW Classic – in der Forever-Beta zu prüfen', 'fguide': 'Angelguide 1–300',
            'beta': 'BETA-DATEN', 'src': 'Daten: Wowhead (Forever) · Anzahl = Erwartungswert, ~10 % Reserve einplanen',
            'ranks': 'Geselle 50 · Experte 125 · Fachmann 200', 'title': 'World of Warcraft: Forever'},
     'fr': {'guide': 'Guide de montée 1–300', 'shopping': "Liste d'achats", 'steps': 'Itinéraire', 'trainer': 'Maître', 'vendor': 'Vendeur',
@@ -41,7 +41,7 @@ UI = {
            'ranknames': ['Compagnon', 'Expert', 'Artisan'], 'charlvl': 'niveau du personnage', 'skilllbl': 'compétence',
            'alts': 'Alternatives (même plage)', 'nodes': 'Gisements par compétence', 'skill': 'Compétence', 'where': 'Où trouver', 'moblvl': 'Niveau des monstres', 'zones': 'Zones',
            'ooze': 'aussi couverts de vase', 'skinnote': 'Compétence requise : (niveau du monstre − 10) × 10 jusqu\'au niveau 20, puis niveau × 5', 'gguide': 'Guide de récolte 1–300',
-           'nogetaway': 'Sans fuite dès', 'fishnote': 'Seuils de zones issus de WoW Classic – à vérifier sur la bêta Forever', 'fguide': 'Guide de pêche 1–300',
+           'smallfish': "Pour l'objet de camp Aquarium – meilleurs taux de pêche", 'nogetaway': 'Sans fuite dès', 'fishnote': 'Seuils de zones issus de WoW Classic – à vérifier sur la bêta Forever', 'fguide': 'Guide de pêche 1–300',
            'beta': 'DONNÉES BÊTA', 'src': 'Données : Wowhead (Forever) · Nombres = valeurs attendues, prévoyez ~10 % de marge',
            'ranks': 'Compagnon 50 · Expert 125 · Artisan 200', 'title': 'World of Warcraft: Forever'},
     'es': {'guide': 'Guía de subida 1–300', 'shopping': 'Lista de compra', 'steps': 'Ruta', 'trainer': 'Instructor', 'vendor': 'Vendedor',
@@ -49,7 +49,7 @@ UI = {
            'ranknames': ['Oficial', 'Experto', 'Artesano'], 'charlvl': 'nivel del personaje', 'skilllbl': 'habilidad',
            'alts': 'Alternativas (mismo rango)', 'nodes': 'Vetas por habilidad', 'skill': 'Habilidad', 'where': 'Dónde encontrar', 'moblvl': 'Nivel de monstruos', 'zones': 'Zonas',
            'ooze': 'también cubiertas de moco', 'skinnote': 'Habilidad necesaria: (nivel del monstruo − 10) × 10 hasta nivel 20, luego nivel × 5', 'gguide': 'Guía de recolección 1–300',
-           'nogetaway': 'Sin escapes desde', 'fishnote': 'Umbrales de zona de WoW Classic; pendientes de verificar en la beta de Forever', 'fguide': 'Guía de pesca 1–300',
+           'smallfish': 'Para el objeto de campamento Pecera: mejores lugares de pesca', 'nogetaway': 'Sin escapes desde', 'fishnote': 'Umbrales de zona de WoW Classic; pendientes de verificar en la beta de Forever', 'fguide': 'Guía de pesca 1–300',
            'beta': 'DATOS DE BETA', 'src': 'Datos: Wowhead (Forever) · Cantidades esperadas, compra ~10 % extra',
            'ranks': 'Oficial 50 · Experto 125 · Artesano 200', 'title': 'World of Warcraft: Forever'},
     'ko': {'guide': '숙련도 가이드 1–300', 'shopping': '구매 목록', 'steps': '경로', 'trainer': '훈련사', 'vendor': '상인',
@@ -57,7 +57,7 @@ UI = {
            'ranknames': ['숙련공', '전문가', '장인'], 'charlvl': '캐릭터 레벨', 'skilllbl': '숙련도',
            'alts': '대체 제작법 (같은 구간)', 'nodes': '숙련도별 채집물', 'skill': '숙련도', 'where': '위치', 'moblvl': '몬스터 레벨', 'zones': '지역',
            'ooze': '진흙 덮인 변형 포함', 'skinnote': '필요 숙련도: 20레벨까지 (몬스터 레벨 − 10) × 10, 이후 몬스터 레벨 × 5', 'gguide': '채집 가이드 1–300',
-           'nogetaway': '놓침 없음', 'fishnote': '지역 기준은 WoW 클래식 자료 – Forever 베타에서 확인 필요', 'fguide': '낚시 가이드 1–300',
+           'smallfish': '야영지 물건 어항 제작용 – 가장 잘 잡히는 지역', 'nogetaway': '놓침 없음', 'fishnote': '지역 기준은 WoW 클래식 자료 – Forever 베타에서 확인 필요', 'fguide': '낚시 가이드 1–300',
            'beta': '베타 데이터', 'src': '자료: Wowhead (Forever) · 제작 횟수는 기대값, ~10% 여유분 권장',
            'ranks': '숙련공 50 · 전문가 125 · 장인 200', 'title': 'World of Warcraft: Forever'},
 }
@@ -202,12 +202,17 @@ td.gn{width:calc(300px * var(--s))}
 .gn .chips{display:flex;flex-direction:column;gap:calc(3px * var(--s))}
 .gn img{width:calc(34px * var(--s));height:calc(34px * var(--s));border-radius:5px;border:1.5px solid #4a3a1c;flex:none}
 .gn .nm{font-size:calc(19px * var(--s));font-weight:600;line-height:1.05}
+.gn .sk{display:inline-block;margin-left:6px;padding:0 6px;border:1px solid var(--gold2);border-radius:4px;font-family:HEADFONT;font-size:calc(14px * var(--s));color:#ffd95a;vertical-align:middle;line-height:1.3}
 .gn .oz{font-size:calc(12px * var(--s));color:var(--dim);display:block;margin-top:2px}
 td.gz{font-size:calc(16px * var(--s));line-height:1.25;color:var(--ink)}
 .gz span{white-space:normal}
 .gz small{color:var(--dim);font-size:calc(12.5px * var(--s))}
 td.gm{font-size:calc(17px * var(--s));color:var(--ink);width:calc(120px * var(--s));white-space:nowrap}
 .note{font-size:calc(14px * var(--s));color:var(--dim);margin-top:8px}
+.sfish{display:flex;gap:calc(12px * var(--s));align-items:flex-start;margin-top:calc(14px * var(--s));padding-top:calc(12px * var(--s));border-top:1px solid rgba(212,180,106,.22);font-size:calc(16px * var(--s));color:var(--ink)}
+.sfish img{width:calc(44px * var(--s));height:calc(44px * var(--s));border-radius:6px;border:1.5px solid #4a3a1c;flex:none}
+.sfish b{color:#fff}
+.sfish .gz{font-size:calc(15px * var(--s))}
 """
 
 
@@ -228,7 +233,7 @@ def build_gather(prof, lang, bg='../../bg/placeholder.png', logo=None, s=1.0):
     if d['kind'] == 'bands':
         for r in d['rows']:
             sk = str(r['skill']) if r['skill'] == r['skill_hi'] else f'{r["skill"]}–{r["skill_hi"]}'
-            chips = ''.join(f'<div class="w"><img src="../../icons/{n["icon"]}.jpg"><div><span class="nm">{esc(n["name"].get(lang) or n["name"]["en"])}</span>{("<span class=oz>" + esc(ui["ooze"]) + "</span>") if n.get("ooze") else ""}</div></div>' for n in r['nodes'])
+            chips = ''.join(f'<div class="w"><img src="../../icons/{n["icon"]}.jpg"><div><span class="nm">{esc(n["name"].get(lang) or n["name"]["en"])} <span class="sk">{n["skill"]}</span></span>{("<span class=oz>" + esc(ui["ooze"]) + "</span>") if n.get("ooze") else ""}</div></div>' for n in r['nodes'])
             rows.append(f'<tr><td class="gs">{sk}</td><td class="gn"><div class="chips">{chips}</div></td><td class="gz">{zones_html(r["zones"])}</td></tr>')
         head = f'<tr><td class="src" style="text-align:left">{esc(ui["skill"])}</td><td class="src" style="text-align:left"></td><td class="src" style="text-align:left">{esc(ui["where"])}</td></tr>'
         note = ''
@@ -238,6 +243,10 @@ def build_gather(prof, lang, bg='../../bg/placeholder.png', logo=None, s=1.0):
             rows.append(f'<tr><td class="gs">{r["skill"]}+</td><td class="gm">{r["nogetaway"]}+</td><td class="gz">{zones_html(r["zones"])}</td></tr>')
         head = f'<tr><td class="src" style="text-align:left">{esc(ui["skill"])}</td><td class="src" style="text-align:left">{esc(ui["nogetaway"])}</td><td class="src" style="text-align:left">{esc(ui["zones"])}</td></tr>'
         note = f'<div class="note">{esc(ui["fishnote"])}</div>'
+        sf = d.get('smallfish')
+        if sf:
+            zs = ' · '.join(f'<span>{esc(z["name"].get(lang) or z["name"]["en"])} <small>{z["pct"]}%</small></span>' for z in sf['zones'])
+            note += f'<div class="sfish"><img src="../../icons/{sf["icon"]}.jpg"><div><b>{esc(sf["name"].get(lang) or sf["name"]["en"])}</b> — {esc(ui["smallfish"])}<div class="gz" style="margin-top:4px">{zs}</div></div></div>'
     else:
         for r in d['rows']:
             sk = str(r['skill']) if r.get('skill_hi', r['skill']) == r['skill'] else f'{r["skill"]}–{r["skill_hi"]}'

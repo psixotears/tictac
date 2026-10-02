@@ -126,6 +126,16 @@ if __name__ == '__main__':
         'herbalism': {'kind': 'bands', 'rows': band(build_nodes('herbalism', 'herbs', 'inv_misc_herb_01'))},
         'skinning': {'kind': 'skinning', 'rows': skinning_rows()},
     }
+    # fishing extra: Raw Brilliant Smallfish (Fish Bowl camp object) — best zones by catch rate
+    import os
+    if os.path.exists('data/smallfish_zones.json') and os.path.exists('data/gather_fishing.json'):
+        sf = json.load(open('data/smallfish_zones.json'))
+        fz = json.load(open('data/gather_fishing.json', encoding='utf-8'))
+        fz['smallfish'] = {'item': 6291, 'icon': ITEMS.get(6291, {}).get('icon', 'inv_misc_fish_24'),
+                           'name': {l: ITEMS.get(6291, {}).get('name_' + l, 'Raw Brilliant Smallfish') for l in LANGS},
+                           'zones': [{'id': z['zone_id'], 'pct': z['pct'], 'name': {l: ZONE[z['zone_id']].get('name_' + l, ZONE[z['zone_id']].get('name_en')) for l in LANGS}} for z in sf if z['zone_id'] in ZONE][:6]}
+        json.dump(fz, open('data/gather_fishing.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+        out['fishing'] = fz
     for prof, d in out.items():
         json.dump({'profession': prof, **d}, open(f'data/gather_{prof}.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
         print(f'== {prof}: {len(d["rows"])} rows')
