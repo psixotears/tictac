@@ -202,7 +202,7 @@ td.gn{width:calc(300px * var(--s))}
 .gn .chips{display:flex;flex-direction:column;gap:calc(3px * var(--s))}
 .gn img{width:calc(34px * var(--s));height:calc(34px * var(--s));border-radius:5px;border:1.5px solid #4a3a1c;flex:none}
 .gn .nm{font-size:calc(19px * var(--s));font-weight:600;line-height:1.05}
-.gn .sk{display:inline-block;margin-left:6px;padding:0 6px;border:1px solid var(--gold2);border-radius:4px;font-family:HEADFONT;font-size:calc(14px * var(--s));color:#ffd95a;vertical-align:middle;line-height:1.3}
+.gn .sk{display:inline-block;margin-left:8px;padding:0 7px;border:1.5px solid var(--gold);border-radius:4px;font-family:HEADFONT;font-size:calc(20px * var(--s));font-weight:700;color:#ffd95a;vertical-align:middle;line-height:1.25;text-shadow:0 0 6px rgba(255,217,90,.3)}
 .gn .oz{font-size:calc(12px * var(--s));color:var(--dim);display:block;margin-top:2px}
 td.gz{font-size:calc(16px * var(--s));line-height:1.25;color:var(--ink)}
 .gz span{white-space:normal}
