@@ -1,0 +1,3845 @@
+{
+ "families": [
+  {
+   "id": 4,
+   "icon": "ability_hunter_pet_bear",
+   "type": 1,
+   "dietmask": 63,
+   "spells": [
+    17261,
+    3009,
+    23110,
+    415429,
+    409365,
+    1264502
+   ],
+   "common": [
+    "bite",
+    "claw",
+    "dash"
+   ],
+   "unique": [
+    1264502
+   ],
+   "name": {
+    "en": "Bear",
+    "ru": "Медведь",
+    "cn": "熊",
+    "de": "Bär",
+    "fr": "Ours",
+    "es": "Oso",
+    "ko": "곰"
+   },
+   "diet": {
+    "en": "Meat, Fish, Cheese, Bread, Fungus, Fruit",
+    "ru": "Мясо, Рыба, Сыр, Хлеб, Грибы, Фрукты",
+    "cn": "肉类，鱼，奶酪，面包，真菌，水果",
+    "de": "Fleisch, Fisch, Käse, Brot, Pilz, Obst",
+    "fr": "Viande, Poisson, Fromage, Pain, Champignon, Fruit",
+    "es": "Carne, Pescado, Queso, Pan, Hongo, Fruta",
+    "ko": "고기, 생선, 치즈, 빵, 버섯, 과일"
+   },
+   "typename": {
+    "en": "Tenacity",
+    "ru": "Упорство",
+    "cn": "坚韧",
+    "de": "Hartnäckigkeit",
+    "fr": "Tenacité",
+    "es": "Tenacidad",
+    "ko": "끈기"
+   },
+   "popularity": 1828
+  },
+  {
+   "id": 2,
+   "icon": "ability_hunter_pet_cat",
+   "type": 0,
+   "dietmask": 3,
+   "spells": [
+    17261,
+    3009,
+    23110,
+    415429,
+    409365,
+    24453
+   ],
+   "common": [
+    "bite",
+    "claw",
+    "dash"
+   ],
+   "unique": [
+    24453
+   ],
+   "name": {
+    "en": "Cat",
+    "ru": "Кошка",
+    "cn": "豹",
+    "de": "Katze",
+    "fr": "Félin",
+    "es": "Felino",
+    "ko": "살쾡이"
+   },
+   "diet": {
+    "en": "Meat, Fish",
+    "ru": "Мясо, Рыба",
+    "cn": "肉类，鱼",
+    "de": "Fleisch, Fisch",
+    "fr": "Viande, Poisson",
+    "es": "Carne, Pescado",
+    "ko": "고기, 생선"
+   },
+   "typename": {
+    "en": "Ferocity",
+    "ru": "Свирепость",
+    "cn": "狂野",
+    "de": "Wildheit",
+    "fr": "Férocité",
+    "es": "Ferocidad",
+    "ko": "야성"
+   },
+   "popularity": 1614
+  },
+  {
+   "id": 1,
+   "icon": "ability_hunter_pet_wolf",
+   "type": 0,
+   "dietmask": 1,
+   "spells": [
+    17261,
+    23110,
+    415429,
+    409365,
+    24603
+   ],
+   "common": [
+    "bite",
+    "dash"
+   ],
+   "unique": [
+    24603
+   ],
+   "name": {
+    "en": "Wolf",
+    "ru": "Волк",
+    "cn": "狼",
+    "de": "Wolf",
+    "fr": "Loup",
+    "es": "Lobo",
+    "ko": "늑대"
+   },
+   "diet": {
+    "en": "Meat",
+    "ru": "Мясо",
+    "cn": "肉类",
+    "de": "Fleisch",
+    "fr": "Viande",
+    "es": "Carne",
+    "ko": "고기"
+   },
+   "typename": {
+    "en": "Ferocity",
+    "ru": "Свирепость",
+    "cn": "狂野",
+    "de": "Wildheit",
+    "fr": "Férocité",
+    "es": "Ferocidad",
+    "ko": "야성"
+   },
+   "popularity": 1229
+  },
+  {
+   "id": 26,
+   "icon": "ability_hunter_pet_owl",
+   "type": 2,
+   "dietmask": 1,
+   "spells": [
+    3009,
+    23148,
+    415429,
+    409365,
+    1265058
+   ],
+   "common": [
+    "claw",
+    "dive"
+   ],
+   "unique": [
+    1265058
+   ],
+   "name": {
+    "en": "Bird of Prey",
+    "ru": "Сова",
+    "cn": "猛禽",
+    "de": "Raubvogel",
+    "fr": "Oiseau de proie",
+    "es": "Ave rapaz",
+    "ko": "맹금"
+   },
+   "diet": {
+    "en": "Meat",
+    "ru": "Мясо",
+    "cn": "肉类",
+    "de": "Fleisch",
+    "fr": "Viande",
+    "es": "Carne",
+    "ko": "고기"
+   },
+   "typename": {
+    "en": "Cunning",
+    "ru": "Хитрость",
+    "cn": "狡诈",
+    "de": "Gerissenheit",
+    "fr": "Ruse",
+    "es": "Astucia",
+    "ko": "교활"
+   },
+   "popularity": 1133
+  },
+  {
+   "id": 6,
+   "icon": "ability_hunter_pet_crocolisk",
+   "type": 0,
+   "dietmask": 3,
+   "spells": [
+    17261,
+    23110,
+    415429,
+    409365,
+    1264933
+   ],
+   "common": [
+    "bite",
+    "dash"
+   ],
+   "unique": [
+    1264933
+   ],
+   "name": {
+    "en": "Crocolisk",
+    "ru": "Кроколиск",
+    "cn": "鳄鱼",
+    "de": "Krokilisk",
+    "fr": "Crocilisque",
+    "es": "Crocolisco",
+    "ko": "악어"
+   },
+   "diet": {
+    "en": "Meat, Fish",
+    "ru": "Мясо, Рыба",
+    "cn": "肉类，鱼",
+    "de": "Fleisch, Fisch",
+    "fr": "Viande, Poisson",
+    "es": "Carne, Pescado",
+    "ko": "고기, 생선"
+   },
+   "typename": {
+    "en": "Ferocity",
+    "ru": "Свирепость",
+    "cn": "狂野",
+    "de": "Wildheit",
+    "fr": "Férocité",
+    "es": "Ferocidad",
+    "ko": "야성"
+   },
+   "popularity": 955
+  },
+  {
+   "id": 12,
+   "icon": "ability_hunter_pet_tallstrider",
+   "type": 0,
+   "dietmask": 52,
+   "spells": [
+    17261,
+    23110,
+    415429,
+    409365,
+    1265904
+   ],
+   "common": [
+    "bite",
+    "dash"
+   ],
+   "unique": [
+    1265904
+   ],
+   "name": {
+    "en": "Tallstrider",
+    "ru": "Долгоног",
+    "cn": "陆行鸟",
+    "de": "Weitschreiter",
+    "fr": "Haut-trotteur",
+    "es": "Zancudo",
+    "ko": "타조"
+   },
+   "diet": {
+    "en": "Cheese, Fungus, Fruit",
+    "ru": "Сыр, Грибы, Фрукты",
+    "cn": "奶酪，真菌，水果",
+    "de": "Käse, Pilz, Obst",
+    "fr": "Fromage, Champignon, Fruit",
+    "es": "Queso, Hongo, Fruta",
+    "ko": "치즈, 버섯, 과일"
+   },
+   "typename": {
+    "en": "Ferocity",
+    "ru": "Свирепость",
+    "cn": "狂野",
+    "de": "Wildheit",
+    "fr": "Férocité",
+    "es": "Ferocidad",
+    "ko": "야성"
+   },
+   "popularity": 830
+  },
+  {
+   "id": 11,
+   "icon": "ability_hunter_pet_raptor",
+   "type": 2,
+   "dietmask": 1,
+   "spells": [
+    17261,
+    3009,
+    23110,
+    415429,
+    409365,
+    1265069
+   ],
+   "common": [
+    "bite",
+    "claw",
+    "dash"
+   ],
+   "unique": [
+    1265069
+   ],
+   "name": {
+    "en": "Raptor",
+    "ru": "Ящер",
+    "cn": "迅猛龙",
+    "de": "Raptor",
+    "fr": "Raptor",
+    "es": "Raptor",
+    "ko": "랩터"
+   },
+   "diet": {
+    "en": "Meat",
+    "ru": "Мясо",
+    "cn": "肉类",
+    "de": "Fleisch",
+    "fr": "Viande",
+    "es": "Carne",
+    "ko": "고기"
+   },
+   "typename": {
+    "en": "Cunning",
+    "ru": "Хитрость",
+    "cn": "狡诈",
+    "de": "Gerissenheit",
+    "fr": "Ruse",
+    "es": "Astucia",
+    "ko": "교활"
+   },
+   "popularity": 761
+  },
+  {
+   "id": 3,
+   "icon": "ability_hunter_pet_spider",
+   "type": 0,
+   "dietmask": 1,
+   "spells": [
+    17261,
+    23110,
+    415429,
+    409365,
+    1265883
+   ],
+   "common": [
+    "bite",
+    "dash"
+   ],
+   "unique": [
+    1265883
+   ],
+   "name": {
+    "en": "Spider",
+    "ru": "Паук",
+    "cn": "蜘蛛",
+    "de": "Spinne",
+    "fr": "Araignée",
+    "es": "Araña",
+    "ko": "거미"
+   },
+   "diet": {
+    "en": "Meat",
+    "ru": "Мясо",
+    "cn": "肉类",
+    "de": "Fleisch",
+    "fr": "Viande",
+    "es": "Carne",
+    "ko": "고기"
+   },
+   "typename": {
+    "en": "Ferocity",
+    "ru": "Свирепость",
+    "cn": "狂野",
+    "de": "Wildheit",
+    "fr": "Férocité",
+    "es": "Ferocidad",
+    "ko": "야성"
+   },
+   "popularity": 708
+  },
+  {
+   "id": 7,
+   "icon": "ability_hunter_pet_vulture",
+   "type": 0,
+   "dietmask": 3,
+   "spells": [
+    17261,
+    3009,
+    23148,
+    415429,
+    409365,
+    24579
+   ],
+   "common": [
+    "bite",
+    "claw",
+    "dive"
+   ],
+   "unique": [
+    24579
+   ],
+   "name": {
+    "en": "Carrion Bird",
+    "ru": "Падальщик",
+    "cn": "食腐鸟",
+    "de": "Aasvogel",
+    "fr": "Charognard",
+    "es": "Carroñero",
+    "ko": "독수리"
+   },
+   "diet": {
+    "en": "Meat, Fish",
+    "ru": "Мясо, Рыба",
+    "cn": "肉类，鱼",
+    "de": "Fleisch, Fisch",
+    "fr": "Viande, Poisson",
+    "es": "Carne, Pescado",
+    "ko": "고기, 생선"
+   },
+   "typename": {
+    "en": "Ferocity",
+    "ru": "Свирепость",
+    "cn": "狂野",
+    "de": "Wildheit",
+    "fr": "Férocité",
+    "es": "Ferocidad",
+    "ko": "야성"
+   },
+   "popularity": 678
+  },
+  {
+   "id": 27,
+   "icon": "ability_hunter_pet_windserpent",
+   "type": 0,
+   "dietmask": 14,
+   "spells": [
+    17261,
+    23148,
+    415429,
+    409365,
+    25012
+   ],
+   "common": [
+    "bite",
+    "dive"
+   ],
+   "unique": [
+    25012
+   ],
+   "name": {
+    "en": "Wind Serpent",
+    "ru": "Крылатый змей",
+    "cn": "风蛇",
+    "de": "Windnatter",
+    "fr": "Serpent des vents",
+    "es": "Serpiente alada",
+    "ko": "천둥매"
+   },
+   "diet": {
+    "en": "Fish, Cheese, Bread",
+    "ru": "Рыба, Сыр, Хлеб",
+    "cn": "鱼，奶酪，面包",
+    "de": "Fisch, Käse, Brot",
+    "fr": "Poisson, Fromage, Pain",
+    "es": "Pescado, Queso, Pan",
+    "ko": "생선, 치즈, 빵"
+   },
+   "typename": {
+    "en": "Ferocity",
+    "ru": "Свирепость",
+    "cn": "狂野",
+    "de": "Wildheit",
+    "fr": "Férocité",
+    "es": "Ferocidad",
+    "ko": "야성"
+   },
+   "popularity": 659
+  },
+  {
+   "id": 5,
+   "icon": "ability_hunter_pet_boar",
+   "type": 2,
+   "dietmask": 63,
+   "spells": [
+    17261,
+    23110,
+    415429,
+    409365,
+    27685
+   ],
+   "common": [
+    "bite",
+    "dash"
+   ],
+   "unique": [
+    27685
+   ],
+   "name": {
+    "en": "Boar",
+    "ru": "Вепрь",
+    "cn": "野猪",
+    "de": "Eber",
+    "fr": "Sanglier",
+    "es": "Jabalí",
+    "ko": "멧돼지"
+   },
+   "diet": {
+    "en": "Meat, Fish, Cheese, Bread, Fungus, Fruit",
+    "ru": "Мясо, Рыба, Сыр, Хлеб, Грибы, Фрукты",
+    "cn": "肉类，鱼，奶酪，面包，真菌，水果",
+    "de": "Fleisch, Fisch, Käse, Brot, Pilz, Obst",
+    "fr": "Viande, Poisson, Fromage, Pain, Champignon, Fruit",
+    "es": "Carne, Pescado, Queso, Pan, Hongo, Fruta",
+    "ko": "고기, 생선, 치즈, 빵, 버섯, 과일"
+   },
+   "typename": {
+    "en": "Cunning",
+    "ru": "Хитрость",
+    "cn": "狡诈",
+    "de": "Gerissenheit",
+    "fr": "Ruse",
+    "es": "Astucia",
+    "ko": "교활"
+   },
+   "popularity": 657
+  },
+  {
+   "id": 8,
+   "icon": "ability_hunter_pet_crab",
+   "type": 1,
+   "dietmask": 58,
+   "spells": [
+    3009,
+    23110,
+    415429,
+    409365,
+    1264742
+   ],
+   "common": [
+    "claw",
+    "dash"
+   ],
+   "unique": [
+    1264742
+   ],
+   "name": {
+    "en": "Crab",
+    "ru": "Краб",
+    "cn": "螃蟹",
+    "de": "Krebs",
+    "fr": "Crabe",
+    "es": "Cangrejo",
+    "ko": "게"
+   },
+   "diet": {
+    "en": "Fish, Bread, Fungus, Fruit",
+    "ru": "Рыба, Хлеб, Грибы, Фрукты",
+    "cn": "鱼，面包，真菌，水果",
+    "de": "Fisch, Brot, Pilz, Obst",
+    "fr": "Poisson, Pain, Champignon, Fruit",
+    "es": "Pescado, Pan, Hongo, Fruta",
+    "ko": "생선, 빵, 버섯, 과일"
+   },
+   "typename": {
+    "en": "Tenacity",
+    "ru": "Упорство",
+    "cn": "坚韧",
+    "de": "Hartnäckigkeit",
+    "fr": "Tenacité",
+    "es": "Tenacidad",
+    "ko": "끈기"
+   },
+   "popularity": 499
+  },
+  {
+   "id": 25,
+   "icon": "ability_hunter_pet_hyena",
+   "type": 2,
+   "dietmask": 33,
+   "spells": [
+    17261,
+    23110,
+    415429,
+    409365,
+    1265042
+   ],
+   "common": [
+    "bite",
+    "dash"
+   ],
+   "unique": [
+    1265042
+   ],
+   "name": {
+    "en": "Hyena",
+    "ru": "Гиена",
+    "cn": "土狼",
+    "de": "Hyäne",
+    "fr": "Hyène",
+    "es": "Hiena",
+    "ko": "하이에나"
+   },
+   "diet": {
+    "en": "Meat, Fruit",
+    "ru": "Мясо, Фрукты",
+    "cn": "肉类，水果",
+    "de": "Fleisch, Obst",
+    "fr": "Viande, Fruit",
+    "es": "Carne, Fruta",
+    "ko": "고기, 과일"
+   },
+   "typename": {
+    "en": "Cunning",
+    "ru": "Хитрость",
+    "cn": "狡诈",
+    "de": "Gerissenheit",
+    "fr": "Ruse",
+    "es": "Astucia",
+    "ko": "교활"
+   },
+   "popularity": 487
+  },
+  {
+   "id": 24,
+   "icon": "ability_hunter_pet_bat",
+   "type": 0,
+   "dietmask": 48,
+   "spells": [
+    17261,
+    23148,
+    415429,
+    1278934,
+    409365
+   ],
+   "common": [
+    "bite",
+    "dive"
+   ],
+   "unique": [],
+   "name": {
+    "en": "Bat",
+    "ru": "Летучая мышь",
+    "cn": "蝙蝠",
+    "de": "Fledermaus",
+    "fr": "Chauve-souris",
+    "es": "Murciélago",
+    "ko": "박쥐"
+   },
+   "diet": {
+    "en": "Fungus, Fruit",
+    "ru": "Грибы, Фрукты",
+    "cn": "真菌，水果",
+    "de": "Pilz, Obst",
+    "fr": "Champignon, Fruit",
+    "es": "Hongo, Fruta",
+    "ko": "버섯, 과일"
+   },
+   "typename": {
+    "en": "Ferocity",
+    "ru": "Свирепость",
+    "cn": "狂野",
+    "de": "Wildheit",
+    "fr": "Férocité",
+    "es": "Ferocidad",
+    "ko": "야성"
+   },
+   "popularity": 480
+  },
+  {
+   "id": 21,
+   "icon": "ability_hunter_pet_turtle",
+   "type": 1,
+   "dietmask": 178,
+   "spells": [
+    17261,
+    23110,
+    415429,
+    409365,
+    26064
+   ],
+   "common": [
+    "bite",
+    "dash"
+   ],
+   "unique": [
+    26064
+   ],
+   "name": {
+    "en": "Turtle",
+    "ru": "Черепаха",
+    "cn": "海龟",
+    "de": "Schildkröte",
+    "fr": "Tortue",
+    "es": "Tortuga",
+    "ko": "거북"
+   },
+   "diet": {
+    "en": "Fish, Fungus, Fruit, Raw Fish",
+    "ru": "Рыба, Грибы, Фрукты, Сырая рыба",
+    "cn": "鱼，真菌，水果，生鱼",
+    "de": "Fisch, Pilz, Obst, Roher Fisch",
+    "fr": "Poisson, Champignon, Fruit, Poisson cru",
+    "es": "Pescado, Hongo, Fruta, Pescado crudo",
+    "ko": "생선, 버섯, 과일, 날생선"
+   },
+   "typename": {
+    "en": "Tenacity",
+    "ru": "Упорство",
+    "cn": "坚韧",
+    "de": "Hartnäckigkeit",
+    "fr": "Tenacité",
+    "es": "Tenacidad",
+    "ko": "끈기"
+   },
+   "popularity": 452
+  },
+  {
+   "id": 9,
+   "icon": "ability_hunter_pet_gorilla",
+   "type": 0,
+   "dietmask": 48,
+   "spells": [
+    17261,
+    23110,
+    415429,
+    409365,
+    1264455
+   ],
+   "common": [
+    "bite",
+    "dash"
+   ],
+   "unique": [
+    1264455
+   ],
+   "name": {
+    "en": "Gorilla",
+    "ru": "Горилла",
+    "cn": "猩猩",
+    "de": "Gorilla",
+    "fr": "Gorille",
+    "es": "Gorila",
+    "ko": "고릴라"
+   },
+   "diet": {
+    "en": "Fungus, Fruit",
+    "ru": "Грибы, Фрукты",
+    "cn": "真菌，水果",
+    "de": "Pilz, Obst",
+    "fr": "Champignon, Fruit",
+    "es": "Hongo, Fruta",
+    "ko": "버섯, 과일"
+   },
+   "typename": {
+    "en": "Ferocity",
+    "ru": "Свирепость",
+    "cn": "狂野",
+    "de": "Wildheit",
+    "fr": "Férocité",
+    "es": "Ferocidad",
+    "ko": "야성"
+   },
+   "popularity": 441
+  },
+  {
+   "id": 20,
+   "icon": "ability_hunter_pet_scorpid",
+   "type": 0,
+   "dietmask": 1,
+   "spells": [
+    3009,
+    23110,
+    415429,
+    409365,
+    24640
+   ],
+   "common": [
+    "claw",
+    "dash"
+   ],
+   "unique": [
+    24640
+   ],
+   "name": {
+    "en": "Scorpid",
+    "ru": "Скорпид",
+    "cn": "蝎子",
+    "de": "Skorpid",
+    "fr": "Scorpide",
+    "es": "Escórpido",
+    "ko": "전갈"
+   },
+   "diet": {
+    "en": "Meat",
+    "ru": "Мясо",
+    "cn": "肉类",
+    "de": "Fleisch",
+    "fr": "Viande",
+    "es": "Carne",
+    "ko": "고기"
+   },
+   "typename": {
+    "en": "Ferocity",
+    "ru": "Свирепость",
+    "cn": "狂野",
+    "de": "Wildheit",
+    "fr": "Férocité",
+    "es": "Ferocidad",
+    "ko": "야성"
+   },
+   "popularity": 441
+  }
+ ],
+ "spells": {
+  "17253": {
+   "icon": "ability_racial_cannibalize",
+   "name": {
+    "en": "Bite",
+    "ru": "Укус",
+    "cn": "撕咬",
+    "de": "Beißen",
+    "fr": "Morsure",
+    "es": "Mordedura",
+    "ko": "물기"
+   },
+   "desc": {
+    "en": "Bite the enemy, causing 7 to 9 damage.",
+    "ru": "Укус противника, наносящий 7 в 9 ед. урона.",
+    "cn": "对敌人造成7至9点伤害。",
+    "de": "Den Feind beißen und ihm 7 bis 9 Punkt(e) Schaden zufügen.",
+    "fr": "Mord l'ennemi et lui inflige 7 à 9 points de dégâts.",
+    "es": "Muerde al enemigo, causando 7 al 9 p. de daño.",
+    "ko": "적을 물어 7 에서 9의 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   }
+  },
+  "17255": {
+   "icon": "ability_racial_cannibalize",
+   "name": {
+    "en": "Bite",
+    "ru": "Укус",
+    "cn": "撕咬",
+    "de": "Beißen",
+    "fr": "Morsure",
+    "es": "Mordedura",
+    "ko": "물기"
+   },
+   "desc": {
+    "en": "Bite the enemy, causing 16 to 18 damage.",
+    "ru": "Укус противника, наносящий 16 в 18 ед. урона.",
+    "cn": "对敌人造成16至18点伤害。",
+    "de": "Den Feind beißen und ihm 16 bis 18 Punkt(e) Schaden zufügen.",
+    "fr": "Mord l'ennemi et lui inflige 16 à 18 points de dégâts.",
+    "es": "Muerde al enemigo, causando 16 al 18 p. de daño.",
+    "ko": "적을 물어 16 에서 18의 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 2",
+    "ru": "Уровень 2",
+    "cn": "等级 2",
+    "de": "Rang 2",
+    "fr": "Rang 2",
+    "es": "Rango 2",
+    "ko": "2 레벨"
+   }
+  },
+  "17256": {
+   "icon": "ability_racial_cannibalize",
+   "name": {
+    "en": "Bite",
+    "ru": "Укус",
+    "cn": "撕咬",
+    "de": "Beißen",
+    "fr": "Morsure",
+    "es": "Mordedura",
+    "ko": "물기"
+   },
+   "desc": {
+    "en": "Bite the enemy, causing 24 to 28 damage.",
+    "ru": "Укус противника, наносящий 24 в 28 ед. урона.",
+    "cn": "对敌人造成24至28点伤害。",
+    "de": "Den Feind beißen und ihm 24 bis 28 Punkt(e) Schaden zufügen.",
+    "fr": "Mord l'ennemi et lui inflige 24 à 28 points de dégâts.",
+    "es": "Muerde al enemigo, causando 24 al 28 p. de daño.",
+    "ko": "적을 물어 24 에서 28의 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 3",
+    "ru": "Уровень 3",
+    "cn": "等级 3",
+    "de": "Rang 3",
+    "fr": "Rang 3",
+    "es": "Rango 3",
+    "ko": "3 레벨"
+   }
+  },
+  "17257": {
+   "icon": "ability_racial_cannibalize",
+   "name": {
+    "en": "Bite",
+    "ru": "Укус",
+    "cn": "撕咬",
+    "de": "Beißen",
+    "fr": "Morsure",
+    "es": "Mordedura",
+    "ko": "물기"
+   },
+   "desc": {
+    "en": "Bite the enemy, causing 31 to 37 damage.",
+    "ru": "Укус противника, наносящий 31 в 37 ед. урона.",
+    "cn": "对敌人造成31至37点伤害。",
+    "de": "Den Feind beißen und ihm 31 bis 37 Punkt(e) Schaden zufügen.",
+    "fr": "Mord l'ennemi et lui inflige 31 à 37 points de dégâts.",
+    "es": "Muerde al enemigo, causando 31 al 37 p. de daño.",
+    "ko": "적을 물어 31 에서 37의 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 4",
+    "ru": "Уровень 4",
+    "cn": "等级 4",
+    "de": "Rang 4",
+    "fr": "Rang 4",
+    "es": "Rango 4",
+    "ko": "4 레벨"
+   }
+  },
+  "17258": {
+   "icon": "ability_racial_cannibalize",
+   "name": {
+    "en": "Bite",
+    "ru": "Укус",
+    "cn": "撕咬",
+    "de": "Beißen",
+    "fr": "Morsure",
+    "es": "Mordedura",
+    "ko": "물기"
+   },
+   "desc": {
+    "en": "Bite the enemy, causing 40 to 48 damage.",
+    "ru": "Укус противника, наносящий 40 в 48 ед. урона.",
+    "cn": "对敌人造成40至48点伤害。",
+    "de": "Den Feind beißen und ihm 40 bis 48 Punkt(e) Schaden zufügen.",
+    "fr": "Mord l'ennemi et lui inflige 40 à 48 points de dégâts.",
+    "es": "Muerde al enemigo, causando 40 al 48 p. de daño.",
+    "ko": "적을 물어 40 에서 48의 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 5",
+    "ru": "Уровень 5",
+    "cn": "等级 5",
+    "de": "Rang 5",
+    "fr": "Rang 5",
+    "es": "Rango 5",
+    "ko": "5 레벨"
+   }
+  },
+  "17259": {
+   "icon": "ability_racial_cannibalize",
+   "name": {
+    "en": "Bite",
+    "ru": "Укус",
+    "cn": "撕咬",
+    "de": "Beißen",
+    "fr": "Morsure",
+    "es": "Mordedura",
+    "ko": "물기"
+   },
+   "desc": {
+    "en": "Bite the enemy, causing 49 to 59 damage.",
+    "ru": "Укус противника, наносящий 49 в 59 ед. урона.",
+    "cn": "对敌人造成49至59点伤害。",
+    "de": "Den Feind beißen und ihm 49 bis 59 Punkt(e) Schaden zufügen.",
+    "fr": "Mord l'ennemi et lui inflige 49 à 59 points de dégâts.",
+    "es": "Muerde al enemigo, causando 49 al 59 p. de daño.",
+    "ko": "적을 물어 49 에서 59의 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 6",
+    "ru": "Уровень 6",
+    "cn": "等级 6",
+    "de": "Rang 6",
+    "fr": "Rang 6",
+    "es": "Rango 6",
+    "ko": "6 레벨"
+   }
+  },
+  "17260": {
+   "icon": "ability_racial_cannibalize",
+   "name": {
+    "en": "Bite",
+    "ru": "Укус",
+    "cn": "撕咬",
+    "de": "Beißen",
+    "fr": "Morsure",
+    "es": "Mordedura",
+    "ko": "물기"
+   },
+   "desc": {
+    "en": "Bite the enemy, causing 66 to 80 damage.",
+    "ru": "Укус противника, наносящий 66 в 80 ед. урона.",
+    "cn": "对敌人造成66至80点伤害。",
+    "de": "Den Feind beißen und ihm 66 bis 80 Punkt(e) Schaden zufügen.",
+    "fr": "Mord l'ennemi et lui inflige 66 à 80 points de dégâts.",
+    "es": "Muerde al enemigo, causando 66 al 80 p. de daño.",
+    "ko": "적을 물어 66 에서 80의 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 7",
+    "ru": "Уровень 7",
+    "cn": "等级 7",
+    "de": "Rang 7",
+    "fr": "Rang 7",
+    "es": "Rango 7",
+    "ko": "7 레벨"
+   }
+  },
+  "17261": {
+   "icon": "ability_racial_cannibalize",
+   "name": {
+    "en": "Bite",
+    "ru": "Укус",
+    "cn": "撕咬",
+    "de": "Beißen",
+    "fr": "Morsure",
+    "es": "Mordedura",
+    "ko": "물기"
+   },
+   "desc": {
+    "en": "Bite the enemy, causing 81 to 99 damage.",
+    "ru": "Укус противника, наносящий 81 в 99 ед. урона.",
+    "cn": "对敌人造成81至99点伤害。",
+    "de": "Den Feind beißen und ihm 81 bis 99 Punkt(e) Schaden zufügen.",
+    "fr": "Mord l'ennemi et lui inflige 81 à 99 points de dégâts.",
+    "es": "Muerde al enemigo, causando 81 al 99 p. de daño.",
+    "ko": "적을 물어 81 에서 99의 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 8",
+    "ru": "Уровень 8",
+    "cn": "等级 8",
+    "de": "Rang 8",
+    "fr": "Rang 8",
+    "es": "Rango 8",
+    "ko": "8 레벨"
+   },
+   "focus": 35,
+   "cd": "10 sec"
+  },
+  "23099": {
+   "icon": "ability_druid_dash",
+   "name": {
+    "en": "Dash",
+    "ru": "Порыв",
+    "cn": "突进",
+    "de": "Spurt",
+    "fr": "Célérité",
+    "es": "Diligencia",
+    "ko": "질주"
+   },
+   "desc": {
+    "en": "Increases movement speed by 40% for 15 sec.",
+    "ru": "Повышение скорости движения на 40% в течение 15 сек.",
+    "cn": "移动速度提高40%，持续15秒。",
+    "de": "Erhöht das Bewegungstempo um 40% für 15 Sek..",
+    "fr": "Augmente la vitesse de déplacement de 40% pendant 15 sec.",
+    "es": "Aumenta la velocidad de movimiento en un 40% durante 15 s.",
+    "ko": "15초 동안 이동 속도가 40%만큼 증가합니다."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   }
+  },
+  "23109": {
+   "icon": "ability_druid_dash",
+   "name": {
+    "en": "Dash",
+    "ru": "Порыв",
+    "cn": "突进",
+    "de": "Spurt",
+    "fr": "Célérité",
+    "es": "Diligencia",
+    "ko": "질주"
+   },
+   "desc": {
+    "en": "Increases movement speed by 60% for 15 sec.",
+    "ru": "Повышение скорости движения на 60% в течение 15 сек.",
+    "cn": "移动速度提高60%，持续15秒。",
+    "de": "Erhöht das Bewegungstempo um 60% für 15 Sek..",
+    "fr": "Augmente la vitesse de déplacement de 60% pendant 15 sec.",
+    "es": "Aumenta la velocidad de movimiento en un 60% durante 15 s.",
+    "ko": "15초 동안 이동 속도가 60%만큼 증가합니다."
+   },
+   "rank": {
+    "en": "Rank 2",
+    "ru": "Уровень 2",
+    "cn": "等级 2",
+    "de": "Rang 2",
+    "fr": "Rang 2",
+    "es": "Rango 2",
+    "ko": "2 레벨"
+   }
+  },
+  "23110": {
+   "icon": "ability_druid_dash",
+   "name": {
+    "en": "Dash",
+    "ru": "Порыв",
+    "cn": "突进",
+    "de": "Spurt",
+    "fr": "Célérité",
+    "es": "Diligencia",
+    "ko": "질주"
+   },
+   "desc": {
+    "en": "Increases movement speed by 80% for 15 sec.",
+    "ru": "Повышение скорости движения на 80% в течение 15 сек.",
+    "cn": "移动速度提高80%，持续15秒。",
+    "de": "Erhöht das Bewegungstempo um 80% für 15 Sek..",
+    "fr": "Augmente la vitesse de déplacement de 80% pendant 15 sec.",
+    "es": "Aumenta la velocidad de movimiento en un 80% durante 15 s.",
+    "ko": "15초 동안 이동 속도가 80%만큼 증가합니다."
+   },
+   "rank": {
+    "en": "Rank 3",
+    "ru": "Уровень 3",
+    "cn": "等级 3",
+    "de": "Rang 3",
+    "fr": "Rang 3",
+    "es": "Rango 3",
+    "ko": "3 레벨"
+   },
+   "focus": 20,
+   "cd": "30 sec"
+  },
+  "24597": {
+   "icon": "ability_hunter_pet_wolf",
+   "name": {
+    "en": "Furious Howl",
+    "ru": "Неистовый вой",
+    "cn": "狂怒之嚎",
+    "de": "Wutgeheul",
+    "fr": "Hurlement furieux",
+    "es": "Aullido furioso",
+    "ko": "사나운 울음소리"
+   },
+   "desc": {
+    "en": "The wolf howls, increasing the melee attack power of all party members within 15 yards by 84.  Lasts 1 min.",
+    "ru": "Волк издает вой, повышающий силу атаки ближнего боя участников группы в радиусе 15 м на 84. Время действия – 1 мин.",
+    "cn": "狼发出嚎叫，使15码内所有队伍成员的近战攻击强度提高84点。持续1分钟。",
+    "de": "Der Wolf heult und erhöht die Nahkampfangriffskraft aller Gruppenmitglieder innerhalb von 15 Metern um 84. Hält 1 Min. lang an.",
+    "fr": "Le loup hurle et augmente de 84 la puissance d’attaque en mêlée des membres du groupe à moins de 15 m. Dure 1 min.",
+    "es": "El lobo aúlla para aumentar 84 p. el poder de ataque cuerpo a cuerpo de todos los miembros del grupo en un radio de 15 m. Dura 1 min.",
+    "ko": "늑대가 포효를 내질러 주위 15미터 내 모든 파티원의 근접 전투력을 84만큼 증가시킵니다. 1분 동안 지속됩니다."
+   },
+   "rank": {
+    "en": "Rank 4",
+    "ru": "Уровень 4",
+    "cn": "等级 4",
+    "de": "Rang 4",
+    "fr": "Rang 4",
+    "es": "Rango 4",
+    "ko": "4 레벨"
+   }
+  },
+  "24604": {
+   "icon": "ability_hunter_pet_wolf",
+   "name": {
+    "en": "Furious Howl",
+    "ru": "Неистовый вой",
+    "cn": "狂怒之嚎",
+    "de": "Wutgeheul",
+    "fr": "Hurlement furieux",
+    "es": "Aullido furioso",
+    "ko": "사나운 울음소리"
+   },
+   "desc": {
+    "en": "The wolf howls, increasing the melee attack power of all party members within 15 yards by 13.  Lasts 1 min.",
+    "ru": "Волк издает вой, повышающий силу атаки ближнего боя участников группы в радиусе 15 м на 13. Время действия – 1 мин.",
+    "cn": "狼发出嚎叫，使15码内所有队伍成员的近战攻击强度提高13点。持续1分钟。",
+    "de": "Der Wolf heult und erhöht die Nahkampfangriffskraft aller Gruppenmitglieder innerhalb von 15 Metern um 13. Hält 1 Min. lang an.",
+    "fr": "Le loup hurle et augmente de 13 la puissance d’attaque en mêlée des membres du groupe à moins de 15 m. Dure 1 min.",
+    "es": "El lobo aúlla para aumentar 13 p. el poder de ataque cuerpo a cuerpo de todos los miembros del grupo en un radio de 15 m. Dura 1 min.",
+    "ko": "늑대가 포효를 내질러 주위 15미터 내 모든 파티원의 근접 전투력을 13만큼 증가시킵니다. 1분 동안 지속됩니다."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   }
+  },
+  "24605": {
+   "icon": "ability_hunter_pet_wolf",
+   "name": {
+    "en": "Furious Howl",
+    "ru": "Неистовый вой",
+    "cn": "狂怒之嚎",
+    "de": "Wutgeheul",
+    "fr": "Hurlement furieux",
+    "es": "Aullido furioso",
+    "ko": "사나운 울음소리"
+   },
+   "desc": {
+    "en": "The wolf howls, increasing the melee attack power of all party members within 15 yards by 31 to 38.  Lasts 1 min.",
+    "ru": "Волк издает вой, повышающий силу атаки ближнего боя участников группы в радиусе 15 м на 31 в 38. Время действия – 1 мин.",
+    "cn": "狼发出嚎叫，使15码内所有队伍成员的近战攻击强度提高31至38点。持续1分钟。",
+    "de": "Der Wolf heult und erhöht die Nahkampfangriffskraft aller Gruppenmitglieder innerhalb von 15 Metern um 31 bis 38. Hält 1 Min. lang an.",
+    "fr": "Le loup hurle et augmente de 31 à 38 la puissance d’attaque en mêlée des membres du groupe à moins de 15 m. Dure 1 min.",
+    "es": "El lobo aúlla para aumentar 31 al 38 p. el poder de ataque cuerpo a cuerpo de todos los miembros del grupo en un radio de 15 m. Dura 1 min.",
+    "ko": "늑대가 포효를 내질러 주위 15미터 내 모든 파티원의 근접 전투력을 31 에서 38만큼 증가시킵니다. 1분 동안 지속됩니다."
+   },
+   "rank": {
+    "en": "Rank 2",
+    "ru": "Уровень 2",
+    "cn": "等级 2",
+    "de": "Rang 2",
+    "fr": "Rang 2",
+    "es": "Rango 2",
+    "ko": "2 레벨"
+   }
+  },
+  "24603": {
+   "icon": "ability_hunter_pet_wolf",
+   "name": {
+    "en": "Furious Howl",
+    "ru": "Неистовый вой",
+    "cn": "狂怒之嚎",
+    "de": "Wutgeheul",
+    "fr": "Hurlement furieux",
+    "es": "Aullido furioso",
+    "ko": "사나운 울음소리"
+   },
+   "desc": {
+    "en": "The wolf howls, increasing the melee attack power of all party members within 15 yards by 68.  Lasts 1 min.",
+    "ru": "Волк издает вой, повышающий силу атаки ближнего боя участников группы в радиусе 15 м на 68. Время действия – 1 мин.",
+    "cn": "狼发出嚎叫，使15码内所有队伍成员的近战攻击强度提高68点。持续1分钟。",
+    "de": "Der Wolf heult und erhöht die Nahkampfangriffskraft aller Gruppenmitglieder innerhalb von 15 Metern um 68. Hält 1 Min. lang an.",
+    "fr": "Le loup hurle et augmente de 68 la puissance d’attaque en mêlée des membres du groupe à moins de 15 m. Dure 1 min.",
+    "es": "El lobo aúlla para aumentar 68 p. el poder de ataque cuerpo a cuerpo de todos los miembros del grupo en un radio de 15 m. Dura 1 min.",
+    "ko": "늑대가 포효를 내질러 주위 15미터 내 모든 파티원의 근접 전투력을 68만큼 증가시킵니다. 1분 동안 지속됩니다."
+   },
+   "rank": {
+    "en": "Rank 3",
+    "ru": "Уровень 3",
+    "cn": "等级 3",
+    "de": "Rang 3",
+    "fr": "Rang 3",
+    "es": "Rango 3",
+    "ko": "3 레벨"
+   },
+   "focus": 60,
+   "cd": "30 sec"
+  },
+  "409365": {
+   "icon": "ability_mount_pinktiger",
+   "name": {
+    "en": "Tamed Pet Passive (DND)",
+    "ru": "Tamed Pet Passive (DND)",
+    "cn": "Tamed Pet Passive (DND)",
+    "de": "Tamed Pet Passive (DND)",
+    "fr": "Tamed Pet Passive (DND)",
+    "es": "Tamed Pet Passive (DND)",
+    "ko": "Tamed Pet Passive (DND)"
+   },
+   "desc": {},
+   "rank": {}
+  },
+  "415429": {
+   "icon": "ability_mount_pinktiger",
+   "name": {
+    "en": "Hunter Pet Scaling",
+    "ru": "Рост силы питомца охотника",
+    "cn": "猎人宠物调整",
+    "de": "Tierskalierung",
+    "fr": "Évolution de familier de chasseur",
+    "es": "Escala de mascota de cazador",
+    "ko": "사냥꾼 야수 크기"
+   },
+   "desc": {},
+   "rank": {}
+  },
+  "16827": {
+   "icon": "ability_druid_rake",
+   "name": {
+    "en": "Claw",
+    "ru": "Когти",
+    "cn": "爪击",
+    "de": "Klaue",
+    "fr": "Griffe",
+    "es": "Zarpa",
+    "ko": "할퀴기"
+   },
+   "desc": {
+    "en": "Claw the enemy, causing 4 to 6 damage.",
+    "ru": "Нанесение противнику 4 в 6 ед. урона когтями.",
+    "cn": "用爪攻击敌人，对其造成4至6点伤害。",
+    "de": "Den Feind mit Klauen beharken und ihm 4 bis 6 Punkt(e) Schaden zufügen.",
+    "fr": "Griffe l'ennemi et lui inflige 4 à 6 points de dégâts.",
+    "es": "Da un zarpazo al enemigo, causando 4 al 6 p. de daño.",
+    "ko": "적을 할퀴어 4 에서 6의 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   }
+  },
+  "16828": {
+   "icon": "ability_druid_rake",
+   "name": {
+    "en": "Claw",
+    "ru": "Когти",
+    "cn": "爪击",
+    "de": "Klaue",
+    "fr": "Griffe",
+    "es": "Zarpa",
+    "ko": "할퀴기"
+   },
+   "desc": {
+    "en": "Claw the enemy, causing 8 to 12 damage.",
+    "ru": "Нанесение противнику 8 в 12 ед. урона когтями.",
+    "cn": "用爪攻击敌人，对其造成8至12点伤害。",
+    "de": "Den Feind mit Klauen beharken und ihm 8 bis 12 Punkt(e) Schaden zufügen.",
+    "fr": "Griffe l'ennemi et lui inflige 8 à 12 points de dégâts.",
+    "es": "Da un zarpazo al enemigo, causando 8 al 12 p. de daño.",
+    "ko": "적을 할퀴어 8 에서 12의 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 2",
+    "ru": "Уровень 2",
+    "cn": "等级 2",
+    "de": "Rang 2",
+    "fr": "Rang 2",
+    "es": "Rango 2",
+    "ko": "2 레벨"
+   }
+  },
+  "16829": {
+   "icon": "ability_druid_rake",
+   "name": {
+    "en": "Claw",
+    "ru": "Когти",
+    "cn": "爪击",
+    "de": "Klaue",
+    "fr": "Griffe",
+    "es": "Zarpa",
+    "ko": "할퀴기"
+   },
+   "desc": {
+    "en": "Claw the enemy, causing 12 to 16 damage.",
+    "ru": "Нанесение противнику 12 в 16 ед. урона когтями.",
+    "cn": "用爪攻击敌人，对其造成12至16点伤害。",
+    "de": "Den Feind mit Klauen beharken und ihm 12 bis 16 Punkt(e) Schaden zufügen.",
+    "fr": "Griffe l'ennemi et lui inflige 12 à 16 points de dégâts.",
+    "es": "Da un zarpazo al enemigo, causando 12 al 16 p. de daño.",
+    "ko": "적을 할퀴어 12 에서 16의 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 3",
+    "ru": "Уровень 3",
+    "cn": "等级 3",
+    "de": "Rang 3",
+    "fr": "Rang 3",
+    "es": "Rango 3",
+    "ko": "3 레벨"
+   }
+  },
+  "16830": {
+   "icon": "ability_druid_rake",
+   "name": {
+    "en": "Claw",
+    "ru": "Когти",
+    "cn": "爪击",
+    "de": "Klaue",
+    "fr": "Griffe",
+    "es": "Zarpa",
+    "ko": "할퀴기"
+   },
+   "desc": {
+    "en": "Claw the enemy, causing 16 to 22 damage.",
+    "ru": "Нанесение противнику 16 в 22 ед. урона когтями.",
+    "cn": "用爪攻击敌人，对其造成16至22点伤害。",
+    "de": "Den Feind mit Klauen beharken und ihm 16 bis 22 Punkt(e) Schaden zufügen.",
+    "fr": "Griffe l'ennemi et lui inflige 16 à 22 points de dégâts.",
+    "es": "Da un zarpazo al enemigo, causando 16 al 22 p. de daño.",
+    "ko": "적을 할퀴어 16 에서 22의 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 4",
+    "ru": "Уровень 4",
+    "cn": "等级 4",
+    "de": "Rang 4",
+    "fr": "Rang 4",
+    "es": "Rango 4",
+    "ko": "4 레벨"
+   }
+  },
+  "16831": {
+   "icon": "ability_druid_rake",
+   "name": {
+    "en": "Claw",
+    "ru": "Когти",
+    "cn": "爪击",
+    "de": "Klaue",
+    "fr": "Griffe",
+    "es": "Zarpa",
+    "ko": "할퀴기"
+   },
+   "desc": {
+    "en": "Claw the enemy, causing 21 to 29 damage.",
+    "ru": "Нанесение противнику 21 в 29 ед. урона когтями.",
+    "cn": "用爪攻击敌人，对其造成21至29点伤害。",
+    "de": "Den Feind mit Klauen beharken und ihm 21 bis 29 Punkt(e) Schaden zufügen.",
+    "fr": "Griffe l'ennemi et lui inflige 21 à 29 points de dégâts.",
+    "es": "Da un zarpazo al enemigo, causando 21 al 29 p. de daño.",
+    "ko": "적을 할퀴어 21 에서 29의 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 5",
+    "ru": "Уровень 5",
+    "cn": "等级 5",
+    "de": "Rang 5",
+    "fr": "Rang 5",
+    "es": "Rango 5",
+    "ko": "5 레벨"
+   }
+  },
+  "16832": {
+   "icon": "ability_druid_rake",
+   "name": {
+    "en": "Claw",
+    "ru": "Когти",
+    "cn": "爪击",
+    "de": "Klaue",
+    "fr": "Griffe",
+    "es": "Zarpa",
+    "ko": "할퀴기"
+   },
+   "desc": {
+    "en": "Claw the enemy, causing 26 to 36 damage.",
+    "ru": "Нанесение противнику 26 в 36 ед. урона когтями.",
+    "cn": "用爪攻击敌人，对其造成26至36点伤害。",
+    "de": "Den Feind mit Klauen beharken und ihm 26 bis 36 Punkt(e) Schaden zufügen.",
+    "fr": "Griffe l'ennemi et lui inflige 26 à 36 points de dégâts.",
+    "es": "Da un zarpazo al enemigo, causando 26 al 36 p. de daño.",
+    "ko": "적을 할퀴어 26 에서 36의 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 6",
+    "ru": "Уровень 6",
+    "cn": "等级 6",
+    "de": "Rang 6",
+    "fr": "Rang 6",
+    "es": "Rango 6",
+    "ko": "6 레벨"
+   }
+  },
+  "3010": {
+   "icon": "ability_druid_rake",
+   "name": {
+    "en": "Claw",
+    "ru": "Когти",
+    "cn": "爪击",
+    "de": "Klaue",
+    "fr": "Griffe",
+    "es": "Zarpa",
+    "ko": "할퀴기"
+   },
+   "desc": {
+    "en": "Claw the enemy, causing 35 to 49 damage.",
+    "ru": "Нанесение противнику 35 в 49 ед. урона когтями.",
+    "cn": "用爪攻击敌人，对其造成35至49点伤害。",
+    "de": "Den Feind mit Klauen beharken und ihm 35 bis 49 Punkt(e) Schaden zufügen.",
+    "fr": "Griffe l'ennemi et lui inflige 35 à 49 points de dégâts.",
+    "es": "Da un zarpazo al enemigo, causando 35 al 49 p. de daño.",
+    "ko": "적을 할퀴어 35 에서 49의 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 7",
+    "ru": "Уровень 7",
+    "cn": "等级 7",
+    "de": "Rang 7",
+    "fr": "Rang 7",
+    "es": "Rango 7",
+    "ko": "7 레벨"
+   }
+  },
+  "3009": {
+   "icon": "ability_druid_rake",
+   "name": {
+    "en": "Claw",
+    "ru": "Когти",
+    "cn": "爪击",
+    "de": "Klaue",
+    "fr": "Griffe",
+    "es": "Zarpa",
+    "ko": "할퀴기"
+   },
+   "desc": {
+    "en": "Claw the enemy, causing 43 to 59 damage.",
+    "ru": "Нанесение противнику 43 в 59 ед. урона.",
+    "cn": "用爪攻击敌人，对其造成43至59点伤害。",
+    "de": "Den Feind mit Klauen beharken und ihm 43 bis 59 Punkt(e) Schaden zufügen.",
+    "fr": "Griffe l'ennemi et lui inflige 43 à 59 points de dégâts.",
+    "es": "Da un zarpazo al enemigo, causando 43 al 59 p. de daño.",
+    "ko": "적을 할퀴어 43 에서 59의 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 8",
+    "ru": "Уровень 8",
+    "cn": "等级 8",
+    "de": "Rang 8",
+    "fr": "Rang 8",
+    "es": "Rango 8",
+    "ko": "8 레벨"
+   },
+   "focus": 25,
+   "cd": null
+  },
+  "24450": {
+   "icon": "ability_druid_supriseattack",
+   "name": {
+    "en": "Prowl",
+    "ru": "Крадущийся зверь",
+    "cn": "潜伏",
+    "de": "Schleichen",
+    "fr": "Rôder",
+    "es": "Acechar",
+    "ko": "숨기"
+   },
+   "desc": {
+    "en": "Puts your pet in stealth mode, but slows its movement speed by 50%. The first attack from stealth receives a 20% bonus to damage.  Lasts until cancelled.",
+    "ru": "Ваш питомец становится незаметным, но скорость его передвижения снижается на 50%. Первая атака в таком состоянии наносит на 20% больше урона. Длится до отменения.",
+    "cn": "使你的宠物进入潜行模式，但其移动速度会降低50%。在潜行状态下发动的第一次攻击将对目标造成20%的额外伤害。潜行效果会一直持续，直到被取消。",
+    "de": "Versetzt Euren Begleiter in den Verstohlenheitsmodus, verringert aber sein Bewegungstempo um 50%. Der erste Angriff im Verstohlenheitsmodus erhält einen Schadensbonus von 20%. Hält an, bis die Aktion abgebrochen wird.",
+    "fr": "Votre familier entre en mode camouflage, mais sa vitesse de déplacement est réduite de 50%. La première attaque alors qu'il est camouflé inflige 20% de dégâts supplémentaires. Dure jusqu'à annulation.",
+    "es": "Pone a tu mascota en modo de sigilo pero ralentiza su velocidad de movimiento en un 50%. El primer ataque con sigilo recibe un bonus de daño del 20%. Dura hasta que se anula.",
+    "ko": "야수가 은신 상태를 취합니다. 이동 속도가 50%만큼 감소합니다. 은신 상태에서 처음 공격할 때의 피해가 20%만큼 증가합니다. 취소할 때까지 지속됩니다."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   }
+  },
+  "24452": {
+   "icon": "ability_druid_supriseattack",
+   "name": {
+    "en": "Prowl",
+    "ru": "Крадущийся зверь",
+    "cn": "潜伏",
+    "de": "Schleichen",
+    "fr": "Rôder",
+    "es": "Acechar",
+    "ko": "숨기"
+   },
+   "desc": {
+    "en": "Puts your pet in stealth mode, but slows its movement speed by 45%. The first attack from stealth receives a 35% bonus to damage.  Lasts until cancelled.",
+    "ru": "Ваш питомец становится незаметным, но скорость его передвижения снижается на 45%. Первая атака в таком состоянии наносит на 35% больше урона. Длится до отменения.",
+    "cn": "使你的宠物进入潜行模式，但其移动速度会降低45%。在潜行状态下发动的第一次攻击将对目标造成35%的额外伤害。潜行效果会一直持续，直到被取消。",
+    "de": "Versetzt Euren Begleiter in den Verstohlenheitsmodus, verringert aber sein Bewegungstempo um 45%. Der erste Angriff im Verstohlenheitsmodus erhält einen Schadensbonus von 35%. Hält an, bis die Aktion abgebrochen wird.",
+    "fr": "Votre familier entre en mode camouflage, mais sa vitesse de déplacement est réduite de 45%. La première attaque alors qu'il est camouflé inflige 35% de dégâts supplémentaires. Dure jusqu'à annulation.",
+    "es": "Pone a tu mascota en modo de sigilo pero ralentiza su velocidad de movimiento en un 45%. El primer ataque con sigilo recibe un bonus de daño del 35%. Dura hasta que se anula.",
+    "ko": "야수가 은신 상태를 취합니다. 이동 속도가 45%만큼 감소합니다. 은신 상태에서 처음 공격할 때의 피해가 35%만큼 증가합니다. 취소할 때까지 지속됩니다."
+   },
+   "rank": {
+    "en": "Rank 2",
+    "ru": "Уровень 2",
+    "cn": "等级 2",
+    "de": "Rang 2",
+    "fr": "Rang 2",
+    "es": "Rango 2",
+    "ko": "2 레벨"
+   }
+  },
+  "24453": {
+   "icon": "ability_druid_supriseattack",
+   "name": {
+    "en": "Prowl",
+    "ru": "Крадущийся зверь",
+    "cn": "潜伏",
+    "de": "Schleichen",
+    "fr": "Rôder",
+    "es": "Acechar",
+    "ko": "숨기"
+   },
+   "desc": {
+    "en": "Puts your pet in stealth mode, but slows its movement speed by 40%. The first attack from stealth receives a 50% bonus to damage.  Lasts until cancelled.",
+    "ru": "Ваш питомец становится незаметным, но скорость его передвижения снижается на 40%. Первая атака в таком состоянии наносит на 50% больше урона. Длится до отменения.",
+    "cn": "使你的宠物进入潜行模式，但其移动速度会降低40%。在潜行状态下发动的第一次攻击将对目标造成50%的额外伤害。潜行效果会一直持续，直到被取消。",
+    "de": "Versetzt Euren Begleiter in den Verstohlenheitsmodus, verringert aber sein Bewegungstempo um 40%. Der erste Angriff im Verstohlenheitsmodus erhält einen Schadensbonus von 50%. Hält an, bis die Aktion abgebrochen wird.",
+    "fr": "Votre familier entre en mode camouflage, mais sa vitesse de déplacement est réduite de 40%. La première attaque alors qu'il est camouflé inflige 50% de dégâts supplémentaires. Dure jusqu'à annulation.",
+    "es": "Pone a tu mascota en modo de sigilo pero ralentiza su velocidad de movimiento en un 40%. El primer ataque con sigilo recibe un bonus de daño del 50%. Dura hasta que se anula.",
+    "ko": "야수가 은신 상태를 취합니다. 이동 속도가 40%만큼 감소합니다. 은신 상태에서 처음 공격할 때의 피해가 50%만큼 증가합니다. 취소할 때까지 지속됩니다."
+   },
+   "rank": {
+    "en": "Rank 3",
+    "ru": "Уровень 3",
+    "cn": "等级 3",
+    "de": "Rang 3",
+    "fr": "Rang 3",
+    "es": "Rango 3",
+    "ko": "3 레벨"
+   },
+   "focus": 40,
+   "cd": "10 sec"
+  },
+  "1265843": {
+   "icon": "spell_nature_web",
+   "name": {
+    "en": "Web",
+    "ru": "Паутина",
+    "cn": "蛛网",
+    "de": "Gespinst",
+    "fr": "Toile",
+    "es": "Telaraña",
+    "ko": "거미줄"
+   },
+   "desc": {
+    "en": "Entangles an enemy in a corrosive web, immobilizing them and dealing 12 Nature damage over 4 sec.",
+    "ru": "Оплетает противника едкой паутиной, обездвиживая его и нанося 12 ед. урона от сил природы за 4 сек.",
+    "cn": "用腐蚀之网缠绕一个敌人，使其无法移动，并在4秒内造成12点自然伤害。",
+    "de": "Wickelt einen Gegner in ein ätzendes Gespinst, das ihn bewegungsunfähig macht und ihm 12 Naturschaden im Verlauf von 4 Sek. zufügt.",
+    "fr": "Emprisonne un personnage adverse dans une toile corrosive, l’immobilise et lui inflige 12 points de dégâts de nature en 4 sec.",
+    "es": "Enreda a un enemigo en una telaraña corrosiva que lo inmoviliza y le inflige 12 p. de daño de Naturaleza durante 4 s.",
+    "ko": "적을 부식성 거미줄로 휘감아 이동 불가 상태로 만들고 4초에 걸쳐 12의 자연 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   }
+  },
+  "1265878": {
+   "icon": "spell_nature_web",
+   "name": {
+    "en": "Web",
+    "ru": "Паутина",
+    "cn": "蛛网",
+    "de": "Gespinst",
+    "fr": "Toile",
+    "es": "Telaraña",
+    "ko": "거미줄"
+   },
+   "desc": {
+    "en": "Entangles an enemy in a corrosive web, immobilizing them and dealing 20 Nature damage over 4 sec.",
+    "ru": "Оплетает противника едкой паутиной, обездвиживая его и нанося 20 ед. урона от сил природы за 4 сек.",
+    "cn": "用腐蚀之网缠绕一个敌人，使其无法移动，并在4秒内造成20点自然伤害。",
+    "de": "Wickelt einen Gegner in ein ätzendes Gespinst, das ihn bewegungsunfähig macht und ihm 20 Naturschaden im Verlauf von 4 Sek. zufügt.",
+    "fr": "Emprisonne un personnage adverse dans une toile corrosive, l’immobilise et lui inflige 20 points de dégâts de nature en 4 sec.",
+    "es": "Enreda a un enemigo en una telaraña corrosiva que lo inmoviliza y le inflige 20 p. de daño de Naturaleza durante 4 s.",
+    "ko": "적을 부식성 거미줄로 휘감아 이동 불가 상태로 만들고 4초에 걸쳐 20의 자연 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 2",
+    "ru": "Уровень 2",
+    "cn": "等级 2",
+    "de": "Rang 2",
+    "fr": "Rang 2",
+    "es": "Rango 2",
+    "ko": "2 레벨"
+   }
+  },
+  "1265880": {
+   "icon": "spell_nature_web",
+   "name": {
+    "en": "Web",
+    "ru": "Паутина",
+    "cn": "蛛网",
+    "de": "Gespinst",
+    "fr": "Toile",
+    "es": "Telaraña",
+    "ko": "거미줄"
+   },
+   "desc": {
+    "en": "Entangles an enemy in a corrosive web, immobilizing them and dealing 28 Nature damage over 4 sec.",
+    "ru": "Оплетает противника едкой паутиной, обездвиживая его и нанося 28 ед. урона от сил природы за 4 сек.",
+    "cn": "用腐蚀之网缠绕一个敌人，使其无法移动，并在4秒内造成28点自然伤害。",
+    "de": "Wickelt einen Gegner in ein ätzendes Gespinst, das ihn bewegungsunfähig macht und ihm 28 Naturschaden im Verlauf von 4 Sek. zufügt.",
+    "fr": "Emprisonne un personnage adverse dans une toile corrosive, l’immobilise et lui inflige 28 points de dégâts de nature en 4 sec.",
+    "es": "Enreda a un enemigo en una telaraña corrosiva que lo inmoviliza y le inflige 28 p. de daño de Naturaleza durante 4 s.",
+    "ko": "적을 부식성 거미줄로 휘감아 이동 불가 상태로 만들고 4초에 걸쳐 28의 자연 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 3",
+    "ru": "Уровень 3",
+    "cn": "等级 3",
+    "de": "Rang 3",
+    "fr": "Rang 3",
+    "es": "Rango 3",
+    "ko": "3 레벨"
+   }
+  },
+  "1265881": {
+   "icon": "spell_nature_web",
+   "name": {
+    "en": "Web",
+    "ru": "Паутина",
+    "cn": "蛛网",
+    "de": "Gespinst",
+    "fr": "Toile",
+    "es": "Telaraña",
+    "ko": "거미줄"
+   },
+   "desc": {
+    "en": "Entangles an enemy in a corrosive web, immobilizing them and dealing 40 Nature damage over 4 sec.",
+    "ru": "Оплетает противника едкой паутиной, обездвиживая его и нанося 40 ед. урона от сил природы за 4 сек.",
+    "cn": "用腐蚀之网缠绕一个敌人，使其无法移动，并在4秒内造成40点自然伤害。",
+    "de": "Wickelt einen Gegner in ein ätzendes Gespinst, das ihn bewegungsunfähig macht und ihm 40 Naturschaden im Verlauf von 4 Sek. zufügt.",
+    "fr": "Emprisonne un personnage adverse dans une toile corrosive, l’immobilise et lui inflige 40 points de dégâts de nature en 4 sec.",
+    "es": "Enreda a un enemigo en una telaraña corrosiva que lo inmoviliza y le inflige 40 p. de daño de Naturaleza durante 4 s.",
+    "ko": "적을 부식성 거미줄로 휘감아 이동 불가 상태로 만들고 4초에 걸쳐 40의 자연 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 4",
+    "ru": "Уровень 4",
+    "cn": "等级 4",
+    "de": "Rang 4",
+    "fr": "Rang 4",
+    "es": "Rango 4",
+    "ko": "4 레벨"
+   }
+  },
+  "1265883": {
+   "icon": "spell_nature_web",
+   "name": {
+    "en": "Web",
+    "ru": "Паутина",
+    "cn": "蛛网",
+    "de": "Gespinst",
+    "fr": "Toile",
+    "es": "Telaraña",
+    "ko": "거미줄"
+   },
+   "desc": {
+    "en": "Entangles an enemy in a corrosive web, immobilizing them and dealing 52 Nature damage over 4 sec.",
+    "ru": "Оплетает противника едкой паутиной, обездвиживая его и нанося 52 ед. урона от сил природы за 4 сек.",
+    "cn": "用腐蚀之网缠绕一个敌人，使其无法移动，并在4秒内造成52点自然伤害。",
+    "de": "Wickelt einen Gegner in ein ätzendes Gespinst, das ihn bewegungsunfähig macht und ihm 52 Naturschaden im Verlauf von 4 Sek. zufügt.",
+    "fr": "Emprisonne un personnage adverse dans une toile corrosive, l’immobilise et lui inflige 52 points de dégâts de nature en 4 sec.",
+    "es": "Enreda a un enemigo en una telaraña corrosiva que lo inmoviliza y le inflige 52 p. de daño de Naturaleza durante 4 s.",
+    "ko": "적을 부식성 거미줄로 휘감아 이동 불가 상태로 만들고 4초에 걸쳐 52의 자연 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 5",
+    "ru": "Уровень 5",
+    "cn": "等级 5",
+    "de": "Rang 5",
+    "fr": "Rang 5",
+    "es": "Rango 5",
+    "ko": "5 레벨"
+   },
+   "focus": 20,
+   "cd": "40 sec"
+  },
+  "1264494": {
+   "icon": "inv_misc_monsterclaw_03",
+   "name": {
+    "en": "Swipe",
+    "ru": "Размах",
+    "cn": "横扫",
+    "de": "Prankenhieb",
+    "fr": "Balayage",
+    "es": "Flagelo",
+    "ko": "휘둘러치기"
+   },
+   "desc": {
+    "en": "Swipe 3 nearby enemies, inflicting 4 damage.",
+    "ru": "Наносит 4 ед. урона 3 ближайшим противникам.",
+    "cn": "横扫附近的3个敌人，对它们造成4点伤害。",
+    "de": "Schlägt 3 Gegner in der Nähe und verursacht 4 Schaden.",
+    "fr": "Frappe 3 adversaires proches et inflige 4 points de dégâts.",
+    "es": "Flagela a 3 enemigos cercanos, que reciben 4 p. de daño.",
+    "ko": "주위 3명의 적을 휘둘러쳐 4의 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   }
+  },
+  "1264497": {
+   "icon": "inv_misc_monsterclaw_03",
+   "name": {
+    "en": "Swipe",
+    "ru": "Размах",
+    "cn": "横扫",
+    "de": "Prankenhieb",
+    "fr": "Balayage",
+    "es": "Flagelo",
+    "ko": "휘둘러치기"
+   },
+   "desc": {
+    "en": "Swipe 3 nearby enemies, inflicting 8 to 10 damage.",
+    "ru": "Наносит 8 в 10 ед. урона 3 ближайшим противникам.",
+    "cn": "横扫附近的3个敌人，对它们造成8至10点伤害。",
+    "de": "Schlägt 3 Gegner in der Nähe und verursacht 8 bis 10 Schaden.",
+    "fr": "Frappe 3 adversaires proches et inflige 8 à 10 points de dégâts.",
+    "es": "Flagela a 3 enemigos cercanos, que reciben 8 al 10 p. de daño.",
+    "ko": "주위 3명의 적을 휘둘러쳐 8 에서 10의 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 2",
+    "ru": "Уровень 2",
+    "cn": "等级 2",
+    "de": "Rang 2",
+    "fr": "Rang 2",
+    "es": "Rango 2",
+    "ko": "2 레벨"
+   }
+  },
+  "1264498": {
+   "icon": "inv_misc_monsterclaw_03",
+   "name": {
+    "en": "Swipe",
+    "ru": "Размах",
+    "cn": "横扫",
+    "de": "Prankenhieb",
+    "fr": "Balayage",
+    "es": "Flagelo",
+    "ko": "휘둘러치기"
+   },
+   "desc": {
+    "en": "Swipe 3 nearby enemies, inflicting 11 to 13 damage.",
+    "ru": "Наносит 11 в 13 ед. урона 3 ближайшим противникам.",
+    "cn": "横扫附近的3个敌人，对它们造成11至13点伤害。",
+    "de": "Schlägt 3 Gegner in der Nähe und verursacht 11 bis 13 Schaden.",
+    "fr": "Frappe 3 adversaires proches et inflige 11 à 13 points de dégâts.",
+    "es": "Flagela a 3 enemigos cercanos, que reciben 11 al 13 p. de daño.",
+    "ko": "주위 3명의 적을 휘둘러쳐 11 에서 13의 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 3",
+    "ru": "Уровень 3",
+    "cn": "等级 3",
+    "de": "Rang 3",
+    "fr": "Rang 3",
+    "es": "Rango 3",
+    "ko": "3 레벨"
+   }
+  },
+  "1264501": {
+   "icon": "inv_misc_monsterclaw_03",
+   "name": {
+    "en": "Swipe",
+    "ru": "Размах",
+    "cn": "横扫",
+    "de": "Prankenhieb",
+    "fr": "Balayage",
+    "es": "Flagelo",
+    "ko": "휘둘러치기"
+   },
+   "desc": {
+    "en": "Swipe 3 nearby enemies, inflicting 16 to 18 damage.",
+    "ru": "Наносит 16 в 18 ед. урона 3 ближайшим противникам.",
+    "cn": "横扫附近的3个敌人，对它们造成16至18点伤害。",
+    "de": "Schlägt 3 Gegner in der Nähe und verursacht 16 bis 18 Schaden.",
+    "fr": "Frappe 3 adversaires proches et inflige 16 à 18 points de dégâts.",
+    "es": "Flagela a 3 enemigos cercanos, que reciben 16 al 18 p. de daño.",
+    "ko": "주위 3명의 적을 휘둘러쳐 16 에서 18의 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 4",
+    "ru": "Уровень 4",
+    "cn": "等级 4",
+    "de": "Rang 4",
+    "fr": "Rang 4",
+    "es": "Rango 4",
+    "ko": "4 레벨"
+   }
+  },
+  "1264502": {
+   "icon": "inv_misc_monsterclaw_03",
+   "name": {
+    "en": "Swipe",
+    "ru": "Размах",
+    "cn": "横扫",
+    "de": "Prankenhieb",
+    "fr": "Balayage",
+    "es": "Flagelo",
+    "ko": "휘둘러치기"
+   },
+   "desc": {
+    "en": "Swipe 3 nearby enemies, inflicting 20 to 22 damage.",
+    "ru": "Наносит 20 в 22 ед. урона 3 ближайшим противникам.",
+    "cn": "横扫附近的3个敌人，对它们造成20至22点伤害。",
+    "de": "Schlägt 3 Gegner in der Nähe und verursacht 20 bis 22 Schaden.",
+    "fr": "Frappe 3 adversaires proches et inflige 20 à 22 points de dégâts.",
+    "es": "Flagela a 3 enemigos cercanos, que reciben 20 al 22 p. de daño.",
+    "ko": "주위 3명의 적을 휘둘러쳐 20 에서 22의 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 5",
+    "ru": "Уровень 5",
+    "cn": "等级 5",
+    "de": "Rang 5",
+    "fr": "Rang 5",
+    "es": "Rango 5",
+    "ko": "5 레벨"
+   },
+   "focus": 20,
+   "cd": "5 sec"
+  },
+  "7371": {
+   "icon": "ability_hunter_pet_boar",
+   "name": {
+    "en": "Charge",
+    "ru": "Рывок",
+    "cn": "冲锋",
+    "de": "Sturmangriff",
+    "fr": "Charge",
+    "es": "Embestir",
+    "ko": "돌진"
+   },
+   "desc": {
+    "en": "Charges an enemy, immobilizes it for 1 sec, and adds 66 melee attack power to the boar's next attack.",
+    "ru": "Нападение на врага, обездвиживание его на 1 сек и увеличение следующей атаки вепря на 66 ед.",
+    "cn": "向敌人发起冲锋，使其在1秒内无法移动，并使你的野猪的下一次攻击获得66点近战攻击强度加成。",
+    "de": "Auf einen Feind zustürmen, wobei er 1 Sek. lang bewegungsunfähig wird und außerdem die Nahkampfangriffskraft des Ebers beim nächsten Angriff um 66 erhöht wird.",
+    "fr": "Charge un ennemi, l'immobilise pendant 1 sec et ajoute 66 à la puissance d'attaque en mêlée de la prochaine attaque du sanglier.",
+    "es": "Embiste a un enemigo, inmovilizándolo durante 1 s, y añade 66 p. de poder de ataque cuerpo a cuerpo al siguiente ataque del jabalí.",
+    "ko": "적에게 돌진하여 1초 동안 이동 불가 상태로 만들고 멧돼지의 다음 공격 근접 전투력이 66만큼 증가합니다."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   }
+  },
+  "26177": {
+   "icon": "ability_hunter_pet_boar",
+   "name": {
+    "en": "Charge",
+    "ru": "Рывок",
+    "cn": "冲锋",
+    "de": "Sturmangriff",
+    "fr": "Charge",
+    "es": "Embestir",
+    "ko": "돌진"
+   },
+   "desc": {
+    "en": "Charges an enemy, immobilizes it for 1 sec, and adds 130 melee attack power to the boar's next attack.",
+    "ru": "Нападение на врага, обездвиживание его на 1 сек и увеличение следующей атаки вепря на 130 ед.",
+    "cn": "向敌人发起冲锋，使其在1秒内无法移动，并使你的野猪的下一次攻击获得130点近战攻击强度加成。",
+    "de": "Auf einen Feind zustürmen, wobei er 1 Sek. lang bewegungsunfähig wird und außerdem die Nahkampfangriffskraft des Ebers beim nächsten Angriff um 130 erhöht wird.",
+    "fr": "Charge un ennemi, l'immobilise pendant 1 sec et ajoute 130 à la puissance d'attaque en mêlée de la prochaine attaque du sanglier.",
+    "es": "Embiste a un enemigo, inmovilizándolo durante 1 s, y añade 130 p. de poder de ataque cuerpo a cuerpo al siguiente ataque del jabalí.",
+    "ko": "적에게 돌진하여 1초 동안 이동 불가 상태로 만들고 멧돼지의 다음 공격 근접 전투력이 130만큼 증가합니다."
+   },
+   "rank": {
+    "en": "Rank 2",
+    "ru": "Уровень 2",
+    "cn": "等级 2",
+    "de": "Rang 2",
+    "fr": "Rang 2",
+    "es": "Rango 2",
+    "ko": "2 레벨"
+   }
+  },
+  "26178": {
+   "icon": "ability_hunter_pet_boar",
+   "name": {
+    "en": "Charge",
+    "ru": "Рывок",
+    "cn": "冲锋",
+    "de": "Sturmangriff",
+    "fr": "Charge",
+    "es": "Embestir",
+    "ko": "돌진"
+   },
+   "desc": {
+    "en": "Charges an enemy, immobilizes it for 1 sec, and adds 204 melee attack power to the boar's next attack.",
+    "ru": "Нападение на врага, обездвиживание его на 1 сек и увеличение следующей атаки вепря на 204 ед.",
+    "cn": "向敌人发起冲锋，使其在1秒内无法移动，并使你的野猪的下一次攻击获得204点近战攻击强度加成。",
+    "de": "Auf einen Feind zustürmen, wobei er 1 Sek. lang bewegungsunfähig wird und außerdem die Nahkampfangriffskraft des Ebers beim nächsten Angriff um 204 erhöht wird.",
+    "fr": "Charge un ennemi, l'immobilise pendant 1 sec et ajoute 204 à la puissance d'attaque en mêlée de la prochaine attaque du sanglier.",
+    "es": "Embiste a un enemigo, inmovilizándolo durante 1 s, y añade 204 p. de poder de ataque cuerpo a cuerpo al siguiente ataque del jabalí.",
+    "ko": "적에게 돌진하여 1초 동안 이동 불가 상태로 만들고 멧돼지의 다음 공격 근접 전투력이 204만큼 증가합니다."
+   },
+   "rank": {
+    "en": "Rank 3",
+    "ru": "Уровень 3",
+    "cn": "等级 3",
+    "de": "Rang 3",
+    "fr": "Rang 3",
+    "es": "Rango 3",
+    "ko": "3 레벨"
+   }
+  },
+  "26179": {
+   "icon": "ability_hunter_pet_boar",
+   "name": {
+    "en": "Charge",
+    "ru": "Рывок",
+    "cn": "冲锋",
+    "de": "Sturmangriff",
+    "fr": "Charge",
+    "es": "Embestir",
+    "ko": "돌진"
+   },
+   "desc": {
+    "en": "Charges an enemy, immobilizes it for 1 sec, and adds 294 melee attack power to the boar's next attack.",
+    "ru": "Нападение на врага, обездвиживание его на 1 сек и увеличение следующей атаки вепря на 294 ед.",
+    "cn": "向敌人发起冲锋，使其在1秒内无法移动，并使你的野猪的下一次攻击获得294点近战攻击强度加成。",
+    "de": "Auf einen Feind zustürmen, wobei er 1 Sek. lang bewegungsunfähig wird und außerdem die Nahkampfangriffskraft des Ebers beim nächsten Angriff um 294 erhöht wird.",
+    "fr": "Charge un ennemi, l'immobilise pendant 1 sec et ajoute 294 à la puissance d'attaque en mêlée de la prochaine attaque du sanglier.",
+    "es": "Embiste a un enemigo, inmovilizándolo durante 1 s, y añade 294 p. de poder de ataque cuerpo a cuerpo al siguiente ataque del jabalí.",
+    "ko": "적에게 돌진하여 1초 동안 이동 불가 상태로 만들고 멧돼지의 다음 공격 근접 전투력이 294만큼 증가합니다."
+   },
+   "rank": {
+    "en": "Rank 4",
+    "ru": "Уровень 4",
+    "cn": "等级 4",
+    "de": "Rang 4",
+    "fr": "Rang 4",
+    "es": "Rango 4",
+    "ko": "4 레벨"
+   }
+  },
+  "26201": {
+   "icon": "ability_hunter_pet_boar",
+   "name": {
+    "en": "Charge",
+    "ru": "Рывок",
+    "cn": "冲锋",
+    "de": "Sturmangriff",
+    "fr": "Charge",
+    "es": "Embestir",
+    "ko": "돌진"
+   },
+   "desc": {
+    "en": "Charges an enemy, immobilizes it for 1 sec, and adds 430 melee attack power to the boar's next attack.",
+    "ru": "Нападение на врага, обездвиживание его на 1 сек и увеличение следующей атаки вепря на 430 ед.",
+    "cn": "向敌人发起冲锋，使其在1秒内无法移动，并使你的野猪的下一次攻击获得430点近战攻击强度加成。",
+    "de": "Auf einen Feind zustürmen, wobei er 1 Sek. lang bewegungsunfähig wird und außerdem die Nahkampfangriffskraft des Ebers beim nächsten Angriff um 430 erhöht wird.",
+    "fr": "Charge un ennemi, l'immobilise pendant 1 sec et ajoute 430 à la puissance d'attaque en mêlée de la prochaine attaque du sanglier.",
+    "es": "Embiste a un enemigo, inmovilizándolo durante 1 s, y añade 430 p. de poder de ataque cuerpo a cuerpo al siguiente ataque del jabalí.",
+    "ko": "적에게 돌진하여 1초 동안 이동 불가 상태로 만들고 멧돼지의 다음 공격 근접 전투력이 430만큼 증가합니다."
+   },
+   "rank": {
+    "en": "Rank 5",
+    "ru": "Уровень 5",
+    "cn": "等级 5",
+    "de": "Rang 5",
+    "fr": "Rang 5",
+    "es": "Rango 5",
+    "ko": "5 레벨"
+   }
+  },
+  "27685": {
+   "icon": "ability_hunter_pet_boar",
+   "name": {
+    "en": "Charge",
+    "ru": "Рывок",
+    "cn": "冲锋",
+    "de": "Sturmangriff",
+    "fr": "Charge",
+    "es": "Embestir",
+    "ko": "돌진"
+   },
+   "desc": {
+    "en": "Charges an enemy, immobilizes it for 1 sec, and adds 520 melee attack power to the boar's next attack.",
+    "ru": "Нападение на врага, обездвиживание его на 1 сек и увеличение следующей атаки вепря на 520 ед.",
+    "cn": "向敌人发起冲锋，使其在1秒内无法移动，并使你的野猪的下一次攻击获得520点近战攻击强度加成。",
+    "de": "Auf einen Feind zustürmen, wobei er 1 Sek. lang bewegungsunfähig wird und außerdem die Nahkampfangriffskraft des Ebers beim nächsten Angriff um 520 erhöht wird.",
+    "fr": "Charge un ennemi, l'immobilise pendant 1 sec et ajoute 520 à la puissance d'attaque en mêlée de la prochaine attaque du sanglier.",
+    "es": "Embiste a un enemigo, inmovilizándolo durante 1 s, y añade 520 p. de poder de ataque cuerpo a cuerpo al siguiente ataque del jabalí.",
+    "ko": "적에게 돌진하여 1초 동안 이동 불가 상태로 만들고 멧돼지의 다음 공격 근접 전투력이 520만큼 증가합니다."
+   },
+   "rank": {
+    "en": "Rank 6",
+    "ru": "Уровень 6",
+    "cn": "等级 6",
+    "de": "Rang 6",
+    "fr": "Rang 6",
+    "es": "Rango 6",
+    "ko": "6 레벨"
+   },
+   "focus": 35,
+   "cd": "25 sec"
+  },
+  "1264758": {
+   "icon": "ability_hunter_pet_crocolisk",
+   "name": {
+    "en": "Dismember",
+    "ru": "Расчленение",
+    "cn": "裂噬",
+    "de": "Zerstückeln",
+    "fr": "Démembrer",
+    "es": "Desmembramiento",
+    "ko": "분할"
+   },
+   "desc": {
+    "en": "Viciously bites enemy appendages for 11 to 13 damage and reduces the effectiveness of any healing by 50% for 10 sec.",
+    "ru": "Впивается в конечность противника, нанося 11 в 13 ед. урона и ослабляя исцеление на 50% на 10 сек.",
+    "cn": "凶猛地噬击敌方目标，造成11至13点伤害，并使所有治疗效果降低50%，持续10秒。",
+    "de": "Beißt wild in gegnerische Gliedmaßen, verursacht so 11 bis 13 Schaden und verringert die Effektivität jeglicher Heilung 10 Sek. lang um 50%.",
+    "fr": "Mord violemment les membres d’un personnage adverse et lui inflige 11 à 13 points de dégâts en plus de réduire l’efficacité de tous les soins de 50 % pendant 10 sec.",
+    "es": "Muerde con saña las extremidades del enemigo, que recibe 11 al 13 p. de daño y ve reducida un 50% la eficacia de cualquier sanación durante 10 s.",
+    "ko": "적의 신체를 흉포하게 물어뜯어 11 에서 13의 피해를 입히고 10초 동안 모든 치유 효과를 50%만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   }
+  },
+  "1264927": {
+   "icon": "ability_hunter_pet_crocolisk",
+   "name": {
+    "en": "Dismember",
+    "ru": "Расчленение",
+    "cn": "裂噬",
+    "de": "Zerstückeln",
+    "fr": "Démembrer",
+    "es": "Desmembramiento",
+    "ko": "분할"
+   },
+   "desc": {
+    "en": "Viciously bites enemy appendages for 18 to 20 damage and reduces the effectiveness of any healing by 50% for 10 sec.",
+    "ru": "Впивается в конечность противника, нанося 18 в 20 ед. урона и снижая эффективность исцеляющих эффектов на 50% на 10 сек.",
+    "cn": "恶毒地撕咬敌人的肢体，造成18至20点伤害，并使任何治疗效果降低50%，持续10秒。",
+    "de": "Beißt wild in gegnerische Gliedmaßen, verursacht so 18 bis 20 Schaden und verringert die Effektivität jeglicher Heilung 10 Sek. lang um 50%.",
+    "fr": "Mord violemment les membres d’un personnage adverse et lui inflige 18 à 20 points de dégâts en plus de réduire l’efficacité de tous les soins de 50 % pendant 10 sec.",
+    "es": "Muerde con saña las extremidades del enemigo, que recibe 18 al 20 p. de daño y ve reducida un 50% la eficacia de cualquier sanación durante 10 s.",
+    "ko": "적의 신체를 흉포하게 물어뜯어 18 에서 20의 피해를 입히고 10초 동안 모든 치유 효과를 50%만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 2",
+    "ru": "Уровень 2",
+    "cn": "等级 2",
+    "de": "Rang 2",
+    "fr": "Rang 2",
+    "es": "Rango 2",
+    "ko": "2 레벨"
+   }
+  },
+  "1264929": {
+   "icon": "ability_hunter_pet_crocolisk",
+   "name": {
+    "en": "Dismember",
+    "ru": "Расчленение",
+    "cn": "裂噬",
+    "de": "Zerstückeln",
+    "fr": "Démembrer",
+    "es": "Desmembramiento",
+    "ko": "분할"
+   },
+   "desc": {
+    "en": "Viciously bites enemy appendages for 26 to 30 damage and reduces the effectiveness of any healing by 50% for 10 sec.",
+    "ru": "Впивается в конечность противника, нанося 26 в 30 ед. урона и снижая эффективность исцеляющих эффектов на 50% на 10 сек.",
+    "cn": "恶毒地撕咬敌人的肢体，造成26至30点伤害，并使任何治疗效果降低50%，持续10秒。",
+    "de": "Beißt wild in gegnerische Gliedmaßen, verursacht so 26 bis 30 Schaden und verringert die Effektivität jeglicher Heilung 10 Sek. lang um 50%.",
+    "fr": "Mord violemment les membres d’un personnage adverse et lui inflige 26 à 30 points de dégâts en plus de réduire l’efficacité de tous les soins de 50 % pendant 10 sec.",
+    "es": "Muerde con saña las extremidades del enemigo, que recibe 26 al 30 p. de daño y ve reducida un 50% la eficacia de cualquier sanación durante 10 s.",
+    "ko": "적의 신체를 흉포하게 물어뜯어 26 에서 30의 피해를 입히고 10초 동안 모든 치유 효과를 50%만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 3",
+    "ru": "Уровень 3",
+    "cn": "等级 3",
+    "de": "Rang 3",
+    "fr": "Rang 3",
+    "es": "Rango 3",
+    "ko": "3 레벨"
+   }
+  },
+  "1264930": {
+   "icon": "ability_hunter_pet_crocolisk",
+   "name": {
+    "en": "Dismember",
+    "ru": "Расчленение",
+    "cn": "裂噬",
+    "de": "Zerstückeln",
+    "fr": "Démembrer",
+    "es": "Desmembramiento",
+    "ko": "분할"
+   },
+   "desc": {
+    "en": "Viciously bites enemy appendages for 39 to 45 damage and reduces the effectiveness of any healing by 50% for 10 sec.",
+    "ru": "Впивается в конечность противника, нанося 39 в 45 ед. урона и снижая эффективность исцеляющих эффектов на 50% на 10 сек.",
+    "cn": "恶毒地撕咬敌人的肢体，造成39至45点伤害，并使任何治疗效果降低50%，持续10秒。",
+    "de": "Beißt wild in gegnerische Gliedmaßen, verursacht so 39 bis 45 Schaden und verringert die Effektivität jeglicher Heilung 10 Sek. lang um 50%.",
+    "fr": "Mord violemment les membres d’un personnage adverse et lui inflige 39 à 45 points de dégâts en plus de réduire l’efficacité de tous les soins de 50 % pendant 10 sec.",
+    "es": "Muerde con saña las extremidades del enemigo, que recibe 39 al 45 p. de daño y ve reducida un 50% la eficacia de cualquier sanación durante 10 s.",
+    "ko": "적의 신체를 흉포하게 물어뜯어 39 에서 45의 피해를 입히고 10초 동안 모든 치유 효과를 50%만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 4",
+    "ru": "Уровень 4",
+    "cn": "等级 4",
+    "de": "Rang 4",
+    "fr": "Rang 4",
+    "es": "Rango 4",
+    "ko": "4 레벨"
+   }
+  },
+  "1264933": {
+   "icon": "ability_hunter_pet_crocolisk",
+   "name": {
+    "en": "Dismember",
+    "ru": "Расчленение",
+    "cn": "裂噬",
+    "de": "Zerstückeln",
+    "fr": "Démembrer",
+    "es": "Desmembramiento",
+    "ko": "분할"
+   },
+   "desc": {
+    "en": "Viciously bites enemy appendages for 50 to 58 damage and reduces the effectiveness of any healing by 50% for 10 sec.",
+    "ru": "Впивается в конечность противника, нанося 50 в 58 ед. урона и снижая эффективность исцеляющих эффектов на 50% на 10 сек.",
+    "cn": "恶毒地撕咬敌人的肢体，造成50至58点伤害，并使任何治疗效果降低50%，持续10秒。",
+    "de": "Beißt wild in gegnerische Gliedmaßen, verursacht so 50 bis 58 Schaden und verringert die Effektivität jeglicher Heilung 10 Sek. lang um 50%.",
+    "fr": "Mord violemment les membres d’un personnage adverse et lui inflige 50 à 58 points de dégâts en plus de réduire l’efficacité de tous les soins de 50 % pendant 10 sec.",
+    "es": "Muerde con saña las extremidades del enemigo, que recibe 50 al 58 p. de daño y ve reducida un 50% la eficacia de cualquier sanación durante 10 s.",
+    "ko": "적의 신체를 흉포하게 물어뜯어 50 에서 58의 피해를 입히고 10초 동안 모든 치유 효과를 50%만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 5",
+    "ru": "Уровень 5",
+    "cn": "等级 5",
+    "de": "Rang 5",
+    "fr": "Rang 5",
+    "es": "Rango 5",
+    "ko": "5 레벨"
+   },
+   "focus": 35,
+   "cd": "6 sec"
+  },
+  "23145": {
+   "icon": "spell_shadow_burningspirit",
+   "name": {
+    "en": "Dive",
+    "ru": "Пикирование",
+    "cn": "俯冲",
+    "de": "Sturzflug",
+    "fr": "Plongeon",
+    "es": "Lanzada",
+    "ko": "급강하"
+   },
+   "desc": {
+    "en": "Increases movement speed by 40% for 15 sec.",
+    "ru": "Повышение скорости движения на 40% в течение 15 сек.",
+    "cn": "移动速度提高40%，持续15秒。",
+    "de": "Erhöht die Bewegungsgeschwindigkeit um 40% für 15 Sek..",
+    "fr": "Augmente la vitesse de déplacement de 40% pendant 15 sec.",
+    "es": "Aumenta la velocidad de movimiento en un 40% durante 15 s.",
+    "ko": "15초 동안 이동 속도가 40%만큼 증가합니다."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   }
+  },
+  "23147": {
+   "icon": "spell_shadow_burningspirit",
+   "name": {
+    "en": "Dive",
+    "ru": "Пикирование",
+    "cn": "俯冲",
+    "de": "Sturzflug",
+    "fr": "Plongeon",
+    "es": "Lanzada",
+    "ko": "급강하"
+   },
+   "desc": {
+    "en": "Increases movement speed by 60% for 15 sec.",
+    "ru": "Повышение скорости движения на 60% в течение 15 сек.",
+    "cn": "移动速度提高60%，持续15秒。",
+    "de": "Erhöht die Bewegungsgeschwindigkeit um 60% für 15 Sek..",
+    "fr": "Augmente la vitesse de déplacement de 60% pendant 15 sec.",
+    "es": "Aumenta la velocidad de movimiento en un 60% durante 15 s.",
+    "ko": "15초 동안 이동 속도가 60%만큼 증가합니다."
+   },
+   "rank": {
+    "en": "Rank 2",
+    "ru": "Уровень 2",
+    "cn": "等级 2",
+    "de": "Rang 2",
+    "fr": "Rang 2",
+    "es": "Rango 2",
+    "ko": "2 레벨"
+   }
+  },
+  "23148": {
+   "icon": "spell_shadow_burningspirit",
+   "name": {
+    "en": "Dive",
+    "ru": "Пикирование",
+    "cn": "俯冲",
+    "de": "Sturzflug",
+    "fr": "Plongeon",
+    "es": "Lanzada",
+    "ko": "급강하"
+   },
+   "desc": {
+    "en": "Increases movement speed by 80% for 15 sec.",
+    "ru": "Повышение скорости движения на 80% в течение 15 сек.",
+    "cn": "移动速度提高80%，持续15秒。",
+    "de": "Erhöht die Bewegungsgeschwindigkeit um 80% für 15 Sek..",
+    "fr": "Augmente la vitesse de déplacement de 80% pendant 15 sec.",
+    "es": "Aumenta la velocidad de movimiento en un 80% durante 15 s.",
+    "ko": "15초 동안 이동 속도가 80%만큼 증가합니다."
+   },
+   "rank": {
+    "en": "Rank 3",
+    "ru": "Уровень 3",
+    "cn": "等级 3",
+    "de": "Rang 3",
+    "fr": "Rang 3",
+    "es": "Rango 3",
+    "ko": "3 레벨"
+   },
+   "focus": 20,
+   "cd": "30 sec"
+  },
+  "24423": {
+   "icon": "ability_hunter_pet_vulture",
+   "name": {
+    "en": "Demoralizing Screech",
+    "ru": "Деморализующий визг",
+    "cn": "挫志尖啸",
+    "de": "Demoralisierendes Kreischen",
+    "fr": "Hurlement démoralisant",
+    "es": "Chirrido desmoralizador",
+    "ko": "날카로운 사기의 울음소리"
+   },
+   "desc": {
+    "en": "Blasts a single enemy for 7 to 9 damage and lowers the melee attack power of all enemies in melee range by 63 for 30 sec.",
+    "ru": "Наносит цели 7 в 9 ед. урона и снижает силу атаки ближнего боя противников в радиусе ближнего боя на 63 на 30 сек.",
+    "cn": "对单一目标造成7至9点伤害，并使近战范围内的所有敌人的近战攻击强度降低63点，持续30秒。",
+    "de": "Fügt einem einzelnen Gegner 7 bis 9 Schaden zu. Zusätzlich wird die Nahkampfangriffskraft aller Gegner in Nahkampfreichweite 30 Sek. lang um 63 reduziert.",
+    "fr": "Frappe un seul personnage adverse, lui infligeant 7 à 9 points de dégâts, et diminuant de 63 la puissance d’attaque en mêlée des adversaires à portée des attaques en mêlée du lanceur ou de la lanceuse pendant 30 sec.",
+    "es": "Golpea a un solo enemigo, le inflige 7 al 9 p. de daño y reduce 63 p. el poder de ataque cuerpo a cuerpo de todos los enemigos a distancia de ataque cuerpo a cuerpo durante 30 s.",
+    "ko": "적을 강타하여 7 에서 9의 피해를 입히고 근접 사정거리에 있는 모든 적의 근접 전투력을 63만큼 감소시킵니다. 30초 동안 지속됩니다."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   }
+  },
+  "24577": {
+   "icon": "ability_hunter_pet_vulture",
+   "name": {
+    "en": "Demoralizing Screech",
+    "ru": "Деморализующий визг",
+    "cn": "挫志尖啸",
+    "de": "Demoralisierendes Kreischen",
+    "fr": "Hurlement démoralisant",
+    "es": "Chirrido desmoralizador",
+    "ko": "날카로운 사기의 울음소리"
+   },
+   "desc": {
+    "en": "Blasts a single enemy for 9 to 13 damage and lowers the attack power of all enemies in melee range by 111 for 30 sec.",
+    "ru": "Наносит цели 9 в 13 ед. урона и снижает силу атаки противников в радиусе ближнего боя на 111 на 30 сек.",
+    "cn": "对单一目标造成9至13点伤害，并使近战范围内的所有敌人的攻击强度降低111点，持续30秒。",
+    "de": "Fügt einem einzelnen Gegner 9 bis 13 Schaden zu und reduziert die Angriffskraft aller Gegner in Nahkampfreichweite 30 Sek. lang um 111.",
+    "fr": "Frappe un seul personnage adverse, lui infligeant 9 à 13 points de dégâts, et diminuant de 111 la puissance d’attaque des adversaires à portée des attaques en mêlée du lanceur ou de la lanceuse. pendant 30 sec.",
+    "es": "Golpea a un solo enemigo, le inflige 9 al 13 p. de daño y reduce 111 p. el poder de ataque de todos los enemigos a distancia de ataque cuerpo a cuerpo durante 30 s.",
+    "ko": "적을 강타하여 9 에서 13의 피해를 입히고 근접 사정거리에 있는 모든 적의 전투력을 111만큼 감소시킵니다. 30초 동안 지속됩니다."
+   },
+   "rank": {
+    "en": "Rank 2",
+    "ru": "Уровень 2",
+    "cn": "等级 2",
+    "de": "Rang 2",
+    "fr": "Rang 2",
+    "es": "Rango 2",
+    "ko": "2 레벨"
+   }
+  },
+  "24578": {
+   "icon": "ability_hunter_pet_vulture",
+   "name": {
+    "en": "Demoralizing Screech",
+    "ru": "Деморализующий визг",
+    "cn": "挫志尖啸",
+    "de": "Demoralisierendes Kreischen",
+    "fr": "Hurlement démoralisant",
+    "es": "Chirrido desmoralizador",
+    "ko": "날카로운 사기의 울음소리"
+   },
+   "desc": {
+    "en": "Blasts a single enemy for 21 to 27 damage and lowers the melee attack power of all enemies in melee range by 164 for 30 sec.",
+    "ru": "Наносит цели 21 в 27 ед. урона и снижает силу атаки ближнего боя противников в радиусе ближнего боя на 164 на 30 сек.",
+    "cn": "对单一目标造成21至27点伤害，并使近战范围内的所有敌人的近战攻击强度降低164点，持续30秒。",
+    "de": "Fügt einem einzelnen Gegner 21 bis 27 Schaden zu. Zusätzlich wird die Nahkampfangriffskraft aller Gegner in Nahkampfreichweite 30 Sek. lang um 164 reduziert.",
+    "fr": "Frappe un seul personnage adverse, lui infligeant 21 à 27 points de dégâts, et diminuant de 164 la puissance d’attaque en mêlée des adversaires à portée des attaques en mêlée du lanceur ou de la lanceuse pendant 30 sec.",
+    "es": "Golpea a un solo enemigo, le inflige 21 al 27 p. de daño y reduce 164 p. el poder de ataque cuerpo a cuerpo de todos los enemigos a distancia de ataque cuerpo a cuerpo durante 30 s.",
+    "ko": "적을 강타하여 21 에서 27의 피해를 입히고 근접 사정거리에 있는 모든 적의 근접 전투력을 164만큼 감소시킵니다. 30초 동안 지속됩니다."
+   },
+   "rank": {
+    "en": "Rank 3",
+    "ru": "Уровень 3",
+    "cn": "等级 3",
+    "de": "Rang 3",
+    "fr": "Rang 3",
+    "es": "Rango 3",
+    "ko": "3 레벨"
+   }
+  },
+  "24579": {
+   "icon": "ability_hunter_pet_vulture",
+   "name": {
+    "en": "Demoralizing Screech",
+    "ru": "Деморализующий визг",
+    "cn": "挫志尖啸",
+    "de": "Demoralisierendes Kreischen",
+    "fr": "Hurlement démoralisant",
+    "es": "Chirrido desmoralizador",
+    "ko": "날카로운 사기의 울음소리"
+   },
+   "desc": {
+    "en": "Blasts a single enemy for 24 to 42 damage and lowers the melee attack power of all enemies in melee range by 204 for 30 sec.",
+    "ru": "Наносит цели 24 в 42 ед. урона и снижает силу атаки ближнего боя противников в радиусе ближнего боя на 204 на 30 сек.",
+    "cn": "对单一目标造成24至42点伤害，并使近战范围内的所有敌人的近战攻击强度降低204点，持续30秒。",
+    "de": "Fügt einem einzelnen Gegner 24 bis 42 Schaden zu. Zusätzlich wird die Nahkampfangriffskraft aller Gegner in Nahkampfreichweite 30 Sek. lang um 204 reduziert.",
+    "fr": "Frappe un seul personnage adverse, lui infligeant 24 à 42 points de dégâts, et diminuant de 204 la puissance d’attaque en mêlée des adversaires à portée des attaques en mêlée du lanceur ou de la lanceuse pendant 30 sec.",
+    "es": "Golpea a un solo enemigo, le inflige 24 al 42 p. de daño y reduce 204 p. el poder de ataque cuerpo a cuerpo de todos los enemigos a distancia de ataque cuerpo a cuerpo durante 30 s.",
+    "ko": "적을 강타하여 24 에서 42의 피해를 입히고 근접 사정거리에 있는 모든 적의 근접 전투력을 204만큼 감소시킵니다. 30초 동안 지속됩니다."
+   },
+   "rank": {
+    "en": "Rank 4",
+    "ru": "Уровень 4",
+    "cn": "等级 4",
+    "de": "Rang 4",
+    "fr": "Rang 4",
+    "es": "Rango 4",
+    "ko": "4 레벨"
+   },
+   "focus": 20,
+   "cd": "10 sec"
+  },
+  "1264735": {
+   "icon": "ability_hunter_pet_crab",
+   "name": {
+    "en": "Pinch",
+    "ru": "Щипок",
+    "cn": "钳夹",
+    "de": "Zwicken",
+    "fr": "Pincer",
+    "es": "Pellizco",
+    "ko": "꼬집기"
+   },
+   "desc": {
+    "en": "Pinches an enemy's legs for 19 to 21 damage and reduces movement speed by 50% for 9 sec.",
+    "ru": "Щипает противника за ноги, нанося 19 в 21 ед. урона и снижая скорость передвижения на 50% на 9 сек.",
+    "cn": "钳击敌人的腿部，造成19至21点伤害并使其移动速度降低50%，持续9秒。",
+    "de": "Zwickt einen Gegner in die Beine, fügt ihm 19 bis 21 Schaden zu und verringert seine Bewegungsgeschwindigkeit 9 Sek. lang um 50%.",
+    "fr": "Pince les jambes d’un personnage adverse et lui inflige 19 à 21 points de dégâts en plus de réduire sa vitesse de déplacement de 50 % pendant 9 sec.",
+    "es": "Pellizca las piernas de un enemigo, que recibe 19 al 21 p. de daño y pierde un 50% de velocidad de movimiento durante 9 s.",
+    "ko": "적의 다리를 꼬집어 19 에서 21의 피해를 입히고 9초 동안 이동 속도를 50%만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   }
+  },
+  "1264736": {
+   "icon": "ability_hunter_pet_crab",
+   "name": {
+    "en": "Pinch",
+    "ru": "Щипок",
+    "cn": "钳夹",
+    "de": "Zwicken",
+    "fr": "Pincer",
+    "es": "Pellizco",
+    "ko": "꼬집기"
+   },
+   "desc": {
+    "en": "Pinches an enemy's legs for 32 to 36 damage and reduces movement speed by 50% for 9 sec.",
+    "ru": "Щипает противника за ноги, нанося 32 в 36 ед. урона и снижая скорость передвижения на 50% на 9 сек.",
+    "cn": "钳击敌人的腿部，造成32至36点伤害并使其移动速度降低50%，持续9秒。",
+    "de": "Zwickt einen Gegner in die Beine, fügt ihm 32 bis 36 Schaden zu und verringert seine Bewegungsgeschwindigkeit 9 Sek. lang um 50%.",
+    "fr": "Pince les jambes d’un personnage adverse et lui inflige 32 à 36 points de dégâts en plus de réduire sa vitesse de déplacement de 50 % pendant 9 sec.",
+    "es": "Pellizca las piernas de un enemigo, que recibe 32 al 36 p. de daño y pierde un 50% de velocidad de movimiento durante 9 s.",
+    "ko": "적의 다리를 꼬집어 32 에서 36의 피해를 입히고 9초 동안 이동 속도를 50%만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 2",
+    "ru": "Уровень 2",
+    "cn": "等级 2",
+    "de": "Rang 2",
+    "fr": "Rang 2",
+    "es": "Rango 2",
+    "ko": "2 레벨"
+   }
+  },
+  "1264739": {
+   "icon": "ability_hunter_pet_crab",
+   "name": {
+    "en": "Pinch",
+    "ru": "Щипок",
+    "cn": "钳夹",
+    "de": "Zwicken",
+    "fr": "Pincer",
+    "es": "Pellizco",
+    "ko": "꼬집기"
+   },
+   "desc": {
+    "en": "Pinches an enemy's legs for 41 to 47 damage and reduces movement speed by 50% for 9 sec.",
+    "ru": "Щипает противника за ноги, нанося 41 в 47 ед. урона и снижая скорость передвижения на 50% на 9 сек.",
+    "cn": "钳击敌人的腿部，造成41至47点伤害并使其移动速度降低50%，持续9秒。",
+    "de": "Zwickt einen Gegner in die Beine, fügt ihm 41 bis 47 Schaden zu und verringert seine Bewegungsgeschwindigkeit 9 Sek. lang um 50%.",
+    "fr": "Pince les jambes d’un personnage adverse et lui inflige 41 à 47 points de dégâts en plus de réduire sa vitesse de déplacement de 50 % pendant 9 sec.",
+    "es": "Pellizca las piernas de un enemigo, que recibe 41 al 47 p. de daño y pierde un 50% de velocidad de movimiento durante 9 s.",
+    "ko": "적의 다리를 꼬집어 41 에서 47의 피해를 입히고 9초 동안 이동 속도를 50%만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 3",
+    "ru": "Уровень 3",
+    "cn": "等级 3",
+    "de": "Rang 3",
+    "fr": "Rang 3",
+    "es": "Rango 3",
+    "ko": "3 레벨"
+   }
+  },
+  "1264741": {
+   "icon": "ability_hunter_pet_crab",
+   "name": {
+    "en": "Pinch",
+    "ru": "Щипок",
+    "cn": "钳夹",
+    "de": "Zwicken",
+    "fr": "Pincer",
+    "es": "Pellizco",
+    "ko": "꼬집기"
+   },
+   "desc": {
+    "en": "Pinches an enemy's legs for 68 to 78 damage and reduces movement speed by 50% for 9 sec.",
+    "ru": "Щипает противника за ноги, нанося 68 в 78 ед. урона и снижая скорость передвижения на 50% на 9 сек.",
+    "cn": "钳击敌人的腿部，造成68至78点伤害并使其移动速度降低50%，持续9秒。",
+    "de": "Zwickt einen Gegner in die Beine, fügt ihm 68 bis 78 Schaden zu und verringert seine Bewegungsgeschwindigkeit 9 Sek. lang um 50%.",
+    "fr": "Pince les jambes d’un personnage adverse et lui inflige 68 à 78 points de dégâts en plus de réduire sa vitesse de déplacement de 50 % pendant 9 sec.",
+    "es": "Pellizca las piernas de un enemigo, que recibe 68 al 78 p. de daño y pierde un 50% de velocidad de movimiento durante 9 s.",
+    "ko": "적의 다리를 꼬집어 68 에서 78의 피해를 입히고 9초 동안 이동 속도를 50%만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 4",
+    "ru": "Уровень 4",
+    "cn": "等级 4",
+    "de": "Rang 4",
+    "fr": "Rang 4",
+    "es": "Rango 4",
+    "ko": "4 레벨"
+   }
+  },
+  "1264742": {
+   "icon": "ability_hunter_pet_crab",
+   "name": {
+    "en": "Pinch",
+    "ru": "Щипок",
+    "cn": "钳夹",
+    "de": "Zwicken",
+    "fr": "Pincer",
+    "es": "Pellizco",
+    "ko": "꼬집기"
+   },
+   "desc": {
+    "en": "Pinches an enemy's legs for 88 to 102 damage and reduces movement speed by 50% for 9 sec.",
+    "ru": "Щипает противника за ноги, нанося 88 в 102 ед. урона и снижая скорость передвижения на 50% на 9 сек.",
+    "cn": "钳击敌人的腿部，造成88至102点伤害并使其移动速度降低50%，持续9秒。",
+    "de": "Zwickt einen Gegner in die Beine, fügt ihm 88 bis 102 Schaden zu und verringert seine Bewegungsgeschwindigkeit 9 Sek. lang um 50%.",
+    "fr": "Pince les jambes d’un personnage adverse et lui inflige 88 à 102 points de dégâts en plus de réduire sa vitesse de déplacement de 50 % pendant 9 sec.",
+    "es": "Pellizca las piernas de un enemigo, que recibe 88 al 102 p. de daño y pierde un 50% de velocidad de movimiento durante 9 s.",
+    "ko": "적의 다리를 꼬집어 88 에서 102의 피해를 입히고 9초 동안 이동 속도를 50%만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 5",
+    "ru": "Уровень 5",
+    "cn": "等级 5",
+    "de": "Rang 5",
+    "fr": "Rang 5",
+    "es": "Rango 5",
+    "ko": "5 레벨"
+   },
+   "focus": 50,
+   "cd": "30 sec"
+  },
+  "26090": {
+   "icon": "ability_hunter_pet_gorilla",
+   "name": {
+    "en": "Thunderstomp",
+    "ru": "Громовая поступь",
+    "cn": "雷霆践踏",
+    "de": "Donnerstampfer",
+    "fr": "Grondeterre",
+    "es": "Pisada de trueno",
+    "ko": "천둥 발구르기"
+   },
+   "desc": {
+    "en": "Shakes the ground with thundering force, doing 53 to 61 Nature damage to all enemies within 8 yards.",
+    "ru": "Грохот, сотрясающий землю и наносящий 53 в 61 ед. урона от сил природы всем противникам в пределах 8 м.",
+    "cn": "以雷霆的力量震撼地面，对周围半径8码范围内的所有敌人造成53至61点自然伤害。",
+    "de": "Lässt den Boden mit donnernder Macht erbeben und verursacht bei allen Feinden in einem Umkreis von 8 Metern 53 bis 61 Naturschaden.",
+    "fr": "Fait violemment trembler le sol et inflige 53 à 61 points de dégâts de Nature à tous les ennemis se trouvant dans un rayon de 8 mètres.",
+    "es": "Sacude el terreno con tremenda fuerza causando 53 al 61 p. de daño de Naturaleza a todos los enemigos en un radio de 8 metros.",
+    "ko": "우레와 같은 힘으로 땅을 흔들어 주위 8미터 반경 내의 적에게 53 에서 61의 자연 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   }
+  },
+  "26187": {
+   "icon": "ability_hunter_pet_gorilla",
+   "name": {
+    "en": "Thunderstomp",
+    "ru": "Громовая поступь",
+    "cn": "雷霆践踏",
+    "de": "Donnerstampfer",
+    "fr": "Grondeterre",
+    "es": "Pisada de trueno",
+    "ko": "천둥 발구르기"
+   },
+   "desc": {
+    "en": "Shakes the ground with thundering force, doing 69 to 79 Nature damage to all enemies within 8 yards.",
+    "ru": "Грохот, сотрясающий землю и наносящий 69 в 79 ед. урона от сил природы всем противникам в пределах 8 м.",
+    "cn": "以雷霆的力量震撼地面，对周围半径8码范围内的所有敌人造成69至79点自然伤害。",
+    "de": "Lässt den Boden mit donnernder Macht erbeben und verursacht bei allen Feinden in einem Umkreis von 8 Metern 69 bis 79 Naturschaden.",
+    "fr": "Fait violemment trembler le sol et inflige 69 à 79 points de dégâts de Nature à tous les ennemis se trouvant dans un rayon de 8 mètres.",
+    "es": "Sacude el terreno con tremenda fuerza causando 69 al 79 p. de daño de Naturaleza a todos los enemigos en un radio de 8 metros.",
+    "ko": "우레와 같은 힘으로 땅을 흔들어 주위 8미터 반경 내의 적에게 69 에서 79의 자연 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 2",
+    "ru": "Уровень 2",
+    "cn": "等级 2",
+    "de": "Rang 2",
+    "fr": "Rang  2",
+    "es": "Rango 2",
+    "ko": "2 레벨"
+   }
+  },
+  "26188": {
+   "icon": "ability_hunter_pet_gorilla",
+   "name": {
+    "en": "Thunderstomp",
+    "ru": "Громовая поступь",
+    "cn": "雷霆践踏",
+    "de": "Donnerstampfer",
+    "fr": "Grondeterre",
+    "es": "Pisada de trueno",
+    "ko": "천둥 발구르기"
+   },
+   "desc": {
+    "en": "Shakes the ground with thundering force, doing 92 to 106 Nature damage to all enemies within 8 yards.",
+    "ru": "Грохот, сотрясающий землю и наносящий 92 в 106 ед. урона от сил природы всем противникам в пределах 8 м.",
+    "cn": "以雷霆的力量震撼地面，对周围半径8码范围内的所有敌人造成92至106点自然伤害。",
+    "de": "Lässt den Boden mit donnernder Macht erbeben und verursacht bei allen Feinden in einem Umkreis von 8 Metern 92 bis 106 Naturschaden.",
+    "fr": "Fait violemment trembler le sol et inflige 92 à 106 points de dégâts de Nature à tous les ennemis se trouvant dans un rayon de 8 mètres.",
+    "es": "Sacude el terreno con tremenda fuerza causando 92 al 106 p. de daño de Naturaleza a todos los enemigos en un radio de 8 metros.",
+    "ko": "우레와 같은 힘으로 땅을 흔들어 주위 8미터 반경 내의 적에게 92 에서 106의 자연 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 3",
+    "ru": "Уровень 3",
+    "cn": "等级 3",
+    "de": "Rang 3",
+    "fr": "Rang 3",
+    "es": "Rango 3",
+    "ko": "3 레벨"
+   }
+  },
+  "1264455": {
+   "icon": "ability_hunter_pet_gorilla",
+   "name": {
+    "en": "Thunderstomp",
+    "ru": "Громовой топот",
+    "cn": "雷蹄蜥蜴",
+    "de": "Donnerstampfer",
+    "fr": "Grondeterre",
+    "es": "Pisotón de trueno",
+    "ko": "천둥 발구르기"
+   },
+   "desc": {
+    "en": "Shakes the ground with thundering force, doing 122 to 142 Nature damage to all enemies within 8 yds.",
+    "ru": "Shakes the ground with thundering force, doing 122 в 142 Nature damage to all enemies within 8 yds.",
+    "cn": "Shakes the ground with thundering force, doing 122至142 Nature damage to all enemies within 8 yds.",
+    "de": "Shakes the ground with thundering force, doing 122 bis 142 Nature damage to all enemies within 8 yds.",
+    "fr": "Shakes the ground with thundering force, doing 122 à 142 Nature damage to all enemies within 8 yds.",
+    "es": "Shakes the ground with thundering force, doing 122 al 142 Nature damage to all enemies within 8 yds.",
+    "ko": "Shakes the ground with thundering force, doing 122 에서 142 Nature damage to all enemies within 8 yds."
+   },
+   "rank": {
+    "en": "Rank 4",
+    "ru": "Уровень 4",
+    "cn": "等级 4",
+    "de": "Rang 4",
+    "fr": "Rang 4",
+    "es": "Rango 4",
+    "ko": "4 레벨"
+   },
+   "focus": 60,
+   "cd": "1 min"
+  },
+  "1265065": {
+   "icon": "ability_hunter_pet_raptor",
+   "name": {
+    "en": "Savage Rend",
+    "ru": "Жестокое кровопускание",
+    "cn": "野蛮撕扯",
+    "de": "Wildes Verwunden",
+    "fr": "Pourfendeur sauvage",
+    "es": "Desgarro salvaje",
+    "ko": "야생의 분쇄"
+   },
+   "desc": {
+    "en": "Slash an enemy with razor talons, causing the target to Bleed for 30 damage over 18 sec.",
+    "ru": "Терзает противника острыми когтями и вызывает кровотечение, наносящее 30 ед. урона за 18 сек.",
+    "cn": "用剃刀般的利爪劈砍敌人，使目标流血，在18秒内造成30点伤害。",
+    "de": "Schlitzt einen Gegner mit rasiermesserscharfen Krallen auf und fügt ihm so im Verlauf von 18 Sek. 30 Blutungsschaden zu.",
+    "fr": "Entaille un personnage adverse avec des griffes acérées. La cible saigne et subit 30 points de dégâts en 18 sec.",
+    "es": "Da un tajo con garfas cortantes a un enemigo, que empieza a sangrar y recibe 30 p. de daño durante 18 s.",
+    "ko": "날카로운 갈퀴발톱으로 적을 베어 18초에 걸쳐 30의 출혈 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   }
+  },
+  "1265066": {
+   "icon": "ability_hunter_pet_raptor",
+   "name": {
+    "en": "Savage Rend",
+    "ru": "Жестокое кровопускание",
+    "cn": "野蛮撕扯",
+    "de": "Wildes Verwunden",
+    "fr": "Pourfendeur sauvage",
+    "es": "Desgarro salvaje",
+    "ko": "야생의 분쇄"
+   },
+   "desc": {
+    "en": "Slash an enemy with razor talons, causing the target to Bleed for 54 damage over 18 sec.",
+    "ru": "Терзает противника острыми когтями и вызывает кровотечение, наносящее 54 ед. урона за 18 сек.",
+    "cn": "用剃刀般的利爪劈砍敌人，使目标流血，在18秒内造成54点伤害。",
+    "de": "Schlitzt einen Gegner mit rasiermesserscharfen Krallen auf und fügt ihm so im Verlauf von 18 Sek. 54 Blutungsschaden zu.",
+    "fr": "Entaille un personnage adverse avec des griffes acérées. La cible saigne et subit 54 points de dégâts en 18 sec.",
+    "es": "Da un tajo con garfas cortantes a un enemigo, que empieza a sangrar y recibe 54 p. de daño durante 18 s.",
+    "ko": "날카로운 갈퀴발톱으로 적을 베어 18초에 걸쳐 54의 출혈 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 2",
+    "ru": "Уровень 2",
+    "cn": "等级 2",
+    "de": "Rang 2",
+    "fr": "Rang 2",
+    "es": "Rango 2",
+    "ko": "2 레벨"
+   }
+  },
+  "1265067": {
+   "icon": "ability_hunter_pet_raptor",
+   "name": {
+    "en": "Savage Rend",
+    "ru": "Жестокое кровопускание",
+    "cn": "野蛮撕扯",
+    "de": "Wildes Verwunden",
+    "fr": "Pourfendeur sauvage",
+    "es": "Desgarro salvaje",
+    "ko": "야생의 분쇄"
+   },
+   "desc": {
+    "en": "Slash an enemy with razor talons, causing the target to Bleed for 72 damage over 18 sec.",
+    "ru": "Терзает противника острыми когтями и вызывает кровотечение, наносящее 72 ед. урона за 18 сек.",
+    "cn": "用剃刀般的利爪劈砍敌人，使目标流血，在18秒内造成72点伤害。",
+    "de": "Schlitzt einen Gegner mit rasiermesserscharfen Krallen auf und fügt ihm so im Verlauf von 18 Sek. 72 Blutungsschaden zu.",
+    "fr": "Entaille un personnage adverse avec des griffes acérées. La cible saigne et subit 72 points de dégâts en 18 sec.",
+    "es": "Da un tajo con garfas cortantes a un enemigo, que empieza a sangrar y recibe 72 p. de daño durante 18 s.",
+    "ko": "날카로운 갈퀴발톱으로 적을 베어 18초에 걸쳐 72의 출혈 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 3",
+    "ru": "Уровень 3",
+    "cn": "等级 3",
+    "de": "Rang 3",
+    "fr": "Rang 3",
+    "es": "Rango 3",
+    "ko": "3 레벨"
+   }
+  },
+  "1265068": {
+   "icon": "ability_hunter_pet_raptor",
+   "name": {
+    "en": "Savage Rend",
+    "ru": "Жестокое кровопускание",
+    "cn": "野蛮撕扯",
+    "de": "Wildes Verwunden",
+    "fr": "Pourfendeur sauvage",
+    "es": "Desgarro salvaje",
+    "ko": "야생의 분쇄"
+   },
+   "desc": {
+    "en": "Slash an enemy with razor talons, causing the target to Bleed for 120 damage over 18 sec.",
+    "ru": "Терзает противника острыми когтями и вызывает кровотечение, наносящее 120 ед. урона за 18 сек.",
+    "cn": "用剃刀般的利爪劈砍敌人，使目标流血，在18秒内造成120点伤害。",
+    "de": "Schlitzt einen Gegner mit rasiermesserscharfen Krallen auf und fügt ihm so im Verlauf von 18 Sek. 120 Blutungsschaden zu.",
+    "fr": "Entaille un personnage adverse avec des griffes acérées. La cible saigne et subit 120 points de dégâts en 18 sec.",
+    "es": "Da un tajo con garfas cortantes a un enemigo, que empieza a sangrar y recibe 120 p. de daño durante 18 s.",
+    "ko": "날카로운 갈퀴발톱으로 적을 베어 18초에 걸쳐 120의 출혈 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 4",
+    "ru": "Уровень 4",
+    "cn": "等级 4",
+    "de": "Rang 4",
+    "fr": "Rang 4",
+    "es": "Rango 4",
+    "ko": "4 레벨"
+   }
+  },
+  "1265069": {
+   "icon": "ability_hunter_pet_raptor",
+   "name": {
+    "en": "Savage Rend",
+    "ru": "Жестокое кровопускание",
+    "cn": "野蛮撕扯",
+    "de": "Wildes Verwunden",
+    "fr": "Pourfendeur sauvage",
+    "es": "Desgarro salvaje",
+    "ko": "야생의 분쇄"
+   },
+   "desc": {
+    "en": "Slash an enemy with razor talons, causing the target to Bleed for 156 damage over 18 sec.",
+    "ru": "Терзает противника острыми когтями и вызывает кровотечение, наносящее 156 ед. урона за 18 сек.",
+    "cn": "用剃刀般的利爪劈砍敌人，使目标流血，在18秒内造成156点伤害。",
+    "de": "Schlitzt einen Gegner mit rasiermesserscharfen Krallen auf und fügt ihm so im Verlauf von 18 Sek. 156 Blutungsschaden zu.",
+    "fr": "Entaille un personnage adverse avec des griffes acérées. La cible saigne et subit 156 points de dégâts en 18 sec.",
+    "es": "Da un tajo con garfas cortantes a un enemigo, que empieza a sangrar y recibe 156 p. de daño durante 18 s.",
+    "ko": "날카로운 갈퀴발톱으로 적을 베어 18초에 걸쳐 156의 출혈 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 5",
+    "ru": "Уровень 5",
+    "cn": "等级 5",
+    "de": "Rang 5",
+    "fr": "Rang 5",
+    "es": "Rango 5",
+    "ko": "5 레벨"
+   },
+   "focus": 50,
+   "cd": "1 min"
+  },
+  "1265899": {
+   "icon": "spell_nature_sleep",
+   "name": {
+    "en": "Dust Cloud",
+    "ru": "Облако пыли",
+    "cn": "尘雾之云",
+    "de": "Staubwolke",
+    "fr": "Nuage de poussière",
+    "es": "Nube de polvo",
+    "ko": "먼지 구름"
+   },
+   "desc": {
+    "en": "Your tallstrider kicks up an abrasive cloud of dust, reducing the target's Armor by 65 for 30 sec.",
+    "ru": "Ваш долгоног поднимает облако жесткой пыли, ослабляющее броню цели на 65 на 30 сек.",
+    "cn": "你的陆行鸟扬起一片粗糙尘云，使目标的护甲降低65点，持续30秒。",
+    "de": "Euer Weitschreiter wirbelt eine scheuernde Staubwolke auf, die die Rüstung des Ziels für 30 Sek. um 65 verringert.",
+    "fr": "Votre haut-trotteur soulève un nuage de poussière agressif qui réduit l’armure de la cible de 65 pendant 30 sec.",
+    "es": "Tu zancaalta levanta una nube de polvo abrasiva que reduce 65 p. la armadura del objetivo durante 30 s.",
+    "ko": "타조가 발을 굴러 거친 먼지구름을 일으켜 30초 동안 대상의 방어도를 65만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   }
+  },
+  "1265901": {
+   "icon": "spell_nature_sleep",
+   "name": {
+    "en": "Dust Cloud",
+    "ru": "Облако пыли",
+    "cn": "尘雾之云",
+    "de": "Staubwolke",
+    "fr": "Nuage de poussière",
+    "es": "Nube de polvo",
+    "ko": "먼지 구름"
+   },
+   "desc": {
+    "en": "Your tallstrider kicks up an abrasive cloud of dust, reducing the target's Armor by 175 for 30 sec.",
+    "ru": "Ваш долгоног поднимает облако жесткой пыли, ослабляющее броню цели на 175 на 30 сек.",
+    "cn": "你的陆行鸟扬起一片粗糙尘云，使目标的护甲降低175点，持续30秒。",
+    "de": "Euer Weitschreiter wirbelt eine scheuernde Staubwolke auf, die die Rüstung des Ziels für 30 Sek. um 175 verringert.",
+    "fr": "Votre haut-trotteur soulève un nuage de poussière agressif qui réduit l’armure de la cible de 175 pendant 30 sec.",
+    "es": "Tu zancaalta levanta una nube de polvo abrasiva que reduce 175 p. la armadura del objetivo durante 30 s.",
+    "ko": "타조가 발을 굴러 거친 먼지구름을 일으켜 30초 동안 대상의 방어도를 175만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 2",
+    "ru": "Уровень 2",
+    "cn": "等级 2",
+    "de": "Rang 2",
+    "fr": "Rang 2",
+    "es": "Rango 2",
+    "ko": "2 레벨"
+   }
+  },
+  "1265902": {
+   "icon": "spell_nature_sleep",
+   "name": {
+    "en": "Dust Cloud",
+    "ru": "Облако пыли",
+    "cn": "尘雾之云",
+    "de": "Staubwolke",
+    "fr": "Nuage de poussière",
+    "es": "Nube de polvo",
+    "ko": "먼지 구름"
+   },
+   "desc": {
+    "en": "Your tallstrider kicks up an abrasive cloud of dust, reducing the target's Armor by 285 for 30 sec.",
+    "ru": "Ваш долгоног поднимает облако жесткой пыли, ослабляющее броню цели на 285 на 30 сек.",
+    "cn": "你的陆行鸟扬起一片粗糙尘云，使目标的护甲降低285点，持续30秒。",
+    "de": "Euer Weitschreiter wirbelt eine scheuernde Staubwolke auf, die die Rüstung des Ziels für 30 Sek. um 285 verringert.",
+    "fr": "Votre haut-trotteur soulève un nuage de poussière agressif qui réduit l’armure de la cible de 285 pendant 30 sec.",
+    "es": "Tu zancaalta levanta una nube de polvo abrasiva que reduce 285 p. la armadura del objetivo durante 30 s.",
+    "ko": "타조가 발을 굴러 거친 먼지구름을 일으켜 30초 동안 대상의 방어도를 285만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 3",
+    "ru": "Уровень 3",
+    "cn": "等级 3",
+    "de": "Rang 3",
+    "fr": "Rang 3",
+    "es": "Rango 3",
+    "ko": "3 레벨"
+   }
+  },
+  "1265903": {
+   "icon": "spell_nature_sleep",
+   "name": {
+    "en": "Dust Cloud",
+    "ru": "Облако пыли",
+    "cn": "尘雾之云",
+    "de": "Staubwolke",
+    "fr": "Nuage de poussière",
+    "es": "Nube de polvo",
+    "ko": "먼지 구름"
+   },
+   "desc": {
+    "en": "Your tallstrider kicks up an abrasive cloud of dust, reducing the target's Armor by 395 for 30 sec.",
+    "ru": "Ваш долгоног поднимает облако жесткой пыли, ослабляющее броню цели на 395 на 30 сек.",
+    "cn": "你的陆行鸟扬起一片粗糙尘云，使目标的护甲降低395点，持续30秒。",
+    "de": "Euer Weitschreiter wirbelt eine scheuernde Staubwolke auf, die die Rüstung des Ziels für 30 Sek. um 395 verringert.",
+    "fr": "Votre haut-trotteur soulève un nuage de poussière agressif qui réduit l’armure de la cible de 395 pendant 30 sec.",
+    "es": "Tu zancaalta levanta una nube de polvo abrasiva que reduce 395 p. la armadura del objetivo durante 30 s.",
+    "ko": "타조가 발을 굴러 거친 먼지구름을 일으켜 30초 동안 대상의 방어도를 395만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 4",
+    "ru": "Уровень 4",
+    "cn": "等级 4",
+    "de": "Rang 4",
+    "fr": "Rang 4",
+    "es": "Rango 4",
+    "ko": "4 레벨"
+   }
+  },
+  "1265904": {
+   "icon": "spell_nature_sleep",
+   "name": {
+    "en": "Dust Cloud",
+    "ru": "Облако пыли",
+    "cn": "尘雾之云",
+    "de": "Staubwolke",
+    "fr": "Nuage de poussière",
+    "es": "Nube de polvo",
+    "ko": "먼지 구름"
+   },
+   "desc": {
+    "en": "Your tallstrider kicks up an abrasive cloud of dust, reducing the target's Armor by 505 for 30 sec.",
+    "ru": "Ваш долгоног поднимает облако жесткой пыли, ослабляющее броню цели на 505 на 30 сек.",
+    "cn": "你的陆行鸟扬起一片粗糙尘云，使目标的护甲降低505点，持续30秒。",
+    "de": "Euer Weitschreiter wirbelt eine scheuernde Staubwolke auf, die die Rüstung des Ziels für 30 Sek. um 505 verringert.",
+    "fr": "Votre haut-trotteur soulève un nuage de poussière agressif qui réduit l’armure de la cible de 505 pendant 30 sec.",
+    "es": "Tu zancaalta levanta una nube de polvo abrasiva que reduce 505 p. la armadura del objetivo durante 30 s.",
+    "ko": "타조가 발을 굴러 거친 먼지구름을 일으켜 30초 동안 대상의 방어도를 505만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 5",
+    "ru": "Уровень 5",
+    "cn": "等级 5",
+    "de": "Rang 5",
+    "fr": "Rang 5",
+    "es": "Rango 5",
+    "ko": "5 레벨"
+   },
+   "focus": 10,
+   "cd": null
+  },
+  "24583": {
+   "icon": "ability_poisonsting",
+   "name": {
+    "en": "Scorpid Poison",
+    "ru": "Яд скорпида",
+    "cn": "蝎毒",
+    "de": "Skorpidgift",
+    "fr": "Poison de scorpide",
+    "es": "Veneno de escórpido",
+    "ko": "전갈독"
+   },
+   "desc": {
+    "en": "Inflicts 10 Nature damage over 10 sec. Effect can stack up to 5 times on a single target.",
+    "ru": "10 ед. урона от сил природы за 10 сек. Может суммироваться до 5 раз на одну цель.",
+    "cn": "在10秒内造成总计10点自然伤害。单一目标身上的效果最多可叠加5次。",
+    "de": "Fügt 10 Sek. lang 10 Punkt(e) Naturschaden zu. Effekt ist auf einem einzelnen Ziel bis zu 5-mal stapelbar.",
+    "fr": "Inflige 10 points de dégâts de Nature en 10 sec. Effet cumulable jusqu'à 5 fois sur la même cible.",
+    "es": "Inflige 10 p. de daño de Naturaleza en 10 s. El efecto puede acumularse hasta 5 veces en un único objetivo.",
+    "ko": "10초에 걸쳐 10의 자연 피해를 입힙니다. 효과는 대상마다 5번까지 중복될 수 있습니다."
+   },
+   "rank": {
+    "en": "Rank 2",
+    "ru": "Уровень 2",
+    "cn": "等级 2",
+    "de": "Rang 2",
+    "fr": "Rang 2",
+    "es": "Rango 2",
+    "ko": "2 레벨"
+   }
+  },
+  "24586": {
+   "icon": "ability_poisonsting",
+   "name": {
+    "en": "Scorpid Poison",
+    "ru": "Яд скорпида",
+    "cn": "蝎毒",
+    "de": "Skorpidgift",
+    "fr": "Poison de scorpide",
+    "es": "Veneno de escórpido",
+    "ko": "전갈독"
+   },
+   "desc": {
+    "en": "Inflicts 20 Nature damage over 10 sec. Effect can stack up to 5 times on a single target.",
+    "ru": "20 ед. урона от сил природы за 10 сек. Может суммироваться до 5 раз на одну цель.",
+    "cn": "在10秒内造成总计20点自然伤害。单一目标身上的效果最多可叠加5次。",
+    "de": "Fügt 10 Sek. lang, 20 Punkt(e) Naturschaden zu. Effekt ist auf einem einzelnen Ziel bis zu 5-mal stapelbar.",
+    "fr": "Inflige 20 points de dégâts de Nature en 10 sec. Effet cumulable jusqu'à 5 fois sur la même cible.",
+    "es": "Inflige 20 p. de daño de Naturaleza en 10 s. El efecto puede acumularse hasta 5 veces en un único objetivo.",
+    "ko": "10초에 걸쳐 20의 자연 피해를 입힙니다. 효과는 대상마다 5번까지 중복될 수 있습니다."
+   },
+   "rank": {
+    "en": "Rank 3",
+    "ru": "Уровень 3",
+    "cn": "等级 3",
+    "de": "Rang 3",
+    "fr": "Rang 3",
+    "es": "Rango 3",
+    "ko": "3 레벨"
+   }
+  },
+  "24587": {
+   "icon": "ability_poisonsting",
+   "name": {
+    "en": "Scorpid Poison",
+    "ru": "Яд скорпида",
+    "cn": "蝎毒",
+    "de": "Skorpidgift",
+    "fr": "Poison de scorpide",
+    "es": "Veneno de escórpido",
+    "ko": "전갈독"
+   },
+   "desc": {
+    "en": "Inflicts 25 Nature damage over 10 sec. Effect can stack up to 5 times on a single target.",
+    "ru": "25 ед. урона от сил природы за 10 сек. Может суммироваться до 5 раз на одну цель.",
+    "cn": "在10秒内造成总计25点自然伤害。单一目标身上的效果最多可叠加5次。",
+    "de": "Fügt 10 Sek. lang, 25 Punkt(e) Naturschaden zu. Effekt ist auf einem einzelnen Ziel bis zu 5-mal stapelbar.",
+    "fr": "Inflige 25 points de dégâts de Nature en 10 sec. Effet cumulable jusqu'à 5 fois sur la même cible.",
+    "es": "Inflige 25 p. de daño de Naturaleza en 10 s. El efecto puede acumularse hasta 5 veces en un único objetivo.",
+    "ko": "10초에 걸쳐 25의 자연 피해를 입힙니다. 효과는 대상마다 5번까지 중복될 수 있습니다."
+   },
+   "rank": {
+    "en": "Rank 4",
+    "ru": "Уровень 4",
+    "cn": "等级 4",
+    "de": "Rang 4",
+    "fr": "Rang 4",
+    "es": "Rango 4",
+    "ko": "4 레벨"
+   }
+  },
+  "24640": {
+   "icon": "ability_poisonsting",
+   "name": {
+    "en": "Scorpid Poison",
+    "ru": "Яд скорпида",
+    "cn": "蝎毒",
+    "de": "Skorpidgift",
+    "fr": "Poison de scorpide",
+    "es": "Veneno de escórpido",
+    "ko": "전갈독"
+   },
+   "desc": {
+    "en": "Inflicts 5 Nature damage over 10 sec. Effect can stack up to 5 times on a single target.",
+    "ru": "5 ед. урона от сил природы за 10 сек. Может суммироваться до 5 раз на одну цель.",
+    "cn": "在10秒内造成总计5点自然伤害。单一目标身上的效果最多可叠加5次。",
+    "de": "Fügt 10 Sek. lang, 5 Punkt(e) Naturschaden zu. Effekt ist auf einem einzelnen Ziel bis zu 5-mal stapelbar.",
+    "fr": "Inflige 5 points de dégâts de Nature en 10 sec. Effet cumulable jusqu'à 5 fois sur la même cible.",
+    "es": "Inflige 5 p. de daño de Naturaleza en 10 s. El efecto puede acumularse hasta 5 veces en un único objetivo.",
+    "ko": "10초에 걸쳐 5의 자연 피해를 입힙니다. 효과는 대상마다 5번까지 중복될 수 있습니다."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   },
+   "focus": 30,
+   "cd": "4 sec"
+  },
+  "26064": {
+   "icon": "ability_hunter_pet_turtle",
+   "name": {
+    "en": "Shell Shield",
+    "ru": "Панцирный щит",
+    "cn": "甲壳护盾",
+    "de": "Panzerschild",
+    "fr": "Carapace bouclier",
+    "es": "Escudo de caparazón",
+    "ko": "껍질 방패"
+   },
+   "desc": {
+    "en": "Reduces all damage your pet takes by 50% and increases the time between your pet's attacks by 60%, but deals more damage with each attack. Lasts 12 sec.",
+    "ru": "Уменьшает получаемый питомцем урон на 50% и увеличивает интервал между его атаками на 60%, но при этом также увеличивает наносимый урон. Время действия – 12 сек.",
+    "cn": "使你的宠物受到的所有伤害降低50%，攻击间隔延长60%，但每次造成的伤害提高，持续12秒。",
+    "de": "Reduziert jeglichen von Eurem Begleiter erlittenen Schaden um 50% und erhöht die Zeit zwischen dessen Angriffen um 60%, wobei dessen Angriffe mehr Schaden verursachen. Hält 12 Sek. lang an.",
+    "fr": "Réduit tous les dégâts subis par votre familier de 50 % et augmente le temps entre ses attaques de 60 %, mais augmente ses dégâts infligés à chaque fois. Dure 12 sec.",
+    "es": "Reduce un 50% todo el daño que recibe tu mascota y aumenta un 60% el tiempo entre sus ataques, pero inflige más daño con cada ataque. Dura 12 s.",
+    "ko": "야수가 받는 모든 피해가 50%만큼 감소하고 야수의 공격 간격이 60%만큼 증가하지만, 공격할 때마다 추가 피해를 입힙니다. 12초 동안 지속됩니다."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   },
+   "focus": 10,
+   "cd": "3 min"
+  },
+  "1278934": {
+   "icon": "trade_engineering",
+   "name": {
+    "en": "Summoning",
+    "ru": "Призыв",
+    "cn": "召唤",
+    "de": "Beschwören",
+    "fr": "Invocation",
+    "es": "Invocando",
+    "ko": "소환 중"
+   },
+   "desc": {},
+   "rank": {}
+  },
+  "1265038": {
+   "icon": "ability_hunter_pet_hyena",
+   "name": {
+    "en": "Tendon Rip",
+    "ru": "Разрывание сухожилий",
+    "cn": "裂筋",
+    "de": "Sehnenriss",
+    "fr": "Déchirure du tendon",
+    "es": "Desgarre de tendón",
+    "ko": "힘줄 가격"
+   },
+   "desc": {
+    "en": "Tears at an enemy's legs for 12 damage over 9 sec and reduces movement speed by 50% for 9 sec.",
+    "ru": "Терзает ноги противника, нанося 12 ед. урона за 9 сек. и снижая скорость передвижения на 50% на 9 сек.",
+    "cn": "撕扯目标的腿，在9秒内造成12点伤害，并使其移动速度降低50%，持续9秒。",
+    "de": "Reißt an den Beinen eines Gegners, fügt ihm so 12 Schaden im Verlauf von 9 Sek. zu und verringert seine Bewegungsgeschwindigkeit für 9 Sek. um 50%.",
+    "fr": "Lacère les jambes d’un personnage adverse et lui inflige 12 points de dégâts en 9 sec en plus de réduire sa vitesse de déplacement de 50 % pendant 9 sec.",
+    "es": "Desgarra las piernas de un enemigo, que recibe 12 p. de daño durante 9 s y ve reducida un 50% su velocidad de movimiento durante 9 s.",
+    "ko": "적의 다리를 찢어 9초에 걸쳐 12의 피해를 입히고 9초 동안 이동 속도를 50%만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   }
+  },
+  "1265039": {
+   "icon": "ability_hunter_pet_hyena",
+   "name": {
+    "en": "Tendon Rip",
+    "ru": "Разрывание сухожилий",
+    "cn": "裂筋",
+    "de": "Sehnenriss",
+    "fr": "Déchirure du tendon",
+    "es": "Desgarre de tendón",
+    "ko": "힘줄 가격"
+   },
+   "desc": {
+    "en": "Tears at an enemy's legs for 21 damage over 9 sec and reduces movement speed by 50% for 9 sec.",
+    "ru": "Терзает ноги противника, нанося 21 ед. урона за 9 сек. и снижая скорость передвижения на 50% на 9 сек.",
+    "cn": "撕扯目标的腿，在9秒内造成21点伤害，并使其移动速度降低50%，持续9秒。",
+    "de": "Reißt an den Beinen eines Gegners, fügt ihm so 21 Schaden im Verlauf von 9 Sek. zu und verringert seine Bewegungsgeschwindigkeit für 9 Sek. um 50%.",
+    "fr": "Lacère les jambes d’un personnage adverse et lui inflige 21 points de dégâts en 9 sec en plus de réduire sa vitesse de déplacement de 50 % pendant 9 sec.",
+    "es": "Desgarra las piernas de un enemigo, que recibe 21 p. de daño durante 9 s y ve reducida un 50% su velocidad de movimiento durante 9 s.",
+    "ko": "적의 다리를 찢어 9초에 걸쳐 21의 피해를 입히고 9초 동안 이동 속도를 50%만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 2",
+    "ru": "Уровень 2",
+    "cn": "等级 2",
+    "de": "Rang 2",
+    "fr": "Rang 2",
+    "es": "Rango 2",
+    "ko": "2 레벨"
+   }
+  },
+  "1265040": {
+   "icon": "ability_hunter_pet_hyena",
+   "name": {
+    "en": "Tendon Rip",
+    "ru": "Разрывание сухожилий",
+    "cn": "裂筋",
+    "de": "Sehnenriss",
+    "fr": "Déchirure du tendon",
+    "es": "Desgarre de tendón",
+    "ko": "힘줄 가격"
+   },
+   "desc": {
+    "en": "Tears at an enemy's legs for 27 damage over 9 sec and reduces movement speed by 50% for 9 sec.",
+    "ru": "Терзает ноги противника, нанося 27 ед. урона за 9 сек. и снижая скорость передвижения на 50% на 9 сек.",
+    "cn": "撕扯目标的腿，在9秒内造成27点伤害，并使其移动速度降低50%，持续9秒。",
+    "de": "Reißt an den Beinen eines Gegners, fügt ihm so 27 Schaden im Verlauf von 9 Sek. zu und verringert seine Bewegungsgeschwindigkeit für 9 Sek. um 50%.",
+    "fr": "Lacère les jambes d’un personnage adverse et lui inflige 27 points de dégâts en 9 sec en plus de réduire sa vitesse de déplacement de 50 % pendant 9 sec.",
+    "es": "Desgarra las piernas de un enemigo, que recibe 27 p. de daño durante 9 s y ve reducida un 50% su velocidad de movimiento durante 9 s.",
+    "ko": "적의 다리를 찢어 9초에 걸쳐 27의 피해를 입히고 9초 동안 이동 속도를 50%만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 3",
+    "ru": "Уровень 3",
+    "cn": "等级 3",
+    "de": "Rang 3",
+    "fr": "Rang 3",
+    "es": "Rango 3",
+    "ko": "3 레벨"
+   }
+  },
+  "1265041": {
+   "icon": "ability_hunter_pet_hyena",
+   "name": {
+    "en": "Tendon Rip",
+    "ru": "Разрывание сухожилий",
+    "cn": "裂筋",
+    "de": "Sehnenriss",
+    "fr": "Déchirure du tendon",
+    "es": "Desgarre de tendón",
+    "ko": "힘줄 가격"
+   },
+   "desc": {
+    "en": "Tears at an enemy's legs for 45 damage over 9 sec and reduces movement speed by 50% for 9 sec.",
+    "ru": "Терзает ноги противника, нанося 45 ед. урона за 9 сек. и снижая скорость передвижения на 50% на 9 сек.",
+    "cn": "撕扯目标的腿，在9秒内造成45点伤害，并使其移动速度降低50%，持续9秒。",
+    "de": "Reißt an den Beinen eines Gegners, fügt ihm so 45 Schaden im Verlauf von 9 Sek. zu und verringert seine Bewegungsgeschwindigkeit für 9 Sek. um 50%.",
+    "fr": "Lacère les jambes d’un personnage adverse et lui inflige 45 points de dégâts en 9 sec en plus de réduire sa vitesse de déplacement de 50 % pendant 9 sec.",
+    "es": "Desgarra las piernas de un enemigo, que recibe 45 p. de daño durante 9 s y ve reducida un 50% su velocidad de movimiento durante 9 s.",
+    "ko": "적의 다리를 찢어 9초에 걸쳐 45의 피해를 입히고 9초 동안 이동 속도를 50%만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 4",
+    "ru": "Уровень 4",
+    "cn": "等级 4",
+    "de": "Rang 4",
+    "fr": "Rang 4",
+    "es": "Rango 4",
+    "ko": "4 레벨"
+   }
+  },
+  "1265042": {
+   "icon": "ability_hunter_pet_hyena",
+   "name": {
+    "en": "Tendon Rip",
+    "ru": "Разрывание сухожилий",
+    "cn": "裂筋",
+    "de": "Sehnenriss",
+    "fr": "Déchirure du tendon",
+    "es": "Desgarre de tendón",
+    "ko": "힘줄 가격"
+   },
+   "desc": {
+    "en": "Tears at an enemy's legs for 60 damage over 9 sec and reduces movement speed by 50% for 9 sec.",
+    "ru": "Терзает ноги противника, нанося 60 ед. урона за 9 сек. и снижая скорость передвижения на 50% на 9 сек.",
+    "cn": "撕扯目标的腿，在9秒内造成60点伤害，并使其移动速度降低50%，持续9秒。",
+    "de": "Reißt an den Beinen eines Gegners, fügt ihm so 60 Schaden im Verlauf von 9 Sek. zu und verringert seine Bewegungsgeschwindigkeit für 9 Sek. um 50%.",
+    "fr": "Lacère les jambes d’un personnage adverse et lui inflige 60 points de dégâts en 9 sec en plus de réduire sa vitesse de déplacement de 50 % pendant 9 sec.",
+    "es": "Desgarra las piernas de un enemigo, que recibe 60 p. de daño durante 9 s y ve reducida un 50% su velocidad de movimiento durante 9 s.",
+    "ko": "적의 다리를 찢어 9초에 걸쳐 60의 피해를 입히고 9초 동안 이동 속도를 50%만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 5",
+    "ru": "Уровень 5",
+    "cn": "等级 5",
+    "de": "Rang 5",
+    "fr": "Rang 5",
+    "es": "Rango 5",
+    "ko": "5 레벨"
+   },
+   "focus": 25,
+   "cd": "30 sec"
+  },
+  "1265054": {
+   "icon": "spell_nature_natureswrath",
+   "name": {
+    "en": "Mine!",
+    "ru": "Мое!",
+    "cn": "归我了！",
+    "de": "Meins!",
+    "fr": "À moi !",
+    "es": "¡Mío!",
+    "ko": "내 거야!"
+   },
+   "desc": {
+    "en": "Grabs an enemy's weapon with its talons, causing 10 to 12 damage and disarming them for 4 sec.",
+    "ru": "Хватает когтями оружие противника и царапает руку, нанося 10 в 12 ед. урона и обезоруживая цель на 4 сек.",
+    "cn": "用利爪抓住敌人的武器，造成10至12点伤害并使其被缴械，持续4秒。",
+    "de": "Greift mit den Klauen nach der Waffe eines Gegners, fügt ihm so 10 bis 12 Schaden zu und entwaffnet ihn für 4 Sek..",
+    "fr": "Saisit l’arme d’un personnage adverse avec ses griffes, lui inflige 10 à 12 points de dégâts et le désarme pendant 4 sec.",
+    "es": "Agarra el arma de un enemigo con sus garras, le inflige 10 al 12 p. de daño y lo desarma durante 4 s.",
+    "ko": "갈퀴발톱으로 적의 무기를 붙잡아 10 에서 12의 피해를 입히고 4초 동안 무장 해제 상태로 만듭니다."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   }
+  },
+  "1265055": {
+   "icon": "spell_nature_natureswrath",
+   "name": {
+    "en": "Mine!",
+    "ru": "Мое!",
+    "cn": "归我了！",
+    "de": "Meins!",
+    "fr": "À moi !",
+    "es": "¡Mío!",
+    "ko": "내 거야!"
+   },
+   "desc": {
+    "en": "Grabs an enemy's weapon with its talons, causing 14 to 16 damage and disarming them for 4 sec.",
+    "ru": "Хватает когтями оружие противника и царапает руку, нанося 14 в 16 ед. урона и обезоруживая цель на 4 сек.",
+    "cn": "用利爪抓住敌人的武器，造成14至16点伤害并使其被缴械，持续4秒。",
+    "de": "Greift mit den Klauen nach der Waffe eines Gegners, fügt ihm so 14 bis 16 Schaden zu und entwaffnet ihn für 4 Sek..",
+    "fr": "Saisit l’arme d’un personnage adverse avec ses griffes, lui inflige 14 à 16 points de dégâts et le désarme pendant 4 sec.",
+    "es": "Agarra el arma de un enemigo con sus garras, le inflige 14 al 16 p. de daño y lo desarma durante 4 s.",
+    "ko": "갈퀴발톱으로 적의 무기를 붙잡아 14 에서 16의 피해를 입히고 4초 동안 무장 해제 상태로 만듭니다."
+   },
+   "rank": {
+    "en": "Rank 2",
+    "ru": "Уровень 2",
+    "cn": "等级 2",
+    "de": "Rang 2",
+    "fr": "Rang 2",
+    "es": "Rango 2",
+    "ko": "2 레벨"
+   }
+  },
+  "1265056": {
+   "icon": "spell_nature_natureswrath",
+   "name": {
+    "en": "Mine!",
+    "ru": "Мое!",
+    "cn": "归我了！",
+    "de": "Meins!",
+    "fr": "À moi !",
+    "es": "¡Mío!",
+    "ko": "내 거야!"
+   },
+   "desc": {
+    "en": "Grabs an enemy's weapon with its talons, causing 20 to 24 damage and disarming them for 4 sec.",
+    "ru": "Хватает когтями оружие противника и царапает руку, нанося 20 в 24 ед. урона и обезоруживая цель на 4 сек.",
+    "cn": "用利爪抓住敌人的武器，造成20至24点伤害并使其被缴械，持续4秒。",
+    "de": "Greift mit den Klauen nach der Waffe eines Gegners, fügt ihm so 20 bis 24 Schaden zu und entwaffnet ihn für 4 Sek..",
+    "fr": "Saisit l’arme d’un personnage adverse avec ses griffes, lui inflige 20 à 24 points de dégâts et le désarme pendant 4 sec.",
+    "es": "Agarra el arma de un enemigo con sus garras, le inflige 20 al 24 p. de daño y lo desarma durante 4 s.",
+    "ko": "갈퀴발톱으로 적의 무기를 붙잡아 20 에서 24의 피해를 입히고 4초 동안 무장 해제 상태로 만듭니다."
+   },
+   "rank": {
+    "en": "Rank 3",
+    "ru": "Уровень 3",
+    "cn": "等级 3",
+    "de": "Rang 3",
+    "fr": "Rang 3",
+    "es": "Rango 3",
+    "ko": "3 레벨"
+   }
+  },
+  "1265057": {
+   "icon": "spell_nature_natureswrath",
+   "name": {
+    "en": "Mine!",
+    "ru": "Мое!",
+    "cn": "归我了！",
+    "de": "Meins!",
+    "fr": "À moi !",
+    "es": "¡Mío!",
+    "ko": "내 거야!"
+   },
+   "desc": {
+    "en": "Grabs an enemy's weapon with its talons, causing 33 to 37 damage and disarming them for 4 sec.",
+    "ru": "Хватает когтями оружие противника и царапает руку, нанося 33 в 37 ед. урона и обезоруживая цель на 4 сек.",
+    "cn": "用利爪抓住敌人的武器，造成33至37点伤害并使其被缴械，持续4秒。",
+    "de": "Greift mit den Klauen nach der Waffe eines Gegners, fügt ihm so 33 bis 37 Schaden zu und entwaffnet ihn für 4 Sek..",
+    "fr": "Saisit l’arme d’un personnage adverse avec ses griffes, lui inflige 33 à 37 points de dégâts et le désarme pendant 4 sec.",
+    "es": "Agarra el arma de un enemigo con sus garras, le inflige 33 al 37 p. de daño y lo desarma durante 4 s.",
+    "ko": "갈퀴발톱으로 적의 무기를 붙잡아 33 에서 37의 피해를 입히고 4초 동안 무장 해제 상태로 만듭니다."
+   },
+   "rank": {
+    "en": "Rank 4",
+    "ru": "Уровень 4",
+    "cn": "等级 4",
+    "de": "Rang 4",
+    "fr": "Rang 4",
+    "es": "Rango 4",
+    "ko": "4 레벨"
+   }
+  },
+  "1265058": {
+   "icon": "spell_nature_natureswrath",
+   "name": {
+    "en": "Mine!",
+    "ru": "Мое!",
+    "cn": "归我了！",
+    "de": "Meins!",
+    "fr": "À moi !",
+    "es": "¡Mío!",
+    "ko": "내 거야!"
+   },
+   "desc": {
+    "en": "Grabs an enemy's weapon with its talons, causing 41 to 47 damage and disarming them for 4 sec.",
+    "ru": "Хватает когтями оружие противника и царапает руку, нанося 41 в 47 ед. урона и обезоруживая цель на 4 сек.",
+    "cn": "用利爪抓住敌人的武器，造成41至47点伤害并使其被缴械，持续4秒。",
+    "de": "Greift mit den Klauen nach der Waffe eines Gegners, fügt ihm so 41 bis 47 Schaden zu und entwaffnet ihn für 4 Sek..",
+    "fr": "Saisit l’arme d’un personnage adverse avec ses griffes, lui inflige 41 à 47 points de dégâts et le désarme pendant 4 sec.",
+    "es": "Agarra el arma de un enemigo con sus garras, le inflige 41 al 47 p. de daño y lo desarma durante 4 s.",
+    "ko": "갈퀴발톱으로 적의 무기를 붙잡아 41 에서 47의 피해를 입히고 4초 동안 무장 해제 상태로 만듭니다."
+   },
+   "rank": {
+    "en": "Rank 5",
+    "ru": "Уровень 5",
+    "cn": "等级 5",
+    "de": "Rang 5",
+    "fr": "Rang 5",
+    "es": "Rango 5",
+    "ko": "5 레벨"
+   },
+   "focus": 20,
+   "cd": "1 min"
+  },
+  "24844": {
+   "icon": "spell_nature_lightning",
+   "name": {
+    "en": "Lightning Breath",
+    "ru": "Грозовое дыхание",
+    "cn": "闪电吐息",
+    "de": "Blitzschlagatem",
+    "fr": "Souffle de foudre",
+    "es": "Aliento de relámpagos",
+    "ko": "번개 숨결"
+   },
+   "desc": {
+    "en": "Breathes lightning, instantly dealing 8 to 10 Nature damage to a single target.",
+    "ru": "Мгновенное нанесение 8 в 10 ед. урона от сил природы одной цели.",
+    "cn": "向单一目标喷射闪电，立即造成8至10点自然伤害。",
+    "de": "Speiht Blitze auf einen Feind und fügt ihm 8 bis 10 Naturschaden zu.",
+    "fr": "Souffle de la foudre sur une cible unique et lui inflige instantanément 8 à 10 points de dégâts de Nature.",
+    "es": "Lanza un aliento de relámpagos, causando al instante 8 al 10 p. de daño de Naturaleza a un único objetivo.",
+    "ko": "적에게 번개의 숨결을 내뿜어 즉시 8 에서 10의 자연 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   }
+  },
+  "25008": {
+   "icon": "spell_nature_lightning",
+   "name": {
+    "en": "Lightning Breath",
+    "ru": "Грозовое дыхание",
+    "cn": "闪电吐息",
+    "de": "Blitzschlagatem",
+    "fr": "Souffle de foudre",
+    "es": "Aliento de relámpagos",
+    "ko": "번개 숨결"
+   },
+   "desc": {
+    "en": "Breathes lightning, instantly dealing 20 to 22 Nature damage to a single target.",
+    "ru": "Мгновенное нанесение 20 в 22 ед. урона от сил природы одной цели.",
+    "cn": "向单一目标喷射闪电，立即造成20至22点自然伤害。",
+    "de": "Speit Blitze auf einen Feind und fügt ihm 20 bis 22 Naturschaden zu.",
+    "fr": "Souffle de la foudre sur une cible unique et lui inflige instantanément 20 à 22 points de dégâts de Nature.",
+    "es": "Lanza un aliento de relámpagos, causando al instante 20 al 22 p. de daño de Naturaleza a un único objetivo.",
+    "ko": "적에게 번개의 숨결을 내뿜어 즉시 20 에서 22의 자연 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 2",
+    "ru": "Уровень 2",
+    "cn": "等级 2",
+    "de": "Rang 2",
+    "fr": "Rang 2",
+    "es": "Rango 2",
+    "ko": "2 레벨"
+   }
+  },
+  "25009": {
+   "icon": "spell_nature_lightning",
+   "name": {
+    "en": "Lightning Breath",
+    "ru": "Грозовое дыхание",
+    "cn": "闪电吐息",
+    "de": "Blitzschlagatem",
+    "fr": "Souffle de foudre",
+    "es": "Aliento de relámpagos",
+    "ko": "번개 숨결"
+   },
+   "desc": {
+    "en": "Breathes lightning, instantly dealing 32 to 36 Nature damage to a single target.",
+    "ru": "Мгновенное нанесение 32 в 36 ед. урона от сил природы одной цели.",
+    "cn": "向单一目标喷射闪电，立即造成32至36点自然伤害。",
+    "de": "Speit Blitze auf einen Feind und fügt ihm 32 bis 36 Naturschaden zu.",
+    "fr": "Souffle de la foudre sur une cible unique et lui inflige instantanément 32 à 36 points de dégâts de Nature.",
+    "es": "Lanza un aliento de relámpagos, causando al instante 32 al 36 p. de daño de Naturaleza a un único objetivo.",
+    "ko": "적에게 번개의 숨결을 내뿜어 즉시 32 에서 36의 자연 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 3",
+    "ru": "Уровень 3",
+    "cn": "等级 3",
+    "de": "Rang 3",
+    "fr": "Rang 3",
+    "es": "Rango 3",
+    "ko": "3 레벨"
+   }
+  },
+  "25010": {
+   "icon": "spell_nature_lightning",
+   "name": {
+    "en": "Lightning Breath",
+    "ru": "Грозовое дыхание",
+    "cn": "闪电吐息",
+    "de": "Blitzschlagatem",
+    "fr": "Souffle de foudre",
+    "es": "Aliento de relámpagos",
+    "ko": "번개 숨결"
+   },
+   "desc": {
+    "en": "Breathes lightning, instantly dealing 46 to 54 Nature damage to a single target.",
+    "ru": "Мгновенное нанесение 46 в 54 ед. урона от сил природы одной цели.",
+    "cn": "向单一目标喷射闪电，立即造成46至54点自然伤害。",
+    "de": "Speit Blitze auf einen Feind und fügt ihm 46 bis 54 Naturschaden zu.",
+    "fr": "Souffle de la foudre sur une cible unique et lui inflige instantanément 46 à 54 points de dégâts de Nature.",
+    "es": "Lanza un aliento de relámpagos, causando al instante 46 al 54 p. de daño de Naturaleza a un único objetivo.",
+    "ko": "적에게 번개의 숨결을 내뿜어 즉시 46 에서 54의 자연 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 4",
+    "ru": "Уровень 4",
+    "cn": "等级 4",
+    "de": "Rang 4",
+    "fr": "Rang 4",
+    "es": "Rango 4",
+    "ko": "4 레벨"
+   }
+  },
+  "25011": {
+   "icon": "spell_nature_lightning",
+   "name": {
+    "en": "Lightning Breath",
+    "ru": "Грозовое дыхание",
+    "cn": "闪电吐息",
+    "de": "Blitzschlagatem",
+    "fr": "Souffle de foudre",
+    "es": "Aliento de relámpagos",
+    "ko": "번개 숨결"
+   },
+   "desc": {
+    "en": "Breathes lightning, instantly dealing 71 to 81 Nature damage to a single target.",
+    "ru": "Мгновенное нанесение 71 в 81 ед. урона от сил природы одной цели.",
+    "cn": "向单一目标喷射闪电，立即造成71至81点自然伤害。",
+    "de": "Speit Blitze auf einen Feind und fügt ihm 71 bis 81 Naturschaden zu.",
+    "fr": "Souffle de la foudre sur une cible unique et lui inflige instantanément 71 à 81 points de dégâts de Nature.",
+    "es": "Lanza un aliento de relámpagos, causando al instante 71 al 81 p. de daño de Naturaleza a un único objetivo.",
+    "ko": "적에게 번개의 숨결을 내뿜어 즉시 71 에서 81의 자연 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 5",
+    "ru": "Уровень 5",
+    "cn": "等级 5",
+    "de": "Rang 5",
+    "fr": "Rang 5",
+    "es": "Rango 5",
+    "ko": "5 레벨"
+   }
+  },
+  "25012": {
+   "icon": "spell_nature_lightning",
+   "name": {
+    "en": "Lightning Breath",
+    "ru": "Грозовое дыхание",
+    "cn": "闪电吐息",
+    "de": "Blitzschlagatem",
+    "fr": "Souffle de foudre",
+    "es": "Aliento de relámpagos",
+    "ko": "번개 숨결"
+   },
+   "desc": {
+    "en": "Breathes lightning, instantly dealing 86 to 98 Nature damage to a single target.",
+    "ru": "Мгновенное нанесение 86 в 98 ед. урона от сил природы одной цели.",
+    "cn": "向单一目标喷射闪电，立即造成86至98点自然伤害。",
+    "de": "Speit Blitze auf einen Feind und fügt ihm 86 bis 98 Naturschaden zu.",
+    "fr": "Souffle de la foudre sur une cible unique et lui inflige instantanément 86 à 98 points de dégâts de Nature.",
+    "es": "Lanza un aliento de relámpagos, causando al instante 86 al 98 p. de daño de Naturaleza a un único objetivo.",
+    "ko": "적에게 번개의 숨결을 내뿜어 즉시 86 에서 98의 자연 피해를 입힙니다."
+   },
+   "rank": {
+    "en": "Rank 6",
+    "ru": "Уровень 6",
+    "cn": "等级 6",
+    "de": "Rang 6",
+    "fr": "Rang 6",
+    "es": "Rango 6",
+    "ko": "6 레벨"
+   },
+   "focus": 50,
+   "cd": null
+  },
+  "444678": {
+   "icon": "spell_fire_windsofwoe",
+   "name": {
+    "en": "Lava Breath",
+    "ru": "Дыхание лавы",
+    "cn": "熔岩吐息",
+    "de": "Lavaatem",
+    "fr": "Souffle de lave",
+    "es": "Aliento de lava",
+    "ko": "용암 숨결"
+   },
+   "desc": {
+    "en": "Breathes molten lava at 2 nearby enemies, instantly dealing 97 to 109 Fire damage and reducing the target's casting speed by 25% for 10 sec.",
+    "ru": "Изрыгает пылающую лаву на 2 ближайших противников:ближайших противников, нанося 97 в 109 ед. урона от огня и снижая скорость применения заклинаний на 25% на 10 сек.",
+    "cn": "向周围最多2名敌人喷出炽热的熔岩，造成97至109点火焰伤害，并使目标的施法速度降低25%，持续10秒。",
+    "de": "Atmet geschmolzene Lava auf 2 nahe Gegner, verursacht sofort 97 bis 109 Feuerschaden und verringert das Zaubertempo des Ziels 10 Sek. lang um 25%.",
+    "fr": "Projette sur 2 ennemis proches un jet de lave en fusion qui inflige instantanément 97 à 109 points de dégâts de feu. Réduit également la vitesse d’incantation de la cible de 25 % pendant 10 sec.",
+    "es": "Lanza un aliento de lava fundida a 2 enemigos cercanos, les inflige 97 al 109 p. de daño de Fuego al instante y reduce un 25% la velocidad de lanzamiento del objetivo durante 10 s.",
+    "ko": "주위 적 2명에게 불타는 용암을 내뿜어 즉시 97 에서 109의 화염 피해를 입히고 10초 동안 대상의 시전 속도를 25%만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   }
+  },
+  "444681": {
+   "icon": "spell_fire_windsofwoe",
+   "name": {
+    "en": "Lava Breath",
+    "ru": "Дыхание лавы",
+    "cn": "熔岩吐息",
+    "de": "Lavaatem",
+    "fr": "Souffle de lave",
+    "es": "Aliento de lava",
+    "ko": "용암 숨결"
+   },
+   "desc": {
+    "en": "Breathes molten lava at 2 nearby enemies, instantly dealing 123 to 137 Fire damage and reducing the target's casting speed by 25% for 10 sec.",
+    "ru": "Изрыгает пылающую лаву на 2 ближайших противников:ближайших противников, нанося 123 в 137 ед. урона от огня и снижая скорость применения заклинаний на 25% на 10 сек.",
+    "cn": "向周围最多2名敌人喷出炽热的熔岩，造成123至137点火焰伤害，并使目标的施法速度降低25%，持续10秒。",
+    "de": "Atmet geschmolzene Lava auf 2 nahe Gegner, verursacht sofort 123 bis 137 Feuerschaden und verringert das Zaubertempo des Ziels 10 Sek. lang um 25%.",
+    "fr": "Projette sur 2 ennemis proches un jet de lave en fusion qui inflige instantanément 123 à 137 points de dégâts de feu. Réduit également la vitesse d’incantation de la cible de 25 % pendant 10 sec.",
+    "es": "Lanza un aliento de lava fundida a 2 enemigos cercanos, les inflige 123 al 137 p. de daño de Fuego al instante y reduce un 25% la velocidad de lanzamiento del objetivo durante 10 s.",
+    "ko": "주위 적 2명에게 불타는 용암을 내뿜어 즉시 123 에서 137의 화염 피해를 입히고 10초 동안 대상의 시전 속도를 25%만큼 감소시킵니다."
+   },
+   "rank": {
+    "en": "Rank 2",
+    "ru": "Уровень 2",
+    "cn": "等级 2",
+    "de": "Rang 2",
+    "fr": "Rang 2",
+    "es": "Rango 2",
+    "ko": "2 레벨"
+   }
+  },
+  "444831": {
+   "icon": "ability_hunter_pet_corehound",
+   "name": {
+    "en": "Tamed Pet Passive (DND)",
+    "ru": "Tamed Pet Passive (DND)",
+    "cn": "Tamed Pet Passive (DND)",
+    "de": "Tamed Pet Passive (DND)",
+    "fr": "Tamed Pet Passive (DND)",
+    "es": "Tamed Pet Passive (DND)",
+    "ko": "Tamed Pet Passive (DND)"
+   },
+   "desc": {},
+   "rank": {}
+  },
+  "1310612": {
+   "icon": "ability_hunter_aspectofthefox",
+   "name": {
+    "en": "Trickster's Dance",
+    "ru": "Танец шута",
+    "cn": "欺诈者之舞",
+    "de": "Tanz des Täuschers",
+    "fr": "Danse d’entourloupeur",
+    "es": "Baile de timador",
+    "ko": "요정의 춤"
+   },
+   "desc": {
+    "en": "Increases your pet's chance to Dodge by 50% and decreases the time between your pet's attacks by 30% for 12 sec.",
+    "ru": "Increases your pet's chance to Dodge by 50% and decreases the time between your pet's attacks by 30% for 12 сек.",
+    "cn": "Increases your pet's chance to Dodge by 50% and decreases the time between your pet's attacks by 30% for 12秒.",
+    "de": "Increases your pet's chance to Dodge by 50% and decreases the time between your pet's attacks by 30% for 12 Sek..",
+    "fr": "Increases your pet's chance to Dodge by 50% and decreases the time between your pet's attacks by 30% for 12 sec.",
+    "es": "Increases your pet's chance to Dodge by 50% and decreases the time between your pet's attacks by 30% for 12 s.",
+    "ko": "Increases your pet's chance to Dodge by 50% and decreases the time between your pet's attacks by 30% for 12초."
+   },
+   "rank": {
+    "en": "Rank 1",
+    "ru": "Уровень 1",
+    "cn": "等级 1",
+    "de": "Rang 1",
+    "fr": "Rang 1",
+    "es": "Rango 1",
+    "ko": "1 레벨"
+   },
+   "focus": 10,
+   "cd": "3 min"
+  }
+ },
+ "langs": [
+  "en",
+  "ru",
+  "cn",
+  "de",
+  "fr",
+  "es",
+  "ko"
+ ]
+}

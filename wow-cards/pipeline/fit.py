@@ -17,7 +17,7 @@ def render(prof, s):
 
 
 for prof in PROFS:
-    lo, hi = (0.66 if prof in ('herbalism', 'mining', 'leatherworking', 'tailoring') else 0.8), (1.5 if prof in ('skinning', 'fishing') else 1.25)
+    lo, hi = (0.66 if prof in ('herbalism', 'mining', 'leatherworking', 'tailoring', 'hunter-pets') else 0.8), (1.5 if prof in ('skinning', 'fishing') else 1.25)
     best = None
     for _ in range(6):
         mid = round((lo + hi) / 2, 3)

@@ -1,0 +1,107 @@
+{
+ "3009": {
+  "title": "Claw - Spell - Forever",
+  "tooltip": "Claw\n25 Focus\tMelee Range\nInstant\nRequires Hunter\nRequires level 56\n\nClaw the enemy, causing 43 to 59 damage.\n\t\n\t",
+  "infobox": "\n\nQuick Facts\n\nRequires level 56\nClass:  Hunter\nUses resource:  Focus\nAdded in patch 1.60.1\nIcon: \n ability_druid_rake\n\n\nScreenshots\n\nNone yet – Submit one!\n\n\nVideos\n\nNone yet – Suggest one!"
+ },
+ "17261": {
+  "title": "Bite - Spell - Forever",
+  "tooltip": "Bite\n35 Focus\tMelee Range\nInstant\t10 sec cooldown\nRequires Hunter\nRequires level 56\n\nBite the enemy, causing 81 to 99 damage.\n\t\n\t",
+  "infobox": "\n\nQuick Facts\n\nRequires level 56\nClass:  Hunter\nUses resource:  Focus\nAdded in patch 1.60.1\nIcon: \n ability_racial_cannibalize\n\n\nScreenshots\n\nNone yet – Submit one!\n\n\nVideos\n\nNone yet – Suggest one!"
+ },
+ "23110": {
+  "title": "Dash - Spell - Forever",
+  "tooltip": "Dash\n20 Focus\nInstant\t30 sec cooldown\nRequires Hunter\nRequires level 50\n\nIncreases movement speed by 80% for 15 sec.\n\t\n\t",
+  "infobox": "\n\nQuick Facts\n\nRequires level 50\nClass:  Hunter\nUses resource:  Focus\nAdded in patch 1.60.1\nIcon: \n ability_druid_dash\n\n\nScreenshots\n\nNone yet – Submit one!\n\n\nVideos\n\nNone yet – Suggest one!"
+ },
+ "23148": {
+  "title": "Dive - Spell - Forever",
+  "tooltip": "Dive\n20 Focus\nInstant\t30 sec cooldown\nRequires Hunter\nRequires level 50\n\nIncreases movement speed by 80% for 15 sec.\n\t\n\t",
+  "infobox": "\n\nQuick Facts\n\nRequires level 50\nClass:  Hunter\nUses resource:  Focus\nAdded in patch 1.60.1\nIcon: \n spell_shadow_burningspirit\n\n\nScreenshots\n\nNone yet – Submit one!\n\n\nVideos\n\nNone yet – Suggest one!"
+ },
+ "24453": {
+  "title": "Prowl - Spell - Forever",
+  "tooltip": "Prowl\nRank 3\n40 Focus\nInstant\t10 sec cooldown\nRequires Hunter\nRequires level 50\n\nPuts your pet in stealth mode, but slows its movement speed by 40%. The first attack from stealth receives a 50% bonus to damage.  Lasts until cancelled.\n\t\n\t",
+  "infobox": "\n\nQuick Facts\n\nRank: \nRequires level 50\nClass:  Hunter\nUses resource:  Focus\nAdded in patch 1.60.1\nIcon: \n ability_druid_supriseattack\n\n\nScreenshots\n\nNone yet – Submit one!\n\n\nVideos\n\nNone yet – Suggest one!"
+ },
+ "24579": {
+  "title": "Demoralizing Screech - Spell - Forever",
+  "tooltip": "Demoralizing Screech\t\nLevel 60\nRank 4\n20 Focus\tMelee Range\nInstant\t10 sec cooldown\nRequires Hunter\nRequires level 56\n\nBlasts a single enemy for 24 to 42 damage and lowers the melee attack power of all enemies in melee range by 204 for 30 sec.\n\t\n\t",
+  "infobox": "\n\nQuick Facts\n\nRank: \nRequires level 56\nClass:  Hunter\nUses resource:  Focus\nAdded in patch 1.60.1\nIcon: \n ability_hunter_pet_vulture\n\n\nScreenshots\n\nNone yet – Submit one!\n\n\nVideos\n\nNone yet – Suggest one!"
+ },
+ "24603": {
+  "title": "Furious Howl - Spell - Forever",
+  "tooltip": "Furious Howl\t\nLevel 60\nRank 3\n60 Focus\nInstant\t30 sec cooldown\nRequires Hunter\nRequires level 40\n\nThe wolf howls, increasing the melee attack power of all party members within 15 yards by 68.  Lasts 1 min.\n\t\n\t",
+  "infobox": "\n\nQuick Facts\n\nRank: \nRequires level 40\nClass:  Hunter\nUses resource:  Focus\nAdded in patch 1.60.1\nIcon: \n ability_hunter_pet_wolf\n\n\nScreenshots\n\nNone yet – Submit one!\n\n\nVideos\n\nNone yet – Suggest one!"
+ },
+ "24640": {
+  "title": "Scorpid Poison - Spell - Forever",
+  "tooltip": "Scorpid Poison\nRank 1\n30 Focus\tMelee Range\nInstant\t4 sec cooldown\nRequires Hunter\nRequires level 8\n\nInflicts 5 Nature damage over 10 sec. Effect can stack up to 5 times on a single target.\n\t\n\t",
+  "infobox": "\n\nQuick Facts\n\nRank: \nRequires level 8\nClass:  Hunter\nUses resource:  Focus\nAdded in patch 1.60.1\nIcon: \n ability_poisonsting\n\n\nScreenshots\n\nNone yet – Submit one!\n\n\nVideos\n\nNone yet – Suggest one!"
+ },
+ "25012": {
+  "title": "Lightning Breath - Spell - Forever",
+  "tooltip": "Lightning Breath\n50 Focus\t20 yd range\nInstant\nRequires Hunter\nRequires level 60\n\nBreathes lightning, instantly dealing 86 to 98 Nature damage to a single target.\n\t\n\t",
+  "infobox": "\n\nQuick Facts\n\nRequires level 60\nClass:  Hunter\nUses resource:  Focus\nAdded in patch 1.60.1\nIcon: \n spell_nature_lightning\n\n\nScreenshots\n\nNone yet – Submit one!\n\n\nVideos\n\nNone yet – Suggest one!"
+ },
+ "26064": {
+  "title": "Shell Shield - Spell - Forever",
+  "tooltip": "Shell Shield\n10 Focus\nInstant\t3 min cooldown\nRequires Hunter\nRequires level 20\n\nReduces all damage your pet takes by 50% and increases the time between your pet's attacks by 60%, but deals more damage with each attack. Lasts 12 sec.\n\t\n\t",
+  "infobox": "\n\nQuick Facts\n\nRequires level 20\nClass:  Hunter\nUses resource:  Focus\nAdded in patch 1.60.1\nIcon: \n ability_hunter_pet_turtle\n\n\nScreenshots\n\nNone yet – Submit one!\n\n\nVideos\n\nNone yet – Suggest one!"
+ },
+ "27685": {
+  "title": "Charge - Spell - Forever",
+  "tooltip": "Charge\t\nLevel 60\n35 Focus\t8 - 25 yd range\nInstant\t25 sec cooldown\nRequires Hunter\nRequires level 60\n\nCharges an enemy, immobilizes it for 1 sec, and adds 520 melee attack power to the boar's next attack.\n\t\n\t",
+  "infobox": "\n\nQuick Facts\n\nRequires level 60\nClass:  Hunter\nUses resource:  Focus\nAdded in patch 1.60.1\nIcon: \n ability_hunter_pet_boar\n\n\nScreenshots\n\nNone yet – Submit one!\n\n\nVideos\n\nNone yet – Suggest one!"
+ },
+ "1264455": {
+  "title": "Thunderstomp - Spell - Forever",
+  "tooltip": "Thunderstomp\nRank 4\n60 Focus\nInstant\t1 min cooldown\nRequires Hunter\nRequires level 60\n\nShakes the ground with thundering force, doing 122 to 142 Nature damage to all enemies within 8 yds.\n\t\n\t",
+  "infobox": "\n\nQuick Facts\n\nRank: \nRequires level 60\nClass:  Hunter\nUses resource:  Focus\nAdded in patch 1.60.1\nIcon: \n ability_hunter_pet_gorilla\n\n\nScreenshots\n\nNone yet – Submit one!\n\n\nVideos\n\nNone yet – Suggest one!"
+ },
+ "1264502": {
+  "title": "Swipe - Spell - Forever",
+  "tooltip": "Swipe\nRank 5\n20 Focus\tMelee Range\nInstant\t5 sec cooldown\nRequires Hunter\nRequires level 60\n\nSwipe 3 nearby enemies, inflicting 20 to 22 damage.\n\t\n\t",
+  "infobox": "\n\nQuick Facts\n\nRank: \nRequires level 60\nClass:  Hunter\nUses resource:  Focus\nAdded in patch 1.60.1\nIcon: \n inv_misc_monsterclaw_03\n\n\nScreenshots\n\nNone yet – Submit one!\n\n\nVideos\n\nNone yet – Suggest one!"
+ },
+ "1264742": {
+  "title": "Pinch - Spell - Forever",
+  "tooltip": "Pinch\nRank 5\n50 Focus\tMelee Range\nInstant\t30 sec cooldown\nRequires Hunter\nRequires level 60\n\nPinches an enemy's legs for 88 to 102 damage and reduces movement speed by 50% for 9 sec.\n\t\n\t",
+  "infobox": "\n\nQuick Facts\n\nRank: \nRequires level 60\nClass:  Hunter\nUses resource:  Focus\nAdded in patch 1.60.1\nIcon: \n ability_hunter_pet_crab\n\n\nScreenshots\n\nNone yet – Submit one!\n\n\nVideos\n\nNone yet – Suggest one!"
+ },
+ "1264933": {
+  "title": "Dismember - Spell - Forever",
+  "tooltip": "Dismember\nRank 5\n35 Focus\tMelee Range\nInstant\t6 sec cooldown\nRequires Hunter\nRequires level 60\n\nViciously bites enemy appendages for 50 to 58 damage and reduces the effectiveness of any healing by 50% for 10 sec.\n\t\n\t",
+  "infobox": "\n\nQuick Facts\n\nRank: \nRequires level 60\nClass:  Hunter\nUses resource:  Focus\nAdded in patch 1.60.1\nIcon: \n ability_hunter_pet_crocolisk\n\n\nScreenshots\n\nNone yet – Submit one!\n\n\nVideos\n\nNone yet – Suggest one!"
+ },
+ "1265042": {
+  "title": "Tendon Rip - Spell - Forever",
+  "tooltip": "Tendon Rip\nRank 5\n25 Focus\tMelee Range\nInstant\t30 sec cooldown\nRequires Hunter\nRequires level 60\n\nTears at an enemy's legs for 60 damage over 9 sec and reduces movement speed by 50% for 9 sec.\n\t\n\t",
+  "infobox": "\n\nQuick Facts\n\nRank: \nRequires level 60\nClass:  Hunter\nUses resource:  Focus\nAdded in patch 1.60.1\nIcon: \n ability_hunter_pet_hyena\n\n\nScreenshots\n\nNone yet – Submit one!\n\n\nVideos\n\nNone yet – Suggest one!"
+ },
+ "1265058": {
+  "title": "Mine! - Spell - Forever",
+  "tooltip": "Mine!\nRank 5\n20 Focus\tMelee Range\nInstant\t1 min cooldown\nRequires Hunter\nRequires level 50\n\nGrabs an enemy's weapon with its talons, causing 41 to 47 damage and disarming them for 4 sec.\n\t\n\t",
+  "infobox": "\n\nQuick Facts\n\nRank: \nRequires level 50\nClass:  Hunter\nUses resource:  Focus\nAdded in patch 1.60.1\nIcon: \n spell_nature_natureswrath\n\n\nScreenshots\n\nNone yet – Submit one!\n\n\nVideos\n\nNone yet – Suggest one!"
+ },
+ "1265069": {
+  "title": "Savage Rend - Spell - Forever",
+  "tooltip": "Savage Rend\nRank 5\n50 Focus\tMelee Range\nInstant\t1 min cooldown\nRequires Hunter\nRequires level 60\n\nSlash an enemy with razor talons, causing the target to Bleed for 156 damage over 18 sec.\n\t\n\t",
+  "infobox": "\n\nQuick Facts\n\nRank: \nRequires level 60\nClass:  Hunter\nUses resource:  Focus\nAdded in patch 1.60.1\nIcon: \n ability_hunter_pet_raptor\n\n\nScreenshots\n\nNone yet – Submit one!\n\n\nVideos\n\nNone yet – Suggest one!"
+ },
+ "1265883": {
+  "title": "Web - Spell - Forever",
+  "tooltip": "Web\nRank 5\n20 Focus\t20 yd range\nInstant\t40 sec cooldown\nRequires Hunter\nRequires level 60\n\nEntangles an enemy in a corrosive web, immobilizing them and dealing 52 Nature damage over 4 sec.\n\t\n\t",
+  "infobox": "\n\nQuick Facts\n\nRank: \nRequires level 60\nClass:  Hunter\nUses resource:  Focus\nAdded in patch 1.60.1\nIcon: \n spell_nature_web\n\n\nScreenshots\n\nNone yet – Submit one!\n\n\nVideos\n\nNone yet – Suggest one!"
+ },
+ "1265904": {
+  "title": "Dust Cloud - Spell - Forever",
+  "tooltip": "Dust Cloud\nRank 5\n10 Focus\tMelee Range\nInstant\nRequires Hunter\nRequires level 60\n\nYour tallstrider kicks up an abrasive cloud of dust, reducing the target's Armor by 505 for 30 sec.\n\t\n\t",
+  "infobox": "\n\nQuick Facts\n\nRank: \nRequires level 60\nClass:  Hunter\nUses resource:  Focus\nAdded in patch 1.60.1\nIcon: \n spell_nature_sleep\n\n\nScreenshots\n\nNone yet – Submit one!\n\n\nVideos\n\nNone yet – Suggest one!"
+ },
+ "1310612": {
+  "title": "Trickster's Dance - Spell - Forever",
+  "tooltip": "Trickster's Dance\n10 Focus\nInstant\t3 min cooldown\nRequires level 20\n\nIncreases your pet's chance to Dodge by 50% and decreases the time between your pet's attacks by 30% for 12 sec.\n\t\n\t",
+  "infobox": "\n\nQuick Facts\n\nRequires level 20\nAdded in patch 1.60.1\nIcon: \n ability_hunter_aspectofthefox\n\n\nScreenshots\n\nNone yet – Submit one!\n\n\nVideos\n\nNone yet – Suggest one!"
+ }
+}
