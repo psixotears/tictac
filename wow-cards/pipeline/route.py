@@ -17,8 +17,10 @@ LANGS = ('en', 'ru', 'cn', 'de', 'fr', 'es', 'ko')
 OTHER_PROF_PRODUCTS = {}
 # manual fixes from guides/beta reports (spell id -> source, learnedat)
 OVERRIDE_SRC = {7418: 'auto', 18629: 'quest', 14530: 'quest', 10841: 'quest', 22813: 'quest', 9980: 'quest', 7421: 'auto', 24801: 'quest'}
-OVERRIDE_LEARN = {7418: 1}
-EXCLUDE_IDS = {22813, 461692, 1230643}
+OVERRIDE_LEARN = {7418: 1, 3817: 85}            # Cured Medium Hide: orange at 85 in beta (screenshot)
+OVERRIDE_COLORS = {3817: [85, 95, 100, 105]}    # beta: orange at 85; Wowhead grey 105
+CRAFT_ALWAYS = {3763}                           # Fine Leather Belt: intermediate for Dark Leather Belt, craft it yourself
+EXCLUDE_IDS = {22813, 461692, 1230643, 20648}   # 20648 Medium Leather: already grey at 85 in beta
 EXCLUDE_REAGENTS = {18240, 14342}      # Ogre Tannin (dungeon-bound), Mooncloth (cooldown product)
 # cooking: no fish (needs Fishing or AH) and no holiday reagents
 FISH_RE = re.compile(r"^Raw |Lobster|Squid|Bass$|Salmon|Snapper|Mightfish|Yellowtail|Redgill|Cod$|Trout|Catfish|Mackerel|Smallfish|Sagefish|Deviate Fish|Frenzy|Albacore|Halibut|Armorfish|Whimsyfin|Holiday", re.I)
@@ -101,6 +103,8 @@ def eligible(recipes, max_skill=300, prof=None):
             continue                  # rare (blue+) or unnamed reagents: never a leveling route
         if r['id'] in OVERRIDE_LEARN:
             r['learnedat'] = OVERRIDE_LEARN[r['id']]
+        if r['id'] in OVERRIDE_COLORS:
+            r['colors'] = list(OVERRIDE_COLORS[r['id']])
         if r['id'] in OVERRIDE_SRC and OVERRIDE_SRC[r['id']] in ('quest',) and not r.get('source'):
             r['source'] = [QUEST]
         if SEASONAL.search(r['name']) or r['id'] in EXCLUDE_IDS or r['id'] in COOLDOWN or any(i in EXCLUDE_REAGENTS for i, _ in r['reagents']):
@@ -253,7 +257,7 @@ def compute(prof, max_skill=300):
         again = False
         for i, q in list(shopping.items()):
             r = by_product.get(i)
-            if not r or matcost(r, price) / max(1, r['creates'][1]) > price[i] * 0.7:
+            if not r or (r['id'] not in CRAFT_ALWAYS and matcost(r, price) / max(1, r['creates'][1]) > price[i] * 0.7):
                 continue                      # cheaper to buy than to craft
             n = math.ceil(q / max(1, r['creates'][1]))
             extras.append({'from': r['learnedat'], 'to': None, 'recipe': r, 'crafts': n, 'extra': True})

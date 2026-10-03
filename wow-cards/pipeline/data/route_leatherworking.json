@@ -1,0 +1,5219 @@
+{
+ "profession": "leatherworking",
+ "steps": [
+  {
+   "from": 1,
+   "to": 33,
+   "crafts": 37,
+   "spell_id": 2881,
+   "extra": false,
+   "name": {
+    "en": "Light Leather",
+    "ru": "Тонкая кожа",
+    "cn": "轻皮",
+    "de": "Leichtes Leder",
+    "fr": "Cuir léger",
+    "es": "Cuero ligero",
+    "ko": "얇은 가죽"
+   },
+   "icon": "inv_misc_leatherscrap_03",
+   "quality": 1,
+   "colors": [
+    1,
+    20,
+    30,
+    40
+   ],
+   "learnedat": 1,
+   "source": "auto",
+   "reagents": [
+    {
+     "id": 2934,
+     "qty": 111,
+     "icon": "inv_misc_pelt_bear_ruin_05",
+     "quality": 1,
+     "name": {
+      "en": "Ruined Leather Scraps",
+      "ru": "Обрывки кожи",
+      "cn": "破烂的皮革",
+      "de": "Verdorbene Lederfetzen",
+      "fr": "Lanières de cuir déchirées",
+      "es": "Restos de cuero estropeado",
+      "ko": "손상된 가죽 조각"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Light Armor Kit",
+      "ru": "Накладки из тонкой кожи",
+      "cn": "轻型护甲片",
+      "de": "Leichtes Rüstungsset",
+      "fr": "Renfort d'armure léger",
+      "es": "Complemento para armadura ligera",
+      "ko": "작은 방어구 키트"
+     },
+     "icon": "inv_misc_armorkit_17",
+     "quality": 1,
+     "reagents": [
+      {
+       "name": {
+        "en": "Light Leather",
+        "ru": "Тонкая кожа",
+        "cn": "轻皮",
+        "de": "Leichtes Leder",
+        "fr": "Cuir léger",
+        "es": "Cuero ligero",
+        "ko": "얇은 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_03",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Handstitched Leather Boots",
+      "ru": "Сшитые вручную кожаные сапоги",
+      "cn": "手工皮靴",
+      "de": "Handgenähte Lederstiefel",
+      "fr": "Bottes en cuir cousu main",
+      "es": "Botas de cuero cosidas a mano",
+      "ko": "손바느질한 가죽 장화"
+     },
+     "icon": "inv_boots_04",
+     "quality": 1,
+     "reagents": [
+      {
+       "name": {
+        "en": "Light Leather",
+        "ru": "Тонкая кожа",
+        "cn": "轻皮",
+        "de": "Leichtes Leder",
+        "fr": "Cuir léger",
+        "es": "Cuero ligero",
+        "ko": "얇은 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_03",
+       "qty": 2
+      },
+      {
+       "name": {
+        "en": "Coarse Thread",
+        "ru": "Грубая нить",
+        "cn": "粗线",
+        "de": "Grober Faden",
+        "fr": "Bobine de fil grossier",
+        "es": "Hilo burdo",
+        "ko": "굵은 실타래"
+       },
+       "icon": "inv_fabric_linen_03",
+       "qty": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 33,
+   "to": 49,
+   "crafts": 24,
+   "spell_id": 2152,
+   "extra": false,
+   "name": {
+    "en": "Light Armor Kit",
+    "ru": "Накладки из тонкой кожи",
+    "cn": "轻型护甲片",
+    "de": "Leichtes Rüstungsset",
+    "fr": "Renfort d'armure léger",
+    "es": "Complemento para armadura ligera",
+    "ko": "작은 방어구 키트"
+   },
+   "icon": "inv_misc_armorkit_17",
+   "quality": 1,
+   "colors": [
+    1,
+    30,
+    45,
+    60
+   ],
+   "learnedat": 1,
+   "source": "auto",
+   "reagents": [
+    {
+     "id": 2318,
+     "qty": 24,
+     "icon": "inv_misc_leatherscrap_03",
+     "quality": 1,
+     "name": {
+      "en": "Light Leather",
+      "ru": "Тонкая кожа",
+      "cn": "轻皮",
+      "de": "Leichtes Leder",
+      "fr": "Cuir léger",
+      "es": "Cuero ligero",
+      "ko": "얇은 가죽"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Handstitched Leather Boots",
+      "ru": "Сшитые вручную кожаные сапоги",
+      "cn": "手工皮靴",
+      "de": "Handgenähte Lederstiefel",
+      "fr": "Bottes en cuir cousu main",
+      "es": "Botas de cuero cosidas a mano",
+      "ko": "손바느질한 가죽 장화"
+     },
+     "icon": "inv_boots_04",
+     "quality": 1,
+     "reagents": [
+      {
+       "name": {
+        "en": "Light Leather",
+        "ru": "Тонкая кожа",
+        "cn": "轻皮",
+        "de": "Leichtes Leder",
+        "fr": "Cuir léger",
+        "es": "Cuero ligero",
+        "ko": "얇은 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_03",
+       "qty": 2
+      },
+      {
+       "name": {
+        "en": "Coarse Thread",
+        "ru": "Грубая нить",
+        "cn": "粗线",
+        "de": "Grober Faden",
+        "fr": "Bobine de fil grossier",
+        "es": "Hilo burdo",
+        "ko": "굵은 실타래"
+       },
+       "icon": "inv_fabric_linen_03",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Handstitched Leather Cloak",
+      "ru": "Сшитый вручную кожаный плащ",
+      "cn": "手工皮披风",
+      "de": "Handgenähter Lederumhang",
+      "fr": "Cape en cuir cousu main",
+      "es": "Capa de cuero cosida a mano",
+      "ko": "손바느질한 가죽 망토"
+     },
+     "icon": "inv_helmet_48",
+     "quality": 1,
+     "reagents": [
+      {
+       "name": {
+        "en": "Light Leather",
+        "ru": "Тонкая кожа",
+        "cn": "轻皮",
+        "de": "Leichtes Leder",
+        "fr": "Cuir léger",
+        "es": "Cuero ligero",
+        "ko": "얇은 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_03",
+       "qty": 2
+      },
+      {
+       "name": {
+        "en": "Coarse Thread",
+        "ru": "Грубая нить",
+        "cn": "粗线",
+        "de": "Grober Faden",
+        "fr": "Bobine de fil grossier",
+        "es": "Hilo burdo",
+        "ko": "굵은 실타래"
+       },
+       "icon": "inv_fabric_linen_03",
+       "qty": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 49,
+   "to": 59,
+   "crafts": 16,
+   "spell_id": 2149,
+   "extra": false,
+   "name": {
+    "en": "Handstitched Leather Boots",
+    "ru": "Сшитые вручную кожаные сапоги",
+    "cn": "手工皮靴",
+    "de": "Handgenähte Lederstiefel",
+    "fr": "Bottes en cuir cousu main",
+    "es": "Botas de cuero cosidas a mano",
+    "ko": "손바느질한 가죽 장화"
+   },
+   "icon": "inv_boots_04",
+   "quality": 1,
+   "colors": [
+    1,
+    40,
+    55,
+    70
+   ],
+   "learnedat": 1,
+   "source": "auto",
+   "reagents": [
+    {
+     "id": 2318,
+     "qty": 32,
+     "icon": "inv_misc_leatherscrap_03",
+     "quality": 1,
+     "name": {
+      "en": "Light Leather",
+      "ru": "Тонкая кожа",
+      "cn": "轻皮",
+      "de": "Leichtes Leder",
+      "fr": "Cuir léger",
+      "es": "Cuero ligero",
+      "ko": "얇은 가죽"
+     }
+    },
+    {
+     "id": 2320,
+     "qty": 16,
+     "icon": "inv_fabric_linen_03",
+     "quality": 1,
+     "name": {
+      "en": "Coarse Thread",
+      "ru": "Грубая нить",
+      "cn": "粗线",
+      "de": "Grober Faden",
+      "fr": "Bobine de fil grossier",
+      "es": "Hilo burdo",
+      "ko": "굵은 실타래"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Light Armor Kit",
+      "ru": "Накладки из тонкой кожи",
+      "cn": "轻型护甲片",
+      "de": "Leichtes Rüstungsset",
+      "fr": "Renfort d'armure léger",
+      "es": "Complemento para armadura ligera",
+      "ko": "작은 방어구 키트"
+     },
+     "icon": "inv_misc_armorkit_17",
+     "quality": 1,
+     "reagents": [
+      {
+       "name": {
+        "en": "Light Leather",
+        "ru": "Тонкая кожа",
+        "cn": "轻皮",
+        "de": "Leichtes Leder",
+        "fr": "Cuir léger",
+        "es": "Cuero ligero",
+        "ko": "얇은 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_03",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Handstitched Leather Cloak",
+      "ru": "Сшитый вручную кожаный плащ",
+      "cn": "手工皮披风",
+      "de": "Handgenähter Lederumhang",
+      "fr": "Cape en cuir cousu main",
+      "es": "Capa de cuero cosida a mano",
+      "ko": "손바느질한 가죽 망토"
+     },
+     "icon": "inv_helmet_48",
+     "quality": 1,
+     "reagents": [
+      {
+       "name": {
+        "en": "Light Leather",
+        "ru": "Тонкая кожа",
+        "cn": "轻皮",
+        "de": "Leichtes Leder",
+        "fr": "Cuir léger",
+        "es": "Cuero ligero",
+        "ko": "얇은 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_03",
+       "qty": 2
+      },
+      {
+       "name": {
+        "en": "Coarse Thread",
+        "ru": "Грубая нить",
+        "cn": "粗线",
+        "de": "Grober Faden",
+        "fr": "Bobine de fil grossier",
+        "es": "Hilo burdo",
+        "ko": "굵은 실타래"
+       },
+       "icon": "inv_fabric_linen_03",
+       "qty": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 59,
+   "to": 85,
+   "crafts": 30,
+   "spell_id": 3756,
+   "extra": false,
+   "name": {
+    "en": "Embossed Leather Gloves",
+    "ru": "Тисненые кожаные перчатки",
+    "cn": "雕花皮手套",
+    "de": "Geprägte Lederhandschuhe",
+    "fr": "Gants en cuir estampé",
+    "es": "Guantes de cuero en relieve",
+    "ko": "새김무늬 가죽 장갑"
+   },
+   "icon": "inv_gauntlets_05",
+   "quality": 2,
+   "colors": [
+    55,
+    70,
+    85,
+    100
+   ],
+   "learnedat": 55,
+   "source": "trainer",
+   "reagents": [
+    {
+     "id": 2318,
+     "qty": 90,
+     "icon": "inv_misc_leatherscrap_03",
+     "quality": 1,
+     "name": {
+      "en": "Light Leather",
+      "ru": "Тонкая кожа",
+      "cn": "轻皮",
+      "de": "Leichtes Leder",
+      "fr": "Cuir léger",
+      "es": "Cuero ligero",
+      "ko": "얇은 가죽"
+     }
+    },
+    {
+     "id": 2320,
+     "qty": 60,
+     "icon": "inv_fabric_linen_03",
+     "quality": 1,
+     "name": {
+      "en": "Coarse Thread",
+      "ru": "Грубая нить",
+      "cn": "粗线",
+      "de": "Grober Faden",
+      "fr": "Bobine de fil grossier",
+      "es": "Hilo burdo",
+      "ko": "굵은 실타래"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Light Leather Quiver",
+      "ru": "Колчан из тонкой кожи",
+      "cn": "轻皮箭袋",
+      "de": "Leichter Lederköcher",
+      "fr": "Carquois en cuir léger",
+      "es": "Carcaj de cuero ligero",
+      "ko": "얇은 가죽 화살통"
+     },
+     "icon": "inv_misc_quiver_01",
+     "quality": 1,
+     "reagents": [
+      {
+       "name": {
+        "en": "Light Leather",
+        "ru": "Тонкая кожа",
+        "cn": "轻皮",
+        "de": "Leichtes Leder",
+        "fr": "Cuir léger",
+        "es": "Cuero ligero",
+        "ko": "얇은 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_03",
+       "qty": 4
+      },
+      {
+       "name": {
+        "en": "Coarse Thread",
+        "ru": "Грубая нить",
+        "cn": "粗线",
+        "de": "Grober Faden",
+        "fr": "Bobine de fil grossier",
+        "es": "Hilo burdo",
+        "ko": "굵은 실타래"
+       },
+       "icon": "inv_fabric_linen_03",
+       "qty": 2
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Handstitched Leather Belt",
+      "ru": "Сшитый вручную кожаный пояс",
+      "cn": "手工皮带",
+      "de": "Handgenähter Ledergürtel",
+      "fr": "Ceinture en cuir cousu main",
+      "es": "Cinturón de cuero cosido a mano",
+      "ko": "손바느질한 가죽 허리띠"
+     },
+     "icon": "inv_belt_04",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Light Leather",
+        "ru": "Тонкая кожа",
+        "cn": "轻皮",
+        "de": "Leichtes Leder",
+        "fr": "Cuir léger",
+        "es": "Cuero ligero",
+        "ko": "얇은 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_03",
+       "qty": 6
+      },
+      {
+       "name": {
+        "en": "Coarse Thread",
+        "ru": "Грубая нить",
+        "cn": "粗线",
+        "de": "Grober Faden",
+        "fr": "Bobine de fil grossier",
+        "es": "Hilo burdo",
+        "ko": "굵은 실타래"
+       },
+       "icon": "inv_fabric_linen_03",
+       "qty": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 85,
+   "to": 102,
+   "crafts": 20,
+   "spell_id": 3817,
+   "extra": false,
+   "name": {
+    "en": "Cured Medium Hide",
+    "ru": "Обработанная средняя шкура",
+    "cn": "熟化中毛皮",
+    "de": "Geschmeidiger mittlerer Balg",
+    "fr": "Peau moyenne traitée",
+    "es": "Pellejo medio curado",
+    "ko": "일반 경화 가죽"
+   },
+   "icon": "inv_misc_pelt_bear_02",
+   "quality": 1,
+   "colors": [
+    85,
+    95,
+    100,
+    105
+   ],
+   "learnedat": 85,
+   "source": "trainer",
+   "reagents": [
+    {
+     "id": 4232,
+     "qty": 20,
+     "icon": "inv_misc_pelt_boar_ruin_02",
+     "quality": 1,
+     "name": {
+      "en": "Medium Hide",
+      "ru": "Средняя шкура",
+      "cn": "中毛皮",
+      "de": "Mittlerer Balg",
+      "fr": "Peau moyenne",
+      "es": "Pellejo fino",
+      "ko": "일반 통가죽"
+     }
+    },
+    {
+     "id": 4289,
+     "qty": 20,
+     "icon": "inv_misc_dust_02",
+     "quality": 1,
+     "name": {
+      "en": "Salt",
+      "ru": "Соль",
+      "cn": "盐",
+      "de": "Salz",
+      "fr": "Sel",
+      "es": "Sal",
+      "ko": "소금"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Fine Leather Belt",
+      "ru": "Тонкий кожаный пояс",
+      "cn": "优质皮带",
+      "de": "Feiner Ledergürtel",
+      "fr": "Ceinture élégante en cuir",
+      "es": "Cinturón de cuero refinado",
+      "ko": "고급 가죽 허리띠"
+     },
+     "icon": "inv_belt_04",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Light Leather",
+        "ru": "Тонкая кожа",
+        "cn": "轻皮",
+        "de": "Leichtes Leder",
+        "fr": "Cuir léger",
+        "es": "Cuero ligero",
+        "ko": "얇은 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_03",
+       "qty": 6
+      },
+      {
+       "name": {
+        "en": "Coarse Thread",
+        "ru": "Грубая нить",
+        "cn": "粗线",
+        "de": "Grober Faden",
+        "fr": "Bobine de fil grossier",
+        "es": "Hilo burdo",
+        "ko": "굵은 실타래"
+       },
+       "icon": "inv_fabric_linen_03",
+       "qty": 2
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Embossed Leather Pants",
+      "ru": "Тисненые кожаные штаны",
+      "cn": "雕花皮短裤",
+      "de": "Geprägte Lederhose",
+      "fr": "Pantalon en cuir estampé",
+      "es": "Pantalones de cuero en relieve",
+      "ko": "새김무늬 가죽 바지"
+     },
+     "icon": "inv_pants_02",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Cured Light Hide",
+        "ru": "Обработанная легкая шкура",
+        "cn": "熟化轻毛皮",
+        "de": "Geschmeidiger leichter Balg",
+        "fr": "Peau légère traitée",
+        "es": "Pellejo ligero curado",
+        "ko": "얇은 경화 가죽"
+       },
+       "icon": "inv_misc_pelt_wolf_01",
+       "qty": 1
+      },
+      {
+       "name": {
+        "en": "Light Leather",
+        "ru": "Тонкая кожа",
+        "cn": "轻皮",
+        "de": "Leichtes Leder",
+        "fr": "Cuir léger",
+        "es": "Cuero ligero",
+        "ko": "얇은 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_03",
+       "qty": 6
+      },
+      {
+       "name": {
+        "en": "Coarse Thread",
+        "ru": "Грубая нить",
+        "cn": "粗线",
+        "de": "Grober Faden",
+        "fr": "Bobine de fil grossier",
+        "es": "Hilo burdo",
+        "ko": "굵은 실타래"
+       },
+       "icon": "inv_fabric_linen_03",
+       "qty": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 102,
+   "to": 119,
+   "crafts": 32,
+   "spell_id": 2165,
+   "extra": false,
+   "name": {
+    "en": "Medium Armor Kit",
+    "ru": "Накладки из жесткой кожи",
+    "cn": "中型护甲片",
+    "de": "Mittleres Rüstungsset",
+    "fr": "Renfort d'armure moyen",
+    "es": "Juego de armadura medio",
+    "ko": "일반 방어구 키트"
+   },
+   "icon": "inv_misc_armorkit_15",
+   "quality": 1,
+   "colors": [
+    100,
+    100,
+    112,
+    120
+   ],
+   "learnedat": 100,
+   "source": "trainer",
+   "reagents": [
+    {
+     "id": 2319,
+     "qty": 128,
+     "icon": "inv_misc_leatherscrap_05",
+     "quality": 1,
+     "name": {
+      "en": "Medium Leather",
+      "ru": "Жесткая кожа",
+      "cn": "中皮",
+      "de": "Mittleres Leder",
+      "fr": "Cuir moyen",
+      "es": "Cuero medio",
+      "ko": "일반 가죽"
+     }
+    },
+    {
+     "id": 2320,
+     "qty": 32,
+     "icon": "inv_fabric_linen_03",
+     "quality": 1,
+     "name": {
+      "en": "Coarse Thread",
+      "ru": "Грубая нить",
+      "cn": "粗线",
+      "de": "Grober Faden",
+      "fr": "Bobine de fil grossier",
+      "es": "Hilo burdo",
+      "ko": "굵은 실타래"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Deviate Scale Cloak",
+      "ru": "Плащ из отражающей чешуи",
+      "cn": "蛇鳞披风",
+      "de": "Deviatschuppenumhang",
+      "fr": "Cape en écailles de déviant",
+      "es": "Capa de escamas desviadas",
+      "ko": "돌연변이 비늘 망토"
+     },
+     "icon": "inv_misc_monsterscales_03",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Deviate Scale",
+        "ru": "Искаженная чешуя",
+        "cn": "飞蛇鳞片",
+        "de": "Deviatschuppe",
+        "fr": "Ecaille de déviant",
+        "es": "Escama desviada",
+        "ko": "돌연변이 비늘"
+       },
+       "icon": "inv_misc_monsterscales_02",
+       "qty": 8
+      },
+      {
+       "name": {
+        "en": "Cured Light Hide",
+        "ru": "Обработанная легкая шкура",
+        "cn": "熟化轻毛皮",
+        "de": "Geschmeidiger leichter Balg",
+        "fr": "Peau légère traitée",
+        "es": "Pellejo ligero curado",
+        "ko": "얇은 경화 가죽"
+       },
+       "icon": "inv_misc_pelt_wolf_01",
+       "qty": 1
+      },
+      {
+       "name": {
+        "en": "Fine Thread",
+        "ru": "Тонкая нить",
+        "cn": "细线",
+        "de": "Feiner Faden",
+        "fr": "Bobine de fil raffiné",
+        "es": "Hilo refinado",
+        "ko": "가는 실타래"
+       },
+       "icon": "inv_fabric_wool_02",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Black Whelp Cloak",
+      "ru": "Плащ из чешуи черного дракончика",
+      "cn": "黑色雏龙披风",
+      "de": "Schwarzwelpenumhang",
+      "fr": "Cape de dragonnet noir",
+      "es": "Capa de cría negra",
+      "ko": "새끼 검은용 망토"
+     },
+     "icon": "inv_misc_monsterscales_03",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Black Whelp Scale",
+        "ru": "Чешуя черного дракончика",
+        "cn": "黑色雏龙鳞片",
+        "de": "Schwarzwelpenschuppe",
+        "fr": "Ecaille de dragonnet noir",
+        "es": "Escama de cría negra",
+        "ko": "새끼 검은용 비늘"
+       },
+       "icon": "inv_misc_monsterscales_08",
+       "qty": 12
+      },
+      {
+       "name": {
+        "en": "Medium Leather",
+        "ru": "Жесткая кожа",
+        "cn": "中皮",
+        "de": "Mittleres Leder",
+        "fr": "Cuir moyen",
+        "es": "Cuero medio",
+        "ko": "일반 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_05",
+       "qty": 4
+      },
+      {
+       "name": {
+        "en": "Fine Thread",
+        "ru": "Тонкая нить",
+        "cn": "细线",
+        "de": "Feiner Faden",
+        "fr": "Bobine de fil raffiné",
+        "es": "Hilo refinado",
+        "ko": "가는 실타래"
+       },
+       "icon": "inv_fabric_wool_02",
+       "qty": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 119,
+   "to": 125,
+   "crafts": 10,
+   "spell_id": 2168,
+   "extra": false,
+   "name": {
+    "en": "Dark Leather Cloak",
+    "ru": "Темный кожаный плащ",
+    "cn": "黑皮披风",
+    "de": "Dunkler Lederumhang",
+    "fr": "Cape noire en cuir",
+    "es": "Capa de cuero oscuro",
+    "ko": "암색 가죽 망토"
+   },
+   "icon": "inv_misc_cape_10",
+   "quality": 2,
+   "colors": [
+    110,
+    110,
+    122,
+    135
+   ],
+   "learnedat": 110,
+   "source": "trainer",
+   "reagents": [
+    {
+     "id": 2319,
+     "qty": 80,
+     "icon": "inv_misc_leatherscrap_05",
+     "quality": 1,
+     "name": {
+      "en": "Medium Leather",
+      "ru": "Жесткая кожа",
+      "cn": "中皮",
+      "de": "Mittleres Leder",
+      "fr": "Cuir moyen",
+      "es": "Cuero medio",
+      "ko": "일반 가죽"
+     }
+    },
+    {
+     "id": 2321,
+     "qty": 10,
+     "icon": "inv_fabric_wool_02",
+     "quality": 1,
+     "name": {
+      "en": "Fine Thread",
+      "ru": "Тонкая нить",
+      "cn": "细线",
+      "de": "Feiner Faden",
+      "fr": "Bobine de fil raffiné",
+      "es": "Hilo refinado",
+      "ko": "가는 실타래"
+     }
+    },
+    {
+     "id": 4340,
+     "qty": 10,
+     "icon": "inv_drink_10",
+     "quality": 1,
+     "name": {
+      "en": "Gray Dye",
+      "ru": "Серая краска",
+      "cn": "灰色染料",
+      "de": "Grauer Farbstoff",
+      "fr": "Teinture grise",
+      "es": "Tinte gris",
+      "ko": "회색 염료"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Light Leather Pants",
+      "ru": "Штаны из тонкой кожи",
+      "cn": "轻皮短裤",
+      "de": "Leichte Lederhose",
+      "fr": "Pantalon en cuir léger",
+      "es": "Pantalones de cuero ligero",
+      "ko": "얇은 가죽 바지"
+     },
+     "icon": "inv_pants_02",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Light Leather",
+        "ru": "Тонкая кожа",
+        "cn": "轻皮",
+        "de": "Leichtes Leder",
+        "fr": "Cuir léger",
+        "es": "Cuero ligero",
+        "ko": "얇은 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_03",
+       "qty": 10
+      },
+      {
+       "name": {
+        "en": "Cured Light Hide",
+        "ru": "Обработанная легкая шкура",
+        "cn": "熟化轻毛皮",
+        "de": "Geschmeidiger leichter Balg",
+        "fr": "Peau légère traitée",
+        "es": "Pellejo ligero curado",
+        "ko": "얇은 경화 가죽"
+       },
+       "icon": "inv_misc_pelt_wolf_01",
+       "qty": 1
+      },
+      {
+       "name": {
+        "en": "Fine Thread",
+        "ru": "Тонкая нить",
+        "cn": "细线",
+        "de": "Feiner Faden",
+        "fr": "Bobine de fil raffiné",
+        "es": "Hilo refinado",
+        "ko": "가는 실타래"
+       },
+       "icon": "inv_fabric_wool_02",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Dark Leather Pants",
+      "ru": "Темные кожаные штаны",
+      "cn": "黑皮短裤",
+      "de": "Dunkle Lederhose",
+      "fr": "Pantalon noir en cuir",
+      "es": "Pantalones de cuero oscuro",
+      "ko": "암색 가죽 바지"
+     },
+     "icon": "inv_pants_09",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Medium Leather",
+        "ru": "Жесткая кожа",
+        "cn": "中皮",
+        "de": "Mittleres Leder",
+        "fr": "Cuir moyen",
+        "es": "Cuero medio",
+        "ko": "일반 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_05",
+       "qty": 12
+      },
+      {
+       "name": {
+        "en": "Gray Dye",
+        "ru": "Серая краска",
+        "cn": "灰色染料",
+        "de": "Grauer Farbstoff",
+        "fr": "Teinture grise",
+        "es": "Tinte gris",
+        "ko": "회색 염료"
+       },
+       "icon": "inv_drink_10",
+       "qty": 1
+      },
+      {
+       "name": {
+        "en": "Fine Thread",
+        "ru": "Тонкая нить",
+        "cn": "细线",
+        "de": "Feiner Faden",
+        "fr": "Bobine de fil raffiné",
+        "es": "Hilo refinado",
+        "ko": "가는 실타래"
+       },
+       "icon": "inv_fabric_wool_02",
+       "qty": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 80,
+   "to": null,
+   "crafts": 19,
+   "spell_id": 3763,
+   "extra": true,
+   "name": {
+    "en": "Fine Leather Belt",
+    "ru": "Тонкий кожаный пояс",
+    "cn": "优质皮带",
+    "de": "Feiner Ledergürtel",
+    "fr": "Ceinture élégante en cuir",
+    "es": "Cinturón de cuero refinado",
+    "ko": "고급 가죽 허리띠"
+   },
+   "icon": "inv_belt_04",
+   "quality": 2,
+   "colors": [
+    80,
+    85,
+    100,
+    115
+   ],
+   "learnedat": 80,
+   "source": "trainer",
+   "reagents": [
+    {
+     "id": 2318,
+     "qty": 114,
+     "icon": "inv_misc_leatherscrap_03",
+     "quality": 1,
+     "name": {
+      "en": "Light Leather",
+      "ru": "Тонкая кожа",
+      "cn": "轻皮",
+      "de": "Leichtes Leder",
+      "fr": "Cuir léger",
+      "es": "Cuero ligero",
+      "ko": "얇은 가죽"
+     }
+    },
+    {
+     "id": 2320,
+     "qty": 38,
+     "icon": "inv_fabric_linen_03",
+     "quality": 1,
+     "name": {
+      "en": "Coarse Thread",
+      "ru": "Грубая нить",
+      "cn": "粗线",
+      "de": "Grober Faden",
+      "fr": "Bobine de fil grossier",
+      "es": "Hilo burdo",
+      "ko": "굵은 실타래"
+     }
+    }
+   ],
+   "alts": []
+  },
+  {
+   "from": 125,
+   "to": 139,
+   "crafts": 19,
+   "spell_id": 3766,
+   "extra": false,
+   "name": {
+    "en": "Dark Leather Belt",
+    "ru": "Темный кожаный пояс",
+    "cn": "黑皮腰带",
+    "de": "Dunkler Ledergürtel",
+    "fr": "Ceinture noire en cuir",
+    "es": "Cinturón de cuero oscuro",
+    "ko": "암색 가죽 허리띠"
+   },
+   "icon": "inv_belt_03",
+   "quality": 2,
+   "colors": [
+    125,
+    125,
+    137,
+    150
+   ],
+   "learnedat": 125,
+   "source": "trainer",
+   "reagents": [
+    {
+     "id": 4246,
+     "qty": 19,
+     "icon": "inv_belt_04",
+     "quality": 2,
+     "name": {
+      "en": "Fine Leather Belt",
+      "ru": "Тонкий кожаный пояс",
+      "cn": "优质皮带",
+      "de": "Feiner Ledergürtel",
+      "fr": "Ceinture élégante en cuir",
+      "es": "Cinturón de cuero refinado",
+      "ko": "고급 가죽 허리띠"
+     }
+    },
+    {
+     "id": 4233,
+     "qty": 19,
+     "icon": "inv_misc_pelt_bear_02",
+     "quality": 1,
+     "name": {
+      "en": "Cured Medium Hide",
+      "ru": "Обработанная средняя шкура",
+      "cn": "熟化中毛皮",
+      "de": "Geschmeidiger mittlerer Balg",
+      "fr": "Peau moyenne traitée",
+      "es": "Pellejo medio curado",
+      "ko": "일반 경화 가죽"
+     }
+    },
+    {
+     "id": 2321,
+     "qty": 38,
+     "icon": "inv_fabric_wool_02",
+     "quality": 1,
+     "name": {
+      "en": "Fine Thread",
+      "ru": "Тонкая нить",
+      "cn": "细线",
+      "de": "Feiner Faden",
+      "fr": "Bobine de fil raffiné",
+      "es": "Hilo refinado",
+      "ko": "가는 실타래"
+     }
+    },
+    {
+     "id": 4340,
+     "qty": 19,
+     "icon": "inv_drink_10",
+     "quality": 1,
+     "name": {
+      "en": "Gray Dye",
+      "ru": "Серая краска",
+      "cn": "灰色染料",
+      "de": "Grauer Farbstoff",
+      "fr": "Teinture grise",
+      "es": "Tinte gris",
+      "ko": "회색 염료"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Fletcher's Gloves",
+      "ru": "Перчатки Флетчера",
+      "cn": "造弓师手套",
+      "de": "Pfeilmacher-Handschuhe",
+      "fr": "Gants de fabricant d'arcs",
+      "es": "Guantes de flechero",
+      "ko": "활장이 장갑"
+     },
+     "icon": "inv_gauntlets_05",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Medium Leather",
+        "ru": "Жесткая кожа",
+        "cn": "中皮",
+        "de": "Mittleres Leder",
+        "fr": "Cuir moyen",
+        "es": "Cuero medio",
+        "ko": "일반 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_05",
+       "qty": 8
+      },
+      {
+       "name": {
+        "en": "Long Tail Feather",
+        "ru": "Длинное хвостовое перо",
+        "cn": "细长的尾羽",
+        "de": "Lange Schwanzfeder",
+        "fr": "Longue plume de queue",
+        "es": "Pluma de cola larga",
+        "ko": "긴 꼬리 깃털"
+       },
+       "icon": "inv_feather_03",
+       "qty": 4
+      },
+      {
+       "name": {
+        "en": "Fine Thread",
+        "ru": "Тонкая нить",
+        "cn": "细线",
+        "de": "Feiner Faden",
+        "fr": "Bobine de fil raffiné",
+        "es": "Hilo refinado",
+        "ko": "가는 실타래"
+       },
+       "icon": "inv_fabric_wool_02",
+       "qty": 2
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Toughened Leather Armor",
+      "ru": "Укрепленный кожаный доспех",
+      "cn": "韧化皮甲",
+      "de": "Gekräftigte Lederrüstung",
+      "fr": "Armure en cuir raffermi",
+      "es": "Armadura de cuero fortalecido",
+      "ko": "경화 가죽 갑옷"
+     },
+     "icon": "inv_chest_leather_10",
+     "quality": 1,
+     "reagents": [
+      {
+       "name": {
+        "en": "Medium Leather",
+        "ru": "Жесткая кожа",
+        "cn": "中皮",
+        "de": "Mittleres Leder",
+        "fr": "Cuir moyen",
+        "es": "Cuero medio",
+        "ko": "일반 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_05",
+       "qty": 10
+      },
+      {
+       "name": {
+        "en": "Cured Light Hide",
+        "ru": "Обработанная легкая шкура",
+        "cn": "熟化轻毛皮",
+        "de": "Geschmeidiger leichter Balg",
+        "fr": "Peau légère traitée",
+        "es": "Pellejo ligero curado",
+        "ko": "얇은 경화 가죽"
+       },
+       "icon": "inv_misc_pelt_wolf_01",
+       "qty": 2
+      },
+      {
+       "name": {
+        "en": "Fine Thread",
+        "ru": "Тонкая нить",
+        "cn": "细线",
+        "de": "Feiner Faden",
+        "fr": "Bobine de fil raffiné",
+        "es": "Hilo refinado",
+        "ko": "가는 실타래"
+       },
+       "icon": "inv_fabric_wool_02",
+       "qty": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 139,
+   "to": 145,
+   "crafts": 10,
+   "spell_id": 3768,
+   "extra": false,
+   "name": {
+    "en": "Hillman's Shoulders",
+    "ru": "Наплечники жителя холмов",
+    "cn": "山地护肩",
+    "de": "Schultern des Hügelwächters",
+    "fr": "Epaulières d'homme des collines",
+    "es": "Hombreras de montañero",
+    "ko": "산악인의 어깨보호구"
+   },
+   "icon": "inv_shoulder_08",
+   "quality": 2,
+   "colors": [
+    130,
+    130,
+    142,
+    155
+   ],
+   "learnedat": 130,
+   "source": "trainer",
+   "reagents": [
+    {
+     "id": 4233,
+     "qty": 10,
+     "icon": "inv_misc_pelt_bear_02",
+     "quality": 1,
+     "name": {
+      "en": "Cured Medium Hide",
+      "ru": "Обработанная средняя шкура",
+      "cn": "熟化中毛皮",
+      "de": "Geschmeidiger mittlerer Balg",
+      "fr": "Peau moyenne traitée",
+      "es": "Pellejo medio curado",
+      "ko": "일반 경화 가죽"
+     }
+    },
+    {
+     "id": 2319,
+     "qty": 40,
+     "icon": "inv_misc_leatherscrap_05",
+     "quality": 1,
+     "name": {
+      "en": "Medium Leather",
+      "ru": "Жесткая кожа",
+      "cn": "中皮",
+      "de": "Mittleres Leder",
+      "fr": "Cuir moyen",
+      "es": "Cuero medio",
+      "ko": "일반 가죽"
+     }
+    },
+    {
+     "id": 2321,
+     "qty": 10,
+     "icon": "inv_fabric_wool_02",
+     "quality": 1,
+     "name": {
+      "en": "Fine Thread",
+      "ru": "Тонкая нить",
+      "cn": "细线",
+      "de": "Feiner Faden",
+      "fr": "Bobine de fil raffiné",
+      "es": "Hilo refinado",
+      "ko": "가는 실타래"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Dark Leather Belt",
+      "ru": "Темный кожаный пояс",
+      "cn": "黑皮腰带",
+      "de": "Dunkler Ledergürtel",
+      "fr": "Ceinture noire en cuir",
+      "es": "Cinturón de cuero oscuro",
+      "ko": "암색 가죽 허리띠"
+     },
+     "icon": "inv_belt_03",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Fine Leather Belt",
+        "ru": "Тонкий кожаный пояс",
+        "cn": "优质皮带",
+        "de": "Feiner Ledergürtel",
+        "fr": "Ceinture élégante en cuir",
+        "es": "Cinturón de cuero refinado",
+        "ko": "고급 가죽 허리띠"
+       },
+       "icon": "inv_belt_04",
+       "qty": 1
+      },
+      {
+       "name": {
+        "en": "Cured Medium Hide",
+        "ru": "Обработанная средняя шкура",
+        "cn": "熟化中毛皮",
+        "de": "Geschmeidiger mittlerer Balg",
+        "fr": "Peau moyenne traitée",
+        "es": "Pellejo medio curado",
+        "ko": "일반 경화 가죽"
+       },
+       "icon": "inv_misc_pelt_bear_02",
+       "qty": 1
+      },
+      {
+       "name": {
+        "en": "Fine Thread",
+        "ru": "Тонкая нить",
+        "cn": "细线",
+        "de": "Feiner Faden",
+        "fr": "Bobine de fil raffiné",
+        "es": "Hilo refinado",
+        "ko": "가는 실타래"
+       },
+       "icon": "inv_fabric_wool_02",
+       "qty": 2
+      },
+      {
+       "name": {
+        "en": "Gray Dye",
+        "ru": "Серая краска",
+        "cn": "灰色染料",
+        "de": "Grauer Farbstoff",
+        "fr": "Teinture grise",
+        "es": "Tinte gris",
+        "ko": "회색 염료"
+       },
+       "icon": "inv_drink_10",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Herbalist's Gloves",
+      "ru": "Перчатки травника",
+      "cn": "采药人手套",
+      "de": "Kräuterkundigenhandschuhe",
+      "fr": "Gants d'herboriste",
+      "es": "Guantes de herborista",
+      "ko": "약초채집가 장갑"
+     },
+     "icon": "inv_gauntlets_18",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Medium Leather",
+        "ru": "Жесткая кожа",
+        "cn": "中皮",
+        "de": "Mittleres Leder",
+        "fr": "Cuir moyen",
+        "es": "Cuero medio",
+        "ko": "일반 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_05",
+       "qty": 8
+      },
+      {
+       "name": {
+        "en": "Kingsblood",
+        "ru": "Королевская кровь",
+        "cn": "皇血草",
+        "de": "Königsblut",
+        "fr": "Sang-royal",
+        "es": "Sangrerregia",
+        "ko": "왕꽃잎풀"
+       },
+       "icon": "inv_misc_herb_03",
+       "qty": 4
+      },
+      {
+       "name": {
+        "en": "Fine Thread",
+        "ru": "Тонкая нить",
+        "cn": "细线",
+        "de": "Feiner Faden",
+        "fr": "Bobine de fil raffiné",
+        "es": "Hilo refinado",
+        "ko": "가는 실타래"
+       },
+       "icon": "inv_fabric_wool_02",
+       "qty": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 145,
+   "to": 150,
+   "crafts": 6,
+   "spell_id": 3764,
+   "extra": false,
+   "name": {
+    "en": "Hillman's Leather Gloves",
+    "ru": "Кожаные перчатки жителя холмов",
+    "cn": "山地皮手套",
+    "de": "Lederhandschuhe des Hügelwächters",
+    "fr": "Gants d'homme des collines en cuir",
+    "es": "Guantes de cuero de montañero",
+    "ko": "산악인의 가죽 장갑"
+   },
+   "icon": "inv_gauntlets_05",
+   "quality": 2,
+   "colors": [
+    145,
+    145,
+    157,
+    170
+   ],
+   "learnedat": 145,
+   "source": "trainer",
+   "reagents": [
+    {
+     "id": 2319,
+     "qty": 84,
+     "icon": "inv_misc_leatherscrap_05",
+     "quality": 1,
+     "name": {
+      "en": "Medium Leather",
+      "ru": "Жесткая кожа",
+      "cn": "中皮",
+      "de": "Mittleres Leder",
+      "fr": "Cuir moyen",
+      "es": "Cuero medio",
+      "ko": "일반 가죽"
+     }
+    },
+    {
+     "id": 2321,
+     "qty": 24,
+     "icon": "inv_fabric_wool_02",
+     "quality": 1,
+     "name": {
+      "en": "Fine Thread",
+      "ru": "Тонкая нить",
+      "cn": "细线",
+      "de": "Feiner Faden",
+      "fr": "Bobine de fil raffiné",
+      "es": "Hilo refinado",
+      "ko": "가는 실타래"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Hillman's Shoulders",
+      "ru": "Наплечники жителя холмов",
+      "cn": "山地护肩",
+      "de": "Schultern des Hügelwächters",
+      "fr": "Epaulières d'homme des collines",
+      "es": "Hombreras de montañero",
+      "ko": "산악인의 어깨보호구"
+     },
+     "icon": "inv_shoulder_08",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Cured Medium Hide",
+        "ru": "Обработанная средняя шкура",
+        "cn": "熟化中毛皮",
+        "de": "Geschmeidiger mittlerer Balg",
+        "fr": "Peau moyenne traitée",
+        "es": "Pellejo medio curado",
+        "ko": "일반 경화 가죽"
+       },
+       "icon": "inv_misc_pelt_bear_02",
+       "qty": 1
+      },
+      {
+       "name": {
+        "en": "Medium Leather",
+        "ru": "Жесткая кожа",
+        "cn": "中皮",
+        "de": "Mittleres Leder",
+        "fr": "Cuir moyen",
+        "es": "Cuero medio",
+        "ko": "일반 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_05",
+       "qty": 4
+      },
+      {
+       "name": {
+        "en": "Fine Thread",
+        "ru": "Тонкая нить",
+        "cn": "细线",
+        "de": "Feiner Faden",
+        "fr": "Bobine de fil raffiné",
+        "es": "Hilo refinado",
+        "ko": "가는 실타래"
+       },
+       "icon": "inv_fabric_wool_02",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Herbalist's Gloves",
+      "ru": "Перчатки травника",
+      "cn": "采药人手套",
+      "de": "Kräuterkundigenhandschuhe",
+      "fr": "Gants d'herboriste",
+      "es": "Guantes de herborista",
+      "ko": "약초채집가 장갑"
+     },
+     "icon": "inv_gauntlets_18",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Medium Leather",
+        "ru": "Жесткая кожа",
+        "cn": "中皮",
+        "de": "Mittleres Leder",
+        "fr": "Cuir moyen",
+        "es": "Cuero medio",
+        "ko": "일반 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_05",
+       "qty": 8
+      },
+      {
+       "name": {
+        "en": "Kingsblood",
+        "ru": "Королевская кровь",
+        "cn": "皇血草",
+        "de": "Königsblut",
+        "fr": "Sang-royal",
+        "es": "Sangrerregia",
+        "ko": "왕꽃잎풀"
+       },
+       "icon": "inv_misc_herb_03",
+       "qty": 4
+      },
+      {
+       "name": {
+        "en": "Fine Thread",
+        "ru": "Тонкая нить",
+        "cn": "细线",
+        "de": "Feiner Faden",
+        "fr": "Bobine de fil raffiné",
+        "es": "Hilo refinado",
+        "ko": "가는 실타래"
+       },
+       "icon": "inv_fabric_wool_02",
+       "qty": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 150,
+   "to": 158,
+   "crafts": 12,
+   "spell_id": 3780,
+   "extra": false,
+   "name": {
+    "en": "Heavy Armor Kit",
+    "ru": "Накладки из толстой кожи",
+    "cn": "重型护甲片",
+    "de": "Schweres Rüstungsset",
+    "fr": "Renfort d'armure lourd",
+    "es": "Complemento pesado para armadura",
+    "ko": "고급 방어구 키트"
+   },
+   "icon": "inv_misc_armorkit_16",
+   "quality": 1,
+   "colors": [
+    150,
+    150,
+    155,
+    165
+   ],
+   "learnedat": 150,
+   "source": "trainer",
+   "reagents": [
+    {
+     "id": 4234,
+     "qty": 60,
+     "icon": "inv_misc_leatherscrap_07",
+     "quality": 1,
+     "name": {
+      "en": "Heavy Leather",
+      "ru": "Толстая кожа",
+      "cn": "重皮",
+      "de": "Schweres Leder",
+      "fr": "Cuir lourd",
+      "es": "Cuero pesado",
+      "ko": "질긴 가죽"
+     }
+    },
+    {
+     "id": 2321,
+     "qty": 12,
+     "icon": "inv_fabric_wool_02",
+     "quality": 1,
+     "name": {
+      "en": "Fine Thread",
+      "ru": "Тонкая нить",
+      "cn": "细线",
+      "de": "Feiner Faden",
+      "fr": "Bobine de fil raffiné",
+      "es": "Hilo refinado",
+      "ko": "가는 실타래"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Heavy Leather",
+      "ru": "Толстая кожа",
+      "cn": "重皮",
+      "de": "Schweres Leder",
+      "fr": "Cuir lourd",
+      "es": "Cuero pesado",
+      "ko": "질긴 가죽"
+     },
+     "icon": "inv_misc_leatherscrap_07",
+     "quality": 1,
+     "reagents": [
+      {
+       "name": {
+        "en": "Medium Leather",
+        "ru": "Жесткая кожа",
+        "cn": "中皮",
+        "de": "Mittleres Leder",
+        "fr": "Cuir moyen",
+        "es": "Cuero medio",
+        "ko": "일반 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_05",
+       "qty": 5
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Hillman's Cloak",
+      "ru": "Плащ жителя холмов",
+      "cn": "山地披风",
+      "de": "Umhang des Hügelwächters",
+      "fr": "Cape d'homme des collines",
+      "es": "Capa de montañero",
+      "ko": "산악인의 망토"
+     },
+     "icon": "inv_misc_cape_07",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Heavy Leather",
+        "ru": "Толстая кожа",
+        "cn": "重皮",
+        "de": "Schweres Leder",
+        "fr": "Cuir lourd",
+        "es": "Cuero pesado",
+        "ko": "질긴 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_07",
+       "qty": 5
+      },
+      {
+       "name": {
+        "en": "Fine Thread",
+        "ru": "Тонкая нить",
+        "cn": "细线",
+        "de": "Feiner Faden",
+        "fr": "Bobine de fil raffiné",
+        "es": "Hilo refinado",
+        "ko": "가는 실타래"
+       },
+       "icon": "inv_fabric_wool_02",
+       "qty": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 158,
+   "to": 165,
+   "crafts": 10,
+   "spell_id": 1255096,
+   "extra": false,
+   "name": {
+    "en": "Mystic Heavy Armor Kit",
+    "ru": "Мистические накладки из толстой кожи",
+    "cn": "秘法重型护甲片",
+    "de": "Mystisches schweres Rüstungsset",
+    "fr": "Renfort d’armure lourd mystique",
+    "es": "Complemento pesado para armadura místico",
+    "ko": "신비한 고급 방어구 강화도구"
+   },
+   "icon": "inv_misc_armorkit_16",
+   "quality": 2,
+   "colors": [
+    0,
+    155,
+    165,
+    175
+   ],
+   "learnedat": 155,
+   "source": "vendor",
+   "reagents": [
+    {
+     "id": 4265,
+     "qty": 10,
+     "icon": "inv_misc_armorkit_16",
+     "quality": 1,
+     "name": {
+      "en": "Heavy Armor Kit",
+      "ru": "Накладки из толстой кожи",
+      "cn": "重型护甲片",
+      "de": "Schweres Rüstungsset",
+      "fr": "Renfort d'armure lourd",
+      "es": "Complemento pesado para armadura",
+      "ko": "고급 방어구 키트"
+     }
+    },
+    {
+     "id": 11083,
+     "qty": 20,
+     "icon": "inv_enchant_dustsoul",
+     "quality": 1,
+     "name": {
+      "en": "Soul Dust",
+      "ru": "Пыль духа",
+      "cn": "灵魂之尘",
+      "de": "Seelenstaub",
+      "fr": "Poussière d'âme",
+      "es": "Polvo de alma",
+      "ko": "영혼 가루"
+     }
+    },
+    {
+     "id": 3385,
+     "qty": 20,
+     "icon": "inv_potion_71",
+     "quality": 1,
+     "name": {
+      "en": "Lesser Mana Potion",
+      "ru": "Простое зелье маны",
+      "cn": "次级法力药水",
+      "de": "Geringer Manatrank",
+      "fr": "Potion de mana inférieure",
+      "es": "Poción de maná inferior",
+      "ko": "하급 마나 물약"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Heavy Armor Kit",
+      "ru": "Накладки из толстой кожи",
+      "cn": "重型护甲片",
+      "de": "Schweres Rüstungsset",
+      "fr": "Renfort d'armure lourd",
+      "es": "Complemento pesado para armadura",
+      "ko": "고급 방어구 키트"
+     },
+     "icon": "inv_misc_armorkit_16",
+     "quality": 1,
+     "reagents": [
+      {
+       "name": {
+        "en": "Heavy Leather",
+        "ru": "Толстая кожа",
+        "cn": "重皮",
+        "de": "Schweres Leder",
+        "fr": "Cuir lourd",
+        "es": "Cuero pesado",
+        "ko": "질긴 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_07",
+       "qty": 5
+      },
+      {
+       "name": {
+        "en": "Fine Thread",
+        "ru": "Тонкая нить",
+        "cn": "细线",
+        "de": "Feiner Faden",
+        "fr": "Bobine de fil raffiné",
+        "es": "Hilo refinado",
+        "ko": "가는 실타래"
+       },
+       "icon": "inv_fabric_wool_02",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Hillman's Cloak",
+      "ru": "Плащ жителя холмов",
+      "cn": "山地披风",
+      "de": "Umhang des Hügelwächters",
+      "fr": "Cape d'homme des collines",
+      "es": "Capa de montañero",
+      "ko": "산악인의 망토"
+     },
+     "icon": "inv_misc_cape_07",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Heavy Leather",
+        "ru": "Толстая кожа",
+        "cn": "重皮",
+        "de": "Schweres Leder",
+        "fr": "Cuir lourd",
+        "es": "Cuero pesado",
+        "ko": "질긴 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_07",
+       "qty": 5
+      },
+      {
+       "name": {
+        "en": "Fine Thread",
+        "ru": "Тонкая нить",
+        "cn": "细线",
+        "de": "Feiner Faden",
+        "fr": "Bobine de fil raffiné",
+        "es": "Hilo refinado",
+        "ko": "가는 실타래"
+       },
+       "icon": "inv_fabric_wool_02",
+       "qty": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 165,
+   "to": 175,
+   "crafts": 17,
+   "spell_id": 4097,
+   "extra": false,
+   "name": {
+    "en": "Raptor Hide Belt",
+    "ru": "Пояс из шкуры ящера",
+    "cn": "迅猛龙皮腰带",
+    "de": "Raptorbalggürtel",
+    "fr": "Ceinture en peau de raptor",
+    "es": "Cinturón de pellejo de raptor",
+    "ko": "랩터 가죽 허리띠"
+   },
+   "icon": "inv_belt_02",
+   "quality": 2,
+   "colors": [
+    165,
+    165,
+    170,
+    180
+   ],
+   "learnedat": 165,
+   "source": "vendor",
+   "reagents": [
+    {
+     "id": 4461,
+     "qty": 68,
+     "icon": "inv_misc_monsterscales_01",
+     "quality": 1,
+     "name": {
+      "en": "Raptor Hide",
+      "ru": "Шкура ящера",
+      "cn": "迅猛龙的外皮",
+      "de": "Raptorbalg",
+      "fr": "Peau de raptor",
+      "es": "Pellejo de raptor",
+      "ko": "랩터 통가죽"
+     }
+    },
+    {
+     "id": 4234,
+     "qty": 68,
+     "icon": "inv_misc_leatherscrap_07",
+     "quality": 1,
+     "name": {
+      "en": "Heavy Leather",
+      "ru": "Толстая кожа",
+      "cn": "重皮",
+      "de": "Schweres Leder",
+      "fr": "Cuir lourd",
+      "es": "Cuero pesado",
+      "ko": "질긴 가죽"
+     }
+    },
+    {
+     "id": 2321,
+     "qty": 34,
+     "icon": "inv_fabric_wool_02",
+     "quality": 1,
+     "name": {
+      "en": "Fine Thread",
+      "ru": "Тонкая нить",
+      "cn": "细线",
+      "de": "Feiner Faden",
+      "fr": "Bobine de fil raffiné",
+      "es": "Hilo refinado",
+      "ko": "가는 실타래"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Raptor Hide Harness",
+      "ru": "Портупея из шкуры ящера",
+      "cn": "迅猛龙皮背心",
+      "de": "Raptorbalgharnisch",
+      "fr": "Harnais en peau de raptor",
+      "es": "Arnés de pellejo de raptor",
+      "ko": "랩터 가죽 멜빵"
+     },
+     "icon": "inv_chest_leather_04",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Raptor Hide",
+        "ru": "Шкура ящера",
+        "cn": "迅猛龙的外皮",
+        "de": "Raptorbalg",
+        "fr": "Peau de raptor",
+        "es": "Pellejo de raptor",
+        "ko": "랩터 통가죽"
+       },
+       "icon": "inv_misc_monsterscales_01",
+       "qty": 6
+      },
+      {
+       "name": {
+        "en": "Heavy Leather",
+        "ru": "Толстая кожа",
+        "cn": "重皮",
+        "de": "Schweres Leder",
+        "fr": "Cuir lourd",
+        "es": "Cuero pesado",
+        "ko": "질긴 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_07",
+       "qty": 4
+      },
+      {
+       "name": {
+        "en": "Fine Thread",
+        "ru": "Тонкая нить",
+        "cn": "细线",
+        "de": "Feiner Faden",
+        "fr": "Bobine de fil raffiné",
+        "es": "Hilo refinado",
+        "ko": "가는 실타래"
+       },
+       "icon": "inv_fabric_wool_02",
+       "qty": 2
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Skirmisher's Leather Belt",
+      "ru": "Кожаный пояс застрельщика",
+      "cn": "散兵的皮带",
+      "de": "Ledergürtel des Scharmützlers",
+      "fr": "Ceinture d’escarmouche en cuir",
+      "es": "Cinturón de cuero de hostigador",
+      "ko": "척후병의 가죽 허리띠"
+     },
+     "icon": "inv_belt_37a",
+     "quality": 3,
+     "reagents": [
+      {
+       "name": {
+        "en": "Heavy Leather",
+        "ru": "Толстая кожа",
+        "cn": "重皮",
+        "de": "Schweres Leder",
+        "fr": "Cuir lourd",
+        "es": "Cuero pesado",
+        "ko": "질긴 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_07",
+       "qty": 8
+      },
+      {
+       "name": {
+        "en": "Cured Medium Hide",
+        "ru": "Обработанная средняя шкура",
+        "cn": "熟化中毛皮",
+        "de": "Geschmeidiger mittlerer Balg",
+        "fr": "Peau moyenne traitée",
+        "es": "Pellejo medio curado",
+        "ko": "일반 경화 가죽"
+       },
+       "icon": "inv_misc_pelt_bear_02",
+       "qty": 2
+      },
+      {
+       "name": {
+        "en": "Citrine",
+        "ru": "Цитрин",
+        "cn": "黄水晶",
+        "de": "Citrin",
+        "fr": "Citrine",
+        "es": "Citrino",
+        "ko": "황수정"
+       },
+       "icon": "inv_misc_gem_opal_02",
+       "qty": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 175,
+   "to": 183,
+   "crafts": 12,
+   "spell_id": 7151,
+   "extra": false,
+   "name": {
+    "en": "Barbaric Shoulders",
+    "ru": "Варварские наплечники",
+    "cn": "野人护肩",
+    "de": "Barbarische Schultern",
+    "fr": "Epaulières barbares",
+    "es": "Hombreras barbáricas",
+    "ko": "야만전사의 어깨보호구"
+   },
+   "icon": "inv_shoulder_08",
+   "quality": 2,
+   "colors": [
+    175,
+    175,
+    180,
+    190
+   ],
+   "learnedat": 175,
+   "source": "trainer",
+   "reagents": [
+    {
+     "id": 4234,
+     "qty": 96,
+     "icon": "inv_misc_leatherscrap_07",
+     "quality": 1,
+     "name": {
+      "en": "Heavy Leather",
+      "ru": "Толстая кожа",
+      "cn": "重皮",
+      "de": "Schweres Leder",
+      "fr": "Cuir lourd",
+      "es": "Cuero pesado",
+      "ko": "질긴 가죽"
+     }
+    },
+    {
+     "id": 4236,
+     "qty": 12,
+     "icon": "inv_misc_pelt_wolf_02",
+     "quality": 1,
+     "name": {
+      "en": "Cured Heavy Hide",
+      "ru": "Обработанная тяжелая шкура",
+      "cn": "熟化重毛皮",
+      "de": "Geschmeidiger schwerer Balg",
+      "fr": "Peau lourde traitée",
+      "es": "Pellejo pesado curado",
+      "ko": "질긴 경화 가죽"
+     }
+    },
+    {
+     "id": 2321,
+     "qty": 24,
+     "icon": "inv_fabric_wool_02",
+     "quality": 1,
+     "name": {
+      "en": "Fine Thread",
+      "ru": "Тонкая нить",
+      "cn": "细线",
+      "de": "Feiner Faden",
+      "fr": "Bobine de fil raffiné",
+      "es": "Hilo refinado",
+      "ko": "가는 실타래"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Barbaric Leggings",
+      "ru": "Варварские поножи",
+      "cn": "野人护腿",
+      "de": "Barbarische Gamaschen",
+      "fr": "Jambières barbares",
+      "es": "Leotardos barbáricos",
+      "ko": "야만전사의 다리보호구"
+     },
+     "icon": "inv_pants_12",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Heavy Leather",
+        "ru": "Толстая кожа",
+        "cn": "重皮",
+        "de": "Schweres Leder",
+        "fr": "Cuir lourd",
+        "es": "Cuero pesado",
+        "ko": "질긴 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_07",
+       "qty": 10
+      },
+      {
+       "name": {
+        "en": "Fine Thread",
+        "ru": "Тонкая нить",
+        "cn": "细线",
+        "de": "Feiner Faden",
+        "fr": "Bobine de fil raffiné",
+        "es": "Hilo refinado",
+        "ko": "가는 실타래"
+       },
+       "icon": "inv_fabric_wool_02",
+       "qty": 2
+      },
+      {
+       "name": {
+        "en": "Moss Agate",
+        "ru": "Моховой агат",
+        "cn": "苔藓玛瑙",
+        "de": "Moosachat",
+        "fr": "Agate mousse",
+        "es": "Ágata musgosa",
+        "ko": "태마노"
+       },
+       "icon": "inv_misc_gem_emerald_02",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Thick Murloc Armor",
+      "ru": "Броня из толстой чешуи мурлока",
+      "cn": "厚鱼人皮甲",
+      "de": "Dicke Murlocrüstung",
+      "fr": "Armure épaisse de murloc",
+      "es": "Armadura múrloc gruesa",
+      "ko": "두꺼운 멀록비늘 갑옷"
+     },
+     "icon": "inv_chest_chain_12",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Thick Murloc Scale",
+        "ru": "Толстая чешуя мурлока",
+        "cn": "厚鱼人鳞片",
+        "de": "Dicke Murlocschuppe",
+        "fr": "Ecailles de murloc épaisses",
+        "es": "Escama múrloc gruesa",
+        "ko": "두꺼운 멀록 비늘"
+       },
+       "icon": "inv_misc_monsterscales_03",
+       "qty": 12
+      },
+      {
+       "name": {
+        "en": "Cured Heavy Hide",
+        "ru": "Обработанная тяжелая шкура",
+        "cn": "熟化重毛皮",
+        "de": "Geschmeidiger schwerer Balg",
+        "fr": "Peau lourde traitée",
+        "es": "Pellejo pesado curado",
+        "ko": "질긴 경화 가죽"
+       },
+       "icon": "inv_misc_pelt_wolf_02",
+       "qty": 1
+      },
+      {
+       "name": {
+        "en": "Heavy Leather",
+        "ru": "Толстая кожа",
+        "cn": "重皮",
+        "de": "Schweres Leder",
+        "fr": "Cuir lourd",
+        "es": "Cuero pesado",
+        "ko": "질긴 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_07",
+       "qty": 10
+      },
+      {
+       "name": {
+        "en": "Fine Thread",
+        "ru": "Тонкая нить",
+        "cn": "细线",
+        "de": "Feiner Faden",
+        "fr": "Bobine de fil raffiné",
+        "es": "Hilo refinado",
+        "ko": "가는 실타래"
+       },
+       "icon": "inv_fabric_wool_02",
+       "qty": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 183,
+   "to": 190,
+   "crafts": 13,
+   "spell_id": 3776,
+   "extra": false,
+   "name": {
+    "en": "Green Leather Bracers",
+    "ru": "Зеленые кожаные наручи",
+    "cn": "绿色皮护腕",
+    "de": "Grüne Lederarmschienen",
+    "fr": "Brassards verts en cuir",
+    "es": "Brazales de cuero verde",
+    "ko": "녹색 가죽 팔보호구"
+   },
+   "icon": "inv_bracer_12",
+   "quality": 2,
+   "colors": [
+    180,
+    180,
+    185,
+    195
+   ],
+   "learnedat": 180,
+   "source": "trainer",
+   "reagents": [
+    {
+     "id": 4236,
+     "qty": 26,
+     "icon": "inv_misc_pelt_wolf_02",
+     "quality": 1,
+     "name": {
+      "en": "Cured Heavy Hide",
+      "ru": "Обработанная тяжелая шкура",
+      "cn": "熟化重毛皮",
+      "de": "Geschmeidiger schwerer Balg",
+      "fr": "Peau lourde traitée",
+      "es": "Pellejo pesado curado",
+      "ko": "질긴 경화 가죽"
+     }
+    },
+    {
+     "id": 4234,
+     "qty": 78,
+     "icon": "inv_misc_leatherscrap_07",
+     "quality": 1,
+     "name": {
+      "en": "Heavy Leather",
+      "ru": "Толстая кожа",
+      "cn": "重皮",
+      "de": "Schweres Leder",
+      "fr": "Cuir lourd",
+      "es": "Cuero pesado",
+      "ko": "질긴 가죽"
+     }
+    },
+    {
+     "id": 2605,
+     "qty": 13,
+     "icon": "inv_potion_12",
+     "quality": 1,
+     "name": {
+      "en": "Green Dye",
+      "ru": "Зеленая краска",
+      "cn": "绿色染料",
+      "de": "Grüner Farbstoff",
+      "fr": "Teinture verte",
+      "es": "Tinte verde",
+      "ko": "녹색 염료"
+     }
+    },
+    {
+     "id": 2321,
+     "qty": 13,
+     "icon": "inv_fabric_wool_02",
+     "quality": 1,
+     "name": {
+      "en": "Fine Thread",
+      "ru": "Тонкая нить",
+      "cn": "细线",
+      "de": "Feiner Faden",
+      "fr": "Bobine de fil raffiné",
+      "es": "Hilo refinado",
+      "ko": "가는 실타래"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Barbaric Shoulders",
+      "ru": "Варварские наплечники",
+      "cn": "野人护肩",
+      "de": "Barbarische Schultern",
+      "fr": "Epaulières barbares",
+      "es": "Hombreras barbáricas",
+      "ko": "야만전사의 어깨보호구"
+     },
+     "icon": "inv_shoulder_08",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Heavy Leather",
+        "ru": "Толстая кожа",
+        "cn": "重皮",
+        "de": "Schweres Leder",
+        "fr": "Cuir lourd",
+        "es": "Cuero pesado",
+        "ko": "질긴 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_07",
+       "qty": 8
+      },
+      {
+       "name": {
+        "en": "Cured Heavy Hide",
+        "ru": "Обработанная тяжелая шкура",
+        "cn": "熟化重毛皮",
+        "de": "Geschmeidiger schwerer Balg",
+        "fr": "Peau lourde traitée",
+        "es": "Pellejo pesado curado",
+        "ko": "질긴 경화 가죽"
+       },
+       "icon": "inv_misc_pelt_wolf_02",
+       "qty": 1
+      },
+      {
+       "name": {
+        "en": "Fine Thread",
+        "ru": "Тонкая нить",
+        "cn": "细线",
+        "de": "Feiner Faden",
+        "fr": "Bobine de fil raffiné",
+        "es": "Hilo refinado",
+        "ko": "가는 실타래"
+       },
+       "icon": "inv_fabric_wool_02",
+       "qty": 2
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Frost Leather Cloak",
+      "ru": "Ледяной кожаный плащ",
+      "cn": "冰霜皮质披风",
+      "de": "Frostlederumhang",
+      "fr": "Cape de givre en cuir",
+      "es": "Capa de cuero escarchada",
+      "ko": "서리 가죽 망토"
+     },
+     "icon": "inv_misc_cape_04",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Heavy Leather",
+        "ru": "Толстая кожа",
+        "cn": "重皮",
+        "de": "Schweres Leder",
+        "fr": "Cuir lourd",
+        "es": "Cuero pesado",
+        "ko": "질긴 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_07",
+       "qty": 6
+      },
+      {
+       "name": {
+        "en": "Elemental Earth",
+        "ru": "Первородная земля",
+        "cn": "元素之土",
+        "de": "Elementarerde",
+        "fr": "Terre élémentaire",
+        "es": "Elemental de tierra",
+        "ko": "대지의 원소"
+       },
+       "icon": "inv_ore_iron_01",
+       "qty": 2
+      },
+      {
+       "name": {
+        "en": "Elemental Water",
+        "ru": "Первородная вода",
+        "cn": "元素之水",
+        "de": "Elementarwasser",
+        "fr": "Eau élémentaire",
+        "es": "Elemental de agua",
+        "ko": "물의 원소"
+       },
+       "icon": "inv_potion_03",
+       "qty": 2
+      },
+      {
+       "name": {
+        "en": "Fine Thread",
+        "ru": "Тонкая нить",
+        "cn": "细线",
+        "de": "Feiner Faden",
+        "fr": "Bobine de fil raffiné",
+        "es": "Hilo refinado",
+        "ko": "가는 실타래"
+       },
+       "icon": "inv_fabric_wool_02",
+       "qty": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 190,
+   "to": 200,
+   "crafts": 17,
+   "spell_id": 7156,
+   "extra": false,
+   "name": {
+    "en": "Guardian Gloves",
+    "ru": "Перчатки стража",
+    "cn": "守护手套",
+    "de": "Wächterhandschuhe",
+    "fr": "Gants de gardien",
+    "es": "Guantes de guardián",
+    "ko": "수호 장갑"
+   },
+   "icon": "inv_gauntlets_05",
+   "quality": 2,
+   "colors": [
+    190,
+    190,
+    195,
+    205
+   ],
+   "learnedat": 190,
+   "source": "trainer",
+   "reagents": [
+    {
+     "id": 4234,
+     "qty": 68,
+     "icon": "inv_misc_leatherscrap_07",
+     "quality": 1,
+     "name": {
+      "en": "Heavy Leather",
+      "ru": "Толстая кожа",
+      "cn": "重皮",
+      "de": "Schweres Leder",
+      "fr": "Cuir lourd",
+      "es": "Cuero pesado",
+      "ko": "질긴 가죽"
+     }
+    },
+    {
+     "id": 4236,
+     "qty": 17,
+     "icon": "inv_misc_pelt_wolf_02",
+     "quality": 1,
+     "name": {
+      "en": "Cured Heavy Hide",
+      "ru": "Обработанная тяжелая шкура",
+      "cn": "熟化重毛皮",
+      "de": "Geschmeidiger schwerer Balg",
+      "fr": "Peau lourde traitée",
+      "es": "Pellejo pesado curado",
+      "ko": "질긴 경화 가죽"
+     }
+    },
+    {
+     "id": 4291,
+     "qty": 17,
+     "icon": "inv_fabric_silk_02",
+     "quality": 1,
+     "name": {
+      "en": "Silken Thread",
+      "ru": "Шелковая нить",
+      "cn": "丝线",
+      "de": "Seidenfaden",
+      "fr": "Bobine de soie",
+      "es": "Hilo de seda",
+      "ko": "비단 실타래"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Barbaric Harness",
+      "ru": "Варварская портупея",
+      "cn": "野人背心",
+      "de": "Barbarischer Harnisch",
+      "fr": "Harnais barbare",
+      "es": "Arnés barbárico",
+      "ko": "야만전사의 멜빵"
+     },
+     "icon": "inv_chest_leather_04",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Heavy Leather",
+        "ru": "Толстая кожа",
+        "cn": "重皮",
+        "de": "Schweres Leder",
+        "fr": "Cuir lourd",
+        "es": "Cuero pesado",
+        "ko": "질긴 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_07",
+       "qty": 14
+      },
+      {
+       "name": {
+        "en": "Fine Thread",
+        "ru": "Тонкая нить",
+        "cn": "细线",
+        "de": "Feiner Faden",
+        "fr": "Bobine de fil raffiné",
+        "es": "Hilo refinado",
+        "ko": "가는 실타래"
+       },
+       "icon": "inv_fabric_wool_02",
+       "qty": 2
+      },
+      {
+       "name": {
+        "en": "Iron Buckle",
+        "ru": "Железная скоба",
+        "cn": "铁扣环",
+        "de": "Eiserne Gürtelschnalle",
+        "fr": "Boucle en fer",
+        "es": "Hebilla de hierro",
+        "ko": "철제 죔쇠"
+       },
+       "icon": "inv_misc_armorkit_12",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Murloc Scale Bracers",
+      "ru": "Наручи из чешуи мурлока",
+      "cn": "鱼人鳞片护腕",
+      "de": "Murlocschuppenarmschienen",
+      "fr": "Brassards en écailles de murloc",
+      "es": "Brazales de escama de múrloc",
+      "ko": "멀록 비늘 팔보호구"
+     },
+     "icon": "inv_bracer_05",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Thick Murloc Scale",
+        "ru": "Толстая чешуя мурлока",
+        "cn": "厚鱼人鳞片",
+        "de": "Dicke Murlocschuppe",
+        "fr": "Ecailles de murloc épaisses",
+        "es": "Escama múrloc gruesa",
+        "ko": "두꺼운 멀록 비늘"
+       },
+       "icon": "inv_misc_monsterscales_03",
+       "qty": 16
+      },
+      {
+       "name": {
+        "en": "Cured Heavy Hide",
+        "ru": "Обработанная тяжелая шкура",
+        "cn": "熟化重毛皮",
+        "de": "Geschmeidiger schwerer Balg",
+        "fr": "Peau lourde traitée",
+        "es": "Pellejo pesado curado",
+        "ko": "질긴 경화 가죽"
+       },
+       "icon": "inv_misc_pelt_wolf_02",
+       "qty": 1
+      },
+      {
+       "name": {
+        "en": "Heavy Leather",
+        "ru": "Толстая кожа",
+        "cn": "重皮",
+        "de": "Schweres Leder",
+        "fr": "Cuir lourd",
+        "es": "Cuero pesado",
+        "ko": "질긴 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_07",
+       "qty": 14
+      },
+      {
+       "name": {
+        "en": "Silken Thread",
+        "ru": "Шелковая нить",
+        "cn": "丝线",
+        "de": "Seidenfaden",
+        "fr": "Bobine de soie",
+        "es": "Hilo de seda",
+        "ko": "비단 실타래"
+       },
+       "icon": "inv_fabric_silk_02",
+       "qty": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 200,
+   "to": 208,
+   "crafts": 11,
+   "spell_id": 10482,
+   "extra": false,
+   "name": {
+    "en": "Cured Thick Hide",
+    "ru": "Обработанная плотная шкура",
+    "cn": "熟化厚毛皮",
+    "de": "Geschmeidiger dicker Balg",
+    "fr": "Peau épaisse traitée",
+    "es": "Pellejo grueso curado",
+    "ko": "두꺼운 경화 가죽"
+   },
+   "icon": "inv_misc_pelt_bear_01",
+   "quality": 1,
+   "colors": [
+    200,
+    203,
+    206,
+    210
+   ],
+   "learnedat": 200,
+   "source": "trainer",
+   "reagents": [
+    {
+     "id": 8169,
+     "qty": 11,
+     "icon": "inv_misc_pelt_bear_ruin_01",
+     "quality": 1,
+     "name": {
+      "en": "Thick Hide",
+      "ru": "Плотная шкура",
+      "cn": "厚毛皮",
+      "de": "Dicker Balg",
+      "fr": "Peau épaisse",
+      "es": "Pellejo grueso",
+      "ko": "두꺼운 통가죽"
+     }
+    },
+    {
+     "id": 8150,
+     "qty": 11,
+     "icon": "inv_misc_dust_02",
+     "quality": 1,
+     "name": {
+      "en": "Deeprock Salt",
+      "ru": "Глубокоскальная соль",
+      "cn": "石中盐",
+      "de": "Tiefsteinsalz",
+      "fr": "Sel de Fonderoc",
+      "es": "Sal de roca",
+      "ko": "깊은바다 소금"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Thick Leather",
+      "ru": "Плотная кожа",
+      "cn": "厚皮",
+      "de": "Dickes Leder",
+      "fr": "Cuir épais",
+      "es": "Cuero grueso",
+      "ko": "두꺼운 가죽"
+     },
+     "icon": "inv_misc_leatherscrap_08",
+     "quality": 1,
+     "reagents": [
+      {
+       "name": {
+        "en": "Heavy Leather",
+        "ru": "Толстая кожа",
+        "cn": "重皮",
+        "de": "Schweres Leder",
+        "fr": "Cuir lourd",
+        "es": "Cuero pesado",
+        "ko": "질긴 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_07",
+       "qty": 6
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Thick Armor Kit",
+      "ru": "Накладки из плотной кожи",
+      "cn": "厚重护甲片",
+      "de": "Dickes Rüstungsset",
+      "fr": "Renfort d'armure épais",
+      "es": "Complemento grueso para armadura",
+      "ko": "두꺼운 방어구 키트"
+     },
+     "icon": "inv_misc_armorkit_07",
+     "quality": 1,
+     "reagents": [
+      {
+       "name": {
+        "en": "Thick Leather",
+        "ru": "Плотная кожа",
+        "cn": "厚皮",
+        "de": "Dickes Leder",
+        "fr": "Cuir épais",
+        "es": "Cuero grueso",
+        "ko": "두꺼운 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_08",
+       "qty": 5
+      },
+      {
+       "name": {
+        "en": "Silken Thread",
+        "ru": "Шелковая нить",
+        "cn": "丝线",
+        "de": "Seidenfaden",
+        "fr": "Bobine de soie",
+        "es": "Hilo de seda",
+        "ko": "비단 실타래"
+       },
+       "icon": "inv_fabric_silk_02",
+       "qty": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 208,
+   "to": 220,
+   "crafts": 20,
+   "spell_id": 1255074,
+   "extra": false,
+   "name": {
+    "en": "Mystic Thick Armor Kit",
+    "ru": "Мистические накладки из плотной кожи",
+    "cn": "秘法厚重护甲片",
+    "de": "Mystisches dickes Rüstungsset",
+    "fr": "Renfort d’armure épais mystique",
+    "es": "Complemento grueso para armadura místico",
+    "ko": "신비한 두꺼운 방어구 강화도구"
+   },
+   "icon": "inv_misc_armorkit_07",
+   "quality": 2,
+   "colors": [
+    0,
+    205,
+    215,
+    225
+   ],
+   "learnedat": 205,
+   "source": "vendor",
+   "reagents": [
+    {
+     "id": 8173,
+     "qty": 20,
+     "icon": "inv_misc_armorkit_07",
+     "quality": 1,
+     "name": {
+      "en": "Thick Armor Kit",
+      "ru": "Накладки из плотной кожи",
+      "cn": "厚重护甲片",
+      "de": "Dickes Rüstungsset",
+      "fr": "Renfort d'armure épais",
+      "es": "Complemento grueso para armadura",
+      "ko": "두꺼운 방어구 키트"
+     }
+    },
+    {
+     "id": 11137,
+     "qty": 40,
+     "icon": "inv_enchant_dustvision",
+     "quality": 1,
+     "name": {
+      "en": "Vision Dust",
+      "ru": "Пыль провидения",
+      "cn": "幻象之尘",
+      "de": "Visionenstaub",
+      "fr": "Poussière de vision",
+      "es": "Polvo de visión",
+      "ko": "환상 가루"
+     }
+    },
+    {
+     "id": 3827,
+     "qty": 40,
+     "icon": "inv_potion_72",
+     "quality": 1,
+     "name": {
+      "en": "Mana Potion",
+      "ru": "Зелье маны",
+      "cn": "法力药水",
+      "de": "Manatrank",
+      "fr": "Potion de mana",
+      "es": "Poción de maná",
+      "ko": "마나 물약"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Nightscape Headband",
+      "ru": "Ночная головная повязка",
+      "cn": "夜色头带",
+      "de": "Stirnband des Nachtschleichers",
+      "fr": "Bandeau de la nuit",
+      "es": "Cinta Nochefugaz",
+      "ko": "밤하늘 머리띠"
+     },
+     "icon": "inv_belt_24",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Thick Leather",
+        "ru": "Плотная кожа",
+        "cn": "厚皮",
+        "de": "Dickes Leder",
+        "fr": "Cuir épais",
+        "es": "Cuero grueso",
+        "ko": "두꺼운 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_08",
+       "qty": 5
+      },
+      {
+       "name": {
+        "en": "Silken Thread",
+        "ru": "Шелковая нить",
+        "cn": "丝线",
+        "de": "Seidenfaden",
+        "fr": "Bobine de soie",
+        "es": "Hilo de seda",
+        "ko": "비단 실타래"
+       },
+       "icon": "inv_fabric_silk_02",
+       "qty": 2
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Forceful Thick Armor Kit",
+      "ru": "Мощные накладки из плотной кожи",
+      "cn": "力效厚重护甲片",
+      "de": "Kraftvolles dickes Rüstungsset",
+      "fr": "Renfort d’armure épais énergique",
+      "es": "Complemento grueso para armadura fuerte",
+      "ko": "강인한 두꺼운 방어구 강화도구"
+     },
+     "icon": "inv_misc_armorkit_07",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Thick Armor Kit",
+        "ru": "Накладки из плотной кожи",
+        "cn": "厚重护甲片",
+        "de": "Dickes Rüstungsset",
+        "fr": "Renfort d'armure épais",
+        "es": "Complemento grueso para armadura",
+        "ko": "두꺼운 방어구 키트"
+       },
+       "icon": "inv_misc_armorkit_07",
+       "qty": 1
+      },
+      {
+       "name": {
+        "en": "Vision Dust",
+        "ru": "Пыль провидения",
+        "cn": "幻象之尘",
+        "de": "Visionenstaub",
+        "fr": "Poussière de vision",
+        "es": "Polvo de visión",
+        "ko": "환상 가루"
+       },
+       "icon": "inv_enchant_dustvision",
+       "qty": 2
+      },
+      {
+       "name": {
+        "en": "Elixir of Ogre Strength",
+        "ru": "Эликсир силы огра",
+        "cn": "食人魔力量药剂",
+        "de": "Elixier der Ogerstärke",
+        "fr": "Élixir de force d’ogre",
+        "es": "Elixir de fuerza de ogro",
+        "ko": "오우거 힘의 비약"
+       },
+       "icon": "inv_potion_57",
+       "qty": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 220,
+   "to": 230,
+   "crafts": 17,
+   "spell_id": 10529,
+   "extra": false,
+   "name": {
+    "en": "Wild Leather Shoulders",
+    "ru": "Дикарские кожаные наплечники",
+    "cn": "蛮皮护肩",
+    "de": "Wildlederschultern",
+    "fr": "Epaulières en cuir sauvage",
+    "es": "Hombreras de cuero salvaje",
+    "ko": "야생 가죽 어깨보호구"
+   },
+   "icon": "inv_shoulder_18",
+   "quality": 2,
+   "colors": [
+    220,
+    220,
+    225,
+    235
+   ],
+   "learnedat": 220,
+   "source": "quest",
+   "reagents": [
+    {
+     "id": 4304,
+     "qty": 170,
+     "icon": "inv_misc_leatherscrap_08",
+     "quality": 1,
+     "name": {
+      "en": "Thick Leather",
+      "ru": "Плотная кожа",
+      "cn": "厚皮",
+      "de": "Dickes Leder",
+      "fr": "Cuir épais",
+      "es": "Cuero grueso",
+      "ko": "두꺼운 가죽"
+     }
+    },
+    {
+     "id": 8153,
+     "qty": 17,
+     "icon": "inv_misc_herb_03",
+     "quality": 1,
+     "name": {
+      "en": "Wildvine",
+      "ru": "Дикая лоза",
+      "cn": "野藤",
+      "de": "Wildranke",
+      "fr": "Sauvageonne",
+      "es": "Atriplex salvaje",
+      "ko": "야생덩굴"
+     }
+    },
+    {
+     "id": 8172,
+     "qty": 17,
+     "icon": "inv_misc_pelt_bear_01",
+     "quality": 1,
+     "name": {
+      "en": "Cured Thick Hide",
+      "ru": "Обработанная плотная шкура",
+      "cn": "熟化厚毛皮",
+      "de": "Geschmeidiger dicker Balg",
+      "fr": "Peau épaisse traitée",
+      "es": "Pellejo grueso curado",
+      "ko": "두꺼운 경화 가죽"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Skirmisher's Mail Shoulder",
+      "ru": "Кольчужный наплечник застрельщика",
+      "cn": "散兵的锁甲护肩",
+      "de": "Panzerschulterschutz des Scharmützlers",
+      "fr": "Épaulières d’escarmouche en mailles",
+      "es": "Hombreras de malla de hostigador",
+      "ko": "척후병의 쇠사슬 어깨보호구"
+     },
+     "icon": "inv_shoulder_23",
+     "quality": 3,
+     "reagents": [
+      {
+       "name": {
+        "en": "Thick Leather",
+        "ru": "Плотная кожа",
+        "cn": "厚皮",
+        "de": "Dickes Leder",
+        "fr": "Cuir épais",
+        "es": "Cuero grueso",
+        "ko": "두꺼운 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_08",
+       "qty": 10
+      },
+      {
+       "name": {
+        "en": "Cured Heavy Hide",
+        "ru": "Обработанная тяжелая шкура",
+        "cn": "熟化重毛皮",
+        "de": "Geschmeidiger schwerer Balg",
+        "fr": "Peau lourde traitée",
+        "es": "Pellejo pesado curado",
+        "ko": "질긴 경화 가죽"
+       },
+       "icon": "inv_misc_pelt_wolf_02",
+       "qty": 3
+      },
+      {
+       "name": {
+        "en": "Pristine Hide",
+        "ru": "Нетронутая шкура",
+        "cn": "无瑕毛皮",
+        "de": "Makelloser Balg",
+        "fr": "Peau immaculée",
+        "es": "Pellejo prístino",
+        "ko": "온전한 생가죽"
+       },
+       "icon": "inv_leatherworking_90_leatherhide",
+       "qty": 4
+      },
+      {
+       "name": {
+        "en": "Silken Thread",
+        "ru": "Шелковая нить",
+        "cn": "丝线",
+        "de": "Seidenfaden",
+        "fr": "Bobine de soie",
+        "es": "Hilo de seda",
+        "ko": "비단 실타래"
+       },
+       "icon": "inv_fabric_silk_02",
+       "qty": 2
+      },
+      {
+       "name": {
+        "en": "Citrine",
+        "ru": "Цитрин",
+        "cn": "黄水晶",
+        "de": "Citrin",
+        "fr": "Citrine",
+        "es": "Citrino",
+        "ko": "황수정"
+       },
+       "icon": "inv_misc_gem_opal_02",
+       "qty": 3
+      },
+      {
+       "name": {
+        "en": "Pristine Leather",
+        "ru": "Нетронутая кожа",
+        "cn": "无瑕皮革",
+        "de": "Makelloses Leder",
+        "fr": "Cuir immaculé",
+        "es": "Cuero prístino",
+        "ko": "온전한 가죽"
+       },
+       "icon": "item_pristinehide",
+       "qty": 2
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Stalker's Mail Shoulder",
+      "ru": "Кольчужный наплечник ловчего",
+      "cn": "追踪者的锁甲护肩",
+      "de": "Panzerschulterschutz des Pirschers",
+      "fr": "Épaulières de traqueur en mailles",
+      "es": "Hombreras de malla de acechador",
+      "ko": "추적자의 쇠사슬 어깨보호구"
+     },
+     "icon": "inv_shoulder_18",
+     "quality": 3,
+     "reagents": [
+      {
+       "name": {
+        "en": "Thick Leather",
+        "ru": "Плотная кожа",
+        "cn": "厚皮",
+        "de": "Dickes Leder",
+        "fr": "Cuir épais",
+        "es": "Cuero grueso",
+        "ko": "두꺼운 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_08",
+       "qty": 10
+      },
+      {
+       "name": {
+        "en": "Cured Heavy Hide",
+        "ru": "Обработанная тяжелая шкура",
+        "cn": "熟化重毛皮",
+        "de": "Geschmeidiger schwerer Balg",
+        "fr": "Peau lourde traitée",
+        "es": "Pellejo pesado curado",
+        "ko": "질긴 경화 가죽"
+       },
+       "icon": "inv_misc_pelt_wolf_02",
+       "qty": 3
+      },
+      {
+       "name": {
+        "en": "Pristine Hide",
+        "ru": "Нетронутая шкура",
+        "cn": "无瑕毛皮",
+        "de": "Makelloser Balg",
+        "fr": "Peau immaculée",
+        "es": "Pellejo prístino",
+        "ko": "온전한 생가죽"
+       },
+       "icon": "inv_leatherworking_90_leatherhide",
+       "qty": 4
+      },
+      {
+       "name": {
+        "en": "Silken Thread",
+        "ru": "Шелковая нить",
+        "cn": "丝线",
+        "de": "Seidenfaden",
+        "fr": "Bobine de soie",
+        "es": "Hilo de seda",
+        "ko": "비단 실타래"
+       },
+       "icon": "inv_fabric_silk_02",
+       "qty": 2
+      },
+      {
+       "name": {
+        "en": "Elemental Air",
+        "ru": "Первородный воздух",
+        "cn": "元素空气",
+        "de": "Elementarluft",
+        "fr": "Air élémentaire",
+        "es": "Elemental de aire",
+        "ko": "바람의 원소"
+       },
+       "icon": "spell_nature_tranquility",
+       "qty": 3
+      },
+      {
+       "name": {
+        "en": "Pristine Leather",
+        "ru": "Нетронутая кожа",
+        "cn": "无瑕皮革",
+        "de": "Makelloses Leder",
+        "fr": "Cuir immaculé",
+        "es": "Cuero prístino",
+        "ko": "온전한 가죽"
+       },
+       "icon": "item_pristinehide",
+       "qty": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 230,
+   "to": 238,
+   "crafts": 12,
+   "spell_id": 10548,
+   "extra": false,
+   "name": {
+    "en": "Nightscape Pants",
+    "ru": "Ночные штаны",
+    "cn": "夜色短裤",
+    "de": "Hose des Nachtschleichers",
+    "fr": "Pantalon de la nuit",
+    "es": "Pantalones Nochefugaz",
+    "ko": "밤하늘 바지"
+   },
+   "icon": "inv_pants_11",
+   "quality": 2,
+   "colors": [
+    230,
+    230,
+    235,
+    245
+   ],
+   "learnedat": 230,
+   "source": "trainer",
+   "reagents": [
+    {
+     "id": 4304,
+     "qty": 168,
+     "icon": "inv_misc_leatherscrap_08",
+     "quality": 1,
+     "name": {
+      "en": "Thick Leather",
+      "ru": "Плотная кожа",
+      "cn": "厚皮",
+      "de": "Dickes Leder",
+      "fr": "Cuir épais",
+      "es": "Cuero grueso",
+      "ko": "두꺼운 가죽"
+     }
+    },
+    {
+     "id": 4291,
+     "qty": 48,
+     "icon": "inv_fabric_silk_02",
+     "quality": 1,
+     "name": {
+      "en": "Silken Thread",
+      "ru": "Шелковая нить",
+      "cn": "丝线",
+      "de": "Seidenfaden",
+      "fr": "Bobine de soie",
+      "es": "Hilo de seda",
+      "ko": "비단 실타래"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Turtle Scale Gloves",
+      "ru": "Перчатки из черепашьего панциря",
+      "cn": "龟壳手套",
+      "de": "Schildkrötenschuppenhandschuhe",
+      "fr": "Gants en écailles de tortue",
+      "es": "Guantes de escamas de tortuga",
+      "ko": "거북 껍질 장갑"
+     },
+     "icon": "inv_gauntlets_05",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Thick Leather",
+        "ru": "Плотная кожа",
+        "cn": "厚皮",
+        "de": "Dickes Leder",
+        "fr": "Cuir épais",
+        "es": "Cuero grueso",
+        "ko": "두꺼운 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_08",
+       "qty": 6
+      },
+      {
+       "name": {
+        "en": "Turtle Scale",
+        "ru": "Черепаший панцирь",
+        "cn": "龟壳",
+        "de": "Schildkrötenschuppe",
+        "fr": "Ecaille de tortue",
+        "es": "Escama de tortuga",
+        "ko": "거북 등딱지"
+       },
+       "icon": "inv_misc_monsterscales_11",
+       "qty": 8
+      },
+      {
+       "name": {
+        "en": "Heavy Silken Thread",
+        "ru": "Толстая шелковая нить",
+        "cn": "粗丝线",
+        "de": "Schwerer Seidenfaden",
+        "fr": "Bobine de soie lourde",
+        "es": "Hilo de seda pesada",
+        "ko": "큰 비단 실타래"
+       },
+       "icon": "inv_fabric_silk_02",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Quickdraw Quiver",
+      "ru": "Колчан быстрой тетивы",
+      "cn": "快捷箭袋",
+      "de": "Schnellziehköcher",
+      "fr": "Carquois de tir rapide",
+      "es": "Carcaj rápido",
+      "ko": "속사 화살통"
+     },
+     "icon": "inv_misc_quiver_07",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Thick Leather",
+        "ru": "Плотная кожа",
+        "cn": "厚皮",
+        "de": "Dickes Leder",
+        "fr": "Cuir épais",
+        "es": "Cuero grueso",
+        "ko": "두꺼운 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_08",
+       "qty": 12
+      },
+      {
+       "name": {
+        "en": "Cured Thick Hide",
+        "ru": "Обработанная плотная шкура",
+        "cn": "熟化厚毛皮",
+        "de": "Geschmeidiger dicker Balg",
+        "fr": "Peau épaisse traitée",
+        "es": "Pellejo grueso curado",
+        "ko": "두꺼운 경화 가죽"
+       },
+       "icon": "inv_misc_pelt_bear_01",
+       "qty": 1
+      },
+      {
+       "name": {
+        "en": "Elixir of Agility",
+        "ru": "Эликсир Ловкости",
+        "cn": "敏捷药剂",
+        "de": "Elixier der Beweglichkeit",
+        "fr": "Elixir d'Agilité",
+        "es": "Elixir de agilidad",
+        "ko": "민첩의 비약"
+       },
+       "icon": "inv_potion_93",
+       "qty": 1
+      },
+      {
+       "name": {
+        "en": "Silken Thread",
+        "ru": "Шелковая нить",
+        "cn": "丝线",
+        "de": "Seidenfaden",
+        "fr": "Bobine de soie",
+        "es": "Hilo de seda",
+        "ko": "비단 실타래"
+       },
+       "icon": "inv_fabric_silk_02",
+       "qty": 4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 238,
+   "to": 250,
+   "crafts": 20,
+   "spell_id": 1254966,
+   "extra": false,
+   "name": {
+    "en": "Mystic Rugged Armor Kit",
+    "ru": "Мистические накладки из грубой кожи",
+    "cn": "秘法毛皮护甲片",
+    "de": "Mystisches unverwüstliches Rüstungsset",
+    "fr": "Renfort d’armure robuste mystique",
+    "es": "Complemento basto para armadura místico",
+    "ko": "신비한 튼튼한 방어구 강화도구"
+   },
+   "icon": "inv_misc_armorkit_09",
+   "quality": 2,
+   "colors": [
+    0,
+    235,
+    245,
+    255
+   ],
+   "learnedat": 235,
+   "source": "vendor",
+   "reagents": [
+    {
+     "id": 15564,
+     "qty": 20,
+     "icon": "inv_misc_armorkit_09",
+     "quality": 1,
+     "name": {
+      "en": "Rugged Armor Kit",
+      "ru": "Накладки из грубой кожи",
+      "cn": "毛皮护甲片",
+      "de": "Unverwüstliches Rüstungsset",
+      "fr": "Renfort d'armure robuste",
+      "es": "Complemento basto para armadura",
+      "ko": "튼튼한 방어구 키트"
+     }
+    },
+    {
+     "id": 11176,
+     "qty": 40,
+     "icon": "inv_enchant_dustdream",
+     "quality": 1,
+     "name": {
+      "en": "Dream Dust",
+      "ru": "Сонная пыль",
+      "cn": "梦境之尘",
+      "de": "Traumstaub",
+      "fr": "Poussière de rêve",
+      "es": "Polvo onírico",
+      "ko": "꿈가루"
+     }
+    },
+    {
+     "id": 13444,
+     "qty": 40,
+     "icon": "inv_potion_76",
+     "quality": 1,
+     "name": {
+      "en": "Major Mana Potion",
+      "ru": "Сильнейшее зелье маны",
+      "cn": "特效法力药水",
+      "de": "Erheblicher Manatrank",
+      "fr": "Potion de mana majeure",
+      "es": "Poción de maná sublime",
+      "ko": "일급 마나 물약"
+     }
+    },
+    {
+     "id": 249429,
+     "qty": 20,
+     "icon": "inv_misc_monsterscales_09",
+     "quality": 2,
+     "name": {
+      "en": "Pristine Scale",
+      "ru": "Нетронутая чешуя",
+      "cn": "无瑕鳞片",
+      "de": "Makellose Schuppe",
+      "fr": "Écaille immaculée",
+      "es": "Escama prístina",
+      "ko": "온전한 비늘"
+     }
+    },
+    {
+     "id": 248824,
+     "qty": 20,
+     "icon": "inv_misc_leatherscrap_13",
+     "quality": 1,
+     "name": {
+      "en": "Fel Hide",
+      "ru": "Скверношкура",
+      "cn": "魔皮",
+      "de": "Teufelsbalg",
+      "fr": "Gangrepeau",
+      "es": "Pellejo vil",
+      "ko": "지옥 통가죽"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Nightscape Boots",
+      "ru": "Ночные сапоги",
+      "cn": "夜色长靴",
+      "de": "Stiefel des Nachtschleichers",
+      "fr": "Bottes de la nuit",
+      "es": "Botas Nochefugaz",
+      "ko": "밤하늘 장화"
+     },
+     "icon": "inv_boots_05",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Thick Leather",
+        "ru": "Плотная кожа",
+        "cn": "厚皮",
+        "de": "Dickes Leder",
+        "fr": "Cuir épais",
+        "es": "Cuero grueso",
+        "ko": "두꺼운 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_08",
+       "qty": 16
+      },
+      {
+       "name": {
+        "en": "Heavy Silken Thread",
+        "ru": "Толстая шелковая нить",
+        "cn": "粗丝线",
+        "de": "Schwerer Seidenfaden",
+        "fr": "Bobine de soie lourde",
+        "es": "Hilo de seda pesada",
+        "ko": "큰 비단 실타래"
+       },
+       "icon": "inv_fabric_silk_02",
+       "qty": 2
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Turtle Scale Leggings",
+      "ru": "Поножи из черепашьего панциря",
+      "cn": "龟壳护腿",
+      "de": "Schildkrötenschuppengamaschen",
+      "fr": "Jambières en écailles de tortue",
+      "es": "Leotardos de escamas de tortuga",
+      "ko": "거북 껍질 다리보호구"
+     },
+     "icon": "inv_pants_02",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Thick Leather",
+        "ru": "Плотная кожа",
+        "cn": "厚皮",
+        "de": "Dickes Leder",
+        "fr": "Cuir épais",
+        "es": "Cuero grueso",
+        "ko": "두꺼운 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_08",
+       "qty": 14
+      },
+      {
+       "name": {
+        "en": "Turtle Scale",
+        "ru": "Черепаший панцирь",
+        "cn": "龟壳",
+        "de": "Schildkrötenschuppe",
+        "fr": "Ecaille de tortue",
+        "es": "Escama de tortuga",
+        "ko": "거북 등딱지"
+       },
+       "icon": "inv_misc_monsterscales_11",
+       "qty": 28
+      },
+      {
+       "name": {
+        "en": "Heavy Silken Thread",
+        "ru": "Толстая шелковая нить",
+        "cn": "粗丝线",
+        "de": "Schwerer Seidenfaden",
+        "fr": "Bobine de soie lourde",
+        "es": "Hilo de seda pesada",
+        "ko": "큰 비단 실타래"
+       },
+       "icon": "inv_fabric_silk_02",
+       "qty": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 250,
+   "to": 258,
+   "crafts": 11,
+   "spell_id": 19058,
+   "extra": false,
+   "name": {
+    "en": "Rugged Armor Kit",
+    "ru": "Накладки из грубой кожи",
+    "cn": "毛皮护甲片",
+    "de": "Unverwüstliches Rüstungsset",
+    "fr": "Renfort d'armure robuste",
+    "es": "Complemento basto para armadura",
+    "ko": "튼튼한 방어구 키트"
+   },
+   "icon": "inv_misc_armorkit_09",
+   "quality": 1,
+   "colors": [
+    250,
+    253,
+    256,
+    260
+   ],
+   "learnedat": 250,
+   "source": "trainer",
+   "reagents": [
+    {
+     "id": 8170,
+     "qty": 55,
+     "icon": "inv_misc_leatherscrap_02",
+     "quality": 1,
+     "name": {
+      "en": "Rugged Leather",
+      "ru": "Грубая кожа",
+      "cn": "硬甲皮",
+      "de": "Unverwüstliches Leder",
+      "fr": "Cuir robuste",
+      "es": "Cuero basto",
+      "ko": "튼튼한 가죽"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Rugged Leather",
+      "ru": "Грубая кожа",
+      "cn": "硬甲皮",
+      "de": "Unverwüstliches Leder",
+      "fr": "Cuir robuste",
+      "es": "Cuero basto",
+      "ko": "튼튼한 가죽"
+     },
+     "icon": "inv_misc_leatherscrap_02",
+     "quality": 1,
+     "reagents": [
+      {
+       "name": {
+        "en": "Thick Leather",
+        "ru": "Плотная кожа",
+        "cn": "厚皮",
+        "de": "Dickes Leder",
+        "fr": "Cuir épais",
+        "es": "Cuero grueso",
+        "ko": "두꺼운 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_08",
+       "qty": 6
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Wild Leather Leggings",
+      "ru": "Дикарские кожаные поножи",
+      "cn": "蛮皮护腿",
+      "de": "Wildledergamaschen",
+      "fr": "Jambières en cuir sauvage",
+      "es": "Leotardos de cuero salvaje",
+      "ko": "야생 가죽 다리보호구"
+     },
+     "icon": "inv_pants_14",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Thick Leather",
+        "ru": "Плотная кожа",
+        "cn": "厚皮",
+        "de": "Dickes Leder",
+        "fr": "Cuir épais",
+        "es": "Cuero grueso",
+        "ko": "두꺼운 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_08",
+       "qty": 16
+      },
+      {
+       "name": {
+        "en": "Wildvine",
+        "ru": "Дикая лоза",
+        "cn": "野藤",
+        "de": "Wildranke",
+        "fr": "Sauvageonne",
+        "es": "Atriplex salvaje",
+        "ko": "야생덩굴"
+       },
+       "icon": "inv_misc_herb_03",
+       "qty": 2
+      },
+      {
+       "name": {
+        "en": "Cured Thick Hide",
+        "ru": "Обработанная плотная шкура",
+        "cn": "熟化厚毛皮",
+        "de": "Geschmeidiger dicker Balg",
+        "fr": "Peau épaisse traitée",
+        "es": "Pellejo grueso curado",
+        "ko": "두꺼운 경화 가죽"
+       },
+       "icon": "inv_misc_pelt_bear_01",
+       "qty": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 258,
+   "to": 260,
+   "crafts": 3,
+   "spell_id": 19048,
+   "extra": false,
+   "name": {
+    "en": "Heavy Scorpid Bracers",
+    "ru": "Наручи из толстой чешуи скорпида",
+    "cn": "重型蝎壳护腕",
+    "de": "Schwere Skorpidarmschienen",
+    "fr": "Brassards en écailles de scorpide épaisses",
+    "es": "Brazales de escórpido pesado",
+    "ko": "두꺼운 전갈 팔보호구"
+   },
+   "icon": "inv_bracer_09",
+   "quality": 2,
+   "colors": [
+    255,
+    255,
+    260,
+    270
+   ],
+   "learnedat": 255,
+   "source": "vendor",
+   "reagents": [
+    {
+     "id": 8170,
+     "qty": 12,
+     "icon": "inv_misc_leatherscrap_02",
+     "quality": 1,
+     "name": {
+      "en": "Rugged Leather",
+      "ru": "Грубая кожа",
+      "cn": "硬甲皮",
+      "de": "Unverwüstliches Leder",
+      "fr": "Cuir robuste",
+      "es": "Cuero basto",
+      "ko": "튼튼한 가죽"
+     }
+    },
+    {
+     "id": 15408,
+     "qty": 12,
+     "icon": "inv_misc_monsterscales_03",
+     "quality": 1,
+     "name": {
+      "en": "Heavy Scorpid Scale",
+      "ru": "Толстая чешуя скорпида",
+      "cn": "厚蝎鳞",
+      "de": "Schwere Skorpidschuppe",
+      "fr": "Ecaille de scorpide épaisse",
+      "es": "Escama de escórpido pesado",
+      "ko": "두꺼운 전갈 딱지"
+     }
+    },
+    {
+     "id": 14341,
+     "qty": 3,
+     "icon": "spell_shadow_antimagicshell",
+     "quality": 1,
+     "name": {
+      "en": "Rune Thread",
+      "ru": "Руническая нить",
+      "cn": "符文线",
+      "de": "Runenfaden",
+      "fr": "Fil runique",
+      "es": "Hilo rúnico",
+      "ko": "룬문자 실타래"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Rugged Leather",
+      "ru": "Грубая кожа",
+      "cn": "硬甲皮",
+      "de": "Unverwüstliches Leder",
+      "fr": "Cuir robuste",
+      "es": "Cuero basto",
+      "ko": "튼튼한 가죽"
+     },
+     "icon": "inv_misc_leatherscrap_02",
+     "quality": 1,
+     "reagents": [
+      {
+       "name": {
+        "en": "Thick Leather",
+        "ru": "Плотная кожа",
+        "cn": "厚皮",
+        "de": "Dickes Leder",
+        "fr": "Cuir épais",
+        "es": "Cuero grueso",
+        "ko": "두꺼운 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_08",
+       "qty": 6
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Rugged Armor Kit",
+      "ru": "Накладки из грубой кожи",
+      "cn": "毛皮护甲片",
+      "de": "Unverwüstliches Rüstungsset",
+      "fr": "Renfort d'armure robuste",
+      "es": "Complemento basto para armadura",
+      "ko": "튼튼한 방어구 키트"
+     },
+     "icon": "inv_misc_armorkit_09",
+     "quality": 1,
+     "reagents": [
+      {
+       "name": {
+        "en": "Rugged Leather",
+        "ru": "Грубая кожа",
+        "cn": "硬甲皮",
+        "de": "Unverwüstliches Leder",
+        "fr": "Cuir robuste",
+        "es": "Cuero basto",
+        "ko": "튼튼한 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_02",
+       "qty": 5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 260,
+   "to": 270,
+   "crafts": 17,
+   "spell_id": 19049,
+   "extra": false,
+   "name": {
+    "en": "Wicked Leather Gauntlets",
+    "ru": "Гибельные кожаные рукавицы",
+    "cn": "邪恶皮甲护手",
+    "de": "Tückische Lederstulpen",
+    "fr": "Gantelets corrompus en cuir",
+    "es": "Guanteletes de cuero maligno",
+    "ko": "악의의 가죽 건틀릿"
+   },
+   "icon": "inv_gauntlets_31",
+   "quality": 2,
+   "colors": [
+    260,
+    260,
+    265,
+    275
+   ],
+   "learnedat": 260,
+   "source": "vendor",
+   "reagents": [
+    {
+     "id": 8170,
+     "qty": 136,
+     "icon": "inv_misc_leatherscrap_02",
+     "quality": 1,
+     "name": {
+      "en": "Rugged Leather",
+      "ru": "Грубая кожа",
+      "cn": "硬甲皮",
+      "de": "Unverwüstliches Leder",
+      "fr": "Cuir robuste",
+      "es": "Cuero basto",
+      "ko": "튼튼한 가죽"
+     }
+    },
+    {
+     "id": 2325,
+     "qty": 17,
+     "icon": "inv_potion_63",
+     "quality": 1,
+     "name": {
+      "en": "Black Dye",
+      "ru": "Черная краска",
+      "cn": "黑色染料",
+      "de": "Schwarzer Farbstoff",
+      "fr": "Teinture noire",
+      "es": "Tinte negro",
+      "ko": "흑색 염료"
+     }
+    },
+    {
+     "id": 14341,
+     "qty": 17,
+     "icon": "spell_shadow_antimagicshell",
+     "quality": 1,
+     "name": {
+      "en": "Rune Thread",
+      "ru": "Руническая нить",
+      "cn": "符文线",
+      "de": "Runenfaden",
+      "fr": "Fil runique",
+      "es": "Hilo rúnico",
+      "ko": "룬문자 실타래"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Green Dragonscale Breastplate",
+      "ru": "Кираса из чешуи зеленого дракона",
+      "cn": "绿龙鳞片胸甲",
+      "de": "Grüne Drachenschuppenbrustplatte",
+      "fr": "Cuirasse en écailles de dragon vert",
+      "es": "Peto de escamas de dragón verde",
+      "ko": "녹색용비늘 흉갑"
+     },
+     "icon": "inv_chest_chain_06",
+     "quality": 3,
+     "reagents": [
+      {
+       "name": {
+        "en": "Rugged Leather",
+        "ru": "Грубая кожа",
+        "cn": "硬甲皮",
+        "de": "Unverwüstliches Leder",
+        "fr": "Cuir robuste",
+        "es": "Cuero basto",
+        "ko": "튼튼한 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_02",
+       "qty": 20
+      },
+      {
+       "name": {
+        "en": "Green Dragonscale",
+        "ru": "Шкура зеленого дракона",
+        "cn": "绿龙鳞片",
+        "de": "Grüne Drachenschuppe",
+        "fr": "Ecaille de dragon vert",
+        "es": "Escamas de dragón verde",
+        "ko": "녹색용 비늘"
+       },
+       "icon": "inv_misc_monsterscales_11",
+       "qty": 25
+      },
+      {
+       "name": {
+        "en": "Rune Thread",
+        "ru": "Руническая нить",
+        "cn": "符文线",
+        "de": "Runenfaden",
+        "fr": "Fil runique",
+        "es": "Hilo rúnico",
+        "ko": "룬문자 실타래"
+       },
+       "icon": "spell_shadow_antimagicshell",
+       "qty": 2
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Heavy Scorpid Bracers",
+      "ru": "Наручи из толстой чешуи скорпида",
+      "cn": "重型蝎壳护腕",
+      "de": "Schwere Skorpidarmschienen",
+      "fr": "Brassards en écailles de scorpide épaisses",
+      "es": "Brazales de escórpido pesado",
+      "ko": "두꺼운 전갈 팔보호구"
+     },
+     "icon": "inv_bracer_09",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Rugged Leather",
+        "ru": "Грубая кожа",
+        "cn": "硬甲皮",
+        "de": "Unverwüstliches Leder",
+        "fr": "Cuir robuste",
+        "es": "Cuero basto",
+        "ko": "튼튼한 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_02",
+       "qty": 4
+      },
+      {
+       "name": {
+        "en": "Heavy Scorpid Scale",
+        "ru": "Толстая чешуя скорпида",
+        "cn": "厚蝎鳞",
+        "de": "Schwere Skorpidschuppe",
+        "fr": "Ecaille de scorpide épaisse",
+        "es": "Escama de escórpido pesado",
+        "ko": "두꺼운 전갈 딱지"
+       },
+       "icon": "inv_misc_monsterscales_03",
+       "qty": 4
+      },
+      {
+       "name": {
+        "en": "Rune Thread",
+        "ru": "Руническая нить",
+        "cn": "符文线",
+        "de": "Runenfaden",
+        "fr": "Fil runique",
+        "es": "Hilo rúnico",
+        "ko": "룬문자 실타래"
+       },
+       "icon": "spell_shadow_antimagicshell",
+       "qty": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 270,
+   "to": 280,
+   "crafts": 17,
+   "spell_id": 19062,
+   "extra": false,
+   "name": {
+    "en": "Ironfeather Shoulders",
+    "ru": "Железноперые наплечники",
+    "cn": "铁羽护肩",
+    "de": "Eisenfederschultern",
+    "fr": "Epaulières en plumacier",
+    "es": "Hombreras Plumahierro",
+    "ko": "무쇠깃털 어깨보호구"
+   },
+   "icon": "inv_shoulder_06",
+   "quality": 3,
+   "colors": [
+    270,
+    270,
+    275,
+    285
+   ],
+   "learnedat": 270,
+   "source": "vendor",
+   "reagents": [
+    {
+     "id": 8170,
+     "qty": 408,
+     "icon": "inv_misc_leatherscrap_02",
+     "quality": 1,
+     "name": {
+      "en": "Rugged Leather",
+      "ru": "Грубая кожа",
+      "cn": "硬甲皮",
+      "de": "Unverwüstliches Leder",
+      "fr": "Cuir robuste",
+      "es": "Cuero basto",
+      "ko": "튼튼한 가죽"
+     }
+    },
+    {
+     "id": 15420,
+     "qty": 1360,
+     "icon": "inv_feather_05",
+     "quality": 1,
+     "name": {
+      "en": "Ironfeather",
+      "ru": "Железное перо",
+      "cn": "铁羽毛",
+      "de": "Eisenfeder",
+      "fr": "Plumacier",
+      "es": "Plumahierro",
+      "ko": "무쇠깃털"
+     }
+    },
+    {
+     "id": 1529,
+     "qty": 34,
+     "icon": "inv_misc_gem_stone_01",
+     "quality": 2,
+     "name": {
+      "en": "Jade",
+      "ru": "Нефрит",
+      "cn": "翡翠",
+      "de": "Jade",
+      "fr": "Jade",
+      "es": "Jade",
+      "ko": "비취"
+     }
+    },
+    {
+     "id": 14341,
+     "qty": 17,
+     "icon": "spell_shadow_antimagicshell",
+     "quality": 1,
+     "name": {
+      "en": "Rune Thread",
+      "ru": "Руническая нить",
+      "cn": "符文线",
+      "de": "Runenfaden",
+      "fr": "Fil runique",
+      "es": "Hilo rúnico",
+      "ko": "룬문자 실타래"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Living Shoulders",
+      "ru": "Наплечники Жизни",
+      "cn": "生命护肩",
+      "de": "Lebendige Schultern",
+      "fr": "Epaulières vivantes",
+      "es": "Hombreras vivas",
+      "ko": "살아있는 어깨보호구"
+     },
+     "icon": "inv_shoulder_18",
+     "quality": 3,
+     "reagents": [
+      {
+       "name": {
+        "en": "Rugged Leather",
+        "ru": "Грубая кожа",
+        "cn": "硬甲皮",
+        "de": "Unverwüstliches Leder",
+        "fr": "Cuir robuste",
+        "es": "Cuero basto",
+        "ko": "튼튼한 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_02",
+       "qty": 12
+      },
+      {
+       "name": {
+        "en": "Living Essence",
+        "ru": "Субстанция Жизни",
+        "cn": "生命精华",
+        "de": "Essenz des Lebens",
+        "fr": "Essence de vie",
+        "es": "Esencia viva",
+        "ko": "생명의 정수"
+       },
+       "icon": "spell_nature_abolishmagic",
+       "qty": 4
+      },
+      {
+       "name": {
+        "en": "Rune Thread",
+        "ru": "Руническая нить",
+        "cn": "符文线",
+        "de": "Runenfaden",
+        "fr": "Fil runique",
+        "es": "Hilo rúnico",
+        "ko": "룬문자 실타래"
+       },
+       "icon": "spell_shadow_antimagicshell",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Chimeric Gloves",
+      "ru": "Химерические перчатки",
+      "cn": "奇美拉手套",
+      "de": "Schimärenhandschuhe",
+      "fr": "Gants chimériques",
+      "es": "Guantes quiméricos",
+      "ko": "키메라 장갑"
+     },
+     "icon": "inv_gauntlets_23",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Rugged Leather",
+        "ru": "Грубая кожа",
+        "cn": "硬甲皮",
+        "de": "Unverwüstliches Leder",
+        "fr": "Cuir robuste",
+        "es": "Cuero basto",
+        "ko": "튼튼한 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_02",
+       "qty": 6
+      },
+      {
+       "name": {
+        "en": "Chimera Leather",
+        "ru": "Кожа химеры",
+        "cn": "奇美拉皮革",
+        "de": "Schimärenleder",
+        "fr": "Cuir de chimère",
+        "es": "Cuero quimérico",
+        "ko": "키메라 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_01",
+       "qty": 6
+      },
+      {
+       "name": {
+        "en": "Rune Thread",
+        "ru": "Руническая нить",
+        "cn": "符文线",
+        "de": "Runenfaden",
+        "fr": "Fil runique",
+        "es": "Hilo rúnico",
+        "ko": "룬문자 실타래"
+       },
+       "icon": "spell_shadow_antimagicshell",
+       "qty": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 280,
+   "to": 290,
+   "crafts": 13,
+   "spell_id": 461720,
+   "extra": false,
+   "name": {
+    "en": "Living Green Dragonscale Breastplate",
+    "ru": "Кираса из живой чешуи зеленого дракона",
+    "cn": "鲜活绿龙鳞片胸甲",
+    "de": "Lebende grüne Drachenschuppenbrustplatte",
+    "fr": "Cuirasse en écailles de dragon vert vivantes",
+    "es": "Coraza de escamas de dragón verde viviente",
+    "ko": "살아있는 녹색용비늘 흉갑"
+   },
+   "icon": "temp",
+   "quality": 1,
+   "colors": [
+    0,
+    280,
+    290,
+    300
+   ],
+   "learnedat": 280,
+   "source": "vendor",
+   "reagents": [
+    {
+     "id": 8170,
+     "qty": 260,
+     "icon": "inv_misc_leatherscrap_02",
+     "quality": 1,
+     "name": {
+      "en": "Rugged Leather",
+      "ru": "Грубая кожа",
+      "cn": "硬甲皮",
+      "de": "Unverwüstliches Leder",
+      "fr": "Cuir robuste",
+      "es": "Cuero basto",
+      "ko": "튼튼한 가죽"
+     }
+    },
+    {
+     "id": 15412,
+     "qty": 325,
+     "icon": "inv_misc_monsterscales_11",
+     "quality": 1,
+     "name": {
+      "en": "Green Dragonscale",
+      "ru": "Шкура зеленого дракона",
+      "cn": "绿龙鳞片",
+      "de": "Grüne Drachenschuppe",
+      "fr": "Ecaille de dragon vert",
+      "es": "Escamas de dragón verde",
+      "ko": "녹색용 비늘"
+     }
+    },
+    {
+     "id": 14341,
+     "qty": 26,
+     "icon": "spell_shadow_antimagicshell",
+     "quality": 1,
+     "name": {
+      "en": "Rune Thread",
+      "ru": "Руническая нить",
+      "cn": "符文线",
+      "de": "Runenfaden",
+      "fr": "Fil runique",
+      "es": "Hilo rúnico",
+      "ko": "룬문자 실타래"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Frostsaber Boots",
+      "ru": "Сапоги из кожи ледопарда",
+      "cn": "霜刃长靴",
+      "de": "Frostsäblerstiefel",
+      "fr": "Bottes de sabre-de-givre",
+      "es": "Botas Sable de Hielo",
+      "ko": "눈호랑이 장화"
+     },
+     "icon": "inv_boots_05",
+     "quality": 2,
+     "reagents": [
+      {
+       "name": {
+        "en": "Rugged Leather",
+        "ru": "Грубая кожа",
+        "cn": "硬甲皮",
+        "de": "Unverwüstliches Leder",
+        "fr": "Cuir robuste",
+        "es": "Cuero basto",
+        "ko": "튼튼한 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_02",
+       "qty": 4
+      },
+      {
+       "name": {
+        "en": "Frostsaber Leather",
+        "ru": "Кожа ледопарда",
+        "cn": "霜刃豹皮革",
+        "de": "Frostsäblerleder",
+        "fr": "Cuir de sabre-de-givre",
+        "es": "Cuero Sable de Hielo",
+        "ko": "눈호랑이 가죽"
+       },
+       "icon": "inv_misc_pelt_06",
+       "qty": 6
+      },
+      {
+       "name": {
+        "en": "Rune Thread",
+        "ru": "Руническая нить",
+        "cn": "符文线",
+        "de": "Runenfaden",
+        "fr": "Fil runique",
+        "es": "Hilo rúnico",
+        "ko": "룬문자 실타래"
+       },
+       "icon": "spell_shadow_antimagicshell",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Warbear Harness",
+      "ru": "Портупея боевого медведя",
+      "cn": "战熊背心",
+      "de": "Kriegsbärenharnisch",
+      "fr": "Harnais de l'ours de guerre",
+      "es": "Arnés de oso de guerra",
+      "ko": "전투곰 멜빵"
+     },
+     "icon": "inv_chest_leather_04",
+     "quality": 3,
+     "reagents": [
+      {
+       "name": {
+        "en": "Rugged Leather",
+        "ru": "Грубая кожа",
+        "cn": "硬甲皮",
+        "de": "Unverwüstliches Leder",
+        "fr": "Cuir robuste",
+        "es": "Cuero basto",
+        "ko": "튼튼한 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_02",
+       "qty": 28
+      },
+      {
+       "name": {
+        "en": "Warbear Leather",
+        "ru": "Кожа боевого медведя",
+        "cn": "战熊皮",
+        "de": "Kriegsbärenleder",
+        "fr": "Cuir d'ours de guerre",
+        "es": "Cuero de oso de guerra",
+        "ko": "전투곰 가죽"
+       },
+       "icon": "inv_misc_pelt_bear_ruin_05",
+       "qty": 12
+      },
+      {
+       "name": {
+        "en": "Rune Thread",
+        "ru": "Руническая нить",
+        "cn": "符文线",
+        "de": "Runenfaden",
+        "fr": "Fil runique",
+        "es": "Hilo rúnico",
+        "ko": "룬문자 실타래"
+       },
+       "icon": "spell_shadow_antimagicshell",
+       "qty": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": 290,
+   "to": 300,
+   "crafts": 17,
+   "spell_id": 19082,
+   "extra": false,
+   "name": {
+    "en": "Runic Leather Headband",
+    "ru": "Руническая кожаная головная повязка",
+    "cn": "符文皮甲头环",
+    "de": "Runenverziertes Lederstirnband",
+    "fr": "Bandeau runique en cuir",
+    "es": "Cinta de cuero rúnico",
+    "ko": "룬문자 가죽 머리띠"
+   },
+   "icon": "inv_misc_bandage_11",
+   "quality": 2,
+   "colors": [
+    290,
+    290,
+    295,
+    305
+   ],
+   "learnedat": 290,
+   "source": "vendor",
+   "reagents": [
+    {
+     "id": 8170,
+     "qty": 238,
+     "icon": "inv_misc_leatherscrap_02",
+     "quality": 1,
+     "name": {
+      "en": "Rugged Leather",
+      "ru": "Грубая кожа",
+      "cn": "硬甲皮",
+      "de": "Unverwüstliches Leder",
+      "fr": "Cuir robuste",
+      "es": "Cuero basto",
+      "ko": "튼튼한 가죽"
+     }
+    },
+    {
+     "id": 14047,
+     "qty": 170,
+     "icon": "inv_fabric_purplefire_01",
+     "quality": 1,
+     "name": {
+      "en": "Runecloth",
+      "ru": "Рунная ткань",
+      "cn": "符文布",
+      "de": "Runenstoff",
+      "fr": "Etoffe runique",
+      "es": "Paño rúnico",
+      "ko": "룬무늬 옷감"
+     }
+    },
+    {
+     "id": 14341,
+     "qty": 17,
+     "icon": "spell_shadow_antimagicshell",
+     "quality": 1,
+     "name": {
+      "en": "Rune Thread",
+      "ru": "Руническая нить",
+      "cn": "符文线",
+      "de": "Runenfaden",
+      "fr": "Fil runique",
+      "es": "Hilo rúnico",
+      "ko": "룬문자 실타래"
+     }
+    }
+   ],
+   "alts": [
+    {
+     "name": {
+      "en": "Living Green Dragonscale Breastplate",
+      "ru": "Кираса из живой чешуи зеленого дракона",
+      "cn": "鲜活绿龙鳞片胸甲",
+      "de": "Lebende grüne Drachenschuppenbrustplatte",
+      "fr": "Cuirasse en écailles de dragon vert vivantes",
+      "es": "Coraza de escamas de dragón verde viviente",
+      "ko": "살아있는 녹색용비늘 흉갑"
+     },
+     "icon": "temp",
+     "quality": 1,
+     "reagents": [
+      {
+       "name": {
+        "en": "Rugged Leather",
+        "ru": "Грубая кожа",
+        "cn": "硬甲皮",
+        "de": "Unverwüstliches Leder",
+        "fr": "Cuir robuste",
+        "es": "Cuero basto",
+        "ko": "튼튼한 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_02",
+       "qty": 20
+      },
+      {
+       "name": {
+        "en": "Green Dragonscale",
+        "ru": "Шкура зеленого дракона",
+        "cn": "绿龙鳞片",
+        "de": "Grüne Drachenschuppe",
+        "fr": "Ecaille de dragon vert",
+        "es": "Escamas de dragón verde",
+        "ko": "녹색용 비늘"
+       },
+       "icon": "inv_misc_monsterscales_11",
+       "qty": 25
+      },
+      {
+       "name": {
+        "en": "Rune Thread",
+        "ru": "Руническая нить",
+        "cn": "符文线",
+        "de": "Runenfaden",
+        "fr": "Fil runique",
+        "es": "Hilo rúnico",
+        "ko": "룬문자 실타래"
+       },
+       "icon": "spell_shadow_antimagicshell",
+       "qty": 2
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Warbear Woolies",
+      "ru": "Короткие штаны боевого медведя",
+      "cn": "战熊热裤",
+      "de": "Kriegsbärenwollwäsche",
+      "fr": "Jambières de l'ours de guerre",
+      "es": "Prendas de lana de oso de guerra",
+      "ko": "전투곰 다리보호구"
+     },
+     "icon": "inv_pants_wolf",
+     "quality": 3,
+     "reagents": [
+      {
+       "name": {
+        "en": "Rugged Leather",
+        "ru": "Грубая кожа",
+        "cn": "硬甲皮",
+        "de": "Unverwüstliches Leder",
+        "fr": "Cuir robuste",
+        "es": "Cuero basto",
+        "ko": "튼튼한 가죽"
+       },
+       "icon": "inv_misc_leatherscrap_02",
+       "qty": 24
+      },
+      {
+       "name": {
+        "en": "Warbear Leather",
+        "ru": "Кожа боевого медведя",
+        "cn": "战熊皮",
+        "de": "Kriegsbärenleder",
+        "fr": "Cuir d'ours de guerre",
+        "es": "Cuero de oso de guerra",
+        "ko": "전투곰 가죽"
+       },
+       "icon": "inv_misc_pelt_bear_ruin_05",
+       "qty": 14
+      },
+      {
+       "name": {
+        "en": "Rune Thread",
+        "ru": "Руническая нить",
+        "cn": "符文线",
+        "de": "Runenfaden",
+        "fr": "Fil runique",
+        "es": "Hilo rúnico",
+        "ko": "룬문자 실타래"
+       },
+       "icon": "spell_shadow_antimagicshell",
+       "qty": 1
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "shopping": [
+  {
+   "id": 15420,
+   "qty": 1360,
+   "icon": "inv_feather_05",
+   "quality": 1,
+   "name": {
+    "en": "Ironfeather",
+    "ru": "Железное перо",
+    "cn": "铁羽毛",
+    "de": "Eisenfeder",
+    "fr": "Plumacier",
+    "es": "Plumahierro",
+    "ko": "무쇠깃털"
+   }
+  },
+  {
+   "id": 8170,
+   "qty": 1109,
+   "icon": "inv_misc_leatherscrap_02",
+   "quality": 1,
+   "name": {
+    "en": "Rugged Leather",
+    "ru": "Грубая кожа",
+    "cn": "硬甲皮",
+    "de": "Unverwüstliches Leder",
+    "fr": "Cuir robuste",
+    "es": "Cuero basto",
+    "ko": "튼튼한 가죽"
+   }
+  },
+  {
+   "id": 4234,
+   "qty": 370,
+   "icon": "inv_misc_leatherscrap_07",
+   "quality": 1,
+   "name": {
+    "en": "Heavy Leather",
+    "ru": "Толстая кожа",
+    "cn": "重皮",
+    "de": "Schweres Leder",
+    "fr": "Cuir lourd",
+    "es": "Cuero pesado",
+    "ko": "질긴 가죽"
+   }
+  },
+  {
+   "id": 4304,
+   "qty": 338,
+   "icon": "inv_misc_leatherscrap_08",
+   "quality": 1,
+   "name": {
+    "en": "Thick Leather",
+    "ru": "Плотная кожа",
+    "cn": "厚皮",
+    "de": "Dickes Leder",
+    "fr": "Cuir épais",
+    "es": "Cuero grueso",
+    "ko": "두꺼운 가죽"
+   }
+  },
+  {
+   "id": 2319,
+   "qty": 332,
+   "icon": "inv_misc_leatherscrap_05",
+   "quality": 1,
+   "name": {
+    "en": "Medium Leather",
+    "ru": "Жесткая кожа",
+    "cn": "中皮",
+    "de": "Mittleres Leder",
+    "fr": "Cuir moyen",
+    "es": "Cuero medio",
+    "ko": "일반 가죽"
+   }
+  },
+  {
+   "id": 15412,
+   "qty": 325,
+   "icon": "inv_misc_monsterscales_11",
+   "quality": 1,
+   "name": {
+    "en": "Green Dragonscale",
+    "ru": "Шкура зеленого дракона",
+    "cn": "绿龙鳞片",
+    "de": "Grüne Drachenschuppe",
+    "fr": "Ecaille de dragon vert",
+    "es": "Escamas de dragón verde",
+    "ko": "녹색용 비늘"
+   }
+  },
+  {
+   "id": 2318,
+   "qty": 223,
+   "icon": "inv_misc_leatherscrap_03",
+   "quality": 1,
+   "name": {
+    "en": "Light Leather",
+    "ru": "Тонкая кожа",
+    "cn": "轻皮",
+    "de": "Leichtes Leder",
+    "fr": "Cuir léger",
+    "es": "Cuero ligero",
+    "ko": "얇은 가죽"
+   }
+  },
+  {
+   "id": 14047,
+   "qty": 170,
+   "icon": "inv_fabric_purplefire_01",
+   "quality": 1,
+   "name": {
+    "en": "Runecloth",
+    "ru": "Рунная ткань",
+    "cn": "符文布",
+    "de": "Runenstoff",
+    "fr": "Etoffe runique",
+    "es": "Paño rúnico",
+    "ko": "룬무늬 옷감"
+   }
+  },
+  {
+   "id": 2321,
+   "qty": 165,
+   "icon": "inv_fabric_wool_02",
+   "quality": 1,
+   "name": {
+    "en": "Fine Thread",
+    "ru": "Тонкая нить",
+    "cn": "细线",
+    "de": "Feiner Faden",
+    "fr": "Bobine de fil raffiné",
+    "es": "Hilo refinado",
+    "ko": "가는 실타래"
+   }
+  },
+  {
+   "id": 2320,
+   "qty": 146,
+   "icon": "inv_fabric_linen_03",
+   "quality": 1,
+   "name": {
+    "en": "Coarse Thread",
+    "ru": "Грубая нить",
+    "cn": "粗线",
+    "de": "Grober Faden",
+    "fr": "Bobine de fil grossier",
+    "es": "Hilo burdo",
+    "ko": "굵은 실타래"
+   }
+  },
+  {
+   "id": 2934,
+   "qty": 111,
+   "icon": "inv_misc_pelt_bear_ruin_05",
+   "quality": 1,
+   "name": {
+    "en": "Ruined Leather Scraps",
+    "ru": "Обрывки кожи",
+    "cn": "破烂的皮革",
+    "de": "Verdorbene Lederfetzen",
+    "fr": "Lanières de cuir déchirées",
+    "es": "Restos de cuero estropeado",
+    "ko": "손상된 가죽 조각"
+   }
+  },
+  {
+   "id": 14341,
+   "qty": 80,
+   "icon": "spell_shadow_antimagicshell",
+   "quality": 1,
+   "name": {
+    "en": "Rune Thread",
+    "ru": "Руническая нить",
+    "cn": "符文线",
+    "de": "Runenfaden",
+    "fr": "Fil runique",
+    "es": "Hilo rúnico",
+    "ko": "룬문자 실타래"
+   }
+  },
+  {
+   "id": 4461,
+   "qty": 68,
+   "icon": "inv_misc_monsterscales_01",
+   "quality": 1,
+   "name": {
+    "en": "Raptor Hide",
+    "ru": "Шкура ящера",
+    "cn": "迅猛龙的外皮",
+    "de": "Raptorbalg",
+    "fr": "Peau de raptor",
+    "es": "Pellejo de raptor",
+    "ko": "랩터 통가죽"
+   }
+  },
+  {
+   "id": 4291,
+   "qty": 65,
+   "icon": "inv_fabric_silk_02",
+   "quality": 1,
+   "name": {
+    "en": "Silken Thread",
+    "ru": "Шелковая нить",
+    "cn": "丝线",
+    "de": "Seidenfaden",
+    "fr": "Bobine de soie",
+    "es": "Hilo de seda",
+    "ko": "비단 실타래"
+   }
+  },
+  {
+   "id": 4236,
+   "qty": 55,
+   "icon": "inv_misc_pelt_wolf_02",
+   "quality": 1,
+   "name": {
+    "en": "Cured Heavy Hide",
+    "ru": "Обработанная тяжелая шкура",
+    "cn": "熟化重毛皮",
+    "de": "Geschmeidiger schwerer Balg",
+    "fr": "Peau lourde traitée",
+    "es": "Pellejo pesado curado",
+    "ko": "질긴 경화 가죽"
+   }
+  },
+  {
+   "id": 11137,
+   "qty": 40,
+   "icon": "inv_enchant_dustvision",
+   "quality": 1,
+   "name": {
+    "en": "Vision Dust",
+    "ru": "Пыль провидения",
+    "cn": "幻象之尘",
+    "de": "Visionenstaub",
+    "fr": "Poussière de vision",
+    "es": "Polvo de visión",
+    "ko": "환상 가루"
+   }
+  },
+  {
+   "id": 3827,
+   "qty": 40,
+   "icon": "inv_potion_72",
+   "quality": 1,
+   "name": {
+    "en": "Mana Potion",
+    "ru": "Зелье маны",
+    "cn": "法力药水",
+    "de": "Manatrank",
+    "fr": "Potion de mana",
+    "es": "Poción de maná",
+    "ko": "마나 물약"
+   }
+  },
+  {
+   "id": 11176,
+   "qty": 40,
+   "icon": "inv_enchant_dustdream",
+   "quality": 1,
+   "name": {
+    "en": "Dream Dust",
+    "ru": "Сонная пыль",
+    "cn": "梦境之尘",
+    "de": "Traumstaub",
+    "fr": "Poussière de rêve",
+    "es": "Polvo onírico",
+    "ko": "꿈가루"
+   }
+  },
+  {
+   "id": 13444,
+   "qty": 40,
+   "icon": "inv_potion_76",
+   "quality": 1,
+   "name": {
+    "en": "Major Mana Potion",
+    "ru": "Сильнейшее зелье маны",
+    "cn": "特效法力药水",
+    "de": "Erheblicher Manatrank",
+    "fr": "Potion de mana majeure",
+    "es": "Poción de maná sublime",
+    "ko": "일급 마나 물약"
+   }
+  },
+  {
+   "id": 1529,
+   "qty": 34,
+   "icon": "inv_misc_gem_stone_01",
+   "quality": 2,
+   "name": {
+    "en": "Jade",
+    "ru": "Нефрит",
+    "cn": "翡翠",
+    "de": "Jade",
+    "fr": "Jade",
+    "es": "Jade",
+    "ko": "비취"
+   }
+  },
+  {
+   "id": 4340,
+   "qty": 29,
+   "icon": "inv_drink_10",
+   "quality": 1,
+   "name": {
+    "en": "Gray Dye",
+    "ru": "Серая краска",
+    "cn": "灰色染料",
+    "de": "Grauer Farbstoff",
+    "fr": "Teinture grise",
+    "es": "Tinte gris",
+    "ko": "회색 염료"
+   }
+  },
+  {
+   "id": 4232,
+   "qty": 20,
+   "icon": "inv_misc_pelt_boar_ruin_02",
+   "quality": 1,
+   "name": {
+    "en": "Medium Hide",
+    "ru": "Средняя шкура",
+    "cn": "中毛皮",
+    "de": "Mittlerer Balg",
+    "fr": "Peau moyenne",
+    "es": "Pellejo fino",
+    "ko": "일반 통가죽"
+   }
+  },
+  {
+   "id": 4289,
+   "qty": 20,
+   "icon": "inv_misc_dust_02",
+   "quality": 1,
+   "name": {
+    "en": "Salt",
+    "ru": "Соль",
+    "cn": "盐",
+    "de": "Salz",
+    "fr": "Sel",
+    "es": "Sal",
+    "ko": "소금"
+   }
+  },
+  {
+   "id": 11083,
+   "qty": 20,
+   "icon": "inv_enchant_dustsoul",
+   "quality": 1,
+   "name": {
+    "en": "Soul Dust",
+    "ru": "Пыль духа",
+    "cn": "灵魂之尘",
+    "de": "Seelenstaub",
+    "fr": "Poussière d'âme",
+    "es": "Polvo de alma",
+    "ko": "영혼 가루"
+   }
+  },
+  {
+   "id": 3385,
+   "qty": 20,
+   "icon": "inv_potion_71",
+   "quality": 1,
+   "name": {
+    "en": "Lesser Mana Potion",
+    "ru": "Простое зелье маны",
+    "cn": "次级法力药水",
+    "de": "Geringer Manatrank",
+    "fr": "Potion de mana inférieure",
+    "es": "Poción de maná inferior",
+    "ko": "하급 마나 물약"
+   }
+  },
+  {
+   "id": 8173,
+   "qty": 20,
+   "icon": "inv_misc_armorkit_07",
+   "quality": 1,
+   "name": {
+    "en": "Thick Armor Kit",
+    "ru": "Накладки из плотной кожи",
+    "cn": "厚重护甲片",
+    "de": "Dickes Rüstungsset",
+    "fr": "Renfort d'armure épais",
+    "es": "Complemento grueso para armadura",
+    "ko": "두꺼운 방어구 키트"
+   }
+  },
+  {
+   "id": 249429,
+   "qty": 20,
+   "icon": "inv_misc_monsterscales_09",
+   "quality": 2,
+   "name": {
+    "en": "Pristine Scale",
+    "ru": "Нетронутая чешуя",
+    "cn": "无瑕鳞片",
+    "de": "Makellose Schuppe",
+    "fr": "Écaille immaculée",
+    "es": "Escama prístina",
+    "ko": "온전한 비늘"
+   }
+  },
+  {
+   "id": 248824,
+   "qty": 20,
+   "icon": "inv_misc_leatherscrap_13",
+   "quality": 1,
+   "name": {
+    "en": "Fel Hide",
+    "ru": "Скверношкура",
+    "cn": "魔皮",
+    "de": "Teufelsbalg",
+    "fr": "Gangrepeau",
+    "es": "Pellejo vil",
+    "ko": "지옥 통가죽"
+   }
+  },
+  {
+   "id": 8153,
+   "qty": 17,
+   "icon": "inv_misc_herb_03",
+   "quality": 1,
+   "name": {
+    "en": "Wildvine",
+    "ru": "Дикая лоза",
+    "cn": "野藤",
+    "de": "Wildranke",
+    "fr": "Sauvageonne",
+    "es": "Atriplex salvaje",
+    "ko": "야생덩굴"
+   }
+  },
+  {
+   "id": 2325,
+   "qty": 17,
+   "icon": "inv_potion_63",
+   "quality": 1,
+   "name": {
+    "en": "Black Dye",
+    "ru": "Черная краска",
+    "cn": "黑色染料",
+    "de": "Schwarzer Farbstoff",
+    "fr": "Teinture noire",
+    "es": "Tinte negro",
+    "ko": "흑색 염료"
+   }
+  },
+  {
+   "id": 2605,
+   "qty": 13,
+   "icon": "inv_potion_12",
+   "quality": 1,
+   "name": {
+    "en": "Green Dye",
+    "ru": "Зеленая краска",
+    "cn": "绿色染料",
+    "de": "Grüner Farbstoff",
+    "fr": "Teinture verte",
+    "es": "Tinte verde",
+    "ko": "녹색 염료"
+   }
+  },
+  {
+   "id": 15408,
+   "qty": 12,
+   "icon": "inv_misc_monsterscales_03",
+   "quality": 1,
+   "name": {
+    "en": "Heavy Scorpid Scale",
+    "ru": "Толстая чешуя скорпида",
+    "cn": "厚蝎鳞",
+    "de": "Schwere Skorpidschuppe",
+    "fr": "Ecaille de scorpide épaisse",
+    "es": "Escama de escórpido pesado",
+    "ko": "두꺼운 전갈 딱지"
+   }
+  },
+  {
+   "id": 8169,
+   "qty": 11,
+   "icon": "inv_misc_pelt_bear_ruin_01",
+   "quality": 1,
+   "name": {
+    "en": "Thick Hide",
+    "ru": "Плотная шкура",
+    "cn": "厚毛皮",
+    "de": "Dicker Balg",
+    "fr": "Peau épaisse",
+    "es": "Pellejo grueso",
+    "ko": "두꺼운 통가죽"
+   }
+  },
+  {
+   "id": 8150,
+   "qty": 11,
+   "icon": "inv_misc_dust_02",
+   "quality": 1,
+   "name": {
+    "en": "Deeprock Salt",
+    "ru": "Глубокоскальная соль",
+    "cn": "石中盐",
+    "de": "Tiefsteinsalz",
+    "fr": "Sel de Fonderoc",
+    "es": "Sal de roca",
+    "ko": "깊은바다 소금"
+   }
+  },
+  {
+   "id": 4233,
+   "qty": 9,
+   "icon": "inv_misc_pelt_bear_02",
+   "quality": 1,
+   "name": {
+    "en": "Cured Medium Hide",
+    "ru": "Обработанная средняя шкура",
+    "cn": "熟化中毛皮",
+    "de": "Geschmeidiger mittlerer Balg",
+    "fr": "Peau moyenne traitée",
+    "es": "Pellejo medio curado",
+    "ko": "일반 경화 가죽"
+   }
+  },
+  {
+   "id": 15564,
+   "qty": 9,
+   "icon": "inv_misc_armorkit_09",
+   "quality": 1,
+   "name": {
+    "en": "Rugged Armor Kit",
+    "ru": "Накладки из грубой кожи",
+    "cn": "毛皮护甲片",
+    "de": "Unverwüstliches Rüstungsset",
+    "fr": "Renfort d'armure robuste",
+    "es": "Complemento basto para armadura",
+    "ko": "튼튼한 방어구 키트"
+   }
+  },
+  {
+   "id": 8172,
+   "qty": 6,
+   "icon": "inv_misc_pelt_bear_01",
+   "quality": 1,
+   "name": {
+    "en": "Cured Thick Hide",
+    "ru": "Обработанная плотная шкура",
+    "cn": "熟化厚毛皮",
+    "de": "Geschmeidiger dicker Balg",
+    "fr": "Peau épaisse traitée",
+    "es": "Pellejo grueso curado",
+    "ko": "두꺼운 경화 가죽"
+   }
+  }
+ ]
+}

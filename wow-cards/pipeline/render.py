@@ -269,20 +269,21 @@ def build_gather(prof, lang, bg='../../bg/placeholder.png', logo=None, s=1.0):
 
 PETS_UI = {
     'en': {'title': 'Hunter Pets', 'sub': 'Families & abilities', 'common': 'All pets', 'family': 'Family', 'diet': 'Diet', 'ability': 'Unique ability', 'focus': 'Focus', 'sec': 's', 'min': 'min',
-           'fox': 'Fox', 'newhdr': 'New in Forever — not on Wowhead yet', 'note': 'Bat: unique ability missing from Wowhead data · Fox: family not listed on Wowhead yet — verify in beta', 'src': 'Data: Wowhead (Forever) · values at max rank'},
+           'fox': 'Fox', 'newhdr': 'New in Forever — not on Wowhead yet', 'note': 'Bat: unique ability missing from Wowhead data · Fox: family not listed on Wowhead yet — verify in beta', 'how': 'How to get', 'tame': 'Learn from a tamed beast', 'auto': 'No taming needed', 'petlvl': 'pet lvl', 'rankshdr': 'ranks at pet lvl', 'dmg': 'Dmg', 'arm': 'Armor', 'hp': 'HP', 'hownote': 'Learning: tame a beast that knows the ability, fight until you learn it, then teach your pet via Beast Training. New Forever abilities list no teaching beasts — verify in beta', 'src': 'Data: Wowhead (Forever), foreverchanges.pro · values at max rank'},
     'ru': {'title': 'Питомцы охотника', 'sub': 'Семейства и способности', 'common': 'У всех питомцев', 'family': 'Семейство', 'diet': 'Еда', 'ability': 'Уникальная способность', 'focus': 'Фокус', 'sec': 'с', 'min': 'мин',
-           'fox': 'Лиса', 'newhdr': 'Новое в Forever — на Wowhead пока нет', 'note': 'Летучая мышь: уникальной способности в данных Wowhead пока нет · Лиса: семейства на Wowhead ещё нет — проверить в бете', 'src': 'Данные: Wowhead (Forever) · значения макс. ранга'},
+           'fox': 'Лиса', 'newhdr': 'Новое в Forever — на Wowhead пока нет', 'note': 'Летучая мышь: уникальной способности в данных Wowhead пока нет · Лиса: семейства на Wowhead ещё нет — проверить в бете', 'how': 'Как получить', 'tame': 'Выучить у прирученного зверя', 'auto': 'Без приручения', 'petlvl': 'ур. питомца', 'rankshdr': 'ранги на ур. питомца', 'dmg': 'Урон', 'arm': 'Броня', 'hp': 'Здоровье', 'hownote': 'Обучение: приручи зверя, знающего способность, сражайся им, пока не выучишь, затем обучи своего питомца через «Обучение зверей». У новых способностей Forever зверей-учителей нет — проверить в бете', 'src': 'Данные: Wowhead (Forever), foreverchanges.pro · значения макс. ранга'},
     'cn': {'title': '猎人宠物', 'sub': '宠物家族与技能', 'common': '所有宠物通用', 'family': '家族', 'diet': '食物', 'ability': '专属技能', 'focus': '集中值', 'sec': '秒', 'min': '分钟',
-           'fox': '狐狸', 'newhdr': 'Forever 新增 — Wowhead 暂无', 'note': '蝙蝠：Wowhead 数据中暂无专属技能 · 狐狸：Wowhead 尚未收录该家族，待测试服验证', 'src': '数据：Wowhead (Forever) · 最高等级数值'},
+           'fox': '狐狸', 'newhdr': 'Forever 新增 — Wowhead 暂无', 'note': '蝙蝠：Wowhead 数据中暂无专属技能 · 狐狸：Wowhead 尚未收录该家族，待测试服验证', 'how': '获取方式', 'tame': '从驯服的野兽学习', 'auto': '无需驯服', 'petlvl': '宠物等级', 'rankshdr': '各等级解锁', 'dmg': '伤害', 'arm': '护甲', 'hp': '生命', 'hownote': '学习：驯服会该技能的野兽，用它战斗直到学会，再通过“野兽训练”教给自己的宠物。Forever 新技能没有可教学的野兽——待测试服验证', 'src': '数据：Wowhead (Forever) · 最高等级数值'},
     'de': {'title': 'Jägerbegleiter', 'sub': 'Familien & Fähigkeiten', 'common': 'Alle Begleiter', 'family': 'Familie', 'diet': 'Nahrung', 'ability': 'Einzigartige Fähigkeit', 'focus': 'Fokus', 'sec': 's', 'min': 'Min',
-           'fox': 'Fuchs', 'newhdr': 'Neu in Forever – noch nicht auf Wowhead', 'note': 'Fledermaus: einzigartige Fähigkeit fehlt in den Wowhead-Daten · Fuchs: Familie noch nicht auf Wowhead – in der Beta prüfen', 'src': 'Daten: Wowhead (Forever) · Werte auf max. Rang'},
+           'fox': 'Fuchs', 'newhdr': 'Neu in Forever – noch nicht auf Wowhead', 'note': 'Fledermaus: einzigartige Fähigkeit fehlt in den Wowhead-Daten · Fuchs: Familie noch nicht auf Wowhead – in der Beta prüfen', 'how': 'Erlernen', 'tame': 'Von gezähmtem Tier lernen', 'auto': 'Ohne Zähmen', 'petlvl': 'Tierstufe', 'rankshdr': 'Ränge ab Tierstufe', 'dmg': 'Schaden', 'arm': 'Rüstung', 'hp': 'Leben', 'hownote': 'Lernen: ein Tier zähmen, das die Fähigkeit kennt, damit kämpfen, bis man sie lernt, dann dem eigenen Begleiter per Tierausbildung beibringen. Neue Forever-Fähigkeiten haben keine Lehrtiere – in der Beta prüfen', 'src': 'Daten: Wowhead (Forever) · Werte auf max. Rang'},
     'fr': {'title': 'Familiers du chasseur', 'sub': 'Familles et capacités', 'common': 'Tous les familiers', 'family': 'Famille', 'diet': 'Régime', 'ability': 'Capacité unique', 'focus': 'Focalisation', 'sec': 's', 'min': 'min',
-           'fox': 'Renard', 'newhdr': 'Nouveau dans Forever – pas encore sur Wowhead', 'note': 'Chauve-souris : capacité unique absente des données Wowhead · Renard : famille pas encore sur Wowhead – à vérifier en bêta', 'src': 'Données : Wowhead (Forever) · valeurs au rang max'},
+           'fox': 'Renard', 'newhdr': 'Nouveau dans Forever – pas encore sur Wowhead', 'note': 'Chauve-souris : capacité unique absente des données Wowhead · Renard : famille pas encore sur Wowhead – à vérifier en bêta', 'how': 'Obtention', 'tame': 'Apprendre d’une bête apprivoisée', 'auto': 'Sans apprivoiser', 'petlvl': 'niv. familier', 'rankshdr': 'rangs au niv. familier', 'dmg': 'Dégâts', 'arm': 'Armure', 'hp': 'PV', 'hownote': 'Apprentissage : apprivoiser une bête qui connaît la capacité, combattre jusqu’à l’apprendre, puis l’enseigner à son familier via Dressage des bêtes. Les nouvelles capacités Forever n’ont pas de bête enseignante – à vérifier en bêta', 'src': 'Données : Wowhead (Forever) · valeurs au rang max'},
     'es': {'title': 'Mascotas de cazador', 'sub': 'Familias y habilidades', 'common': 'Todas las mascotas', 'family': 'Familia', 'diet': 'Dieta', 'ability': 'Habilidad única', 'focus': 'Enfoque', 'sec': 's', 'min': 'min',
-           'fox': 'Zorro', 'newhdr': 'Nuevo en Forever: aún no está en Wowhead', 'note': 'Murciélago: habilidad única ausente en los datos de Wowhead · Zorro: familia aún no listada en Wowhead; verificar en la beta', 'src': 'Datos: Wowhead (Forever) · valores de rango máximo'},
+           'fox': 'Zorro', 'newhdr': 'Nuevo en Forever: aún no está en Wowhead', 'note': 'Murciélago: habilidad única ausente en los datos de Wowhead · Zorro: familia aún no listada en Wowhead; verificar en la beta', 'how': 'Cómo obtener', 'tame': 'Aprender de una bestia domada', 'auto': 'Sin domar', 'petlvl': 'nivel de mascota', 'rankshdr': 'rangos por nivel de mascota', 'dmg': 'Daño', 'arm': 'Armadura', 'hp': 'Salud', 'hownote': 'Aprendizaje: doma una bestia que conozca la habilidad, lucha con ella hasta aprenderla y enséñasela a tu mascota con Entrenamiento de bestias. Las habilidades nuevas de Forever no tienen bestias maestras; verificar en la beta', 'src': 'Datos: Wowhead (Forever) · valores de rango máximo'},
     'ko': {'title': '사냥꾼 야수', 'sub': '야수 종류와 능력', 'common': '모든 야수 공통', 'family': '종류', 'diet': '먹이', 'ability': '고유 능력', 'focus': '집중', 'sec': '초', 'min': '분',
-           'fox': '여우', 'newhdr': 'Forever 신규 – Wowhead 미등록', 'note': '박쥐: Wowhead 자료에 고유 능력 없음 · 여우: Wowhead에 아직 없는 종류 – 베타에서 확인', 'src': '자료: Wowhead (Forever) · 최고 등급 기준'},
+           'fox': '여우', 'newhdr': 'Forever 신규 – Wowhead 미등록', 'note': '박쥐: Wowhead 자료에 고유 능력 없음 · 여우: Wowhead에 아직 없는 종류 – 베타에서 확인', 'how': '습득 방법', 'tame': '길들인 야수에게서 배움', 'auto': '길들이기 불필요', 'petlvl': '야수 레벨', 'rankshdr': '야수 레벨별 등급', 'dmg': '피해', 'arm': '방어도', 'hp': '생명력', 'hownote': '습득: 능력을 아는 야수를 길들여 함께 싸우며 배운 뒤, 야수 훈련으로 자신의 야수에게 가르칩니다. Forever 신규 능력은 가르치는 야수가 없음 – 베타에서 확인', 'src': '자료: Wowhead (Forever) · 최고 등급 기준'},
 }
+FOX_AB = "Trickster's Dance"
 TYPE_COLOR = {0: '#ff8a5c', 1: '#7fd7a0', 2: '#8ec6ff'}
 PCSS = """
 .legend{display:flex;gap:calc(14px * var(--s));flex-wrap:wrap;align-items:center;font-size:calc(16px * var(--s));line-height:1.1}
@@ -299,6 +300,8 @@ td.pa{}
 .pa img{width:calc(34px * var(--s));height:calc(34px * var(--s));border-radius:5px;border:1.5px solid #4a3a1c;flex:none}
 .pa .nm{font-size:calc(17px * var(--s));font-weight:600;line-height:1.05;color:#ffd95a}
 .pa .fc{font-size:calc(13px * var(--s));color:var(--dim);font-weight:400;margin-left:6px;white-space:nowrap}
+.pa .how{display:block;font-size:calc(12.5px * var(--s));color:#9fd0ff;margin-top:2px;line-height:1.1}
+.pf .st{display:block;font-size:calc(12px * var(--s));color:#b7a98a;margin-top:2px;line-height:1.1}
 .pa .ds{display:block;font-size:calc(13.5px * var(--s));color:var(--ink);line-height:1.15;margin-top:2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 td.pc{width:calc(96px * var(--s));text-align:right;white-space:nowrap}
 .pc img{width:calc(26px * var(--s));height:calc(26px * var(--s));border-radius:4px;border:1px solid #4a3a1c;margin-left:3px;opacity:.9;vertical-align:middle}
@@ -311,6 +314,8 @@ def build_pets(lang, bg='../../bg/placeholder.png', logo=None, s=1.0):
     d = json.load(open('data/pets.json', encoding='utf-8'))
     ui, pu = UI[lang], PETS_UI[lang]
     sp = d['spells']
+    fc = json.load(open('data/fc_abilities.json', encoding='utf-8')) if os.path.exists('data/fc_abilities.json') else {}
+    fcp = json.load(open('data/fc_pets.json', encoding='utf-8')) if os.path.exists('data/fc_pets.json') else {}
     esc = html.escape
     logo_html = f'<img src="{logo}">' if logo else f'<div class="txt">{esc(ui["title"])}</div>'
     COMMON = {'bite': '17261', 'claw': '3009', 'dash': '23110', 'dive': '23148'}
@@ -340,7 +345,22 @@ def build_pets(lang, bg='../../bg/placeholder.png', logo=None, s=1.0):
             return v['name'][lang], v['desc'][lang]
         return u['name'].get(lang) or u['name']['en'], u['desc'].get('en', '')
 
-    def fc(spell):
+    def howto(en_name):
+        a = fc.get(en_name)
+        if not a or not a['ranks']:
+            return ''
+        lv = '/'.join(str(r['level']) for r in a['ranks'])
+        tamed = any(r['beasts'] or r['more'] for r in a['ranks'])
+        return f'<span class="how">{esc(pu["tame"] if tamed else pu["auto"])} · {esc(pu["rankshdr"])} {lv}</span>'
+
+    def stats(en_fam):
+        s = (fcp.get(en_fam) or {}).get('stats')
+        if not s:
+            return ''
+        parts = [f'{esc(pu[k])} {v}' for k, v in zip(('dmg', 'arm', 'hp'), s) if v not in ('0%',)]
+        return ('<span class="st">' + ' · '.join(parts) + '</span>') if parts else ''
+
+    def fcost(spell):
         parts = []
         if spell.get('focus') is not None:
             parts.append(f'{spell["focus"]} {pu["focus"]}')
@@ -348,7 +368,7 @@ def build_pets(lang, bg='../../bg/placeholder.png', logo=None, s=1.0):
             parts.append(cd(spell['cd']))
         return ' · '.join(parts)
 
-    legend = ''.join(f'<div class="it"><img src="../../icons/{sp[i]["icon"]}.jpg"><span>{esc(sp[i]["name"].get(lang) or sp[i]["name"]["en"])} <small>{esc(fc(sp[i]))}</small></span></div>' for i in COMMON.values())
+    legend = ''.join(f'<div class="it"><img src="../../icons/{sp[i]["icon"]}.jpg"><span>{esc(sp[i]["name"].get(lang) or sp[i]["name"]["en"])} <small>{esc(fcost(sp[i]))}</small></span></div>' for i in COMMON.values())
     rows = []
     fams = d['families']
     groups = [(t, [f for f in fams if f['type'] == t]) for t in (0, 1, 2)]
@@ -358,17 +378,17 @@ def build_pets(lang, bg='../../bg/placeholder.png', logo=None, s=1.0):
         for f in fs:
             u = sp[str(f['unique'][0])] if f['unique'] else None
             if u:
-                ab = f'<div class="w"><img src="../../icons/{u["icon"]}.jpg"><div><span class="nm">{esc(loc(u)[0])}<span class="fc">{esc(fc(u))}</span></span><span class="ds">{esc(loc(u)[1])}</span></div></div>'
+                ab = f'<div class="w"><img src="../../icons/{u["icon"]}.jpg"><div><span class="nm">{esc(loc(u)[0])}<span class="fc">{esc(fcost(u))}</span></span><span class="ds">{esc(loc(u)[1])}</span>{howto(u["name"]["en"])}</div></div>'
             else:
                 ab = '<div class="w"><span class="nm" style="color:var(--dim)">?</span></div>'
             com = ''.join(f'<img src="../../icons/{sp[COMMON[c]]["icon"]}.jpg" title="{c}">' for c in f['common'])
-            rows.append(f'<tr><td class="pf"><div class="w"><img src="../../icons/{f["icon"]}.jpg"><div><span class="nm">{esc(f["name"].get(lang) or f["name"]["en"])}</span><span class="dt">{esc(f["diet"].get(lang) or f["diet"]["en"])}</span></div></div></td><td class="pa">{ab}</td><td class="pc">{com}</td></tr>')
+            rows.append(f'<tr><td class="pf"><div class="w"><img src="../../icons/{f["icon"]}.jpg"><div><span class="nm">{esc(f["name"].get(lang) or f["name"]["en"])}</span><span class="dt">{esc(f["diet"].get(lang) or f["diet"]["en"])}</span>{stats(f["name"]["en"])}</div></div></td><td class="pa">{ab}</td><td class="pc">{com}</td></tr>')
     # Fox: new family, spell exists on Wowhead (Trickster's Dance) but family not listed
     u = sp.get('1310612')
     if u:
         rows.append(f'<tr class="chk"><td colspan="3"><span class="tp" style="background:#aaa"></span>{esc(pu["newhdr"])}</td></tr>')
-        ab = f'<div class="w"><img src="../../icons/{u["icon"]}.jpg"><div><span class="nm">{esc(loc(u)[0])}<span class="fc">{esc(fc(u))}</span></span><span class="ds">{esc(loc(u)[1])}</span></div></div>'
-        rows.append(f'<tr><td class="pf"><div class="w"><img src="../../icons/ability_hunter_aspectofthefox.jpg"><div><span class="nm">{esc(pu["fox"])}</span><span class="dt">?</span></div></div></td><td class="pa">{ab}</td><td class="pc"></td></tr>')
+        ab = f'<div class="w"><img src="../../icons/{u["icon"]}.jpg"><div><span class="nm">{esc(loc(u)[0])}<span class="fc">{esc(fcost(u))}</span></span><span class="ds">{esc(loc(u)[1])}</span>{howto(FOX_AB)}</div></div>'
+        rows.append(f'<tr><td class="pf"><div class="w"><img src="../../icons/ability_hunter_aspectofthefox.jpg"><div><span class="nm">{esc(pu["fox"])}</span><span class="dt">?</span>{stats("Fox")}</div></div></td><td class="pa">{ab}</td><td class="pc"></td></tr>')
     css = (CSS + PCSS).replace('H1SIZE', '44px' if len(pu['title']) > 15 else '56px').replace('MATSW', '300px').replace('--s:1;', f'--s:{s};').replace('BODYFONT', BODY_FONT[lang]).replace('HEADFONT', HEAD_FONT[lang]).replace('BG', bg)
     page = f"""<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><title>{esc(pu['title'])}</title><style>{css}</style></head>
 <body><div class="bg"></div><div class="card">
@@ -376,7 +396,7 @@ def build_pets(lang, bg='../../bg/placeholder.png', logo=None, s=1.0):
 <div class="titlerow"><div class="skillicon"><img src="../../icons/ability_hunter_beasttaming.jpg"></div><div><h1>{esc(pu['title'])}</h1><div class="sub">{esc(pu['sub'])}<span class="beta">{esc(ui['beta'])}</span></div></div></div></div>
 <div class="rule"></div>
 <div class="panel"><div class="ptitle">{esc(pu['common'])}</div><div class="legend">{legend}</div></div>
-<div class="panel"><table><colgroup><col style="width:calc(236px * var(--s))"><col><col style="width:calc(96px * var(--s))"></colgroup><tr><td class="src" style="text-align:left;width:calc(236px * var(--s))">{esc(pu['family'])} · {esc(pu['diet'])}</td><td class="src" style="text-align:left;width:auto">{esc(pu['ability'])}</td><td class="src" style="width:calc(96px * var(--s))"></td></tr>{''.join(rows)}</table><div class="note">{esc(pu['note'])}</div></div>
+<div class="panel"><table><colgroup><col style="width:calc(236px * var(--s))"><col><col style="width:calc(96px * var(--s))"></colgroup><tr><td class="src" style="text-align:left;width:calc(236px * var(--s))">{esc(pu['family'])} · {esc(pu['diet'])}</td><td class="src" style="text-align:left;width:auto">{esc(pu['ability'])}</td><td class="src" style="width:calc(96px * var(--s))"></td></tr>{''.join(rows)}</table><div class="note">{esc(pu['hownote'])} · {esc(pu['note'])}</div></div>
 <div class="foot"><div>{esc(pu['src'])}</div><div class="brand"><img src="../../brand/twitch.svg"><img src="../../brand/telegram.svg"><img src="../../brand/tiktok.svg"><span>psixotears</span></div></div>
 </div></body></html>"""
     os.makedirs('out/html', exist_ok=True)

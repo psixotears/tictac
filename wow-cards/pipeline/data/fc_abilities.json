@@ -1,0 +1,773 @@
+{
+ "Sonic Blast": {
+  "status": "New in Forever",
+  "ranks": [
+   {
+    "rank": 1,
+    "level": 12,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 2,
+    "level": 24,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 3,
+    "level": 36,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 4,
+    "level": 48,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 5,
+    "level": 60,
+    "beasts": [],
+    "more": 0
+   }
+  ]
+ },
+ "Swipe": {
+  "status": "New in Forever",
+  "ranks": [
+   {
+    "rank": 1,
+    "level": 12,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 2,
+    "level": 24,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 3,
+    "level": 36,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 4,
+    "level": 48,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 5,
+    "level": 60,
+    "beasts": [],
+    "more": 0
+   }
+  ]
+ },
+ "Mine!": {
+  "status": "New in Forever",
+  "ranks": [
+   {
+    "rank": 1,
+    "level": 10,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 2,
+    "level": 20,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 3,
+    "level": 30,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 4,
+    "level": 40,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 5,
+    "level": 50,
+    "beasts": [],
+    "more": 0
+   }
+  ]
+ },
+ "Charge": {
+  "status": "Changed in Forever",
+  "ranks": [
+   {
+    "rank": 1,
+    "level": 1,
+    "beasts": [
+     [
+      "Mottled Boar",
+      "1–2",
+      "Durotar"
+     ],
+     [
+      "Young Thistle Boar",
+      "1–2",
+      "Teldrassil"
+     ]
+    ],
+    "more": 17
+   },
+   {
+    "rank": 2,
+    "level": 12,
+    "beasts": [
+     [
+      "Westfall Goretusk",
+      "14–15",
+      "Westfall"
+     ]
+    ],
+    "more": 3
+   },
+   {
+    "rank": 3,
+    "level": 24,
+    "beasts": [
+     [
+      "Bellygrub",
+      "24",
+      "Redridge Mountains"
+     ]
+    ],
+    "more": 0
+   },
+   {
+    "rank": 4,
+    "level": 36,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 5,
+    "level": 48,
+    "beasts": [
+     [
+      "Grunter",
+      "50",
+      "Blasted Lands"
+     ]
+    ],
+    "more": 0
+   },
+   {
+    "rank": 6,
+    "level": 60,
+    "beasts": [
+     [
+      "Plagued Swine",
+      "60",
+      "Eastern"
+     ]
+    ],
+    "more": 0
+   }
+  ]
+ },
+ "Demoralizing Screech": {
+  "status": "Changed in Forever",
+  "ranks": [
+   {
+    "rank": 1,
+    "level": 8,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 2,
+    "level": 24,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 3,
+    "level": 48,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 4,
+    "level": 56,
+    "beasts": [],
+    "more": 0
+   }
+  ]
+ },
+ "Prowl": {
+  "status": "",
+  "ranks": [
+   {
+    "rank": 1,
+    "level": 30,
+    "beasts": [
+     [
+      "Mountain Lion",
+      "32–33",
+      "Alterac"
+     ],
+     [
+      "Mountains Ridge Stalker",
+      "36–37",
+      "Badlands"
+     ]
+    ],
+    "more": 1
+   },
+   {
+    "rank": 2,
+    "level": 40,
+    "beasts": [
+     [
+      "Ridge Stalker Patriarch",
+      "40–41",
+      "Badlands"
+     ],
+     [
+      "Elder Shadowmaw Panther",
+      "42–43",
+      "Stranglethorn Vale"
+     ]
+    ],
+    "more": 0
+   },
+   {
+    "rank": 3,
+    "level": 50,
+    "beasts": [
+     [
+      "Jaguero Stalker",
+      "50",
+      "Stranglethorn"
+     ],
+     [
+      "Vale Frostsaber Stalker",
+      "59–60",
+      "Winterspring Crab"
+     ]
+    ],
+    "more": 0
+   }
+  ]
+ },
+ "Pinch": {
+  "status": "New in Forever",
+  "ranks": [
+   {
+    "rank": 1,
+    "level": 12,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 2,
+    "level": 24,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 3,
+    "level": 36,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 4,
+    "level": 48,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 5,
+    "level": 60,
+    "beasts": [],
+    "more": 0
+   }
+  ]
+ },
+ "Dismember": {
+  "status": "New in Forever",
+  "ranks": [
+   {
+    "rank": 1,
+    "level": 12,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 2,
+    "level": 24,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 3,
+    "level": 36,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 4,
+    "level": 48,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 5,
+    "level": 60,
+    "beasts": [],
+    "more": 0
+   }
+  ]
+ },
+ "Trickster's Dance": {
+  "status": "",
+  "ranks": [
+   {
+    "rank": 1,
+    "level": 20,
+    "beasts": [],
+    "more": 0
+   }
+  ]
+ },
+ "Thunderstomp": {
+  "status": "Changed in Forever",
+  "ranks": [
+   {
+    "rank": 1,
+    "level": 30,
+    "beasts": [
+     [
+      "Mistvale Gorilla",
+      "32–33",
+      "Stranglethorn"
+     ],
+     [
+      "Vale Jungle Thunderer",
+      "37–38",
+      "Stranglethorn Vale"
+     ]
+    ],
+    "more": 0
+   },
+   {
+    "rank": 2,
+    "level": 40,
+    "beasts": [
+     [
+      "Elder Mistvale Gorilla",
+      "40–41",
+      "Stranglethorn"
+     ],
+     [
+      "Vale Groddoc Thunderer",
+      "49–50",
+      "Feralas"
+     ]
+    ],
+    "more": 0
+   },
+   {
+    "rank": 3,
+    "level": 50,
+    "beasts": [
+     [
+      "U'cha",
+      "55",
+      "Un'Goro Crater"
+     ]
+    ],
+    "more": 0
+   },
+   {
+    "rank": 4,
+    "level": 60,
+    "beasts": [],
+    "more": 0
+   }
+  ]
+ },
+ "Tendon Rip": {
+  "status": "New in Forever",
+  "ranks": [
+   {
+    "rank": 1,
+    "level": 12,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 2,
+    "level": 24,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 3,
+    "level": 36,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 4,
+    "level": 48,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 5,
+    "level": 60,
+    "beasts": [],
+    "more": 0
+   }
+  ]
+ },
+ "Savage Rend": {
+  "status": "New in Forever",
+  "ranks": [
+   {
+    "rank": 1,
+    "level": 12,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 2,
+    "level": 24,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 3,
+    "level": 36,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 4,
+    "level": 48,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 5,
+    "level": 60,
+    "beasts": [],
+    "more": 0
+   }
+  ]
+ },
+ "Scorpid Poison": {
+  "status": "Changed in Forever",
+  "ranks": [
+   {
+    "rank": 1,
+    "level": 8,
+    "beasts": [
+     [
+      "Venomtail Scorpid",
+      "9–10",
+      "Durotar"
+     ],
+     [
+      "Corrupted Scorpid",
+      "10–11",
+      "Durotar"
+     ]
+    ],
+    "more": 3
+   },
+   {
+    "rank": 2,
+    "level": 24,
+    "beasts": [
+     [
+      "Scorpashi Snapper",
+      "30–31",
+      "Desolace"
+     ],
+     [
+      "Scorpid Reaver",
+      "31–32",
+      "Thousand Needles"
+     ]
+    ],
+    "more": 4
+   },
+   {
+    "rank": 3,
+    "level": 40,
+    "beasts": [
+     [
+      "Scorpid Hunter",
+      "40–41",
+      "Tanaris"
+     ],
+     [
+      "Scorpid Tail Lasher",
+      "43–44",
+      "Tanaris"
+     ]
+    ],
+    "more": 4
+   },
+   {
+    "rank": 4,
+    "level": 56,
+    "beasts": [
+     [
+      "Firetail Scorpid",
+      "56–57",
+      "Burning"
+     ],
+     [
+      "Steppes Krellack",
+      "56",
+      "Silithus"
+     ]
+    ],
+    "more": 2
+   }
+  ]
+ },
+ "Web": {
+  "status": "New in Forever",
+  "ranks": [
+   {
+    "rank": 1,
+    "level": 12,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 2,
+    "level": 24,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 3,
+    "level": 36,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 4,
+    "level": 48,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 5,
+    "level": 60,
+    "beasts": [],
+    "more": 0
+   }
+  ]
+ },
+ "Dust Cloud": {
+  "status": "New in Forever",
+  "ranks": [
+   {
+    "rank": 1,
+    "level": 12,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 2,
+    "level": 24,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 3,
+    "level": 36,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 4,
+    "level": 48,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 5,
+    "level": 60,
+    "beasts": [],
+    "more": 0
+   }
+  ]
+ },
+ "Shell Shield": {
+  "status": "Changed in Forever",
+  "ranks": [
+   {
+    "rank": 1,
+    "level": 20,
+    "beasts": [
+     [
+      "Snapjaw",
+      "30–31",
+      "Alterac"
+     ],
+     [
+      "Mountains Cranky Benj",
+      "32",
+      "Alterac Mountains"
+     ]
+    ],
+    "more": 2
+   }
+  ]
+ },
+ "Lightning Breath": {
+  "status": "Changed in Forever",
+  "ranks": [
+   {
+    "rank": 1,
+    "level": 1,
+    "beasts": [],
+    "more": 0
+   },
+   {
+    "rank": 2,
+    "level": 12,
+    "beasts": [
+     [
+      "Deviate Coiler",
+      "15–16",
+      "The"
+     ],
+     [
+      "Barrens Deviate Stinglash",
+      "16–17",
+      "The Barrens"
+     ]
+    ],
+    "more": 3
+   },
+   {
+    "rank": 3,
+    "level": 24,
+    "beasts": [
+     [
+      "Cloud Serpent",
+      "25–26",
+      "Thousand"
+     ],
+     [
+      "Needles Washte Pawne",
+      "25",
+      "The Barrens"
+     ]
+    ],
+    "more": 2
+   },
+   {
+    "rank": 4,
+    "level": 36,
+    "beasts": [
+     [
+      "Noxious Reaver",
+      "37–38",
+      "Dustwallow"
+     ],
+     [
+      "Marsh Noxious Shredder",
+      "38–39",
+      "Dustwallow Marsh"
+     ]
+    ],
+    "more": 2
+   },
+   {
+    "rank": 5,
+    "level": 48,
+    "beasts": [
+     [
+      "Arash-ethis",
+      "49",
+      "Feralas"
+     ]
+    ],
+    "more": 0
+   },
+   {
+    "rank": 6,
+    "level": 60,
+    "beasts": [],
+    "more": 0
+   }
+  ]
+ },
+ "Furious Howl": {
+  "status": "Changed in Forever",
+  "ranks": [
+   {
+    "rank": 1,
+    "level": 10,
+    "beasts": [
+     [
+      "Mulgore Worg",
+      "10–11",
+      "Silverpine Forest"
+     ]
+    ],
+    "more": 2
+   },
+   {
+    "rank": 2,
+    "level": 24,
+    "beasts": [
+     [
+      "Black Ravager Mastiff",
+      "25–26",
+      "Duskwood"
+     ],
+     [
+      "Ghostpaw Alpha",
+      "27–28",
+      "Ashenvale"
+     ]
+    ],
+    "more": 3
+   },
+   {
+    "rank": 3,
+    "level": 40,
+    "beasts": [
+     [
+      "Feralas Snarler",
+      "42",
+      "Feralas"
+     ]
+    ],
+    "more": 3
+   },
+   {
+    "rank": 4,
+    "level": 56,
+    "beasts": [],
+    "more": 0
+   }
+  ]
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "Bat": {
+  "ability": "Sonic Blast",
+  "stats": [
+   "+7%",
+   "0%",
+   "0%"
+  ],
+  "seg": ""
+ },
+ "Bear": {
+  "ability": "Swipe",
+  "stats": [
+   "-9%",
+   "+5%",
+   "+8%"
+  ],
+  "seg": ""
+ },
+ "Bird of Prey": {
+  "ability": "Mine!",
+  "stats": [
+   "+7%",
+   "0%",
+   "0%"
+  ],
+  "seg": ""
+ },
+ "Boar": {
+  "ability": "Charge",
+  "stats": [
+   "-10%",
+   "+9%",
+   "+4%"
+  ],
+  "seg": ""
+ },
+ "Carrion Bird": {
+  "ability": "Demoralizing Screech",
+  "stats": [
+   "0%",
+   "+5%",
+   "0%"
+  ],
+  "seg": ""
+ },
+ "Cat": {
+  "ability": "Prowl",
+  "stats": [
+   "+10%",
+   "0%",
+   "-2%"
+  ],
+  "seg": ""
+ },
+ "Crab": {
+  "ability": "Pinch",
+  "stats": [
+   "-5%",
+   "+13%",
+   "-4%"
+  ],
+  "seg": ""
+ },
+ "Crocolisk": {
+  "ability": "Dismember",
+  "stats": [
+   "0%",
+   "+10%",
+   "-5%"
+  ],
+  "seg": ""
+ },
+ "Fox": {
+  "ability": "Trickster's Dance",
+  "stats": [
+   "0%",
+   "+5%",
+   "0%"
+  ],
+  "seg": "1 20 Increases your pet's chance to Dodge by 50% and decreases the time between your pet's attacks by 30% for 12 sec."
+ },
+ "Gorilla": {
+  "ability": "Thunderstomp",
+  "stats": [
+   "+2%",
+   "0%",
+   "+4%"
+  ],
+  "seg": ""
+ },
+ "Hyena": {
+  "ability": "Tendon Rip",
+  "stats": [
+   "0%",
+   "+5%",
+   "0%"
+  ],
+  "seg": ""
+ },
+ "Raptor": {
+  "ability": "Savage Rend",
+  "stats": [
+   "+10%",
+   "+3%",
+   "-5%"
+  ],
+  "seg": ""
+ },
+ "Scorpid": {
+  "ability": "Scorpid Poison",
+  "stats": [
+   "-6%",
+   "+10%",
+   "0%"
+  ],
+  "seg": ""
+ },
+ "Spider": {
+  "ability": "Web",
+  "stats": [
+   "+7%",
+   "0%",
+   "0%"
+  ],
+  "seg": ""
+ },
+ "Tallstrider": {
+  "ability": "Dust Cloud",
+  "stats": [
+   "0%",
+   "0%",
+   "+5%"
+  ],
+  "seg": ""
+ },
+ "Turtle": {
+  "ability": "Shell Shield",
+  "stats": [
+   "-10%",
+   "+13%",
+   "0%"
+  ],
+  "seg": ""
+ },
+ "Wind Serpent": {
+  "ability": "Lightning Breath",
+  "stats": [
+   "+7%",
+   "0%",
+   "0%"
+  ],
+  "seg": ""
+ },
+ "Wolf": {
+  "ability": "Furious Howl",
+  "stats": [
+   "0%",
+   "+5%",
+   "0%"
+  ],
+  "seg": ""
+ }
+}
